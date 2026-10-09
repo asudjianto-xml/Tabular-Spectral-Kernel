@@ -1,16 +1,16 @@
 \section{Additional regression and classification experiments}\label{sec:extended}
 
-Hourly Bike Sharing, Taiwan credit default and Adult income test the same single-bank construction beyond California Housing \cite{fanaee2013data,yeh2009data,becker1996data}. The mixed-input representation and binary-response readout are specified in Section~\ref{sec:mixed}. These runs train geometry from scratch; they do not reuse the California geometry.
+Hourly Bike Sharing, Taiwan credit default and Adult income test the same single-bank construction beyond California Housing \cite{fanaee2013data,yeh2009data,becker1996data}. The mixed-input representation and binary-response readout are specified in Section~\ref{sec:mixed}. Each dataset has its own geometry trained from scratch.
 
 \subsection{Data and evaluation protocol}
 
-The hourly Bike Sharing file contains 17,379 observations. Its \texttt{casual} and \texttt{registered} columns sum to the target and are excluded, together with the row identifier and date string. The retained predictors describe calendar time and observed weather. The first 60\% of dates provide 10,389 fitting rows, the next 20\% provide 3,502 validation rows and the final dates provide 3,488 test rows. Training ends on March 13, 2012, and testing begins on August 7, 2012. Three optimizer seeds use this same chronology. The weather predictors are observed at the target hour, so the task is contemporaneous regression; forecasting under unknown future weather is not evaluated.
+The hourly Bike Sharing file contains 17,379 observations. Its \texttt{casual} and \texttt{registered} columns sum to the target and are excluded, together with the row identifier and date string. The retained predictors describe calendar time and observed weather. The first 60\% of dates provide 10,389 fitting rows, the next 20\% provide 3,502 validation rows and the final dates provide 3,488 test rows. Training ends on March 13, 2012, and testing begins on August 7, 2012. Three optimizer seeds use this same chronology. Weather predictors are observed at the target hour, making this a contemporaneous regression task.
 
 Taiwan contains 30,000 observations with 23 predictors and a binary next-month default label. Three stratified splits each allocate 19,200 rows to fitting, 2,400 to calibration, 2,400 to validation and 6,000 to testing. The numerical amounts retain their original values. Sex, education and marital status are treated as categorical fields.
 
 Adult predicts whether annual income exceeds \$50,000 from 14 census attributes. The official 16,281-row test partition is retained. For each of three seeds, the original 32,561 training rows are divided into 26,048 fitting, 3,256 calibration and 3,257 validation rows. Missing categories are represented explicitly and all rows are retained. The sampling-weight attribute is used as an input feature; the reported metrics are unweighted.
 
-Both model families use identical row assignments. Calibration and validation observations remain outside the final model fit; these added experiments do not perform the outer-pool refit used for California. ROC AUC, the area under the receiver operating characteristic curve, selects classification models. A separate sigmoid fit on calibration observations supplies probabilities for log loss, Brier score and accuracy. RMSE selects regression models; regression results also report mean absolute error (MAE).
+Both model families use identical row assignments. Final models are fitted on the designated training partition, with calibration and validation observations reserved for their respective stages. ROC AUC, the area under the receiver operating characteristic curve, selects classification models. A separate sigmoid fit on calibration observations supplies probabilities for log loss, Brier score and accuracy. RMSE selects regression models; regression results also report mean absolute error (MAE).
 
 \subsection{Training and selection}
 
@@ -50,8 +50,8 @@ Adult & CatBoost & $0.9274\pm0.0005$ & $0.2775\pm0.0008$ & $0.0880\pm0.0002$ & $
 
 \bottomrule\end{tabular}\end{table}
 
-Tables~\ref{tab:bike} and~\ref{tab:classification} report every added dataset under the frozen protocol. On Bike Sharing the spectral RMSE is lower on each seed, ranging from 91.3 to 93.7 against 99.5 to 111.7 for CatBoost. On Taiwan the paired AUC differences, spectral minus CatBoost, are 0.0064, 0.0044 and 0.0028, and the calibrated log losses differ by at most 0.0011 on any split.
+Tables~\ref{tab:bike} and~\ref{tab:classification} report the additional-task results. On Bike Sharing the spectral RMSE is lower on each seed, ranging from 91.3 to 93.7 against 99.5 to 111.7 for CatBoost. On Taiwan the paired AUC differences, spectral minus CatBoost, are 0.0064, 0.0044 and 0.0028, and the calibrated log losses differ by at most 0.0011 on any split.
 
-Variation across the three Bike Sharing runs reflects training randomness on one chronology, and Adult varies the fitting and calibration partitions while retaining one official test set. Those standard deviations therefore do not estimate uncertainty across independent test samples.
+Variation across the three Bike Sharing runs reflects training randomness on one chronology, and Adult varies the fitting and calibration partitions while retaining one official test set. The reported standard deviations describe this variation across training runs on shared test observations.
 
-The independent audit verifies all 18 model runs, including source-file hashes, split identity, validation selections, calibration separation, positive metric eigenvalues, ridge residuals and prediction replay. The accompanying source, per-run records and audits are listed in Appendix~\ref{app:repro}.
+A separate audit verifies the 18 model runs, checking source-file hashes, split identity, validation selections, calibration separation, positive metric eigenvalues, ridge residuals and prediction replay. The accompanying source, per-run records and audits are listed in Appendix~\ref{app:repro}.
