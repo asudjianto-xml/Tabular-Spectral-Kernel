@@ -8,3 +8,15 @@ Final prose and conclusion review — October 9, 2026
 7. Layout — PASS. Final LaTeX passes succeeded with no warnings, undefined references or overfull boxes. PDF remains 17 pages; conclusion page rendered and inspected.
 8. References and scope — PASS. Retained existing verified references and their source locators. Tabular foundation modeling is framed as future work requiring cross-task training, schema-compatible representations and a cheaper large-context readout. No new empirical transfer claim, fusion result or promised sequel introduced.
 9. Self-critique — FIXED. Distinct final pass removed a vague practical-advantage claim and a misleading proportional-sensitivity phrase. Closing paragraph identifies what must be evaluated on unseen tables rather than ending with a generic claim of promise.
+
+
+Abstract revision — October 9, 2026
+1. Evidence — PASS. Qualitative comparisons agree with the verified results; no numerical result or new experiment added.
+2. Scope — PASS. Describes single-bank fitting, mixed inputs and binary classification. Cross-task pretraining remains future work.
+3. Figures — PASS. Unchanged.
+4. Terminology — PASS. No unexplained new acronym; distance, similarity and ridge fitting appear in their computational order.
+5. Exposition — FIXED. Abstract follows method, parameterization, training, results and limitations, with less implementation detail than the prior abstract.
+6. Register — FIXED. Second line-by-line pass removed generic baseline language and promotional transitions. Retained direct descriptions of measurements and specific limitations.
+7. Layout — PASS. Two clean LaTeX passes; title page rendered and inspected, with keywords visible and no overfull boxes or undefined references.
+8. References — PASS. No new citations or literature claims requiring additions.
+9. Self-critique — PASS. Reviewed repetition, clause density, unsupported adjectives and closing language; future foundation-model development is explicitly separated from completed experiments.
