@@ -14,3 +14,16 @@ keywords:
   - spectral representation learning
   - metric learning
   - tabular learning
+preferred-citation:
+  type: article
+  title: "Learning Spectral Geometry for Kernel Regression"
+  authors:
+    - family-names: Sudjianto
+      given-names: Agus
+    - family-names: Zhang
+      given-names: Aijun
+  year: 2026
+  month: 10
+  publisher:
+    name: SSRN
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819"

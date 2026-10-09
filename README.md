@@ -5,6 +5,8 @@ by **Agus Sudjianto and Aijun Zhang**. The model learns Fourier frequencies, a
 trace-normalized positive-definite metric and a Laplace bandwidth, then fits
 kernel ridge regression. The paper studies one spectral bank per model.
 
+The paper is available on SSRN: [Learning Spectral Geometry for Kernel Regression](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819).
+
 ## Install
 
 Python 3.10 or newer is required. Python 3.12 is the reference environment.
@@ -130,6 +132,7 @@ There is no out-of-core or hundred-million-row training claim in this release.
 
 ## Paper and recorded evidence
 
+- [Paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819)
 - [Paper PDF](paper/identifiable_spectral_regression.pdf)
 - [LaTeX source](paper/identifiable_spectral_regression.tex)
 - [Reproduction details and source map](REPRODUCIBILITY.md)
@@ -145,8 +148,18 @@ this paper release.
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff). The manuscript is a research preprint; no journal
-acceptance or DOI is claimed.
+The paper is posted on SSRN as a preprint (abstract ID 7590819). See
+[CITATION.cff](CITATION.cff) for citation metadata.
+
+```bibtex
+@misc{sudjianto2026spectral,
+  author = {Sudjianto, Agus and Zhang, Aijun},
+  title  = {Learning Spectral Geometry for Kernel Regression},
+  year   = {2026},
+  howpublished = {SSRN preprint, abstract ID 7590819},
+  url    = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819}
+}
+```
 
 ## Build the manuscript
 
