@@ -18,8 +18,9 @@ Barry Becker and Ronny Kohavi.
 \bibitem{chen2016}
 Tianqi Chen and Carlos Guestrin.
 \newblock {XGBoost}: A scalable tree boosting system.
-\newblock arXiv:1603.02754, 2016.
-\newblock \href{https://arxiv.org/abs/1603.02754}{Primary source}.
+\newblock In {\em Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}, pages 785--794. ACM, 2016.
+\newblock \href{https://doi.org/10.1145/2939672.2939785}{Primary source}.
 
 \bibitem{fanaee2013data}
 Hadi Fanaee-T.
@@ -30,11 +31,11 @@ Hadi Fanaee-T.
   source}.
 
 \bibitem{grinsztajn2022}
-Leo Grinsztajn, Edouard Oyallon, and Gael Varoquaux.
+L{\'e}o Grinsztajn, {\'E}douard Oyallon, and Ga{\"e}l Varoquaux.
 \newblock Why do tree-based models still outperform deep learning on typical
   tabular data?
-\newblock In {\em Advances in Neural Information Processing Systems},
-  volume~35, 2022.
+\newblock In {\em Advances in Neural Information Processing Systems (Datasets
+  and Benchmarks Track)}, volume~35, pages 507--520, 2022.
 \newblock
   \href{https://proceedings.neurips.cc/paper_files/paper/2022/hash/0378c7692da36807bdec87ab043cdadc-Abstract-Datasets_and_Benchmarks.html}{Primary
   source}.
@@ -107,8 +108,11 @@ I.~J. Schoenberg.
 \bibitem{scholkopf2001}
 Bernhard Sch{\"o}lkopf, Ralf Herbrich, and Alex~J. Smola.
 \newblock A generalized representer theorem.
-\newblock In {\em Computational Learning Theory}, volume 2111 of {\em Lecture
-  Notes in Computer Science}, pages 416--426. Springer, 2001.
+\newblock In David Helmbold and Bob Williamson, editors, {\em Computational
+  Learning Theory: 14th Annual Conference on Computational Learning Theory,
+  {COLT} 2001, and 5th European Conference on Computational Learning Theory,
+  {EuroCOLT} 2001}, volume 2111 of {\em Lecture Notes in Artificial
+  Intelligence}, pages 416--426. Springer, 2001.
 \newblock
   \href{https://link.springer.com/chapter/10.1007/3-540-44581-1_27}{Primary
   source}.
@@ -122,10 +126,13 @@ Koji Tsuda, Gunnar R{\"a}tsch, and Manfred~K. Warmuth.
 
 \bibitem{vaswani2017}
 Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
-  Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+  Aidan~N. Gomez, {\L}ukasz Kaiser, and Illia Polosukhin.
 \newblock Attention is all you need.
-\newblock arXiv:1706.03762, 2017.
-\newblock \href{https://arxiv.org/abs/1706.03762}{Primary source}.
+\newblock In {\em Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+\newblock
+  \href{https://proceedings.neurips.cc/paper_files/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html}{Primary
+  source}.
 
 \bibitem{watson1964}
 Geoffrey~S. Watson.
