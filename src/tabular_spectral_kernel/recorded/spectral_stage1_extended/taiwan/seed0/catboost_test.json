@@ -1,0 +1,43 @@
+{
+  "dataset": "taiwan",
+  "seed": 0,
+  "family": "catboost",
+  "test": {
+    "auc": 0.7821072359919762,
+    "log_loss": 0.4261436842472512,
+    "accuracy": 0.8226666666666667,
+    "brier": 0.13342996419271447
+  },
+  "prediction_seconds": 0.009498425992205739,
+  "selection": {
+    "dataset": "taiwan",
+    "seed": 0,
+    "selected": {
+      "trial": 5,
+      "config": {
+        "depth": 10,
+        "learning_rate": 0.04652592186464945,
+        "l2_leaf_reg": 5.839240567777281,
+        "random_strength": 0.8603856841203931,
+        "bagging_temperature": 0.5668001510202885
+      },
+      "criterion": -0.7903538655776325,
+      "iterations": 98
+    },
+    "calibration": {
+      "slope": 1.0854297401912516,
+      "intercept": 0.11650568341724406
+    },
+    "seconds": 30.80362695202348,
+    "counts": {
+      "tr": 19200,
+      "va": 2400,
+      "cal": 2400,
+      "te": 6000
+    },
+    "split_info": {
+      "split": "stratified 64/8/8/20 train/calibration/validation/test"
+    }
+  },
+  "uncalibrated_auc": 0.7821072359919762
+}

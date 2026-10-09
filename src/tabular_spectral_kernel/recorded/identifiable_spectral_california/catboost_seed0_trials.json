@@ -1,0 +1,210 @@
+[
+  {
+    "trial": 0,
+    "config": {
+      "depth": 6,
+      "learning_rate": 0.05,
+      "l2_leaf_reg": 3.0,
+      "random_strength": 1.0,
+      "bagging_temperature": 1.0
+    },
+    "validation_rmse": 0.45292564541166536,
+    "iterations": 2721,
+    "seconds": 2.665470516018104
+  },
+  {
+    "trial": 1,
+    "config": {
+      "depth": 8,
+      "learning_rate": 0.02521739671636607,
+      "l2_leaf_reg": 1.081053642882806,
+      "random_strength": 0.05133618811424486,
+      "bagging_temperature": 0.41951183043420315
+    },
+    "validation_rmse": 0.4455413534745576,
+    "iterations": 3918,
+    "seconds": 5.524094623979181
+  },
+  {
+    "trial": 2,
+    "config": {
+      "depth": 10,
+      "learning_rate": 0.057145951839579226,
+      "l2_leaf_reg": 15.701973882278073,
+      "random_strength": 2.3073417914979197,
+      "bagging_temperature": 0.986674377694726
+    },
+    "validation_rmse": 0.4608025717352346,
+    "iterations": 2142,
+    "seconds": 8.815345492999768
+  },
+  {
+    "trial": 3,
+    "config": {
+      "depth": 7,
+      "learning_rate": 0.04154039524744871,
+      "l2_leaf_reg": 4.0803095335958455,
+      "random_strength": 0.036760808595712936,
+      "bagging_temperature": 1.8789341431111097
+    },
+    "validation_rmse": 0.46326445282190565,
+    "iterations": 3428,
+    "seconds": 3.9134114860207774
+  },
+  {
+    "trial": 4,
+    "config": {
+      "depth": 5,
+      "learning_rate": 0.08180883137913998,
+      "l2_leaf_reg": 1.576463679468054,
+      "random_strength": 0.012401048409338937,
+      "bagging_temperature": 1.5490523725748062
+    },
+    "validation_rmse": 0.4662496898119638,
+    "iterations": 2197,
+    "seconds": 1.2337465150048956
+  },
+  {
+    "trial": 5,
+    "config": {
+      "depth": 10,
+      "learning_rate": 0.04652592186464945,
+      "l2_leaf_reg": 5.839240567777281,
+      "random_strength": 0.8603856841203931,
+      "bagging_temperature": 0.5668001510202885
+    },
+    "validation_rmse": 0.4526672528641039,
+    "iterations": 1967,
+    "seconds": 7.995679174986435
+  },
+  {
+    "trial": 6,
+    "config": {
+      "depth": 7,
+      "learning_rate": 0.1357646935577807,
+      "l2_leaf_reg": 2.8295961292295004,
+      "random_strength": 0.15384201776838302,
+      "bagging_temperature": 0.027011938393115997
+    },
+    "validation_rmse": 0.44925637047760025,
+    "iterations": 737,
+    "seconds": 1.0371508980169892
+  },
+  {
+    "trial": 7,
+    "config": {
+      "depth": 4,
+      "learning_rate": 0.028035503485365286,
+      "l2_leaf_reg": 22.057800468843077,
+      "random_strength": 0.563593329631654,
+      "bagging_temperature": 1.1073782406747341
+    },
+    "validation_rmse": 0.47234489852731787,
+    "iterations": 3971,
+    "seconds": 2.3707070870150346
+  },
+  {
+    "trial": 8,
+    "config": {
+      "depth": 4,
+      "learning_rate": 0.06628209554254995,
+      "l2_leaf_reg": 3.291011466012845,
+      "random_strength": 1.3289744397842593,
+      "bagging_temperature": 0.29213352873921394
+    },
+    "validation_rmse": 0.45461329227892444,
+    "iterations": 3095,
+    "seconds": 1.8890038079989608
+  },
+  {
+    "trial": 9,
+    "config": {
+      "depth": 8,
+      "learning_rate": 0.033496963645164725,
+      "l2_leaf_reg": 29.694928137598726,
+      "random_strength": 0.016029462242574274,
+      "bagging_temperature": 1.341280072927475
+    },
+    "validation_rmse": 0.4596762104439517,
+    "iterations": 3993,
+    "seconds": 6.747798689000774
+  },
+  {
+    "trial": 10,
+    "config": {
+      "depth": 9,
+      "learning_rate": 0.11086349081229042,
+      "l2_leaf_reg": 2.0394067858485476,
+      "random_strength": 0.4264846984575902,
+      "bagging_temperature": 1.7526502721011639
+    },
+    "validation_rmse": 0.47087043993051725,
+    "iterations": 1013,
+    "seconds": 2.689588998007821
+  },
+  {
+    "trial": 11,
+    "config": {
+      "depth": 6,
+      "learning_rate": 0.02002687091535673,
+      "l2_leaf_reg": 7.067749619041059,
+      "random_strength": 0.09738643834807331,
+      "bagging_temperature": 0.864178828895092
+    },
+    "validation_rmse": 0.4575122516804218,
+    "iterations": 4000,
+    "seconds": 3.294983871979639
+  },
+  {
+    "trial": 12,
+    "config": {
+      "depth": 6,
+      "learning_rate": 0.13023742223591062,
+      "l2_leaf_reg": 17.783520353467512,
+      "random_strength": 0.06784281136981968,
+      "bagging_temperature": 0.6902725305408239
+    },
+    "validation_rmse": 0.4517757184521786,
+    "iterations": 1442,
+    "seconds": 1.1163725479855202
+  },
+  {
+    "trial": 13,
+    "config": {
+      "depth": 10,
+      "learning_rate": 0.031002466913977074,
+      "l2_leaf_reg": 5.348989283555913,
+      "random_strength": 0.321174050484408,
+      "bagging_temperature": 1.6763125378638506
+    },
+    "validation_rmse": 0.4671483301467286,
+    "iterations": 3652,
+    "seconds": 14.644745730998693
+  },
+  {
+    "trial": 14,
+    "config": {
+      "depth": 8,
+      "learning_rate": 0.07968430253345736,
+      "l2_leaf_reg": 11.029480719743864,
+      "random_strength": 0.023802207085211746,
+      "bagging_temperature": 1.2297554146498442
+    },
+    "validation_rmse": 0.45636318201394865,
+    "iterations": 1908,
+    "seconds": 2.6603869380196556
+  },
+  {
+    "trial": 15,
+    "config": {
+      "depth": 5,
+      "learning_rate": 0.0506709787594543,
+      "l2_leaf_reg": 1.2741878805342572,
+      "random_strength": 1.7849711099684789,
+      "bagging_temperature": 0.1534139458090067
+    },
+    "validation_rmse": 0.4499495492963349,
+    "iterations": 2861,
+    "seconds": 2.10474407998845
+  }
+]

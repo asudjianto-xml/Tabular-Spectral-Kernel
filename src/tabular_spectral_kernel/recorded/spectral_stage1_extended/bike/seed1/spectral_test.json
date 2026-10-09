@@ -1,0 +1,85 @@
+{
+  "dataset": "bike",
+  "seed": 1,
+  "family": "spectral",
+  "test": {
+    "rmse": 93.71912422044177,
+    "mae": 64.81707492116566,
+    "r2": 0.8193375869714543
+  },
+  "prediction_seconds": 0.05694348399993032,
+  "selection": {
+    "dataset": "bike",
+    "seed": 1,
+    "kind": "standard",
+    "training": {
+      "kind": "standard",
+      "selected_step": 200,
+      "criterion": 95.05534354482184,
+      "seconds": 30.75337595900055,
+      "p": 65,
+      "numeric_features": 7,
+      "category_contrasts": 9,
+      "train_rows": 10389
+    },
+    "selected": {
+      "ridge": 3.162277660168379e-06,
+      "clip": false,
+      "criterion": 85.21734340793564,
+      "column": 0
+    },
+    "trials": [
+      {
+        "ridge": 3.162277660168379e-06,
+        "clip": false,
+        "criterion": 85.21734340793564,
+        "column": 0
+      },
+      {
+        "ridge": 3.162277660168379e-06,
+        "clip": true,
+        "criterion": 85.21734340793564,
+        "column": 0
+      },
+      {
+        "ridge": 1e-05,
+        "clip": false,
+        "criterion": 86.15160981803827,
+        "column": 1
+      },
+      {
+        "ridge": 1e-05,
+        "clip": true,
+        "criterion": 86.15160981803827,
+        "column": 1
+      },
+      {
+        "ridge": 3.1622776601683795e-05,
+        "clip": false,
+        "criterion": 88.60850562549827,
+        "column": 2
+      },
+      {
+        "ridge": 3.1622776601683795e-05,
+        "clip": true,
+        "criterion": 88.60850562549827,
+        "column": 2
+      }
+    ],
+    "calibration": null,
+    "max_relative_solve_residual": 1.3838967281594068e-13,
+    "trace_error": 4.440892098500626e-16,
+    "min_metric_eigenvalue": 0.0010455525110444094,
+    "split_info": {
+      "train_end": "2012-03-13",
+      "validation_start": "2012-03-14",
+      "test_start": "2012-08-07"
+    },
+    "counts": {
+      "tr": 10389,
+      "va": 3502,
+      "cal": 0,
+      "te": 3488
+    }
+  }
+}

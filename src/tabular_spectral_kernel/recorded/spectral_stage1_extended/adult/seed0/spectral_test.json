@@ -1,0 +1,70 @@
+{
+  "dataset": "adult",
+  "seed": 0,
+  "family": "spectral",
+  "test": {
+    "auc": 0.9152718525307156,
+    "log_loss": 0.3142660671778447,
+    "accuracy": 0.8628462625145875,
+    "brier": 0.09763246301932607
+  },
+  "prediction_seconds": 0.7692336610052735,
+  "selection": {
+    "dataset": "adult",
+    "seed": 0,
+    "kind": "standard",
+    "training": {
+      "kind": "standard",
+      "selected_step": 200,
+      "criterion": -0.9209864495737639,
+      "seconds": 37.31770423499984,
+      "p": 142,
+      "numeric_features": 6,
+      "category_contrasts": 94,
+      "train_rows": 26048
+    },
+    "selected": {
+      "ridge": 3.1622776601683795e-05,
+      "clip": false,
+      "criterion": -0.9218911179514265,
+      "column": 1
+    },
+    "trials": [
+      {
+        "ridge": 1e-05,
+        "clip": false,
+        "criterion": -0.9214795299438012,
+        "column": 0
+      },
+      {
+        "ridge": 3.1622776601683795e-05,
+        "clip": false,
+        "criterion": -0.9218911179514265,
+        "column": 1
+      },
+      {
+        "ridge": 0.0001,
+        "clip": false,
+        "criterion": -0.9209699447915034,
+        "column": 2
+      }
+    ],
+    "calibration": {
+      "slope": 6.394372541060605,
+      "intercept": -3.185488336060805
+    },
+    "max_relative_solve_residual": 6.939917000856589e-13,
+    "trace_error": 0.0,
+    "min_metric_eigenvalue": 0.0006170111202481688,
+    "split_info": {
+      "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+    },
+    "counts": {
+      "tr": 26048,
+      "va": 3257,
+      "cal": 3256,
+      "te": 16281
+    }
+  },
+  "uncalibrated_auc": 0.9152718525307156
+}

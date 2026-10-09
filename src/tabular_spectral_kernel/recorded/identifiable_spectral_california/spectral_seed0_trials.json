@@ -1,0 +1,514 @@
+[
+  {
+    "trial": 0,
+    "config": {
+      "preprocessing": "standard",
+      "atoms": 4,
+      "lr": 0.02,
+      "max_frequency": 0.5
+    },
+    "selected_step": 300,
+    "validation_rmse": 0.47584571716891993,
+    "ridge": 1e-07,
+    "seconds": 6.222117237979546,
+    "trace": [
+      {
+        "step": 0,
+        "validation_rmse": 0.5703383314009973,
+        "ridge": 1e-07,
+        "temperature": 0.5,
+        "elapsed_seconds": 0.5588567079976201
+      },
+      {
+        "step": 50,
+        "validation_rmse": 0.5115311294660937,
+        "ridge": 1e-07,
+        "temperature": 0.7312230199713772,
+        "elapsed_seconds": 1.5574252869992051
+      },
+      {
+        "step": 100,
+        "validation_rmse": 0.5018417649492541,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 0.7644989131740756,
+        "elapsed_seconds": 2.4387957339931745
+      },
+      {
+        "step": 150,
+        "validation_rmse": 0.4842629667124623,
+        "ridge": 1e-06,
+        "temperature": 0.830886108187949,
+        "elapsed_seconds": 3.333031514979666
+      },
+      {
+        "step": 200,
+        "validation_rmse": 0.485532645070075,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 0.9854596275446692,
+        "elapsed_seconds": 4.292754553986015
+      },
+      {
+        "step": 250,
+        "validation_rmse": 0.4800342442380237,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 1.0355587669379853,
+        "elapsed_seconds": 5.176293849974172
+      },
+      {
+        "step": 300,
+        "validation_rmse": 0.47584571716891993,
+        "ridge": 1e-07,
+        "temperature": 1.251387252974569,
+        "elapsed_seconds": 6.221806628978811
+      }
+    ]
+  },
+  {
+    "trial": 1,
+    "config": {
+      "preprocessing": "standard",
+      "atoms": 4,
+      "lr": 0.04,
+      "max_frequency": 1.5
+    },
+    "selected_step": 250,
+    "validation_rmse": 0.4853661630406795,
+    "ridge": 1e-06,
+    "seconds": 5.992782248009462,
+    "trace": [
+      {
+        "step": 0,
+        "validation_rmse": 0.5672173512983961,
+        "ridge": 1e-07,
+        "temperature": 0.5,
+        "elapsed_seconds": 0.1765238980005961
+      },
+      {
+        "step": 50,
+        "validation_rmse": 0.5082231646106785,
+        "ridge": 3.162277660168379e-07,
+        "temperature": 0.9558433086286671,
+        "elapsed_seconds": 1.2245277760084718
+      },
+      {
+        "step": 100,
+        "validation_rmse": 0.48994714858571664,
+        "ridge": 1e-06,
+        "temperature": 1.079292702781353,
+        "elapsed_seconds": 2.262732383009279
+      },
+      {
+        "step": 150,
+        "validation_rmse": 0.48653591865257906,
+        "ridge": 1e-05,
+        "temperature": 1.3943073996223163,
+        "elapsed_seconds": 3.1986459309991915
+      },
+      {
+        "step": 200,
+        "validation_rmse": 0.4929965688274121,
+        "ridge": 3.162277660168379e-07,
+        "temperature": 2.0043924004974207,
+        "elapsed_seconds": 4.210314305004431
+      },
+      {
+        "step": 250,
+        "validation_rmse": 0.4853661630406795,
+        "ridge": 1e-06,
+        "temperature": 2.1107409458875424,
+        "elapsed_seconds": 5.100824649009155
+      },
+      {
+        "step": 300,
+        "validation_rmse": 0.4862469390914874,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 2.2396819618744157,
+        "elapsed_seconds": 5.992753464000998
+      }
+    ]
+  },
+  {
+    "trial": 2,
+    "config": {
+      "preprocessing": "standard",
+      "atoms": 8,
+      "lr": 0.02,
+      "max_frequency": 0.5
+    },
+    "selected_step": 250,
+    "validation_rmse": 0.48970897164330873,
+    "ridge": 1e-06,
+    "seconds": 7.2966163709934335,
+    "trace": [
+      {
+        "step": 0,
+        "validation_rmse": 0.5680899493048774,
+        "ridge": 1e-07,
+        "temperature": 0.5,
+        "elapsed_seconds": 0.18280517699895427
+      },
+      {
+        "step": 50,
+        "validation_rmse": 0.5175014880485317,
+        "ridge": 1e-05,
+        "temperature": 0.7971509000098257,
+        "elapsed_seconds": 1.3799435989931226
+      },
+      {
+        "step": 100,
+        "validation_rmse": 0.5138141004637006,
+        "ridge": 1e-05,
+        "temperature": 0.9881632908450931,
+        "elapsed_seconds": 2.4932008409814443
+      },
+      {
+        "step": 150,
+        "validation_rmse": 0.49033275086385325,
+        "ridge": 1e-07,
+        "temperature": 1.0708192050817542,
+        "elapsed_seconds": 3.6672082229924854
+      },
+      {
+        "step": 200,
+        "validation_rmse": 0.496245663216314,
+        "ridge": 1e-05,
+        "temperature": 1.1874053632561237,
+        "elapsed_seconds": 4.9134980799863115
+      },
+      {
+        "step": 250,
+        "validation_rmse": 0.48970897164330873,
+        "ridge": 1e-06,
+        "temperature": 1.433371538956767,
+        "elapsed_seconds": 6.098915765003767
+      },
+      {
+        "step": 300,
+        "validation_rmse": 0.4903276866637475,
+        "ridge": 1e-06,
+        "temperature": 1.4961883157031488,
+        "elapsed_seconds": 7.296576755004935
+      }
+    ]
+  },
+  {
+    "trial": 3,
+    "config": {
+      "preprocessing": "standard",
+      "atoms": 8,
+      "lr": 0.04,
+      "max_frequency": 1.5
+    },
+    "selected_step": 300,
+    "validation_rmse": 0.5107520575278535,
+    "ridge": 1e-05,
+    "seconds": 7.276279709010851,
+    "trace": [
+      {
+        "step": 0,
+        "validation_rmse": 0.5639575889847231,
+        "ridge": 1e-07,
+        "temperature": 0.5,
+        "elapsed_seconds": 0.1828487050079275
+      },
+      {
+        "step": 50,
+        "validation_rmse": 0.5214778831464285,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 1.2179921261157804,
+        "elapsed_seconds": 1.3395196780038532
+      },
+      {
+        "step": 100,
+        "validation_rmse": 0.5279887180527663,
+        "ridge": 3.1622776601683795e-05,
+        "temperature": 2.1179908012778186,
+        "elapsed_seconds": 2.532168534002267
+      },
+      {
+        "step": 150,
+        "validation_rmse": 0.5161067371498596,
+        "ridge": 3.1622776601683795e-05,
+        "temperature": 2.4152106533836664,
+        "elapsed_seconds": 3.71269456500886
+      },
+      {
+        "step": 200,
+        "validation_rmse": 0.5141610425488,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 3.176031732651381,
+        "elapsed_seconds": 4.8732761580031365
+      },
+      {
+        "step": 250,
+        "validation_rmse": 0.5159932352964259,
+        "ridge": 1e-05,
+        "temperature": 2.977504540819342,
+        "elapsed_seconds": 6.035153584001819
+      },
+      {
+        "step": 300,
+        "validation_rmse": 0.5107520575278535,
+        "ridge": 1e-05,
+        "temperature": 3.505968761452723,
+        "elapsed_seconds": 7.275959563994547
+      }
+    ]
+  },
+  {
+    "trial": 4,
+    "config": {
+      "preprocessing": "quantile",
+      "atoms": 4,
+      "lr": 0.02,
+      "max_frequency": 0.5
+    },
+    "selected_step": 250,
+    "validation_rmse": 0.48525373204336764,
+    "ridge": 1e-06,
+    "seconds": 5.888672488013981,
+    "trace": [
+      {
+        "step": 0,
+        "validation_rmse": 0.5774334250393641,
+        "ridge": 1e-07,
+        "temperature": 0.5,
+        "elapsed_seconds": 0.1768028800142929
+      },
+      {
+        "step": 50,
+        "validation_rmse": 0.5200162075457901,
+        "ridge": 1e-07,
+        "temperature": 0.738349116264665,
+        "elapsed_seconds": 1.0804782200139016
+      },
+      {
+        "step": 100,
+        "validation_rmse": 0.5078172230436723,
+        "ridge": 1e-07,
+        "temperature": 0.78361823393416,
+        "elapsed_seconds": 1.988047874008771
+      },
+      {
+        "step": 150,
+        "validation_rmse": 0.5006784763477106,
+        "ridge": 1e-06,
+        "temperature": 0.9734316901346561,
+        "elapsed_seconds": 2.9980248830106575
+      },
+      {
+        "step": 200,
+        "validation_rmse": 0.4959632802066776,
+        "ridge": 1e-07,
+        "temperature": 1.1521270014623282,
+        "elapsed_seconds": 3.9532662970013916
+      },
+      {
+        "step": 250,
+        "validation_rmse": 0.48525373204336764,
+        "ridge": 1e-06,
+        "temperature": 1.3401436250336916,
+        "elapsed_seconds": 5.000694347021636
+      },
+      {
+        "step": 300,
+        "validation_rmse": 0.4888539400625828,
+        "ridge": 3.162277660168379e-07,
+        "temperature": 1.5565935763222298,
+        "elapsed_seconds": 5.888636871008202
+      }
+    ]
+  },
+  {
+    "trial": 5,
+    "config": {
+      "preprocessing": "quantile",
+      "atoms": 4,
+      "lr": 0.04,
+      "max_frequency": 1.5
+    },
+    "selected_step": 250,
+    "validation_rmse": 0.4902070871790399,
+    "ridge": 3.162277660168379e-06,
+    "seconds": 6.199498711997876,
+    "trace": [
+      {
+        "step": 0,
+        "validation_rmse": 0.6056021432526985,
+        "ridge": 1e-07,
+        "temperature": 0.5,
+        "elapsed_seconds": 0.17701069300528616
+      },
+      {
+        "step": 50,
+        "validation_rmse": 0.514451104289585,
+        "ridge": 1e-07,
+        "temperature": 0.9135093190912411,
+        "elapsed_seconds": 1.089978459989652
+      },
+      {
+        "step": 100,
+        "validation_rmse": 0.49818439657263064,
+        "ridge": 1e-07,
+        "temperature": 1.062577766396473,
+        "elapsed_seconds": 2.137526111997431
+      },
+      {
+        "step": 150,
+        "validation_rmse": 0.49103149742852875,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 1.364074060159042,
+        "elapsed_seconds": 3.2164797850127798
+      },
+      {
+        "step": 200,
+        "validation_rmse": 0.5039542777213372,
+        "ridge": 1e-07,
+        "temperature": 1.752041845664987,
+        "elapsed_seconds": 4.188626071001636
+      },
+      {
+        "step": 250,
+        "validation_rmse": 0.4902070871790399,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 1.9816509739979709,
+        "elapsed_seconds": 5.265620296995621
+      },
+      {
+        "step": 300,
+        "validation_rmse": 0.490800498355222,
+        "ridge": 1e-06,
+        "temperature": 2.194061439350113,
+        "elapsed_seconds": 6.199437367991777
+      }
+    ]
+  },
+  {
+    "trial": 6,
+    "config": {
+      "preprocessing": "quantile",
+      "atoms": 8,
+      "lr": 0.02,
+      "max_frequency": 0.5
+    },
+    "selected_step": 250,
+    "validation_rmse": 0.49936134555073125,
+    "ridge": 3.162277660168379e-06,
+    "seconds": 7.118013616011012,
+    "trace": [
+      {
+        "step": 0,
+        "validation_rmse": 0.5698853443785826,
+        "ridge": 1e-07,
+        "temperature": 0.5,
+        "elapsed_seconds": 0.1832086289941799
+      },
+      {
+        "step": 50,
+        "validation_rmse": 0.5226196101450191,
+        "ridge": 1e-05,
+        "temperature": 0.7998578676469658,
+        "elapsed_seconds": 1.3155001029954292
+      },
+      {
+        "step": 100,
+        "validation_rmse": 0.5148590937052184,
+        "ridge": 1e-07,
+        "temperature": 1.0724330096047963,
+        "elapsed_seconds": 2.4620459089928772
+      },
+      {
+        "step": 150,
+        "validation_rmse": 0.5017422457551709,
+        "ridge": 1e-07,
+        "temperature": 1.413907256066179,
+        "elapsed_seconds": 3.606479287002003
+      },
+      {
+        "step": 200,
+        "validation_rmse": 0.5051251261816473,
+        "ridge": 1e-06,
+        "temperature": 1.7207189060548658,
+        "elapsed_seconds": 4.8280244230118115
+      },
+      {
+        "step": 250,
+        "validation_rmse": 0.49936134555073125,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 1.7889127147221409,
+        "elapsed_seconds": 5.934676973003661
+      },
+      {
+        "step": 300,
+        "validation_rmse": 0.5050051159008787,
+        "ridge": 1e-05,
+        "temperature": 1.9379268645892673,
+        "elapsed_seconds": 7.117981904011685
+      }
+    ]
+  },
+  {
+    "trial": 7,
+    "config": {
+      "preprocessing": "quantile",
+      "atoms": 8,
+      "lr": 0.04,
+      "max_frequency": 1.5
+    },
+    "selected_step": 300,
+    "validation_rmse": 0.5166046727623738,
+    "ridge": 1e-05,
+    "seconds": 6.958790093980497,
+    "trace": [
+      {
+        "step": 0,
+        "validation_rmse": 0.5877823569777214,
+        "ridge": 1e-07,
+        "temperature": 0.5,
+        "elapsed_seconds": 0.1824496899789665
+      },
+      {
+        "step": 50,
+        "validation_rmse": 0.5491104811083126,
+        "ridge": 3.162277660168379e-06,
+        "temperature": 1.0546972294423793,
+        "elapsed_seconds": 1.289358302979963
+      },
+      {
+        "step": 100,
+        "validation_rmse": 0.5391561326948653,
+        "ridge": 1e-05,
+        "temperature": 1.962015081715165,
+        "elapsed_seconds": 2.4062185380025767
+      },
+      {
+        "step": 150,
+        "validation_rmse": 0.5175233567896966,
+        "ridge": 1e-05,
+        "temperature": 2.306557303638027,
+        "elapsed_seconds": 3.5491774279798847
+      },
+      {
+        "step": 200,
+        "validation_rmse": 0.5204204651117812,
+        "ridge": 1e-05,
+        "temperature": 2.872712539301848,
+        "elapsed_seconds": 4.686590252997121
+      },
+      {
+        "step": 250,
+        "validation_rmse": 0.5222072825784906,
+        "ridge": 3.1622776601683795e-05,
+        "temperature": 2.963864689465674,
+        "elapsed_seconds": 5.828106770990416
+      },
+      {
+        "step": 300,
+        "validation_rmse": 0.5166046727623738,
+        "ridge": 1e-05,
+        "temperature": 3.119678465616102,
+        "elapsed_seconds": 6.958472749975044
+      }
+    ]
+  }
+]

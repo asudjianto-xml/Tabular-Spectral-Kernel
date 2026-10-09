@@ -1,0 +1,24 @@
+name: install-and-test
+on: [push, pull_request]
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: python -m pip install ".[dev]"
+      - run: python -m pytest -q
+      - run: python -m build --wheel
+      - run: python -m pip install --force-reinstall --no-deps dist/*.whl
+      - run: tsk verify --output "$RUNNER_TEMP/wheel-audit"
+        working-directory: ${{ runner.temp }}
+      - name: Download and verify public datasets
+        if: matrix.python == '3.12'
+        run: tsk download --dataset all --data-dir "$RUNNER_TEMP/public-data"

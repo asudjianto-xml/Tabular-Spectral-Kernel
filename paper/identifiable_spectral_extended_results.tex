@@ -1,0 +1,55 @@
+\section{Additional regression and classification experiments}\label{sec:extended}
+
+Hourly Bike Sharing, Taiwan credit default and Adult income test the same single-bank construction beyond California Housing \cite{fanaee2013data,yeh2009data,becker1996data}. The mixed-input representation and binary-response readout are specified in Section~\ref{sec:mixed}. These runs train geometry from scratch; they do not reuse the California geometry.
+
+\subsection{Data and evaluation protocol}
+
+The hourly Bike Sharing file contains 17,379 observations. Its \texttt{casual} and \texttt{registered} columns sum to the target and are excluded, together with the row identifier and date string. The retained predictors describe calendar time and observed weather. The first 60\% of dates provide 10,389 fitting rows, the next 20\% provide 3,502 validation rows and the final dates provide 3,488 test rows. Training ends on March 13, 2012, and testing begins on August 7, 2012. Three optimizer seeds use this same chronology. The task predicts counts from observed covariates; it does not evaluate forecasting with unavailable future weather.
+
+Taiwan contains 30,000 observations with 23 predictors and a binary next-month default label. Three stratified splits each allocate 19,200 rows to fitting, 2,400 to calibration, 2,400 to validation and 6,000 to testing. The numerical amounts retain their original values. Sex, education and marital status are treated as categorical fields.
+
+Adult predicts whether annual income exceeds \$50,000 from 14 census attributes. The official 16,281-row test partition is retained. For each of three seeds, the original 32,561 training rows are divided into 26,048 fitting, 3,256 calibration and 3,257 validation rows. Missing categories are represented explicitly and all rows are retained. The sampling-weight attribute is used as an input feature; the reported metrics are unweighted.
+
+Both model families use identical row assignments. Calibration and validation observations remain outside the final model fit; these added experiments do not perform the outer-pool refit used for California. ROC AUC, the area under the receiver operating characteristic curve, selects classification models. A separate sigmoid fit on calibration observations supplies probabilities for log loss, Brier score and accuracy. RMSE selects regression models.
+
+\subsection{Training and selection}
+
+The spectral representation has four frequencies per numerical feature. Fixed categorical contrasts are appended before applying the full metric. Numerical standardization and a quantile-to-normal transformation are compared on seed zero. Its selected preprocessing recipe is then fixed for seeds one and two. Each model trains for up to 800 steps using 1,024 support rows and 256 disjoint query rows. Checkpoints at steps 0, 200, 400, 600 and 800 are compared with a 512-landmark head. The selected checkpoint is evaluated with 2,048 landmarks over the nine-value ridge grid used for California. Exact validation solves compare the resulting ridge and its adjacent grid values. This limits the number of dense factorizations and does not exhaust the exact-head search space.
+
+Adam begins at learning rate 0.01 for diagonal metric coordinates, log bandwidth and log noise, and 0.002 for off-diagonal coordinates and log-frequency gaps. Rates decay to 20\% of these values by the cosine schedule. The episode penalty, parameter bounds and gradient clipping follow the earlier construction. Target standardization is fitted on fitting rows and is also used for binary-label squared-error training.
+
+CatBoost receives 16 Sobol configurations on seed zero, at most 3,000 trees per configuration and early stopping with patience 150. The selected configuration is fixed for the other two seeds, which retain their own stopping iterations. CatBoost uses native categorical processing. Every spectral and CatBoost selection is saved before any test prediction; the search budgets differ between families.
+
+\subsection{Results}
+
+\begin{table}[htbp]\centering\small
+
+\caption{Hourly Bike Sharing test results on the fixed chronological holdout. Standard deviations describe three training runs on the same test rows.}\label{tab:bike}
+
+\begin{tabular}{lrrr}\toprule Model & RMSE & MAE & $R^2$\\\midrule
+
+Spectral kernel & $92.61\pm1.25$ & $64.23\pm0.88$ & $0.8236\pm0.0047$\\
+
+Tuned CatBoost & $107.45\pm6.87$ & $75.78\pm5.91$ & $0.7619\pm0.0298$\\
+
+\bottomrule\end{tabular}\end{table}
+
+\begin{table}[htbp]\centering\small
+
+\caption{Binary classification test results after separate sigmoid calibration. Larger AUC and smaller log loss or Brier score indicate better performance. Adult runs share the official test partition.}\label{tab:classification}
+
+\begin{tabular}{llrrrr}\toprule Dataset & Model & AUC & Log loss & Brier & Accuracy\\\midrule
+
+Taiwan & Spectral & $0.7873\pm0.0021$ & $0.4277\pm0.0024$ & $0.1339\pm0.0009$ & $0.8213\pm0.0025$\\
+
+Taiwan & CatBoost & $0.7828\pm0.0027$ & $0.4276\pm0.0014$ & $0.1340\pm0.0005$ & $0.8213\pm0.0013$\\
+
+Adult & Spectral & $0.9147\pm0.0005$ & $0.3153\pm0.0017$ & $0.0983\pm0.0006$ & $0.8620\pm0.0008$\\
+
+Adult & CatBoost & $0.9274\pm0.0005$ & $0.2775\pm0.0008$ & $0.0880\pm0.0002$ & $0.8736\pm0.0007$\\
+
+\bottomrule\end{tabular}\end{table}
+
+Tables~\ref{tab:bike} and~\ref{tab:classification} report every added dataset under the frozen protocol. Variation across the three Bike Sharing runs reflects training randomness on one chronology. Adult varies the fitting and calibration partitions while retaining one official test set. Those standard deviations do not estimate uncertainty across independent test samples. Component ablations and comparisons under matched computational budgets remain outside this experiment.
+
+The independent audit verifies all 18 model runs, including source-file hashes, split identity, validation selections, calibration separation, positive metric eigenvalues, ridge residuals and prediction replay. The accompanying source, per-run records and audits are listed in Appendix~\ref{app:repro}.

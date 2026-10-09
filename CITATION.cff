@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this research code."
+title: "Learning Spectral Geometry for Kernel Regression"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Sudjianto
+    given-names: Agus
+  - family-names: Zhang
+    given-names: Aijun
+repository-code: "https://github.com/asudjianto-xml/Tabular-Spectral-Kernel"
+keywords:
+  - kernel ridge regression
+  - spectral representation learning
+  - metric learning
+  - tabular learning

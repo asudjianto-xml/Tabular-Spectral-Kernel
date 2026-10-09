@@ -1,0 +1,29 @@
+{
+  "dataset": "bike",
+  "seed": 0,
+  "selected": {
+    "trial": 8,
+    "config": {
+      "depth": 4,
+      "learning_rate": 0.06628209554254995,
+      "l2_leaf_reg": 3.291011466012845,
+      "random_strength": 1.3289744397842593,
+      "bagging_temperature": 0.29213352873921394
+    },
+    "criterion": 96.49457533587297,
+    "iterations": 2971
+  },
+  "calibration": null,
+  "seconds": 74.41048728700844,
+  "counts": {
+    "tr": 10389,
+    "va": 3502,
+    "cal": 0,
+    "te": 3488
+  },
+  "split_info": {
+    "train_end": "2012-03-13",
+    "validation_start": "2012-03-14",
+    "test_start": "2012-08-07"
+  }
+}

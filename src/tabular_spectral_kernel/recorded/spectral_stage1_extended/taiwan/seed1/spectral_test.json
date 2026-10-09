@@ -1,0 +1,70 @@
+{
+  "dataset": "taiwan",
+  "seed": 1,
+  "family": "spectral",
+  "test": {
+    "auc": 0.7849076393416557,
+    "log_loss": 0.42781046636491926,
+    "accuracy": 0.8191666666666667,
+    "brier": 0.1338475716786769
+  },
+  "prediction_seconds": 0.25833337899530306,
+  "selection": {
+    "dataset": "taiwan",
+    "seed": 1,
+    "kind": "quantile",
+    "training": {
+      "kind": "quantile",
+      "selected_step": 400,
+      "criterion": -0.7839081293661373,
+      "seconds": 37.415310654003406,
+      "p": 170,
+      "numeric_features": 20,
+      "category_contrasts": 10,
+      "train_rows": 19200
+    },
+    "selected": {
+      "ridge": 0.00031622776601683794,
+      "clip": false,
+      "criterion": -0.7841711178218509,
+      "column": 1
+    },
+    "trials": [
+      {
+        "ridge": 0.0001,
+        "clip": false,
+        "criterion": -0.7810535458602492,
+        "column": 0
+      },
+      {
+        "ridge": 0.00031622776601683794,
+        "clip": false,
+        "criterion": -0.7841711178218509,
+        "column": 1
+      },
+      {
+        "ridge": 0.001,
+        "clip": false,
+        "criterion": -0.7839171979335757,
+        "column": 2
+      }
+    ],
+    "calibration": {
+      "slope": 5.183644719123387,
+      "intercept": -2.6443274266575
+    },
+    "max_relative_solve_residual": 8.713186546226191e-15,
+    "trace_error": 4.440892098500626e-16,
+    "min_metric_eigenvalue": 0.0006378434040585019,
+    "split_info": {
+      "split": "stratified 64/8/8/20 train/calibration/validation/test"
+    },
+    "counts": {
+      "tr": 19200,
+      "va": 2400,
+      "cal": 2400,
+      "te": 6000
+    }
+  },
+  "uncalibrated_auc": 0.7849076393416557
+}

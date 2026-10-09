@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tabular-spectral-kernel"
+version = "0.1.0"
+description = "Reproducible single-bank spectral metric and Laplace kernel experiments for tabular prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Agus Sudjianto"}, {name = "Aijun Zhang"}]
+dependencies = [
+  "matplotlib>=3.8,<4", "numpy>=1.26,<3", "scipy>=1.11,<2", "pandas>=2.1,<4",
+  "scikit-learn>=1.4,<2", "torch>=2.2,<3", "threadpoolctl>=3.2,<4",
+  "catboost>=1.2.7,<2", "lightgbm>=4.3,<5", "xlrd>=2.0.1,<3"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "build>=1"]
+
+[project.scripts]
+tsk = "tabular_spectral_kernel.cli:main"
+
+[project.urls]
+Repository = "https://github.com/asudjianto-xml/Tabular-Spectral-Kernel"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tabular_spectral_kernel = ["taiwan_signature.json", "recorded/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

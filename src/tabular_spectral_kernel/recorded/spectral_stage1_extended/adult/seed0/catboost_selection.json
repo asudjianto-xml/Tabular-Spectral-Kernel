@@ -1,0 +1,30 @@
+{
+  "dataset": "adult",
+  "seed": 0,
+  "selected": {
+    "trial": 4,
+    "config": {
+      "depth": 5,
+      "learning_rate": 0.08180883137913998,
+      "l2_leaf_reg": 1.576463679468054,
+      "random_strength": 0.012401048409338937,
+      "bagging_temperature": 1.5490523725748062
+    },
+    "criterion": -0.9345683380509504,
+    "iterations": 317
+  },
+  "calibration": {
+    "slope": 1.0120535843758907,
+    "intercept": 0.033676345931611805
+  },
+  "seconds": 156.3226230859873,
+  "counts": {
+    "tr": 26048,
+    "va": 3257,
+    "cal": 3256,
+    "te": 16281
+  },
+  "split_info": {
+    "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+  }
+}

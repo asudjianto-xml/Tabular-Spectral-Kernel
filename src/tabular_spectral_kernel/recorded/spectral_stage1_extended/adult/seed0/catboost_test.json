@@ -1,0 +1,43 @@
+{
+  "dataset": "adult",
+  "seed": 0,
+  "family": "catboost",
+  "test": {
+    "auc": 0.9267388966567911,
+    "log_loss": 0.27842533658191804,
+    "accuracy": 0.874393464774891,
+    "brier": 0.08823355507712076
+  },
+  "prediction_seconds": 0.02718226599972695,
+  "selection": {
+    "dataset": "adult",
+    "seed": 0,
+    "selected": {
+      "trial": 4,
+      "config": {
+        "depth": 5,
+        "learning_rate": 0.08180883137913998,
+        "l2_leaf_reg": 1.576463679468054,
+        "random_strength": 0.012401048409338937,
+        "bagging_temperature": 1.5490523725748062
+      },
+      "criterion": -0.9345683380509504,
+      "iterations": 317
+    },
+    "calibration": {
+      "slope": 1.0120535843758907,
+      "intercept": 0.033676345931611805
+    },
+    "seconds": 156.3226230859873,
+    "counts": {
+      "tr": 26048,
+      "va": 3257,
+      "cal": 3256,
+      "te": 16281
+    },
+    "split_info": {
+      "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+    }
+  },
+  "uncalibrated_auc": 0.9267388966567911
+}

@@ -1,0 +1,28 @@
+{
+  "seed": 2,
+  "model": "exact_identifiable_spectral",
+  "selected": {
+    "ridge": 1e-06,
+    "clip": true,
+    "validation_rmse": 0.4379001197426409
+  },
+  "test": {
+    "rmse": 0.45516679066564086,
+    "rmse_dollars": 45516.67906656409,
+    "mae_dollars": 28690.35956595223,
+    "r2": 0.8461966919599386
+  },
+  "raw_test": {
+    "rmse": 0.45517190124817153,
+    "rmse_dollars": 45517.190124817156,
+    "mae_dollars": 28702.481022309123,
+    "r2": 0.8461932381538698
+  },
+  "selection_seconds": 18.193862212996464,
+  "refit_and_prediction_seconds": 8.837967277009739,
+  "relative_solve_residuals": [
+    1.6672681588576747e-12
+  ],
+  "clipped_predictions": 22,
+  "geometry_checkpoint_sha256": "e024a4a6fc6d8ad2193aad4559a0f3e50b688f8732ab85a95b6e02b4b7515eda"
+}

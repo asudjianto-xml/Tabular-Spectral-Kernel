@@ -1,0 +1,57 @@
+{
+  "dataset": "adult",
+  "seed": 1,
+  "kind": "standard",
+  "training": {
+    "kind": "standard",
+    "selected_step": 200,
+    "criterion": -0.9110526337506293,
+    "seconds": 37.42663584600086,
+    "p": 141,
+    "numeric_features": 6,
+    "category_contrasts": 93,
+    "train_rows": 26048
+  },
+  "selected": {
+    "ridge": 1e-05,
+    "clip": false,
+    "criterion": -0.91267887057775,
+    "column": 1
+  },
+  "trials": [
+    {
+      "ridge": 3.162277660168379e-06,
+      "clip": false,
+      "criterion": -0.910358917121236,
+      "column": 0
+    },
+    {
+      "ridge": 1e-05,
+      "clip": false,
+      "criterion": -0.91267887057775,
+      "column": 1
+    },
+    {
+      "ridge": 3.1622776601683795e-05,
+      "clip": false,
+      "criterion": -0.9125664317485992,
+      "column": 2
+    }
+  ],
+  "calibration": {
+    "slope": 6.836197782295389,
+    "intercept": -3.3781564975857803
+  },
+  "max_relative_solve_residual": 2.1383707076976005e-12,
+  "trace_error": 5.551115123125783e-16,
+  "min_metric_eigenvalue": 0.001113721628054471,
+  "split_info": {
+    "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+  },
+  "counts": {
+    "tr": 26048,
+    "va": 3257,
+    "cal": 3256,
+    "te": 16281
+  }
+}

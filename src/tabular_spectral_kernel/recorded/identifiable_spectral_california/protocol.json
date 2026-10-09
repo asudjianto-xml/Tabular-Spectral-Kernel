@@ -1,0 +1,161 @@
+{
+  "dataset": "California Housing",
+  "samples": 20640,
+  "features": 8,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "outer_test_fraction": 0.2,
+  "inner_validation_fraction": 0.2,
+  "split": "sklearn train_test_split: outer random_state=seed; inner random_state=1000+seed",
+  "spectral": {
+    "parameterization": "ordered cumulative exp frequencies; orthonormal trace-zero symmetric A; exact torch.matrix_exp(A/2) normalized root; log bandwidth",
+    "banks": 1,
+    "configs": [
+      {
+        "preprocessing": "standard",
+        "atoms": 4,
+        "lr": 0.02,
+        "max_frequency": 0.5
+      },
+      {
+        "preprocessing": "standard",
+        "atoms": 4,
+        "lr": 0.04,
+        "max_frequency": 1.5
+      },
+      {
+        "preprocessing": "standard",
+        "atoms": 8,
+        "lr": 0.02,
+        "max_frequency": 0.5
+      },
+      {
+        "preprocessing": "standard",
+        "atoms": 8,
+        "lr": 0.04,
+        "max_frequency": 1.5
+      },
+      {
+        "preprocessing": "quantile",
+        "atoms": 4,
+        "lr": 0.02,
+        "max_frequency": 0.5
+      },
+      {
+        "preprocessing": "quantile",
+        "atoms": 4,
+        "lr": 0.04,
+        "max_frequency": 1.5
+      },
+      {
+        "preprocessing": "quantile",
+        "atoms": 8,
+        "lr": 0.02,
+        "max_frequency": 0.5
+      },
+      {
+        "preprocessing": "quantile",
+        "atoms": 8,
+        "lr": 0.04,
+        "max_frequency": 1.5
+      }
+    ],
+    "steps": 300,
+    "support_batch": 384,
+    "query_batch": 256,
+    "objective": "MSE on disjoint support/query episodes sampled from inner training only; differentiate exact support KRR",
+    "validation": "All inner-training rows, uniform training landmarks, centered Nystrom ridge path; every 50 steps and initialization",
+    "validation_landmarks": 512,
+    "final_rank_candidates": [
+      512,
+      1024,
+      2048
+    ],
+    "ridge_mean_loss_grid": [
+      1e-07,
+      3.162277660168379e-07,
+      1e-06,
+      3.162277660168379e-06,
+      1e-05,
+      3.1622776601683795e-05,
+      0.0001,
+      0.00031622776601683794,
+      0.001,
+      0.0031622776601683794,
+      0.01
+    ],
+    "final_refit": "Freeze geometry and preprocessing; select rank/ridge on validation; fit centered Nystrom ridge on all outer-training rows"
+  },
+  "trees": {
+    "trials": 16,
+    "search": "Fixed scrambled Sobol design plus a default-like first candidate",
+    "max_iterations": 4000,
+    "early_stopping_rounds": 150,
+    "lightgbm_space": {
+      "num_leaves": [
+        15,
+        255
+      ],
+      "max_depth": [
+        -1,
+        4,
+        6,
+        8,
+        10
+      ],
+      "learning_rate": [
+        0.015,
+        0.15
+      ],
+      "min_child_samples": [
+        5,
+        100
+      ],
+      "colsample_bytree": [
+        0.65,
+        1
+      ],
+      "subsample": [
+        0.65,
+        1
+      ],
+      "reg_alpha": [
+        1e-05,
+        10
+      ],
+      "reg_lambda": [
+        0.0001,
+        30
+      ]
+    },
+    "catboost_space": {
+      "depth": [
+        4,
+        10
+      ],
+      "learning_rate": [
+        0.02,
+        0.15
+      ],
+      "l2_leaf_reg": [
+        1,
+        30
+      ],
+      "random_strength": [
+        0.01,
+        3
+      ],
+      "bagging_temperature": [
+        0,
+        2
+      ]
+    },
+    "final_refit": "Selected hyperparameters and iteration count, all outer-training rows"
+  },
+  "comparison": "Same row splits and target labels; different search counts/compute are reported, not equal-compute HPO",
+  "scope": "Single-table regression test of the identifiable geometry, not pretrained cross-table transfer",
+  "evaluation": "No outer-test labels used for model selection; no post-test hyperparameter adaptation"
+}

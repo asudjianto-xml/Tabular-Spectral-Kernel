@@ -1,0 +1,30 @@
+{
+  "dataset": "taiwan",
+  "seed": 1,
+  "selected": {
+    "trial": 0,
+    "config": {
+      "depth": 10,
+      "learning_rate": 0.04652592186464945,
+      "l2_leaf_reg": 5.839240567777281,
+      "random_strength": 0.8603856841203931,
+      "bagging_temperature": 0.5668001510202885
+    },
+    "criterion": -0.7816455217902561,
+    "iterations": 65
+  },
+  "calibration": {
+    "slope": 1.0655456157178202,
+    "intercept": 0.009676717063841538
+  },
+  "seconds": 3.365108013007557,
+  "counts": {
+    "tr": 19200,
+    "va": 2400,
+    "cal": 2400,
+    "te": 6000
+  },
+  "split_info": {
+    "split": "stratified 64/8/8/20 train/calibration/validation/test"
+  }
+}

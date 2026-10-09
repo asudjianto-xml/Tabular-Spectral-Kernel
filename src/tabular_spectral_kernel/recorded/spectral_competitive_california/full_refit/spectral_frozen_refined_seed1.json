@@ -1,0 +1,38 @@
+{
+  "seed": 1,
+  "model": "spectral_frozen_refined",
+  "config": {
+    "name": "h1_warm_large_query",
+    "banks": 1,
+    "atoms": 4,
+    "preprocessing": "standard",
+    "objective": "query",
+    "steps": 800,
+    "support": 1536,
+    "lr": 0.003,
+    "reg": 0.0001,
+    "init": "previous"
+  },
+  "selected_step": 800,
+  "selected": {
+    "ridge": 3.162277660168379e-06,
+    "clip": true,
+    "validation_rmse": 0.4107116666223667
+  },
+  "test": {
+    "rmse": 0.4286275192254638,
+    "rmse_dollars": 42862.751922546384,
+    "mae_dollars": 26091.324741078308,
+    "r2": 0.8599353261180851
+  },
+  "raw_test": {
+    "rmse": 0.4287857385651954,
+    "rmse_dollars": 42878.57385651954,
+    "mae_dollars": 26123.871915841024,
+    "r2": 0.859831902845604
+  },
+  "exact_head_seconds": 8.89158979000058,
+  "relative_solve_residuals": [
+    6.425939929074941e-13
+  ]
+}

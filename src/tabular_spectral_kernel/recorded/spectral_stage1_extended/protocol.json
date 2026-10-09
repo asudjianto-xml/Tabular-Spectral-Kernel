@@ -1,0 +1,42 @@
+{
+  "datasets": [
+    "bike",
+    "taiwan",
+    "adult"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "geometry": "One mixed-input bank: 4 learned frequencies per numeric input; fixed orthonormal contrasts for categorical fields; full trace-one matrix-exponential metric and learned Laplace bandwidth",
+  "spectral_training": {
+    "steps": 800,
+    "support": 1024,
+    "query": 256,
+    "preprocessing_candidates": [
+      "standard",
+      "quantile"
+    ],
+    "recipe": "Choose preprocessing on seed zero, freeze it for seeds one and two; per-seed checkpoint and head ridge selection",
+    "checkpoints": "0,200,400,600,800 with Nystrom rank512; selected checkpoint rank2048 ridge search then neighboring three exact ridges",
+    "ridges": [
+      1e-07,
+      3.162277660168379e-07,
+      1e-06,
+      3.162277660168379e-06,
+      1e-05,
+      3.1622776601683795e-05,
+      0.0001,
+      0.00031622776601683794,
+      0.001
+    ],
+    "loss": "Squared error on standardized targets, also for binary labels"
+  },
+  "trees": "16 Sobol configurations on seed0, chosen configuration frozen for seeds1/2; 3000 iterations maximum, early-stop patience150; native categories; four CPU threads",
+  "classification": "Primary ROC AUC; separate calibration partition fits sigmoid for both families; report log loss, Brier and 0.5-threshold accuracy. Calibration data never enter head training, early stopping or model selection.",
+  "splits": "Bike first60%/next20%/last20% of dates; three optimizer seeds on one chronology. Taiwan stratified64/8/8/20 train/calibration/validation/test. Adult official test partition fixed; three80/10/10 fitting/calibration/validation splits of official training.",
+  "final": "Freeze every model before test evaluation; no outer refit. Identical fitting, calibration, selection and test rows for both families.",
+  "bike_leakage": "Exclude instant, dteday, casual, registered. Numeric calendar coordinates mnth/hr/weekday plus weather; categories season/yr/holiday/workingday/weathersit.",
+  "limitation": "Search budgets differ by family; no replica or dictionary fusion; Adult and bike share test rows across optimizer seeds so SD is not independent-test uncertainty."
+}

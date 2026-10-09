@@ -1,0 +1,40 @@
+{
+  "dataset": "bike",
+  "seed": 1,
+  "family": "catboost",
+  "test": {
+    "rmse": 99.52528579304985,
+    "mae": 69.01713052202322,
+    "r2": 0.7962590953513615
+  },
+  "prediction_seconds": 0.007945574005134404,
+  "selection": {
+    "dataset": "bike",
+    "seed": 1,
+    "selected": {
+      "trial": 0,
+      "config": {
+        "depth": 4,
+        "learning_rate": 0.06628209554254995,
+        "l2_leaf_reg": 3.291011466012845,
+        "random_strength": 1.3289744397842593,
+        "bagging_temperature": 0.29213352873921394
+      },
+      "criterion": 83.76893576644942,
+      "iterations": 2998
+    },
+    "calibration": null,
+    "seconds": 2.755874842987396,
+    "counts": {
+      "tr": 10389,
+      "va": 3502,
+      "cal": 0,
+      "te": 3488
+    },
+    "split_info": {
+      "train_end": "2012-03-13",
+      "validation_start": "2012-03-14",
+      "test_start": "2012-08-07"
+    }
+  }
+}

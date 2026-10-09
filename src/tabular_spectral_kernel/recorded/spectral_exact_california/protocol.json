@@ -1,0 +1,26 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "geometry": "Frozen validation-selected canonical one-bank model from prior benchmark; no parameter changes",
+  "decoder": "Exact full-data Laplace kernel ridge with unpenalized intercept; no Nystrom approximation",
+  "ridge_grid": [
+    1e-07,
+    3.162277660168379e-07,
+    1e-06,
+    3.162277660168379e-06,
+    1e-05,
+    3.1622776601683795e-05,
+    0.0001
+  ],
+  "postprocessing_candidates": [
+    "raw",
+    "clip to fitting-label min and max"
+  ],
+  "selection": "Validation only; all seed selections completed before any new test predictions",
+  "refit": "All 16512 outer-training rows; same frozen preprocessing and geometry",
+  "comparison": "Prior tuned CatBoost/LightGBM on exactly the same splits",
+  "scope": "Exploratory repeated-holdout follow-up; practical competitiveness is descriptive, not statistical equivalence"
+}

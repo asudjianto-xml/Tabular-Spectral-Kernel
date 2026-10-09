@@ -1,0 +1,57 @@
+{
+  "dataset": "taiwan",
+  "seed": 0,
+  "kind": "quantile",
+  "training": {
+    "kind": "quantile",
+    "selected_step": 200,
+    "criterion": -0.7857369571328817,
+    "seconds": 37.09726113200304,
+    "p": 170,
+    "numeric_features": 20,
+    "category_contrasts": 10,
+    "train_rows": 19200
+  },
+  "selected": {
+    "ridge": 0.00031622776601683794,
+    "clip": false,
+    "criterion": -0.7864120615977406,
+    "column": 2
+  },
+  "trials": [
+    {
+      "ridge": 3.1622776601683795e-05,
+      "clip": false,
+      "criterion": -0.7825579204364198,
+      "column": 0
+    },
+    {
+      "ridge": 0.0001,
+      "clip": false,
+      "criterion": -0.7859273970490882,
+      "column": 1
+    },
+    {
+      "ridge": 0.00031622776601683794,
+      "clip": false,
+      "criterion": -0.7864120615977406,
+      "column": 2
+    }
+  ],
+  "calibration": {
+    "slope": 5.799229428627752,
+    "intercept": -2.7685024146182315
+  },
+  "max_relative_solve_residual": 1.1728630623611444e-14,
+  "trace_error": 0.0,
+  "min_metric_eigenvalue": 0.0011183317517697983,
+  "split_info": {
+    "split": "stratified 64/8/8/20 train/calibration/validation/test"
+  },
+  "counts": {
+    "tr": 19200,
+    "va": 2400,
+    "cal": 2400,
+    "te": 6000
+  }
+}

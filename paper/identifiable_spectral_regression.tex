@@ -1,0 +1,435 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,bm,booktabs,microtype}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,xurl,graphicx}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\hypersetup{pdftitle={Learning Spectral Geometry for Kernel Regression},pdfsubject={Single-bank spectral kernel regression and classification benchmarks},pdfauthor={Agus Sudjianto and Aijun Zhang},pdfkeywords={kernel ridge regression, spectral representation learning, metric learning, Laplace kernels, tabular learning, identifiable parameterization}}
+\newcommand{\R}{\mathbb R}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\one}{\bm 1}
+\newtheorem{proposition}{Proposition}
+\title{Learning Spectral Geometry for Kernel Regression}
+\author{Agus Sudjianto \and Aijun Zhang}
+\date{October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+Gradient-boosted trees provide a strong benchmark for supervised learning on tabular data. We investigate kernel regression as an alternative in which the representation of similarity is learned separately from the final prediction coefficients. The proposed model combines learned Fourier coordinates, a positive-definite metric and a Laplace kernel. A canonical parameterization removes compensating amplitude, metric and bandwidth scales: the metric has unit trace, amplitudes are derived from its blocks and a symmetric trace-zero matrix parameterizes its shape through a normalized matrix exponential. This algebraic identification does not imply identification of the entire model from finite observations. Geometry is learned from supervised prediction loss and followed by kernel ridge regression. Categorical contrasts extend the representation to mixed inputs, while binary-label regression with separate calibration supports classification. Experiments retain a single spectral bank and a single ridge model for each dataset. The reported comparisons favor the spectral model on California Housing and hourly Bike Sharing. Taiwan credit default shows improved ranking with similar probability quality, while Adult income favors CatBoost. Comparisons of approximate and exact ridge fits show that decoder accuracy and geometry refinement both affect performance. These findings support further study of learned spectral geometry while exposing dataset dependence, unequal tuning budgets and substantial costs from dense matrix exponentiation and exact ridge solves. Reused California holdouts limit comparative claims; transfer across tables remains future work.
+\end{abstract}
+\noindent\textbf{Keywords:} Kernel ridge regression; spectral representation learning; metric learning; Laplace kernels; tabular learning; identifiable parameterization.
+\par\medskip
+
+\section{Introduction}
+Gradient-boosted decision trees (GBDTs) have long been a leading practical choice for supervised learning on tabular data. Systems such as XGBoost \cite{chen2016}, LightGBM \cite{ke2017} and CatBoost \cite{prokhorenkova2018} combine strong predictive performance with efficient implementations. Their practical appeal extends to large datasets: scalable tree-boosting systems are designed to handle substantial training volumes efficiently \cite{chen2016,ke2017}. Heterogeneous features, irrelevant inputs and irregular response functions make tabular prediction challenging across data scales. Benchmark studies on small and medium-sized tables provide additional evidence of the strength of tree methods relative to conventional neural networks within that setting \cite{grinsztajn2022}.
+
+Tabular foundation models have opened another route. Instead of learning a predictor from the beginning for each table, a neural model can be pretrained across many tasks and use a new table's labeled examples as context. TabPFN demonstrates this approach through pretraining on synthetic datasets and prediction on new datasets using in-context learning \cite{hollmann2025}. This development brings a second objective into view: a useful tabular learner should predict well on the current task, while offering a way to reuse what it has learned across tasks.
+
+Conventional boosted trees are designed primarily for the first objective. Their split thresholds and leaf values are fitted to a particular table, its columns and its labels. Each tree partitions that feature space into regions with constant predictions, and the ensemble combines those partitions into a task-specific geometry. A model trained on one schema does not by itself supply a rule for comparing observations in a new table with different columns or meanings. Tree-based transfer requires additional structure beyond that conventional training setup. This motivates studying representations in which the notion of similarity can be expressed and learned separately from the final regression fit.
+
+We explore kernel regression as such an alternative. A kernel assigns a similarity to two observations, and the regression model uses those similarities to predict from labeled examples. With a fixed kernel, ridge regression reduces to a regularized linear solve. Learning can therefore be organized into two parts: learning how observations should be compared, and fitting the coefficients that turn those comparisons into predictions. This separation provides a possible basis for later work on reusable tabular representations. Achieving that goal would still require learning across tasks and handling differences in feature schemas. The present paper establishes a supervised construction that is fitted separately to each dataset.
+
+The central question is how to learn a useful similarity. Euclidean distance on standardized columns treats a one-unit change as equally meaningful wherever it occurs. In housing data, however, the relevance of a change in income, occupancy or location can depend on both its scale and the other attributes of the observation. We build a similarity in three stages: represent variation at several scales, learn which directions matter, and determine how distance controls the influence of training examples.
+
+Variation at several scales is represented through Fourier coordinates. Each numerical input is mapped to sine--cosine pairs with learned frequencies. Low frequencies describe gradual variation; higher frequencies distinguish changes over shorter input intervals. Using several frequencies lets a feature participate at several scales without assigning a separate region to every observed threshold. Fourier coordinates also connect this construction to the spectral representation of stationary kernels. Random Fourier features use that connection to approximate a specified kernel \cite{rahimi2007}, while spectral mixture kernels learn a parametric spectrum \cite{wilson2013}. Here the frequencies are optimized for the regression task. Their use as basis functions does not presume that the target is a periodic phenomenon, although finite Fourier maps can alias distant inputs and require care when extrapolating.
+
+A learned metric then determines distances in Fourier space. Frequencies alone do not say which encoded differences are relevant to the target. A metric stretches some directions and contracts others. Its cross terms allow combinations of features and frequencies to affect distance together. For example, it can distinguish a direction combining changes in location and income from either change considered separately. We also recover feature masses and relative frequency amplitudes from this metric, so that the allocation of weight has a defined mathematical meaning. A full metric can make the resulting kernel nonstationary in the original inputs; the spectral representation remains useful without requiring the final similarity to depend only on input differences.
+
+A Laplace kernel converts the resulting distance into similarity. Similarity decays exponentially with distance, and a learned bandwidth determines how local the comparison is. This gives a positive-semidefinite kernel after the learned transformation \cite{schoenberg1938}. Its linear dependence on distance in the exponent permits a sharper change near coincident observations than the squared distance used in a Gaussian kernel. This makes it a reasonable candidate for tabular responses with rapid local variation. Applying it to a joint distance yields a nonadditive similarity, even when the squared distance is a sum of featurewise contributions. These properties motivate the choice; a controlled comparison with a Gaussian readout remains an empirical question.
+
+Together, the components give
+\begin{equation}
+ k_\theta(x,x')=
+ \exp\!\left[-\frac{\sqrt{(u_\omega(x)-u_\omega(x'))^\top
+ B(u_\omega(x)-u_\omega(x'))}}{T}\right].
+ \label{eq:intro-kernel}
+\end{equation}
+Here $u_\omega$ is the spectral representation, $B$ is the learned metric, and $T$ is the bandwidth. Kernel ridge regression then uses this similarity in an expansion over training observations, with coefficients fitted simultaneously by a regularized solve. This construction belongs to the broader family of learned representations composed with kernels \cite{wilson2016}.
+
+There is a direct parallel with cross-attention: a new observation supplies a query, training observations supply keys and label information supplies values. Both constructions compare the query with the available examples and aggregate value information. Normalizing our Laplace similarities across training examples produces a kernel smoother in softmax cross-attention form. Ridge regression instead adjusts the labels through a solve involving similarities among the training examples. Section~\ref{sec:attention} develops this connection and distinguishes the two readouts. It gives a familiar interpretation of the framework while retaining the ridge estimator used in our experiments.
+
+Putting these components together also requires fixing their scales. Increasing an amplitude and reducing the corresponding metric entries can leave the kernel unchanged. Multiplying the metric by a positive constant can likewise be offset by multiplying the bandwidth by its square root. We remove these redundancies by assigning the metric unit trace, deriving amplitudes and feature masses from its blocks and parameterizing its positive-definite interior through a symmetric trace-zero matrix exponential. The resulting coordinates distinguish representation scale, metric shape and bandwidth without adding compensating parameters.
+
+A single bank here means one Fourier map, one metric and one bandwidth, followed by one ridge fit. We evaluate this construction with four frequencies per feature on California Housing. Across three matched random splits, the refined model with exact ridge decoding achieves mean test root mean squared error (RMSE) of \$42,366, compared with \$43,186 for tuned CatBoost and \$43,568 for tuned LightGBM. The experiments distinguish improvements from replacing an approximate decoder and from further geometry training. They provide an initial test of competitiveness with these GBDT baselines, subject to reused holdouts and unequal tuning budgets. The additional experiments retain one kernel per dataset and extend the representation to categorical predictors. They compare hourly Bike Sharing counts, Taiwan default labels and Adult income labels with tuned CatBoost under fixed selection protocols. Transfer across tables remains a longer-term objective; no cross-task pretraining is evaluated here.
+
+\section{From frequencies to a distance}
+\subsection{The spectral starting point}
+For a continuous real stationary positive-semidefinite kernel with $k(0)=1$, Bochner's theorem gives a symmetric probability measure $\mu$ such that
+\begin{equation}
+ k(x-x')=\int_{\R^d}\cos\bigl(2\pi\xi^\top(x-x')\bigr)\,d\mu(\xi).
+ \label{eq:bochner}
+\end{equation}
+We use frequency in cycles per input unit, hence the factor $2\pi$. A standard account is given by Rasmussen and Williams \cite{rasmussen2006}. Equation~\eqref{eq:bochner} connects a kernel's notion of similarity to the frequencies it contains.
+
+Let $x\in\R^d$ denote an input after a fixed, training-fitted transformation. For feature $j$, choose $K$ positive ordered frequencies and form
+\begin{equation}
+ u_{jk}(x)=\begin{bmatrix}\cos(2\pi\omega_{jk}x_j)\\ \sin(2\pi\omega_{jk}x_j)\end{bmatrix},
+ \qquad u_\omega(x)=\operatorname{col}_{j,k}u_{jk}(x)\in\R^p,
+ \qquad p=2dK.
+ \label{eq:features}
+\end{equation}
+A pair traces a unit circle as $x_j$ varies. Its frequency sets the speed of travel around that circle. For pair weights $q_{jk}\geq0$, the elementary identity
+\begin{equation}
+ \sum_{j,k}q_{jk}\|u_{jk}(x)-u_{jk}(x')\|^2
+ =2\sum_{j,k}q_{jk}\{1-\cos[2\pi\omega_{jk}(x_j-x'_j)]\}
+ \label{eq:chord}
+\end{equation}
+makes the induced stationary distance explicit. With weights summing to one, the corresponding weighted inner product is the atomic version of~\eqref{eq:bochner}.
+
+We learn the frequencies from labels. To remove sign and permutation conventions within each feature, set
+\begin{equation}
+ \omega_{jk}=\sum_{\ell=1}^{k}\exp(\nu_{j\ell}),\qquad k=1,\ldots,K.
+ \label{eq:gaps}
+\end{equation}
+There is no additional learnable input-frequency multiplier. The coordinate origin is fixed by preprocessing, and no phase parameters are introduced. These choices remove redundant descriptions; they do not prevent different frequencies from agreeing on a finite sample.
+
+\subsection{Metric shape and bandwidth}
+Write $\Delta u=u_\omega(x)-u_\omega(x')$. The model is
+\begin{equation}
+ d_B(x,x')^2=\Delta u^\top B\Delta u,
+ \qquad k_\theta(x,x')=\exp\{-d_B(x,x')/T\},
+ \quad B\succeq0,\quad\tr B=1,\quad T>0.
+ \label{eq:kernel}
+\end{equation}
+The eigenvectors of $B$ select directions in Fourier space; its eigenvalues determine their relative stretching. The bandwidth $T$ controls the overall distance scale.
+
+The Euclidean Laplace kernel is positive semidefinite, and composing it with a feature map preserves that property \cite{schoenberg1938}. Specifically, choose $R$ with $RR^\top=B$ and let $z(x)=R^\top u_\omega(x)$. Equation~\eqref{eq:kernel} is $\exp(-\|z(x)-z(x')\|/T)$, so every Gram matrix (the matrix of pairwise kernel evaluations) is positive semidefinite and $k_\theta(x,x)=1$.
+
+The Fourier representation does not make the final model stationary automatically. A block-diagonal metric with an isotropic block for each sine--cosine pair gives the difference-only expression in~\eqref{eq:chord}. A general full metric can also respond to the individual input locations, through unequal within-pair stretching and cross-pair terms. Thus the frequencies in~\eqref{eq:features} describe the representation; they are not, in general, the spectral measure of the final kernel.
+
+\section{Removing redundant scales}
+Suppose a preliminary description has an amplitude matrix $D_0$, a metric $M$, and bandwidth $T_0$. Its squared scaled distance is
+\begin{equation}
+ \frac{\Delta u^\top D_0MD_0\Delta u}{T_0^2}
+ =\Delta u^\top H\Delta u,
+ \qquad H=\frac{D_0MD_0}{T_0^2}.
+\end{equation}
+Only $H$ enters the kernel. Estimating all three scales independently therefore estimates more than the kernel needs.
+
+\begin{proposition}
+For any nonzero positive-semidefinite $H$, the unique decomposition $H=B/T^2$ with $\tr B=1$ and $T>0$ is
+\begin{equation}
+ B=H/\tr H,\qquad T=(\tr H)^{-1/2}.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Taking traces gives $\tr H=1/T^2$, which determines $T$ and then $B$.
+\end{proof}
+
+\subsection{Recovering amplitude and importance}
+Let $B_{jk,jk}$ be the $2\times2$ principal block for pair $(j,k)$. Define
+\begin{equation}
+ w_{jk}=\tr B_{jk,jk},\qquad
+ \rho_j=\sum_k w_{jk},\qquad
+ a_{jk}^2=\frac{w_{jk}}{\rho_j}.
+ \label{eq:masses}
+\end{equation}
+Then $\sum_j\rho_j=1$ and $\sum_k a_{jk}^2=1$ whenever $\rho_j>0$. The feature mass $\rho_j$ records how much of the trace is assigned to feature $j$; $a_{jk}^2$ divides that mass among its frequencies. These are learned through $B$, rather than fitted as extra scales.
+
+For positive pair masses, let $D$ have blocks $\sqrt{w_{jk}/2}\,I_2$. The remaining shape is
+\begin{equation}
+ C=D^{-1}BD^{-1},\qquad B=DCD,\qquad \tr C_{jk,jk}=2.
+ \label{eq:shape}
+\end{equation}
+This is a unique decomposition under the stated block normalization. It separates allocation of mass from within-pair anisotropy and cross-pair coupling. If a pair mass is zero, this inverse is undefined; the zero-mass coordinates must be removed or treated as a boundary case. The positive-definite implementation below avoids that boundary.
+
+Feature mass alone is not predictive importance. A small mass at a high frequency can still produce substantial local sensitivity, and correlated inputs complicate attribution. The quantities in~\eqref{eq:masses} describe the learned representation; they are not causal effects.
+
+\subsection{Unique coordinates for the positive-definite interior}
+Use
+\begin{equation}
+ B(A)=\frac{\exp(A)}{\tr\exp(A)},\qquad A=A^\top,\quad\tr A=0,
+ \qquad T=\exp(\tau).
+ \label{eq:exponential}
+\end{equation}
+Matrix exponential methods for positive-definite trace-one matrices are established \cite{tsuda2005}. Here the trace-zero restriction matters: without it, $A$ and $A+cI$ would give the same $B$.
+
+\begin{proposition}
+Equation~\eqref{eq:exponential} is a bijection between symmetric trace-zero matrices and positive-definite matrices of trace one. Its inverse is
+\begin{equation}
+ A=\log B-\frac{\tr(\log B)}p I.
+ \label{eq:inverse}
+\end{equation}
+\end{proposition}
+\begin{proof}
+The exponential of a real symmetric matrix is positive definite. Normalizing its trace gives an admissible $B$. Conversely, the symmetric logarithm of a positive-definite $B$ exists uniquely. Subtracting its mean eigenvalue gives trace zero, and exponentiating recovers a positive scalar multiple of $B$. Trace normalization removes that scalar. Applying the same logarithm to any preimage gives~\eqref{eq:inverse}.
+\end{proof}
+
+We optimize $p(p+1)/2-1$ coefficients in an orthonormal basis of symmetric trace-zero matrices. This avoids retaining an unused trace direction inside the optimizer. Frequency signs, within-feature ordering, amplitude scales, metric scale and matrix-generator shifts have now been fixed. This does not prove that $(\omega,B,T)$ is globally identifiable from observations: finite-sample aliasing, constant inputs and indistinguishable representations can remain.
+
+\section{What the geometry can express}
+For a small displacement $h$,
+\begin{equation}
+ d_B(x,x+h)^2=h^\top J_u(x)^\top B J_u(x)h+o(\|h\|^2),
+ \label{eq:local}
+\end{equation}
+where $J_u$ is the Fourier-map Jacobian. Thus $J_u(x)^\top B J_u(x)$ is the local metric in input coordinates. In the simple case $B_{jk,jk}=(w_{jk}/2)I_2$ with zero cross blocks, its $j$th diagonal entry is
+\begin{equation}
+ I_j=\frac12\sum_k w_{jk}(2\pi\omega_{jk})^2.
+\end{equation}
+Frequency and mass jointly determine sensitivity. A full $B$ adds cross-feature terms and allows sensitivity to vary with location.
+
+The Laplace readout also makes the kernel nonadditive. Even if $d_B^2$ is a sum of featurewise distances, applying $\exp(-\sqrt{\cdot}/T)$ to that sum generally cannot be written as a sum of separate feature kernels. Consequently, a ridge expansion can express interactions. The bandwidth controls how that joint distance becomes similarity; it is not a separate interaction-order parameter.
+
+The Euclidean Laplace kernel has a cusp at zero distance, whereas the squared-exponential kernel is smooth there. Their stationary spectra have different tails: under angular-frequency convention, the Laplace spectral density in $p$ dimensions is proportional to $(T^{-2}+\|\xi\|^2)^{-(p+1)/2}$, while the Gaussian spectrum decays exponentially in squared frequency \cite{rasmussen2006}. These observations motivate testing Laplace similarity; they do not establish that it must outperform a Gaussian readout. The experiment below does not include that ablation.
+
+\section{Learning and regression}
+\subsection{Learning a geometry with support and query sets}
+Geometry parameters are trained using labeled support and query episodes. With disjoint sets $S,Q$, normalized targets $\widetilde y$, and support mean $\overline y_S$, predict
+\begin{align}
+ \widehat{\widetilde y}^{\rm ep}_q
+ &=\overline y_S+k_{qS}(G_{SS}+\eta I)^{-1}
+       (\widetilde y_S-\overline y_S\one),\\
+ \mathcal L&=\frac1{|Q|}\sum_{q\in Q}
+  (\widehat{\widetilde y}^{\rm ep}_q-\widetilde y_q)^2
+       +\frac{10^{-4}}p\|A\|_F^2.
+ \label{eq:episode}
+\end{align}
+Here $k_{qS}$ is a row of kernel evaluations and $\eta>0$ is learned. Gradients pass through the support solve, Fourier map and matrix exponential. Query error rewards a geometry that supports prediction beyond the rows used in that episode's solve. All labels used for this stage belong to the designated fitting pool.
+
+\subsection{Exact regression after geometry selection}
+For fixed geometry and $\lambda>0$, fit an unpenalized intercept and a regularized function in the reproducing kernel Hilbert space (RKHS) of $k_\theta$:
+\begin{equation}
+ \min_{b\in\R,\,f\in\mathcal H_{k_\theta}}
+ \frac1n\sum_i(\widetilde y_i-b-f(x_i))^2+\lambda\|f\|_{\mathcal H_{k_\theta}}^2.
+\end{equation}
+The representer theorem gives a finite kernel expansion \cite{scholkopf2001}. For $G_{ij}=k_\theta(x_i,x_j)$ and $C_\lambda=G+n\lambda I$, its solution is
+\begin{equation}
+ b=\frac{\one^\top C_\lambda^{-1}\widetilde y}
+          {\one^\top C_\lambda^{-1}\one},\qquad
+ \alpha=C_\lambda^{-1}(\widetilde y-b\one),\qquad
+ \one^\top\alpha=0.
+ \label{eq:ridge}
+\end{equation}
+Two right-hand sides share one Cholesky factorization; we never form the inverse explicitly. In original target units,
+\begin{equation}
+ \widehat y(x)=\mu_y+\sigma_y\left[b+\sum_i\alpha_i k_\theta(x,x_i)\right].
+\end{equation}
+The final free intercept differs from the support mean in episodic training. Likewise, $\eta$ is the episodic diagonal shift, whereas $n\lambda$ is the shift associated with the final mean-loss objective. They are not interchangeable tuning parameters.
+
+Nystr\"om approximation reduces the cost by representing the kernel through a subset of training observations, called landmarks \cite{williams2001}. We use it during checkpoint selection and compare it with exact decoding. Fourier dimension $p$ is not a rank bound for the Laplace Gram matrix: the nonlinear readout can produce a full-rank Gram matrix even from a compact embedding. A small Fourier representation therefore does not guarantee that a small landmark set preserves its predictive accuracy.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Fitting one spectral kernel. The final ridge coefficients are fitted after geometry selection.}\label{tab:workflow}
+\begin{tabular}{p{.21\linewidth}p{.70\linewidth}}\toprule
+Stage & Operation\\\midrule
+Preprocessing & Fit input and target transformations on the inner-training rows.\\
+Geometry training & Draw disjoint support and query rows; compute Fourier coordinates and the normalized matrix exponential; differentiate query error through the support solve.\\
+Validation & Select a geometry checkpoint, the final ridge penalty and optional output clipping using validation predictions.\\
+Final fit & Freeze these choices, refit geometry for the selected number of steps on the outer-training pool, then fit the exact ridge head.\\
+Prediction & Cache the selected metric transform and training embeddings; evaluate query similarities and apply the fitted coefficients.\\\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{The connection to cross-attention}\label{sec:attention}
+Consider a set of query observations $X_*$ and a labeled training set $X$. In cross-attention, query representations are compared with key representations from a context set, and the resulting weights combine the associated values. Scaled dot-product attention has the form \cite{vaswani2017}
+\begin{equation}
+ \operatorname{Att}(\mathsf Q,\mathsf K,\mathsf V)
+ =\operatorname{softmax}_{\rm row}
+   \left(\frac{\mathsf Q\mathsf K^\top}{\sqrt{d_k}}\right)\mathsf V,
+ \label{eq:standard-attention}
+\end{equation}
+where $d_k$ is the key dimension. Query and context rows can come from different sets, which is the relevant meaning of cross-attention here. The symbols $\mathsf Q,\mathsf K$ denote representation matrices, not the episode sets or the number of frequencies.
+
+Our learned embedding $z(x)=B^{1/2}u_\omega(x)$ provides a shared representation for queries and keys. Define the cross-kernel matrix $G_{*X}$ and the distance score $S$ by
+\begin{equation}
+ S_{qi}=-\frac{\|z(x_q^*)-z(x_i)\|_2}{T},\qquad
+ (G_{*X})_{qi}=e^{S_{qi}}.
+\end{equation}
+Replacing the dot-product score in~\eqref{eq:standard-attention} with $S$ gives
+\begin{equation}
+ W_{\rm att}=\operatorname{diag}(G_{*X}\one)^{-1}G_{*X}
+             =\operatorname{softmax}_{\rm row}(S),\qquad
+ \widehat{\widetilde y}_*^{\rm NW}=W_{\rm att}\widetilde y.
+ \label{eq:laplace-attention}
+\end{equation}
+With raw normalized labels as scalar values, this is a Nadaraya--Watson kernel smoother \cite{nadaraya1964,watson1964}. Its weights are positive and sum to one for each query. The benchmark in this paper uses the ridge readout below. Equation~\eqref{eq:laplace-attention} is a distance-score attention identity; it does not identify our Laplace score with the conventional dot-product score.
+
+For comparison, the implemented ridge predictor in normalized target units is
+\begin{equation}
+ \widehat{\widetilde y}_*^{\rm ridge}
+ =b\one_*+G_{*X}\underbrace{(G+n\lambda I)^{-1}
+                         (\widetilde y-b\one)}_{\alpha}.
+ \label{eq:ridge-attention}
+\end{equation}
+The query--key similarities are again $G_{*X}$. The quantities being aggregated are now the fitted coefficients $\alpha$. They depend jointly on the labels and the training-to-training Gram matrix $G$, rather than on a separate encoding of each label. The inverse is shorthand for the linear solve. It adjusts for overlap among kernel functions centered on the training observations, with regularization controlling that adjustment. There is no row-wise softmax normalization in~\eqref{eq:ridge-attention}.
+
+An equivalent expression makes the weights on the original labels explicit. For fixed geometry and $\lambda$, set
+\begin{equation}
+ c=C_\lambda^{-1}\one,\qquad s=\one^\top c,\qquad
+ P=C_\lambda^{-1}-\frac{cc^\top}{s}.
+\end{equation}
+Substitution of~\eqref{eq:ridge} yields
+\begin{equation}
+ \widehat{\widetilde y}_*^{\rm ridge}=W_{\rm ridge}\widetilde y,
+ \qquad W_{\rm ridge}=G_{*X}P+\frac{\one_*c^\top}{s},
+ \qquad W_{\rm ridge}\one=\one_*.
+ \label{eq:effective-ridge-weights}
+\end{equation}
+The last identity follows from $P\one=0$. Thus the unpenalized intercept makes the effective ridge weights sum to one, but some weights can be negative. This differs from the positive normalized weights of the smoother. It also distinguishes these effective label weights from the expansion coefficients $\alpha$, whose sum is zero. The identity holds conditional on the learned geometry and before optional output clipping; the full training procedure learns geometry from labels and is not globally linear in those labels.
+
+The parallel separates two decisions: how to compare queries with training examples, and how to turn those comparisons into a prediction. Spectral features, the metric and the bandwidth determine the comparison in either formulation. Normalized aggregation and the regularized ridge solve then give different estimators. The benchmark evaluates the ridge estimator. Replacing its context-dependent coefficients with a normalized average changes the regression problem and requires a separate empirical comparison.
+
+\subsection{Categorical inputs and binary responses}\label{sec:mixed}
+A numerical Fourier map assigns meaning to input differences. Applying it directly to arbitrary category codes would make the distance depend on the numbering of those categories. For a categorical field with $c$ levels observed in the fitting pool, let $e_v\in\R^c$ be its indicator vector and let $H\in\R^{c\times(c-1)}$ have orthonormal columns perpendicular to $\one$. The categorical coordinates are $H^\top e_v$. This removes the constant direction of a full indicator encoding. A previously unseen level maps to zero, the centroid of the fitted level coordinates; a missing category is represented as an explicit level when present in training.
+
+For mixed inputs, the representation concatenates the numerical Fourier pairs with these fixed categorical coordinates:
+\begin{equation}
+ u(x)=\operatorname{col}\bigl(u_\omega(x_{\rm num}),
+                 H_1^\top e_{v_1},\ldots,H_C^\top e_{v_C}\bigr).
+\end{equation}
+Here $C$ is the number of categorical fields. One full trace-one metric acts on the concatenated representation, so the categorical fields can participate in cross terms with numerical features. The matrix-exponential parameterization and Laplace kernel are unchanged. Pair amplitudes in~\eqref{eq:masses} apply to the numerical Fourier blocks; a categorical field's trace mass is the trace of its corresponding principal block. These blocks together account for the entire metric trace.
+
+A binary target can be fitted with the same squared-error geometry objective and ridge head. For $y\in\{0,1\}$, the population squared-error minimizer is the conditional probability, although a fitted ridge score $s(x)$ need not lie in $[0,1]$. The classification experiments therefore use $s(x)$ for ranking and fit a sigmoid on a separate calibration set $\mathcal C$:
+\begin{align}
+ p(x)&=\{1+\exp[-(a s(x)+b_c)]\}^{-1},\\
+ (\widehat a,\widehat b_c)
+ &=\arg\min_{a,b_c}\sum_{i\in\mathcal C}
+       \{-y_i\log p(x_i)-(1-y_i)\log[1-p(x_i)]\}
+       +\frac{a^2}{2\mathcal R},\qquad \mathcal R=10^6.
+\end{align}
+The implementation uses logistic regression with an unpenalized intercept and weak slope regularization. Calibration rows are excluded from geometry training, ridge fitting and model selection. The same calibration procedure is applied to CatBoost's raw classification scores. Positive fitted slopes preserve score rankings; all reported calibration fits have positive slopes.
+
+\section{California Housing experiment}
+\subsection{Data and selection protocol}
+California Housing contains 20,640 observations with eight numerical inputs; its source is the housing data studied by Pace and Barry \cite{pace1997}. We use the scikit-learn representation, with targets in units of \$100,000. For seeds $0,1,2$, random 80/20 splits yield 16,512 outer-training rows and 4,128 test rows. An inner 80/20 split, using random state $1000+s$, gives 13,209 fitting rows and 3,303 validation rows. Every comparator uses the same saved row indices. Input standardization and target mean and standard deviation are fitted only on the inner-fitting rows.
+
+The selected spectral model has one bank, four frequencies per feature and $p=64$ coordinates. It has 2,079 metric coefficients, 32 frequency-gap coefficients and one log-bandwidth: 2,112 geometry parameters. Training adds one episodic diagonal-shift parameter, referred to as noise in the implementation. Neither tree predictions nor tree-derived features enter this model.
+
+The starting checkpoint comes from an earlier eight-configuration validation search. Each selected checkpoint used standardization, four frequencies initialized on a geometric grid between $0.025$ and $0.5$, and 300 training steps with 384 support and 256 query rows. Refinement starts from that saved checkpoint and uses 1,536 support and 512 query rows for up to 800 further steps. The recipe was chosen using seed zero's validation set and fixed for the remaining seeds. Appendix~\ref{app:training} gives optimizer details.
+
+Checkpoints are compared every 200 steps using 2,048-landmark validation regression. For the selected checkpoint, an exact head chooses $\lambda$ from the nine-value grid $\{10^{-7+\ell/2}:\ell=0,\ldots,8\}$ and chooses whether to clip predictions to the fitting-label range. All three splits select step 800 and clipping. Their chosen $\lambda$ values are $10^{-6}$, $10^{-5.5}$ and $10^{-6}$.
+
+After freezing those selections, each final run restarts from the same original checkpoint and performs the selected 800 refinement steps on all outer-training rows. The inner-fitted transformations are retained to preserve the warm-start coordinates. The exact head is then fitted on all outer-training rows. All three geometry checkpoints were saved before the new test evaluation. A separate ablation freezes the inner-refined geometry and refits only the head.
+
+LightGBM \cite{ke2017} and CatBoost \cite{prokhorenkova2018} each receive a 16-configuration Sobol validation search, a 4,000-iteration cap, and early stopping with patience 150. Each selected tree model is refitted on all outer-training rows for its selected iteration count. The search and computation budgets differ across methods. Earlier exploratory work also used these test splits, so freezing the final selections does not make them untouched confirmatory holdouts.
+
+\subsection{Results}
+Table~\ref{tab:results} reports mean and sample standard deviation across splits for RMSE and the coefficient of determination $R^2$. The refined model with full geometry refitting has mean RMSE \$820 below the retained tuned CatBoost baseline, a relative reduction of $1.90\%$. It has lower RMSE on each of the three matched splits (Table~\ref{tab:splits}).
+
+\begin{table}[htbp]
+\centering\small
+\caption{California Housing test performance. All spectral rows use a single bank with four frequencies per feature. Standard deviations describe three overlapping random splits.}\label{tab:results}
+\begin{tabular}{lrr}\toprule
+Model & RMSE (dollars) & $R^2$ \\\midrule
+Original spectral, Nystr\"om (2,048) & $46{,}517\pm1{,}380$ & $.8361\pm.0084$\\
+Original spectral, exact head & $44{,}816\pm1{,}477$ & $.8479\pm.0088$\\
+Refined spectral, frozen geometry & $42{,}444\pm1{,}112$ & $.8636\pm.0055$\\
+Refined spectral, full refit & $\mathbf{42{,}366}\pm1{,}211$ & $\mathbf{.8641}\pm.0060$\\
+Tuned LightGBM & $43{,}568\pm488$ & $.8563\pm.0026$\\
+Tuned CatBoost & $43{,}186\pm932$ & $.8588\pm.0050$\\\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Matched test RMSE in dollars. ``Frozen'' holds the inner-refined geometry fixed while fitting the exact head on all outer-training rows.}\label{tab:splits}
+\begin{tabular}{rrrr}\toprule
+Split seed & Spectral full refit & Spectral frozen & CatBoost\\\midrule
+0 & 41,004 & 41,183 & 42,111\\
+1 & 42,771 & 42,863 & 43,772\\
+2 & 43,323 & 43,286 & 43,674\\\bottomrule
+\end{tabular}
+\end{table}
+
+Replacing the initial approximate decoder with an exact head reduces mean RMSE by about \$1,700 without changing that geometry. This comparison measures the practical decoder pipeline change, including validation selection of its regularizer and clipping; it is not a fixed-regularizer numerical approximation experiment. Further geometry refinement reduces error by roughly another \$2,372 with geometry held fixed during the outer refit. That refinement changes support size, learning rates and optimization budget jointly, so these results cannot isolate the effect of any one change. Refining geometry on the full outer-training pool provides a smaller additional mean reduction of about \$78.
+
+On these California splits, the compact spectral geometry is competitive with the retained tuned tree baselines when paired with an exact decoder and further geometry training. This California comparison does not show statistical superiority or establish transfer to other datasets; the added task experiments are reported separately in Section~\ref{sec:extended}.
+
+\subsection{The fitted representation}
+Figure~\ref{fig:geometry} shows the full-refit model for split zero, specified by the split index rather than selected for its geometry. The metric assigns approximately $44.96\%$ of its trace to latitude and $31.48\%$ to longitude, a combined $76.44\%$. The allocation describes the Fourier-space distance. It does not measure the fraction of predictive accuracy attributable to those variables. The local sensitivity in~\eqref{eq:local} also depends on frequencies and cross terms.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\linewidth]{identifiable_spectral_geometry.pdf}
+\caption{Saved single-bank geometry for split zero after the full refit. Left: each feature's metric trace mass $\rho_j$. Right: its four learned frequencies in cycles per standardized input unit; marker area is proportional to the within-feature mass $a_{jk}^2$. The panels are computed from the audited checkpoint diagnostics without additional fitting.}\label{fig:geometry}
+\end{figure}
+
+\subsection{Computation and numerical checks}
+The symmetric matrix exponential is evaluated through
+\begin{equation}
+ R(A)=\frac{\exp(A/2)}{\|\exp(A/2)\|_F},\qquad RR^\top=B(A),
+ \qquad z(x)=R(A)^\top u_\omega(x).
+ \label{eq:root}
+\end{equation}
+This is an exact matrix-function identity, evaluated numerically in floating point. It does not use a truncated spectral representation of $B$ or a low-rank approximation to the exponential. Appendix~\ref{app:derivative} records its derivative structure for later computational work.
+
+A dense matrix exponential costs $O(p^3)$ arithmetic. Transforming $n$ embeddings costs $O(np^2)$; forming all pairwise distances costs $O(n^2p)$. Exact ridge factorization costs $O(n^3)$ and requires $O(n^2)$ storage. These are separate computational costs: reducing the ridge support size does not simplify the matrix exponential. At $n=16{,}512$, one float64 Gram matrix occupies about 2.18 GB (2.03 GiB), before factors, cross-kernels and workspace.
+
+Once the geometry is frozen, $R(A)$ and the training embeddings can be cached. Prediction then requires Fourier evaluation, the fixed linear transform and kernel evaluations, with no new matrix exponential. During training, changing $A$ requires updating the exponential and differentiating through it. The reported timings do not isolate this operation, so they establish neither its share of total runtime nor a speedup from an alternative parameterization.
+
+On the NVIDIA GB10 GPU in float64, mean additional geometry-selection time was 165.9 seconds per split, full geometry refitting took 136.0 seconds, and exact final head fitting plus prediction took 8.9 seconds. These figures exclude the original initialization search and unsuccessful exploratory candidates. They are not end-to-end training costs or an equal-compute comparison with the tree models.
+
+The saved audit recomputes metrics from predictions, checks identical split indices, verifies the canonical constraints and inverse, and checks relative exact-solve residuals below $10^{-9}$. Source snapshots, selection records and predictions accompany the results. This numerical verification supports the reported implementation; it cannot remove the limitations of the experimental design.
+
+\input{identifiable_spectral_extended_results}
+
+\section{Discussion}
+The construction separates the geometry learned from labels from the final regularized fit. The parameterization makes several interpretations precise. Frequencies describe variation along individual inputs. Pair masses describe how the metric allocates its trace. The full matrix couples the resulting coordinates, and a single bandwidth sets the remaining scale. Once these conventions are fixed, a change in amplitude cannot be silently canceled by an independent metric rescaling.
+
+That clarity has a computational price. Dense matrix exponentiation grows cubically with representation dimension, and exact decoding grows cubically with training size. The present $64$-dimensional metric is manageable; larger representations require a deliberate approximation strategy. Such approximations should be judged by both prediction error and their effect on the canonical geometry. The decoder comparison shows why low representation dimension alone is insufficient evidence that a chosen landmark count is adequate.
+
+The California holdouts have been reused during exploratory development, and its selected refinement recipe benefited from earlier searches. The additional datasets use the frozen protocol in Section~\ref{sec:extended}, but they do not establish performance across arbitrary tables. Geographic blocking for California, further datasets, comparisons under matched budgets and controlled frequency, metric and readout ablations remain open. In particular, the experiment does not separately establish the value of learned frequencies over fixed frequencies, a full metric over a diagonal metric, or Laplace over Gaussian similarity.
+
+The added datasets distinguish ranking performance from probability quality. On Taiwan, the spectral model has higher mean AUC while the two calibrated log losses are nearly equal. The chronological Bike Sharing comparison favors the spectral model on that holdout, but it uses one time boundary and observed weather.
+
+Adult exposes a limitation of the fitted single-bank model. Its mean test AUC is 0.9147 versus 0.9274 for CatBoost, and its calibrated log loss is 0.3153 versus 0.2775. The construction therefore does not provide a uniform improvement over boosted trees. Each reported fit uses one spectral map, one metric and one bandwidth across its training population. Whether the Adult gap arises from this shared geometry, preprocessing, the training objective or incomplete optimization remains unresolved. The comparison does not establish excessive kernel smoothness as its cause.
+
+\section{Conclusion}
+A learned Fourier map, a trace-normalized metric and a Laplace readout give a direct construction of a regression kernel. Canonical block masses recover amplitude and feature allocation without adding compensating scales, while a trace-zero matrix exponential gives unique coordinates for the positive-definite metric. On the reported California Housing splits, exact decoding and geometry refinement bring a single-bank model below the retained tuned CatBoost and LightGBM baselines in mean RMSE. The additional tasks show lower Bike Sharing error, similar Taiwan probability quality and lower Adult performance relative to CatBoost under the stated protocols. The decoder comparison identifies an immediate requirement for subsequent approximations: preserving a compact embedding alone is insufficient; the approximation must also preserve the regression fit that makes that geometry useful.
+
+\appendix
+\section{Optimizer coordinates and refinement settings}\label{app:training}
+For diagonal coordinates, use the $p-1$ Helmert vectors $h_r$, $r=1,\ldots,p-1$: the first $r$ entries equal $1/\sqrt{r(r+1)}$, entry $r+1$ equals $-r/\sqrt{r(r+1)}$, and the rest are zero. Together with symmetric off-diagonal basis elements,
+\begin{equation}
+ A=\sum_{r=1}^{p-1}\beta_r\operatorname{diag}(h_r)
+   +\sum_{a<b}\gamma_{ab}\frac{e_ae_b^\top+e_be_a^\top}{\sqrt2}.
+\end{equation}
+This basis is orthonormal under the Frobenius inner product and has no free trace direction. For $p=64$, it contains $63+2{,}016=2{,}079$ coefficients.
+
+The initial search combines standard or quantile preprocessing, $K\in\{4,8\}$, and two paired settings of learning rate and initial maximum frequency: $(0.02,0.5)$ and $(0.04,1.5)$. All three selected initial models use standardization, $K=4$, and the first pair. Initial validation uses 512 landmarks; a subsequent rank selection compares 512, 1,024 and 2,048, selecting 2,048 on every split.
+
+Refinement uses Adam with initial learning rate $0.003$ for diagonal metric coefficients, $\tau$ and log-noise, and $0.0006$ for off-diagonal coefficients and frequency gaps. At step $t$, both rates are multiplied by $0.2+0.4[1+\cos(\pi t/800)]$. The gradient norm is clipped at 10. Log-gaps are bounded to $[-9,2]$, $\tau$ to $[-5,3]$, and noise to $[10^{-4},1]$, initialized at $0.1$. If the eigenvalue spread of $A$ exceeds 20, its coordinates are uniformly rescaled to spread 20. Since $\kappa(B)=\exp(\lambda_{\max}(A)-\lambda_{\min}(A))$, this bounds the metric condition number by $e^{20}$. Checkpoint validation uses the same nine-value ridge grid as exact-head selection.
+
+\section{Matrix-exponential differentiation}\label{app:derivative}
+For a symmetric perturbation $E$, define the Fr\'echet derivative
+\begin{equation}
+ L_A[E]=\left.\frac{d}{dt}\exp(A+tE)\right|_{t=0}
+       =\int_0^1\exp((1-s)A)E\exp(sA)\,ds.
+\end{equation}
+Numerical methods for this derivative are studied by Al-Mohy and Higham \cite{almohy2009}. Applying the quotient rule to~\eqref{eq:exponential} gives
+\begin{equation}
+ DB(A)[E]=\frac{L_A[E]-B(A)\tr L_A[E]}{\tr\exp(A)}.
+\end{equation}
+Its trace is zero, as required for a perturbation along the unit-trace surface. If $A=Q\operatorname{diag}(a)Q^\top$, the equivalent expression is
+\begin{equation}
+ L_A[E]=Q\bigl(F\odot(Q^\top EQ)\bigr)Q^\top,\qquad
+ F_{rs}=\begin{cases}
+ (e^{a_r}-e^{a_s})/(a_r-a_s),&a_r\ne a_s,\\
+ e^{a_r},&a_r=a_s.
+ \end{cases}
+\end{equation}
+The repeated-eigenvalue case uses the continuous divided-difference limit. This formula states the mathematical derivative; it does not prescribe the internal algorithm of the automatic-differentiation library. Dense computation and differentiation of the exponential remain part of the reported implementation. No faster matrix-function approximation is evaluated in this paper.
+
+\section{Code and reproducibility}\label{app:repro}
+The implementation, recorded checkpoints, prediction arrays and manuscript are available at \url{https://github.com/asudjianto-xml/Tabular-Spectral-Kernel}. Release \texttt{v0.1.0} contains the single-bank experiments reported here. Installation instructions and the distinction between verification, replay and training are given in \path{README.md} and \path{REPRODUCIBILITY.md}.
+
+The package accepts data and output directories from the command line. Public datasets are downloaded into the specified cache; no author-specific directory is required. A small synthetic CPU run checks differentiation through the matrix exponential and ridge solve. For example:
+\begin{verbatim}
+tsk smoke --device cpu --output runs/install-check
+tsk verify --output runs/recorded-audit
+tsk download --dataset all --data-dir data
+tsk reproduce --dataset bike --mode replay --seeds 0 \
+  --device auto --data-dir data --output runs/bike-replay
+\end{verbatim}
+
+Verification recomputes per-run metrics from the bundled predictions, checks split separation and artifact hashes, and exports aggregated results as a CSV file. The \texttt{assets} command regenerates the learned-geometry figure. Replay loads the recorded geometry and rebuilds its exact ridge head from the public data, comparing predictions with the saved arrays. Training repeats the documented fitting protocol and can produce different results across numerical platforms.
+
+Source files are under \path{src/tabular_spectral_kernel/}, with the experiment implementations in \path{_paper/} and the saved evidence in \path{recorded/}. California training uses the published inner-training warm starts by default. Its initialization search can also be rerun, but the historical adaptive refinement screen is not reconstructed: the release retains the selected single-bank recipe. The additional-task commands repeat preprocessing selection, geometry fitting, ridge selection, tree tuning and calibration before test evaluation.
+
+The recorded environment uses PyTorch 2.13.0+cu130, NumPy 1.26.4, scikit-learn 1.6.1, CatBoost 1.2.10 and LightGBM 4.7.0. The repository records these versions separately from the supported installation dependencies. CPU execution is available, but the dense exact heads still require quadratic memory and cubic factorization work. Reference metadata and the claims checked against primary sources are recorded in \path{paper/identifiable_spectral_reference_audit.json}.
+
+\bibliographystyle{plain}
+\bibliography{identifiable_spectral_regression}
+\end{document}

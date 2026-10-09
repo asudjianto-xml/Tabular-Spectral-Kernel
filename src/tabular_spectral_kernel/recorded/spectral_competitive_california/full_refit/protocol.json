@@ -1,0 +1,12 @@
+{
+  "primary": "Refit geometry and exact ridge on all outer-training rows",
+  "ablation": "Validation-trained frozen geometry with exact ridge refit on all outer-training rows",
+  "recipe": "Locked seed-zero validation recipe; per-seed checkpoint length, gamma and clipping chosen on inner validation",
+  "initialization": "Same previous inner-trained one-bank canonical checkpoint as refinement selection",
+  "preprocessing": "Keep inner-training-fitted scaling and target normalization for warm-start coordinate consistency",
+  "training": "Same optimizer, constraints, episode size and schedule as validation training; selected number of steps; episodes now draw from all outer-training rows",
+  "schedule": "Use original planned 800-step cosine denominator, stopping at selected step",
+  "randomness": "Same generator seed and initial fixed-subset draw as validation training, now on outer-training pool",
+  "evaluation": "Save all three refit models before any test evaluation; no further test-based choices",
+  "scope": "Exploratory reused holdouts, not independent equivalence evidence"
+}

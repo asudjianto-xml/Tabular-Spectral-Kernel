@@ -1,0 +1,10 @@
+{
+  "kind": "standard",
+  "selected_step": 0,
+  "criterion": -0.7806827422138792,
+  "seconds": 36.62093071700656,
+  "p": 170,
+  "numeric_features": 20,
+  "category_contrasts": 10,
+  "train_rows": 19200
+}

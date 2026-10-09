@@ -1,0 +1,10 @@
+{
+  "kind": "quantile",
+  "selected_step": 200,
+  "criterion": 91.4465105523766,
+  "seconds": 30.4159615690005,
+  "p": 65,
+  "numeric_features": 7,
+  "category_contrasts": 9,
+  "train_rows": 10389
+}

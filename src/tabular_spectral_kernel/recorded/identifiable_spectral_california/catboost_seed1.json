@@ -1,0 +1,23 @@
+{
+  "seed": 1,
+  "model": "catboost",
+  "config": {
+    "depth": 8,
+    "learning_rate": 0.02521739671636607,
+    "l2_leaf_reg": 1.081053642882806,
+    "random_strength": 0.05133618811424486,
+    "bagging_temperature": 0.41951183043420315
+  },
+  "selected_iterations": 3156,
+  "validation_rmse": 0.4340396158656661,
+  "test": {
+    "rmse": 0.43772379956595636,
+    "rmse_dollars": 43772.379956595636,
+    "mae_dollars": 28054.631608728276,
+    "r2": 0.853927375000821
+  },
+  "selection_seconds": 58.82672431200626,
+  "final_fit_and_predict_seconds": 5.311239066009875,
+  "total_seconds": 64.13796371399076,
+  "version": "1.2.10"
+}

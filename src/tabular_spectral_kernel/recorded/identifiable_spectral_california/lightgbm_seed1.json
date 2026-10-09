@@ -1,0 +1,27 @@
+{
+  "seed": 1,
+  "model": "lightgbm",
+  "config": {
+    "num_leaves": 31,
+    "max_depth": 8,
+    "learning_rate": 0.020413704424816655,
+    "min_child_samples": 8,
+    "colsample_bytree": 0.9210841652005911,
+    "subsample": 0.8598414642270654,
+    "subsample_freq": 1,
+    "reg_alpha": 0.03576045138010862,
+    "reg_lambda": 4.1595575705329155
+  },
+  "selected_iterations": 2932,
+  "validation_rmse": 0.43907267211509066,
+  "test": {
+    "rmse": 0.4386065062005339,
+    "rmse_dollars": 43860.650620053384,
+    "mae_dollars": 28197.975689940024,
+    "r2": 0.8533376456611842
+  },
+  "selection_seconds": 7.651280728023266,
+  "final_fit_and_predict_seconds": 1.0965311189938802,
+  "total_seconds": 8.747812343004625,
+  "version": "4.7.0"
+}

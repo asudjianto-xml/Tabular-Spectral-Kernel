@@ -1,0 +1,1165 @@
+{
+  "summary": {
+    "bike": {
+      "spectral": {
+        "rmse": {
+          "mean": 92.60974642857332,
+          "std": 1.2451197738556283
+        },
+        "mae": {
+          "mean": 64.23398630728701,
+          "std": 0.8788021729349323
+        },
+        "r2": {
+          "mean": 0.8235681099338148,
+          "std": 0.004734854078089188
+        }
+      },
+      "catboost": {
+        "rmse": {
+          "mean": 107.44942491705898,
+          "std": 6.868061999867395
+        },
+        "mae": {
+          "mean": 75.7765515394782,
+          "std": 5.913325289806372
+        },
+        "r2": {
+          "mean": 0.7618772658421454,
+          "std": 0.029802436066365137
+        }
+      }
+    },
+    "taiwan": {
+      "spectral": {
+        "auc": {
+          "mean": 0.7873024944669506,
+          "std": 0.002074152132330807
+        },
+        "log_loss": {
+          "mean": 0.42767114495006364,
+          "std": 0.002449384190693726
+        },
+        "accuracy": {
+          "mean": 0.8213333333333334,
+          "std": 0.0024551533104426653
+        },
+        "brier": {
+          "mean": 0.1338547835248692,
+          "std": 0.0009090200422362967
+        }
+      },
+      "catboost": {
+        "auc": {
+          "mean": 0.7827751044940463,
+          "std": 0.0027017379705479676
+        },
+        "log_loss": {
+          "mean": 0.4275975438890353,
+          "std": 0.0014112861567654718
+        },
+        "accuracy": {
+          "mean": 0.8212777777777777,
+          "std": 0.0013368010461684572
+        },
+        "brier": {
+          "mean": 0.13396352100670492,
+          "std": 0.0004982049706277573
+        }
+      }
+    },
+    "adult": {
+      "spectral": {
+        "auc": {
+          "mean": 0.9147065346492695,
+          "std": 0.0004900458028840308
+        },
+        "log_loss": {
+          "mean": 0.31532355223658526,
+          "std": 0.0016996564174676227
+        },
+        "accuracy": {
+          "mean": 0.8620068382367996,
+          "std": 0.0007580823692882719
+        },
+        "brier": {
+          "mean": 0.09826693219295167,
+          "std": 0.0005820585207243657
+        }
+      },
+      "catboost": {
+        "auc": {
+          "mean": 0.9273682152218403,
+          "std": 0.0005460243758756896
+        },
+        "log_loss": {
+          "mean": 0.27748271565658095,
+          "std": 0.0008373573221789806
+        },
+        "accuracy": {
+          "mean": 0.8736359355485944,
+          "std": 0.0006903636263164544
+        },
+        "brier": {
+          "mean": 0.08799676747705014,
+          "std": 0.00021469320113644212
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "dataset": "bike",
+      "seed": 0,
+      "family": "spectral",
+      "test": {
+        "rmse": 91.26304494597895,
+        "mae": 63.22320698282631,
+        "r2": 0.8286826796251501
+      },
+      "prediction_seconds": 0.5260120930033736,
+      "selection": {
+        "dataset": "bike",
+        "seed": 0,
+        "kind": "standard",
+        "training": {
+          "kind": "standard",
+          "selected_step": 200,
+          "criterion": 91.17433815420323,
+          "seconds": 31.192641153989825,
+          "p": 65,
+          "numeric_features": 7,
+          "category_contrasts": 9,
+          "train_rows": 10389
+        },
+        "selected": {
+          "ridge": 1e-06,
+          "clip": false,
+          "criterion": 81.92461989174652,
+          "column": 0
+        },
+        "trials": [
+          {
+            "ridge": 1e-06,
+            "clip": false,
+            "criterion": 81.92461989174652,
+            "column": 0
+          },
+          {
+            "ridge": 1e-06,
+            "clip": true,
+            "criterion": 81.92461989174652,
+            "column": 0
+          },
+          {
+            "ridge": 3.162277660168379e-06,
+            "clip": false,
+            "criterion": 82.2192297414224,
+            "column": 1
+          },
+          {
+            "ridge": 3.162277660168379e-06,
+            "clip": true,
+            "criterion": 82.2192297414224,
+            "column": 1
+          },
+          {
+            "ridge": 1e-05,
+            "clip": false,
+            "criterion": 83.18668832511125,
+            "column": 2
+          },
+          {
+            "ridge": 1e-05,
+            "clip": true,
+            "criterion": 83.18668832511125,
+            "column": 2
+          }
+        ],
+        "calibration": null,
+        "max_relative_solve_residual": 1.7913730310573326e-13,
+        "trace_error": 4.440892098500626e-16,
+        "min_metric_eigenvalue": 0.0009725197506268996,
+        "split_info": {
+          "train_end": "2012-03-13",
+          "validation_start": "2012-03-14",
+          "test_start": "2012-08-07"
+        },
+        "counts": {
+          "tr": 10389,
+          "va": 3502,
+          "cal": 0,
+          "te": 3488
+        }
+      }
+    },
+    {
+      "dataset": "bike",
+      "seed": 0,
+      "family": "catboost",
+      "test": {
+        "rmse": 111.68770090826699,
+        "mae": 78.31955026111616,
+        "r2": 0.7434204343488924
+      },
+      "prediction_seconds": 0.011751231999369338,
+      "selection": {
+        "dataset": "bike",
+        "seed": 0,
+        "selected": {
+          "trial": 8,
+          "config": {
+            "depth": 4,
+            "learning_rate": 0.06628209554254995,
+            "l2_leaf_reg": 3.291011466012845,
+            "random_strength": 1.3289744397842593,
+            "bagging_temperature": 0.29213352873921394
+          },
+          "criterion": 96.49457533587297,
+          "iterations": 2971
+        },
+        "calibration": null,
+        "seconds": 74.41048728700844,
+        "counts": {
+          "tr": 10389,
+          "va": 3502,
+          "cal": 0,
+          "te": 3488
+        },
+        "split_info": {
+          "train_end": "2012-03-13",
+          "validation_start": "2012-03-14",
+          "test_start": "2012-08-07"
+        }
+      }
+    },
+    {
+      "dataset": "bike",
+      "seed": 1,
+      "family": "spectral",
+      "test": {
+        "rmse": 93.71912422044177,
+        "mae": 64.81707492116566,
+        "r2": 0.8193375869714543
+      },
+      "prediction_seconds": 0.05694348399993032,
+      "selection": {
+        "dataset": "bike",
+        "seed": 1,
+        "kind": "standard",
+        "training": {
+          "kind": "standard",
+          "selected_step": 200,
+          "criterion": 95.05534354482184,
+          "seconds": 30.75337595900055,
+          "p": 65,
+          "numeric_features": 7,
+          "category_contrasts": 9,
+          "train_rows": 10389
+        },
+        "selected": {
+          "ridge": 3.162277660168379e-06,
+          "clip": false,
+          "criterion": 85.21734340793564,
+          "column": 0
+        },
+        "trials": [
+          {
+            "ridge": 3.162277660168379e-06,
+            "clip": false,
+            "criterion": 85.21734340793564,
+            "column": 0
+          },
+          {
+            "ridge": 3.162277660168379e-06,
+            "clip": true,
+            "criterion": 85.21734340793564,
+            "column": 0
+          },
+          {
+            "ridge": 1e-05,
+            "clip": false,
+            "criterion": 86.15160981803827,
+            "column": 1
+          },
+          {
+            "ridge": 1e-05,
+            "clip": true,
+            "criterion": 86.15160981803827,
+            "column": 1
+          },
+          {
+            "ridge": 3.1622776601683795e-05,
+            "clip": false,
+            "criterion": 88.60850562549827,
+            "column": 2
+          },
+          {
+            "ridge": 3.1622776601683795e-05,
+            "clip": true,
+            "criterion": 88.60850562549827,
+            "column": 2
+          }
+        ],
+        "calibration": null,
+        "max_relative_solve_residual": 1.3838967281594068e-13,
+        "trace_error": 4.440892098500626e-16,
+        "min_metric_eigenvalue": 0.0010455525110444094,
+        "split_info": {
+          "train_end": "2012-03-13",
+          "validation_start": "2012-03-14",
+          "test_start": "2012-08-07"
+        },
+        "counts": {
+          "tr": 10389,
+          "va": 3502,
+          "cal": 0,
+          "te": 3488
+        }
+      }
+    },
+    {
+      "dataset": "bike",
+      "seed": 1,
+      "family": "catboost",
+      "test": {
+        "rmse": 99.52528579304985,
+        "mae": 69.01713052202322,
+        "r2": 0.7962590953513615
+      },
+      "prediction_seconds": 0.007945574005134404,
+      "selection": {
+        "dataset": "bike",
+        "seed": 1,
+        "selected": {
+          "trial": 0,
+          "config": {
+            "depth": 4,
+            "learning_rate": 0.06628209554254995,
+            "l2_leaf_reg": 3.291011466012845,
+            "random_strength": 1.3289744397842593,
+            "bagging_temperature": 0.29213352873921394
+          },
+          "criterion": 83.76893576644942,
+          "iterations": 2998
+        },
+        "calibration": null,
+        "seconds": 2.755874842987396,
+        "counts": {
+          "tr": 10389,
+          "va": 3502,
+          "cal": 0,
+          "te": 3488
+        },
+        "split_info": {
+          "train_end": "2012-03-13",
+          "validation_start": "2012-03-14",
+          "test_start": "2012-08-07"
+        }
+      }
+    },
+    {
+      "dataset": "bike",
+      "seed": 2,
+      "family": "spectral",
+      "test": {
+        "rmse": 92.84707011929926,
+        "mae": 64.66167701786905,
+        "r2": 0.8226840632048401
+      },
+      "prediction_seconds": 0.05677521100733429,
+      "selection": {
+        "dataset": "bike",
+        "seed": 2,
+        "kind": "standard",
+        "training": {
+          "kind": "standard",
+          "selected_step": 200,
+          "criterion": 94.48738467411071,
+          "seconds": 31.42486187600298,
+          "p": 65,
+          "numeric_features": 7,
+          "category_contrasts": 9,
+          "train_rows": 10389
+        },
+        "selected": {
+          "ridge": 1e-06,
+          "clip": false,
+          "criterion": 84.65926230321294,
+          "column": 0
+        },
+        "trials": [
+          {
+            "ridge": 1e-06,
+            "clip": false,
+            "criterion": 84.65926230321294,
+            "column": 0
+          },
+          {
+            "ridge": 1e-06,
+            "clip": true,
+            "criterion": 84.65926230321294,
+            "column": 0
+          },
+          {
+            "ridge": 3.162277660168379e-06,
+            "clip": false,
+            "criterion": 84.95716943386113,
+            "column": 1
+          },
+          {
+            "ridge": 3.162277660168379e-06,
+            "clip": true,
+            "criterion": 84.95716943386113,
+            "column": 1
+          },
+          {
+            "ridge": 1e-05,
+            "clip": false,
+            "criterion": 85.93815489210692,
+            "column": 2
+          },
+          {
+            "ridge": 1e-05,
+            "clip": true,
+            "criterion": 85.93815489210692,
+            "column": 2
+          }
+        ],
+        "calibration": null,
+        "max_relative_solve_residual": 1.7843194582855184e-13,
+        "trace_error": 2.220446049250313e-16,
+        "min_metric_eigenvalue": 0.0009734368041382931,
+        "split_info": {
+          "train_end": "2012-03-13",
+          "validation_start": "2012-03-14",
+          "test_start": "2012-08-07"
+        },
+        "counts": {
+          "tr": 10389,
+          "va": 3502,
+          "cal": 0,
+          "te": 3488
+        }
+      }
+    },
+    {
+      "dataset": "bike",
+      "seed": 2,
+      "family": "catboost",
+      "test": {
+        "rmse": 111.13528804986011,
+        "mae": 79.99297383529522,
+        "r2": 0.7459522678261825
+      },
+      "prediction_seconds": 0.008196805982152,
+      "selection": {
+        "dataset": "bike",
+        "seed": 2,
+        "selected": {
+          "trial": 0,
+          "config": {
+            "depth": 4,
+            "learning_rate": 0.06628209554254995,
+            "l2_leaf_reg": 3.291011466012845,
+            "random_strength": 1.3289744397842593,
+            "bagging_temperature": 0.29213352873921394
+          },
+          "criterion": 94.97875067335742,
+          "iterations": 3000
+        },
+        "calibration": null,
+        "seconds": 3.2072076740150806,
+        "counts": {
+          "tr": 10389,
+          "va": 3502,
+          "cal": 0,
+          "te": 3488
+        },
+        "split_info": {
+          "train_end": "2012-03-13",
+          "validation_start": "2012-03-14",
+          "test_start": "2012-08-07"
+        }
+      }
+    },
+    {
+      "dataset": "taiwan",
+      "seed": 0,
+      "family": "spectral",
+      "test": {
+        "auc": 0.7884752488723319,
+        "log_loss": 0.42515507359208216,
+        "accuracy": 0.824,
+        "brier": 0.13294939086207913
+      },
+      "prediction_seconds": 0.29259739199187607,
+      "selection": {
+        "dataset": "taiwan",
+        "seed": 0,
+        "kind": "quantile",
+        "training": {
+          "kind": "quantile",
+          "selected_step": 200,
+          "criterion": -0.7857369571328817,
+          "seconds": 37.09726113200304,
+          "p": 170,
+          "numeric_features": 20,
+          "category_contrasts": 10,
+          "train_rows": 19200
+        },
+        "selected": {
+          "ridge": 0.00031622776601683794,
+          "clip": false,
+          "criterion": -0.7864120615977406,
+          "column": 2
+        },
+        "trials": [
+          {
+            "ridge": 3.1622776601683795e-05,
+            "clip": false,
+            "criterion": -0.7825579204364198,
+            "column": 0
+          },
+          {
+            "ridge": 0.0001,
+            "clip": false,
+            "criterion": -0.7859273970490882,
+            "column": 1
+          },
+          {
+            "ridge": 0.00031622776601683794,
+            "clip": false,
+            "criterion": -0.7864120615977406,
+            "column": 2
+          }
+        ],
+        "calibration": {
+          "slope": 5.799229428627752,
+          "intercept": -2.7685024146182315
+        },
+        "max_relative_solve_residual": 1.1728630623611444e-14,
+        "trace_error": 0.0,
+        "min_metric_eigenvalue": 0.0011183317517697983,
+        "split_info": {
+          "split": "stratified 64/8/8/20 train/calibration/validation/test"
+        },
+        "counts": {
+          "tr": 19200,
+          "va": 2400,
+          "cal": 2400,
+          "te": 6000
+        }
+      },
+      "uncalibrated_auc": 0.7884752488723319
+    },
+    {
+      "dataset": "taiwan",
+      "seed": 0,
+      "family": "catboost",
+      "test": {
+        "auc": 0.7821072359919762,
+        "log_loss": 0.4261436842472512,
+        "accuracy": 0.8226666666666667,
+        "brier": 0.13342996419271447
+      },
+      "prediction_seconds": 0.009498425992205739,
+      "selection": {
+        "dataset": "taiwan",
+        "seed": 0,
+        "selected": {
+          "trial": 5,
+          "config": {
+            "depth": 10,
+            "learning_rate": 0.04652592186464945,
+            "l2_leaf_reg": 5.839240567777281,
+            "random_strength": 0.8603856841203931,
+            "bagging_temperature": 0.5668001510202885
+          },
+          "criterion": -0.7903538655776325,
+          "iterations": 98
+        },
+        "calibration": {
+          "slope": 1.0854297401912516,
+          "intercept": 0.11650568341724406
+        },
+        "seconds": 30.80362695202348,
+        "counts": {
+          "tr": 19200,
+          "va": 2400,
+          "cal": 2400,
+          "te": 6000
+        },
+        "split_info": {
+          "split": "stratified 64/8/8/20 train/calibration/validation/test"
+        }
+      },
+      "uncalibrated_auc": 0.7821072359919762
+    },
+    {
+      "dataset": "taiwan",
+      "seed": 1,
+      "family": "spectral",
+      "test": {
+        "auc": 0.7849076393416557,
+        "log_loss": 0.42781046636491926,
+        "accuracy": 0.8191666666666667,
+        "brier": 0.1338475716786769
+      },
+      "prediction_seconds": 0.25833337899530306,
+      "selection": {
+        "dataset": "taiwan",
+        "seed": 1,
+        "kind": "quantile",
+        "training": {
+          "kind": "quantile",
+          "selected_step": 400,
+          "criterion": -0.7839081293661373,
+          "seconds": 37.415310654003406,
+          "p": 170,
+          "numeric_features": 20,
+          "category_contrasts": 10,
+          "train_rows": 19200
+        },
+        "selected": {
+          "ridge": 0.00031622776601683794,
+          "clip": false,
+          "criterion": -0.7841711178218509,
+          "column": 1
+        },
+        "trials": [
+          {
+            "ridge": 0.0001,
+            "clip": false,
+            "criterion": -0.7810535458602492,
+            "column": 0
+          },
+          {
+            "ridge": 0.00031622776601683794,
+            "clip": false,
+            "criterion": -0.7841711178218509,
+            "column": 1
+          },
+          {
+            "ridge": 0.001,
+            "clip": false,
+            "criterion": -0.7839171979335757,
+            "column": 2
+          }
+        ],
+        "calibration": {
+          "slope": 5.183644719123387,
+          "intercept": -2.6443274266575
+        },
+        "max_relative_solve_residual": 8.713186546226191e-15,
+        "trace_error": 4.440892098500626e-16,
+        "min_metric_eigenvalue": 0.0006378434040585019,
+        "split_info": {
+          "split": "stratified 64/8/8/20 train/calibration/validation/test"
+        },
+        "counts": {
+          "tr": 19200,
+          "va": 2400,
+          "cal": 2400,
+          "te": 6000
+        }
+      },
+      "uncalibrated_auc": 0.7849076393416557
+    },
+    {
+      "dataset": "taiwan",
+      "seed": 1,
+      "family": "catboost",
+      "test": {
+        "auc": 0.7804699381768085,
+        "log_loss": 0.4276869411830932,
+        "accuracy": 0.82,
+        "brier": 0.13404403068996612
+      },
+      "prediction_seconds": 0.008015542000066489,
+      "selection": {
+        "dataset": "taiwan",
+        "seed": 1,
+        "selected": {
+          "trial": 0,
+          "config": {
+            "depth": 10,
+            "learning_rate": 0.04652592186464945,
+            "l2_leaf_reg": 5.839240567777281,
+            "random_strength": 0.8603856841203931,
+            "bagging_temperature": 0.5668001510202885
+          },
+          "criterion": -0.7816455217902561,
+          "iterations": 65
+        },
+        "calibration": {
+          "slope": 1.0655456157178202,
+          "intercept": 0.009676717063841538
+        },
+        "seconds": 3.365108013007557,
+        "counts": {
+          "tr": 19200,
+          "va": 2400,
+          "cal": 2400,
+          "te": 6000
+        },
+        "split_info": {
+          "split": "stratified 64/8/8/20 train/calibration/validation/test"
+        }
+      },
+      "uncalibrated_auc": 0.7804699381768085
+    },
+    {
+      "dataset": "taiwan",
+      "seed": 2,
+      "family": "spectral",
+      "test": {
+        "auc": 0.7885245951868639,
+        "log_loss": 0.43004789489318945,
+        "accuracy": 0.8208333333333333,
+        "brier": 0.13476738803385158
+      },
+      "prediction_seconds": 0.2584332349942997,
+      "selection": {
+        "dataset": "taiwan",
+        "seed": 2,
+        "kind": "quantile",
+        "training": {
+          "kind": "quantile",
+          "selected_step": 400,
+          "criterion": -0.7733644082910889,
+          "seconds": 37.64308580500074,
+          "p": 170,
+          "numeric_features": 20,
+          "category_contrasts": 10,
+          "train_rows": 19200
+        },
+        "selected": {
+          "ridge": 0.00031622776601683794,
+          "clip": false,
+          "criterion": -0.7696452880227399,
+          "column": 2
+        },
+        "trials": [
+          {
+            "ridge": 3.1622776601683795e-05,
+            "clip": false,
+            "criterion": -0.7582602054131287,
+            "column": 0
+          },
+          {
+            "ridge": 0.0001,
+            "clip": false,
+            "criterion": -0.7663473523309745,
+            "column": 1
+          },
+          {
+            "ridge": 0.00031622776601683794,
+            "clip": false,
+            "criterion": -0.7696452880227399,
+            "column": 2
+          }
+        ],
+        "calibration": {
+          "slope": 6.15212337532025,
+          "intercept": -2.88240941401456
+        },
+        "max_relative_solve_residual": 1.460165096265417e-14,
+        "trace_error": 2.220446049250313e-16,
+        "min_metric_eigenvalue": 0.0006203192462928286,
+        "split_info": {
+          "split": "stratified 64/8/8/20 train/calibration/validation/test"
+        },
+        "counts": {
+          "tr": 19200,
+          "va": 2400,
+          "cal": 2400,
+          "te": 6000
+        }
+      },
+      "uncalibrated_auc": 0.7885245951868639
+    },
+    {
+      "dataset": "taiwan",
+      "seed": 2,
+      "family": "catboost",
+      "test": {
+        "auc": 0.7857481393133541,
+        "log_loss": 0.4289620062367614,
+        "accuracy": 0.8211666666666667,
+        "brier": 0.1344165681374341
+      },
+      "prediction_seconds": 0.009850331000052392,
+      "selection": {
+        "dataset": "taiwan",
+        "seed": 2,
+        "selected": {
+          "trial": 0,
+          "config": {
+            "depth": 10,
+            "learning_rate": 0.04652592186464945,
+            "l2_leaf_reg": 5.839240567777281,
+            "random_strength": 0.8603856841203931,
+            "bagging_temperature": 0.5668001510202885
+          },
+          "criterion": -0.7699717564505224,
+          "iterations": 184
+        },
+        "calibration": {
+          "slope": 1.1628156324300918,
+          "intercept": 0.19941076071646333
+        },
+        "seconds": 5.418614163994789,
+        "counts": {
+          "tr": 19200,
+          "va": 2400,
+          "cal": 2400,
+          "te": 6000
+        },
+        "split_info": {
+          "split": "stratified 64/8/8/20 train/calibration/validation/test"
+        }
+      },
+      "uncalibrated_auc": 0.7857481393133541
+    },
+    {
+      "dataset": "adult",
+      "seed": 0,
+      "family": "spectral",
+      "test": {
+        "auc": 0.9152718525307156,
+        "log_loss": 0.3142660671778447,
+        "accuracy": 0.8628462625145875,
+        "brier": 0.09763246301932607
+      },
+      "prediction_seconds": 0.7692336610052735,
+      "selection": {
+        "dataset": "adult",
+        "seed": 0,
+        "kind": "standard",
+        "training": {
+          "kind": "standard",
+          "selected_step": 200,
+          "criterion": -0.9209864495737639,
+          "seconds": 37.31770423499984,
+          "p": 142,
+          "numeric_features": 6,
+          "category_contrasts": 94,
+          "train_rows": 26048
+        },
+        "selected": {
+          "ridge": 3.1622776601683795e-05,
+          "clip": false,
+          "criterion": -0.9218911179514265,
+          "column": 1
+        },
+        "trials": [
+          {
+            "ridge": 1e-05,
+            "clip": false,
+            "criterion": -0.9214795299438012,
+            "column": 0
+          },
+          {
+            "ridge": 3.1622776601683795e-05,
+            "clip": false,
+            "criterion": -0.9218911179514265,
+            "column": 1
+          },
+          {
+            "ridge": 0.0001,
+            "clip": false,
+            "criterion": -0.9209699447915034,
+            "column": 2
+          }
+        ],
+        "calibration": {
+          "slope": 6.394372541060605,
+          "intercept": -3.185488336060805
+        },
+        "max_relative_solve_residual": 6.939917000856589e-13,
+        "trace_error": 0.0,
+        "min_metric_eigenvalue": 0.0006170111202481688,
+        "split_info": {
+          "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+        },
+        "counts": {
+          "tr": 26048,
+          "va": 3257,
+          "cal": 3256,
+          "te": 16281
+        }
+      },
+      "uncalibrated_auc": 0.9152718525307156
+    },
+    {
+      "dataset": "adult",
+      "seed": 0,
+      "family": "catboost",
+      "test": {
+        "auc": 0.9267388966567911,
+        "log_loss": 0.27842533658191804,
+        "accuracy": 0.874393464774891,
+        "brier": 0.08823355507712076
+      },
+      "prediction_seconds": 0.02718226599972695,
+      "selection": {
+        "dataset": "adult",
+        "seed": 0,
+        "selected": {
+          "trial": 4,
+          "config": {
+            "depth": 5,
+            "learning_rate": 0.08180883137913998,
+            "l2_leaf_reg": 1.576463679468054,
+            "random_strength": 0.012401048409338937,
+            "bagging_temperature": 1.5490523725748062
+          },
+          "criterion": -0.9345683380509504,
+          "iterations": 317
+        },
+        "calibration": {
+          "slope": 1.0120535843758907,
+          "intercept": 0.033676345931611805
+        },
+        "seconds": 156.3226230859873,
+        "counts": {
+          "tr": 26048,
+          "va": 3257,
+          "cal": 3256,
+          "te": 16281
+        },
+        "split_info": {
+          "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+        }
+      },
+      "uncalibrated_auc": 0.9267388966567911
+    },
+    {
+      "dataset": "adult",
+      "seed": 1,
+      "family": "spectral",
+      "test": {
+        "auc": 0.9144452452806596,
+        "log_loss": 0.3144204686765354,
+        "accuracy": 0.8618021006080707,
+        "brier": 0.09839212831399008
+      },
+      "prediction_seconds": 0.745488510990981,
+      "selection": {
+        "dataset": "adult",
+        "seed": 1,
+        "kind": "standard",
+        "training": {
+          "kind": "standard",
+          "selected_step": 200,
+          "criterion": -0.9110526337506293,
+          "seconds": 37.42663584600086,
+          "p": 141,
+          "numeric_features": 6,
+          "category_contrasts": 93,
+          "train_rows": 26048
+        },
+        "selected": {
+          "ridge": 1e-05,
+          "clip": false,
+          "criterion": -0.91267887057775,
+          "column": 1
+        },
+        "trials": [
+          {
+            "ridge": 3.162277660168379e-06,
+            "clip": false,
+            "criterion": -0.910358917121236,
+            "column": 0
+          },
+          {
+            "ridge": 1e-05,
+            "clip": false,
+            "criterion": -0.91267887057775,
+            "column": 1
+          },
+          {
+            "ridge": 3.1622776601683795e-05,
+            "clip": false,
+            "criterion": -0.9125664317485992,
+            "column": 2
+          }
+        ],
+        "calibration": {
+          "slope": 6.836197782295389,
+          "intercept": -3.3781564975857803
+        },
+        "max_relative_solve_residual": 2.1383707076976005e-12,
+        "trace_error": 5.551115123125783e-16,
+        "min_metric_eigenvalue": 0.001113721628054471,
+        "split_info": {
+          "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+        },
+        "counts": {
+          "tr": 26048,
+          "va": 3257,
+          "cal": 3256,
+          "te": 16281
+        }
+      },
+      "uncalibrated_auc": 0.9144452452806596
+    },
+    {
+      "dataset": "adult",
+      "seed": 1,
+      "family": "catboost",
+      "test": {
+        "auc": 0.9277162095731919,
+        "log_loss": 0.2771978633080943,
+        "accuracy": 0.873042196425281,
+        "brier": 0.08794194957617325
+      },
+      "prediction_seconds": 0.02652781701181084,
+      "selection": {
+        "dataset": "adult",
+        "seed": 1,
+        "selected": {
+          "trial": 0,
+          "config": {
+            "depth": 5,
+            "learning_rate": 0.08180883137913998,
+            "l2_leaf_reg": 1.576463679468054,
+            "random_strength": 0.012401048409338937,
+            "bagging_temperature": 1.5490523725748062
+          },
+          "criterion": -0.922307863703508,
+          "iterations": 304
+        },
+        "calibration": {
+          "slope": 1.1559149179361372,
+          "intercept": 0.0887970259209092
+        },
+        "seconds": 3.262697418977041,
+        "counts": {
+          "tr": 26048,
+          "va": 3257,
+          "cal": 3256,
+          "te": 16281
+        },
+        "split_info": {
+          "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+        }
+      },
+      "uncalibrated_auc": 0.9277162095731919
+    },
+    {
+      "dataset": "adult",
+      "seed": 2,
+      "family": "spectral",
+      "test": {
+        "auc": 0.9144025061364336,
+        "log_loss": 0.3172841208553757,
+        "accuracy": 0.8613721515877403,
+        "brier": 0.09877620524553885
+      },
+      "prediction_seconds": 0.7571351380029228,
+      "selection": {
+        "dataset": "adult",
+        "seed": 2,
+        "kind": "standard",
+        "training": {
+          "kind": "standard",
+          "selected_step": 800,
+          "criterion": -0.9192570578575142,
+          "seconds": 37.79451321501983,
+          "p": 142,
+          "numeric_features": 6,
+          "category_contrasts": 94,
+          "train_rows": 26048
+        },
+        "selected": {
+          "ridge": 3.1622776601683795e-05,
+          "clip": false,
+          "criterion": -0.9196093318038902,
+          "column": 1
+        },
+        "trials": [
+          {
+            "ridge": 1e-05,
+            "clip": false,
+            "criterion": -0.919068284410408,
+            "column": 0
+          },
+          {
+            "ridge": 3.1622776601683795e-05,
+            "clip": false,
+            "criterion": -0.9196093318038902,
+            "column": 1
+          },
+          {
+            "ridge": 0.0001,
+            "clip": false,
+            "criterion": -0.9193880645667083,
+            "column": 2
+          }
+        ],
+        "calibration": {
+          "slope": 6.394706029109735,
+          "intercept": -3.2956857039005834
+        },
+        "max_relative_solve_residual": 8.768375981917247e-13,
+        "trace_error": 2.220446049250313e-16,
+        "min_metric_eigenvalue": 0.00023605343988056024,
+        "split_info": {
+          "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+        },
+        "counts": {
+          "tr": 26048,
+          "va": 3257,
+          "cal": 3256,
+          "te": 16281
+        }
+      },
+      "uncalibrated_auc": 0.9144025061364336
+    },
+    {
+      "dataset": "adult",
+      "seed": 2,
+      "family": "catboost",
+      "test": {
+        "auc": 0.9276495394355381,
+        "log_loss": 0.27682494707973054,
+        "accuracy": 0.8734721454456115,
+        "brier": 0.08781479777785636
+      },
+      "prediction_seconds": 0.026519561011809856,
+      "selection": {
+        "dataset": "adult",
+        "seed": 2,
+        "selected": {
+          "trial": 0,
+          "config": {
+            "depth": 5,
+            "learning_rate": 0.08180883137913998,
+            "l2_leaf_reg": 1.576463679468054,
+            "random_strength": 0.012401048409338937,
+            "bagging_temperature": 1.5490523725748062
+          },
+          "criterion": -0.9312346299215197,
+          "iterations": 488
+        },
+        "calibration": {
+          "slope": 1.049390916660974,
+          "intercept": -0.04898614180664333
+        },
+        "seconds": 4.656716792000225,
+        "counts": {
+          "tr": 26048,
+          "va": 3257,
+          "cal": 3256,
+          "te": 16281
+        },
+        "split_info": {
+          "split": "Official Adult test partition; training partition split 80/10/10 into fit/calibration/validation"
+        }
+      },
+      "uncalibrated_auc": 0.9276495394355381
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "config": {
+    "name": "h1_warm_large_query",
+    "banks": 1,
+    "atoms": 4,
+    "preprocessing": "standard",
+    "objective": "query",
+    "steps": 800,
+    "support": 1536,
+    "lr": 0.003,
+    "reg": 0.0001,
+    "init": "previous"
+  },
+  "validation_rmse": 0.4252863418984608,
+  "selection_seed": 0,
+  "selection_note": "Adaptive screen: log NLML completed; standard NLML stopped after validation degradation; two unstarted candidates omitted. Larger-query warm start selected from completed validation evidence."
+}
