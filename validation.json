@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-09",
+  "tests_passed": 9,
+  "reference_replay": {
+    "models": 21,
+    "primary_spectral_models": 12,
+    "additional_task_catboost_models": 9,
+    "max_absolute_prediction_error": 0.0,
+    "results": [
+      {
+        "dataset": "california",
+        "seed": 0,
+        "test": {
+          "rmse": 0.41004313639327605,
+          "rmse_dollars": 41004.31363932761,
+          "mae_dollars": 25882.21637499902,
+          "r2": 0.8710573706155318
+        },
+        "residual": 1.308959950230699e-12,
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "california",
+        "seed": 1,
+        "test": {
+          "rmse": 0.42770877032500554,
+          "rmse_dollars": 42770.87703250055,
+          "mae_dollars": 26033.427056007007,
+          "r2": 0.8605351305829168
+        },
+        "residual": 6.199953187931084e-13,
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "california",
+        "seed": 2,
+        "test": {
+          "rmse": 0.43323093814031727,
+          "rmse_dollars": 43323.09381403173,
+          "mae_dollars": 26894.369481096543,
+          "r2": 0.8606639589932278
+        },
+        "residual": 1.447667743233847e-12,
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "bike",
+        "seed": 0,
+        "family": "spectral",
+        "test": {
+          "rmse": 91.26304494597895,
+          "mae": 63.22320698282631,
+          "r2": 0.8286826796251501
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "bike",
+        "seed": 0,
+        "family": "catboost",
+        "test": {
+          "rmse": 111.68770090826699,
+          "mae": 78.31955026111616,
+          "r2": 0.7434204343488924
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "bike",
+        "seed": 1,
+        "family": "spectral",
+        "test": {
+          "rmse": 93.71912422044177,
+          "mae": 64.81707492116566,
+          "r2": 0.8193375869714543
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "bike",
+        "seed": 1,
+        "family": "catboost",
+        "test": {
+          "rmse": 99.52528579304985,
+          "mae": 69.01713052202322,
+          "r2": 0.7962590953513615
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "bike",
+        "seed": 2,
+        "family": "spectral",
+        "test": {
+          "rmse": 92.84707011929926,
+          "mae": 64.66167701786905,
+          "r2": 0.8226840632048401
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "bike",
+        "seed": 2,
+        "family": "catboost",
+        "test": {
+          "rmse": 111.13528804986011,
+          "mae": 79.99297383529522,
+          "r2": 0.7459522678261825
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "taiwan",
+        "seed": 0,
+        "family": "spectral",
+        "test": {
+          "auc": 0.7884752488723319,
+          "log_loss": 0.42515507359208216,
+          "accuracy": 0.824,
+          "brier": 0.13294939086207913
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "taiwan",
+        "seed": 0,
+        "family": "catboost",
+        "test": {
+          "auc": 0.7821072359919762,
+          "log_loss": 0.4261436842472512,
+          "accuracy": 0.8226666666666667,
+          "brier": 0.13342996419271447
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "taiwan",
+        "seed": 1,
+        "family": "spectral",
+        "test": {
+          "auc": 0.7849076393416557,
+          "log_loss": 0.42781046636491926,
+          "accuracy": 0.8191666666666667,
+          "brier": 0.1338475716786769
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "taiwan",
+        "seed": 1,
+        "family": "catboost",
+        "test": {
+          "auc": 0.7804699381768085,
+          "log_loss": 0.4276869411830932,
+          "accuracy": 0.82,
+          "brier": 0.13404403068996612
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "taiwan",
+        "seed": 2,
+        "family": "spectral",
+        "test": {
+          "auc": 0.7885245951868639,
+          "log_loss": 0.43004789489318945,
+          "accuracy": 0.8208333333333333,
+          "brier": 0.13476738803385158
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "taiwan",
+        "seed": 2,
+        "family": "catboost",
+        "test": {
+          "auc": 0.7857481393133541,
+          "log_loss": 0.4289620062367614,
+          "accuracy": 0.8211666666666667,
+          "brier": 0.1344165681374341
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "adult",
+        "seed": 0,
+        "family": "spectral",
+        "test": {
+          "auc": 0.9152718525307156,
+          "log_loss": 0.3142660671778447,
+          "accuracy": 0.8628462625145875,
+          "brier": 0.09763246301932607
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "adult",
+        "seed": 0,
+        "family": "catboost",
+        "test": {
+          "auc": 0.9267388966567911,
+          "log_loss": 0.27842533658191804,
+          "accuracy": 0.874393464774891,
+          "brier": 0.08823355507712076
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "adult",
+        "seed": 1,
+        "family": "spectral",
+        "test": {
+          "auc": 0.9144452452806596,
+          "log_loss": 0.3144204686765354,
+          "accuracy": 0.8618021006080707,
+          "brier": 0.09839212831399008
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "adult",
+        "seed": 1,
+        "family": "catboost",
+        "test": {
+          "auc": 0.9277162095731919,
+          "log_loss": 0.2771978633080943,
+          "accuracy": 0.873042196425281,
+          "brier": 0.08794194957617325
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "adult",
+        "seed": 2,
+        "family": "spectral",
+        "test": {
+          "auc": 0.9144025061364336,
+          "log_loss": 0.3172841208553757,
+          "accuracy": 0.8613721515877403,
+          "brier": 0.09877620524553885
+        },
+        "max_replay_error": 0.0
+      },
+      {
+        "dataset": "adult",
+        "seed": 2,
+        "family": "catboost",
+        "test": {
+          "auc": 0.9276495394355381,
+          "log_loss": 0.27682494707973054,
+          "accuracy": 0.8734721454456115,
+          "brier": 0.08781479777785636
+        },
+        "max_replay_error": 0.0
+      }
+    ]
+  },
+  "saved_prediction_verification": {
+    "prediction_sets": 36,
+    "artifact_hashes": 220
+  },
+  "limitations": [
+    "Reference replay used verified local copies of the public inputs; fresh network downloads are checked separately in GitHub Actions.",
+    "Full optimization was not rerun for release packaging; regression and classification training pipelines were exercised on small fixtures.",
+    "Exact ridge replay still requires substantial memory."
+  ],
+  "clean_cpu_replay": {
+    "dataset": "bike",
+    "seed": 0,
+    "results": [
+      {
+        "dataset": "bike",
+        "seed": 0,
+        "family": "spectral",
+        "test": {
+          "rmse": 91.2630449459783,
+          "mae": 63.22320698282541,
+          "r2": 0.8286826796251525
+        },
+        "max_replay_error": 5.468336894409731e-11
+      },
+      {
+        "dataset": "bike",
+        "seed": 0,
+        "family": "catboost",
+        "test": {
+          "rmse": 111.68770090826699,
+          "mae": 78.31955026111616,
+          "r2": 0.7434204343488924
+        },
+        "max_replay_error": 0.0
+      }
+    ],
+    "environment": {
+      "python": "3.12.3",
+      "platform": "Linux-6.14.0-1015-nvidia-aarch64-with-glibc2.39",
+      "device": "cpu",
+      "packages": {
+        "torch": "2.5.1",
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "scikit-learn": "1.9.1",
+        "pandas": "3.0.6",
+        "catboost": "1.2.10",
+        "lightgbm": "4.7.0"
+      }
+    }
+  }
+}

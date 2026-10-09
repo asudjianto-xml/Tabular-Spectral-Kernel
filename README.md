@@ -134,6 +134,7 @@ There is no out-of-core or hundred-million-row training claim in this release.
 - [LaTeX source](paper/identifiable_spectral_regression.tex)
 - [Reproduction details and source map](REPRODUCIBILITY.md)
 - [Recorded results](src/tabular_spectral_kernel/recorded/)
+- [Release validation](validation.json)
 
 The original single-model findings are dataset-dependent: the reported regression
 comparisons favor the spectral model, Taiwan has higher ranking AUC with similar

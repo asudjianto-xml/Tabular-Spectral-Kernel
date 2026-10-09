@@ -27,7 +27,7 @@ def _download(url,path):
     raise RuntimeError(f'Cannot download {url}. Check network access or place the original archive at {path}.') from error
 
 def _member(archive,suffix):
-    matches=[n for n in archive.namelist() if n.lower().endswith(suffix.lower())]
+    matches=[n for n in archive.namelist() if (Path(n).suffix.lower()==suffix.lower() if suffix.startswith('.') else Path(n).name.lower()==suffix.lower())]
     if len(matches)!=1:raise ValueError(f'Expected one {suffix} in archive; found {matches}')
     return archive.read(matches[0])
 

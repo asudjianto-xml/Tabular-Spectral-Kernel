@@ -19,3 +19,18 @@ def test_download_rejects_modified_cached_inputs(tmp_path):
     import pytest
     for name in ['adult.data','adult.test']:(tmp_path/name).write_text('modified')
     with pytest.raises(ValueError,match='differs from the paper input'):prepare('adult',tmp_path)
+
+
+def test_archive_matches_exact_filename():
+    import io,zipfile
+    from tabular_spectral_kernel.datasets import _member
+    buffer=io.BytesIO()
+    with zipfile.ZipFile(buffer,'w') as z:
+        z.writestr('adult.names','current')
+        z.writestr('old.adult.names','historical')
+        z.writestr('nested/hour.csv','data')
+        z.writestr('original.xls','workbook')
+    with zipfile.ZipFile(buffer) as z:
+        assert _member(z,'adult.names')==b'current'
+        assert _member(z,'hour.csv')==b'data'
+        assert _member(z,'.xls')==b'workbook'
