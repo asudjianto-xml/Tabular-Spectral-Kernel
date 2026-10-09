@@ -20,3 +20,5 @@ Abstract revision — October 9, 2026
 7. Layout — PASS. Two clean LaTeX passes; title page rendered and inspected, with keywords visible and no overfull boxes or undefined references.
 8. References — PASS. No new citations or literature claims requiring additions.
 9. Self-critique — PASS. Reviewed repetition, clause density, unsupported adjectives and closing language; future foundation-model development is explicitly separated from completed experiments.
+
+Abstract opening refinement: Replaced the generic boosted-tree opening with the paper objective and connected the next sentence to the learned distance and ridge fit. No claims or results changed. Two clean LaTeX passes.
