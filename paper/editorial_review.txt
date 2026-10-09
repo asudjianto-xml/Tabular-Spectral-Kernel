@@ -22,3 +22,5 @@ Abstract revision — October 9, 2026
 9. Self-critique — PASS. Reviewed repetition, clause density, unsupported adjectives and closing language; future foundation-model development is explicitly separated from completed experiments.
 
 Abstract opening refinement: Replaced the generic boosted-tree opening with the paper objective and connected the next sentence to the learned distance and ridge fit. No claims or results changed. Two clean LaTeX passes.
+
+Abstract synthesis revision: Replaced the dataset enumeration with the aggregate, task-dependent finding. The 189-word abstract leads with the learned geometry and canonical parameterization, explains the ridge-approximation finding and retains empirical and computational limits. No numerical results, new citations or transfer claims added. Distinct self-critique pass checked repeated conclusions, procedural detail and promotional phrasing. Two clean LaTeX passes.
