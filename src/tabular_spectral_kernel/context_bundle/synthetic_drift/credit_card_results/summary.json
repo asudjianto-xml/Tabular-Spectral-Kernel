@@ -1,0 +1,682 @@
+[
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse_mean": 0.19792560762164232,
+    "rmse_seed_sd": 0.0023694490373961413
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse_mean": 0.17013764353243646,
+    "rmse_seed_sd": 0.0016445646606659892
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse_mean": 0.17687494494347733,
+    "rmse_seed_sd": 0.0025161356039409928
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse_mean": 0.1437860794261871,
+    "rmse_seed_sd": 0.0027064847643580637
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.18397539096962098,
+    "rmse_seed_sd": 0.0031779238672440552
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.1702005051389828,
+    "rmse_seed_sd": 0.0015143607508388288
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.178719039649448,
+    "rmse_seed_sd": 0.0026561015156549204
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.16971106441765346,
+    "rmse_seed_sd": 0.0017355903215972245
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse_mean": 0.1919732595936474,
+    "rmse_seed_sd": 0.0028617654783575563
+  },
+  {
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse_mean": 0.16587446508366652,
+    "rmse_seed_sd": 0.00197543034953706
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse_mean": 0.13280445330392773,
+    "rmse_seed_sd": 0.0017543389256489057
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse_mean": 0.08317802686786506,
+    "rmse_seed_sd": 0.0007118113637594291
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse_mean": 0.1262324131062057,
+    "rmse_seed_sd": 0.0016126287677112145
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse_mean": 0.07276256838573923,
+    "rmse_seed_sd": 0.001731505288870209
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.10951470237146245,
+    "rmse_seed_sd": 0.0015265859024015866
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.08328542688649,
+    "rmse_seed_sd": 0.0006885282726743139
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.09937613658270589,
+    "rmse_seed_sd": 0.0009328137579544849
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.0836219731115791,
+    "rmse_seed_sd": 0.0005093450276173806
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse_mean": 0.13014739184674792,
+    "rmse_seed_sd": 0.0014191920247546702
+  },
+  {
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse_mean": 0.08196150266478125,
+    "rmse_seed_sd": 0.000936327902553745
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse_mean": 0.07993628889148659,
+    "rmse_seed_sd": 0.001743785488305767
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse_mean": 0.05005629300193854,
+    "rmse_seed_sd": 0.0013835623625883637
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse_mean": 0.08028479673705365,
+    "rmse_seed_sd": 0.001489846124893318
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse_mean": 0.052360396284716386,
+    "rmse_seed_sd": 0.00148579542991666
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.06516393403600552,
+    "rmse_seed_sd": 0.001075537607277676
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.04989586933536081,
+    "rmse_seed_sd": 0.0012575841997083395
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.06150264673848017,
+    "rmse_seed_sd": 0.002113180962609774
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.050294840465839256,
+    "rmse_seed_sd": 0.001165922248501966
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse_mean": 0.07908982256358732,
+    "rmse_seed_sd": 0.0014472367818534895
+  },
+  {
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse_mean": 0.05237279474372549,
+    "rmse_seed_sd": 0.0016755348719674843
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse_mean": 0.24431434776560335,
+    "rmse_seed_sd": 0.0036681347195417105,
+    "stable_rmse": 0.2653802836558749,
+    "changed_rmse": 0.24769364447718653
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse_mean": 0.13952753260704734,
+    "rmse_seed_sd": 0.00954619720295255,
+    "stable_rmse": 0.14448877656163395,
+    "changed_rmse": 0.14621612152000774
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse_mean": 0.24368688598844082,
+    "rmse_seed_sd": 0.004271712281042386,
+    "stable_rmse": 0.2704483814417169,
+    "changed_rmse": 0.24272122786774683
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse_mean": 0.1549259685034452,
+    "rmse_seed_sd": 0.010599681493168473,
+    "stable_rmse": 0.1765600938599973,
+    "changed_rmse": 0.150641882277879
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.19147708590434917,
+    "rmse_seed_sd": 0.0037095418114884895,
+    "stable_rmse": 0.20975029092839237,
+    "changed_rmse": 0.1926222321919047
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.1394447405330674,
+    "rmse_seed_sd": 0.008087596691367903,
+    "stable_rmse": 0.14484812484988882,
+    "changed_rmse": 0.14584103006090568
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.20631812100908795,
+    "rmse_seed_sd": 0.005853547789709222,
+    "stable_rmse": 0.23610864788167643,
+    "changed_rmse": 0.2002548225573093
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.14752340312890455,
+    "rmse_seed_sd": 0.011497616844522357,
+    "stable_rmse": 0.15659113645643488,
+    "changed_rmse": 0.15213376560604555
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse_mean": 0.13853346174404965,
+    "rmse_seed_sd": 0.001350781546115673,
+    "stable_rmse": 0.07109772627161698,
+    "changed_rmse": 0.17579400527615374
+  },
+  {
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse_mean": 0.08649007814085098,
+    "rmse_seed_sd": 0.0010304952999832164,
+    "stable_rmse": 0.048714201041666544,
+    "changed_rmse": 0.10837078140723544
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse_mean": 0.17436325731210464,
+    "rmse_seed_sd": 0.002633830488053675
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse_mean": 0.20612505506825488,
+    "rmse_seed_sd": 0.0018163567187612745
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse_mean": 0.14854706782502317,
+    "rmse_seed_sd": 0.0028111600241523386
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse_mean": 0.1870867419997503,
+    "rmse_seed_sd": 0.0025301102259281277
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.1748945340347133,
+    "rmse_seed_sd": 0.0031039441087004796
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.18700021084956842,
+    "rmse_seed_sd": 0.0028212946025520024
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.17451663577206636,
+    "rmse_seed_sd": 0.002487213182033593
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.18142965681535106,
+    "rmse_seed_sd": 0.0041330849876797466
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse_mean": 0.1707856095092617,
+    "rmse_seed_sd": 0.0030699499956189967
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse_mean": 0.20048754514871578,
+    "rmse_seed_sd": 0.0022143429131098163
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse_mean": 0.08908941096870264,
+    "rmse_seed_sd": 0.0014356679542492333
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse_mean": 0.1452795630495235,
+    "rmse_seed_sd": 0.004964918152622662
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse_mean": 0.07981915441842691,
+    "rmse_seed_sd": 0.001868765245705283
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse_mean": 0.1401511493341653,
+    "rmse_seed_sd": 0.003910328243670068
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.08895697499848738,
+    "rmse_seed_sd": 0.0007495840563946694
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.11478467212242462,
+    "rmse_seed_sd": 0.0031401800213247334
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.08893767219029915,
+    "rmse_seed_sd": 0.0010888504065115253
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.10365721756420858,
+    "rmse_seed_sd": 0.002597432595237372
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse_mean": 0.08822560551617507,
+    "rmse_seed_sd": 0.0005906758121088696
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse_mean": 0.14288512358239847,
+    "rmse_seed_sd": 0.0039704440737451325
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse_mean": 0.05367829540785249,
+    "rmse_seed_sd": 0.0015627636285566093
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse_mean": 0.08696160017044413,
+    "rmse_seed_sd": 0.002274704845013739
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse_mean": 0.05573158987939281,
+    "rmse_seed_sd": 0.0025931665854932663
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse_mean": 0.0877040058515196,
+    "rmse_seed_sd": 0.0019002626585730706
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.05353770645498818,
+    "rmse_seed_sd": 0.0013622359295280388
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.06803754930856216,
+    "rmse_seed_sd": 0.001100966865134721
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.05353428434704202,
+    "rmse_seed_sd": 0.001565540938995519
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.06335633855270235,
+    "rmse_seed_sd": 0.00264115276370426
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse_mean": 0.056145953928350804,
+    "rmse_seed_sd": 0.0022608822581529605
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse_mean": 0.08609100258160164,
+    "rmse_seed_sd": 0.001842120233432335
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse_mean": 0.17787024675355786,
+    "rmse_seed_sd": 0.005988979182879098,
+    "stable_rmse": 0.20385532110061014,
+    "changed_rmse": 0.1725760888190904
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse_mean": 0.2564939015278315,
+    "rmse_seed_sd": 0.006864885926992967,
+    "stable_rmse": 0.2748068622765148,
+    "changed_rmse": 0.26261604818450596
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse_mean": 0.18405594136043227,
+    "rmse_seed_sd": 0.008345002894098905,
+    "stable_rmse": 0.21688746384987082,
+    "changed_rmse": 0.1734924972531624
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse_mean": 0.25735245790840605,
+    "rmse_seed_sd": 0.006157440949609456,
+    "stable_rmse": 0.28151161428081684,
+    "changed_rmse": 0.25923937387028007
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.16343831410148899,
+    "rmse_seed_sd": 0.006764197627367462,
+    "stable_rmse": 0.18445914430615984,
+    "changed_rmse": 0.16061934511103895
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.19579441902466113,
+    "rmse_seed_sd": 0.0049476267381191805,
+    "stable_rmse": 0.21167099563154942,
+    "changed_rmse": 0.1989475641162386
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse_mean": 0.1764950593848322,
+    "rmse_seed_sd": 0.006212274768989314,
+    "stable_rmse": 0.20217554173217514,
+    "changed_rmse": 0.1713047577544005
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse_mean": 0.21008602644513927,
+    "rmse_seed_sd": 0.007783782991555565,
+    "stable_rmse": 0.2377090935040981,
+    "changed_rmse": 0.2060286961503148
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse_mean": 0.09406864091114187,
+    "rmse_seed_sd": 0.0026755506824926506,
+    "stable_rmse": 0.05174979367840452,
+    "changed_rmse": 0.11842070269060828
+  },
+  {
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse_mean": 0.15200052270634448,
+    "rmse_seed_sd": 0.00379580024153235,
+    "stable_rmse": 0.07747338493650385,
+    "changed_rmse": 0.19308893273805494
+  }
+]

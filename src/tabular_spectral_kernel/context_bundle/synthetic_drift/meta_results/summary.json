@@ -1,0 +1,74 @@
+[
+  {
+    "scenario": "recurring",
+    "method": "meta_nw",
+    "rmse_mean": 0.7046094177772257,
+    "rmse_seed_sd": 0.011205702880313993
+  },
+  {
+    "scenario": "recurring",
+    "method": "meta_krr",
+    "rmse_mean": 0.43856881807028075,
+    "rmse_seed_sd": 0.005108417345989268
+  },
+  {
+    "scenario": "recurring",
+    "method": "uniform_nw",
+    "rmse_mean": 0.7430531243936461,
+    "rmse_seed_sd": 0.005950095524485561
+  },
+  {
+    "scenario": "gradual",
+    "method": "meta_nw",
+    "rmse_mean": 0.6415494121913491,
+    "rmse_seed_sd": 0.014570193145762075
+  },
+  {
+    "scenario": "gradual",
+    "method": "meta_krr",
+    "rmse_mean": 0.23059678835500183,
+    "rmse_seed_sd": 0.0017651783766895386
+  },
+  {
+    "scenario": "gradual",
+    "method": "uniform_nw",
+    "rmse_mean": 0.6848285452357725,
+    "rmse_seed_sd": 0.008893663073266453
+  },
+  {
+    "scenario": "stationary",
+    "method": "meta_nw",
+    "rmse_mean": 0.6607024139283992,
+    "rmse_seed_sd": 0.02341036914086173
+  },
+  {
+    "scenario": "stationary",
+    "method": "meta_krr",
+    "rmse_mean": 0.17369670210146812,
+    "rmse_seed_sd": 0.0024827857895566765
+  },
+  {
+    "scenario": "stationary",
+    "method": "uniform_nw",
+    "rmse_mean": 0.7251249495076535,
+    "rmse_seed_sd": 0.007154216374958384
+  },
+  {
+    "scenario": "mixed",
+    "method": "meta_nw",
+    "rmse_mean": 0.5278463141949822,
+    "rmse_seed_sd": 0.007781149504778897
+  },
+  {
+    "scenario": "mixed",
+    "method": "meta_krr",
+    "rmse_mean": 0.18102613493261618,
+    "rmse_seed_sd": 0.0021041051856210834
+  },
+  {
+    "scenario": "mixed",
+    "method": "uniform_nw",
+    "rmse_mean": 0.5289066583436689,
+    "rmse_seed_sd": 0.00793440319579163
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      2.2475333721840272e-09,
+      8.41252969057598e-12,
+      1.6834408063846216e-10
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      1.692878363025487e-09,
+      9.040683095127375e-12,
+      5.228965184270427e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      2.2475333721840272e-09,
+      8.41252969057598e-12,
+      1.6834408063846216e-10
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      1.1286535905890784e-09,
+      4.5913465769695185e-12,
+      4.163204673075553e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalues": [
+      2.2475333721840272e-09,
+      8.41252969057598e-12,
+      1.6834408063846216e-10
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalues": [
+      1.2894629063616446e-09,
+      3.6211648273454543e-12,
+      4.955190863305607e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      2.234631603413632e-09,
+      8.352348321225344e-12,
+      1.6708582342104102e-10
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      1.613875934427601e-09,
+      5.157239862360959e-12,
+      5.475559928501399e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      5.074784437978042e-09,
+      2.1008068133900084e-11,
+      6.0232237007710846e-12
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      6.461973357658546e-09,
+      5.8918305311293e-10,
+      1.237316648209078e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      5.074784437978042e-09,
+      2.1008068133900084e-11,
+      6.0232237007710846e-12
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      5.20675278035934e-09,
+      1.2280707146970263e-10,
+      1.194455553098329e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalues": [
+      5.074784437978042e-09,
+      2.1008068133900084e-11,
+      6.0232237007710846e-12
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalues": [
+      4.147195613470303e-09,
+      2.950496216349731e-11,
+      1.1701091496239623e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      5.0707946795320455e-09,
+      2.091178492424634e-11,
+      6.0238310120598195e-12
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      6.077122363435593e-09,
+      1.729891776501264e-10,
+      1.1940875696626915e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      8.410203037924655e-09,
+      1.3073006760140336e-10,
+      1.1239435770917749e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      1.108482598753471e-08,
+      6.011078828960883e-10,
+      7.885212238206452e-12
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      8.410203037924655e-09,
+      1.3073006760140336e-10,
+      1.1239435770917749e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      7.542321214180197e-09,
+      1.6241589551856287e-10,
+      7.696662844811945e-12
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalues": [
+      8.410203037924655e-09,
+      1.3073006760140336e-10,
+      1.1239435770917749e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalues": [
+      4.335676982348956e-09,
+      1.1667254916782948e-10,
+      7.518656598440996e-12
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalues": [
+      6.759013812395762e-09,
+      1.1283258983550638e-10,
+      1.1206568563759105e-11
+    ],
+    "max_asymmetry": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalues": [
+      2.995577924093992e-09,
+      1.09618237157979e-10,
+      7.673541817867347e-12
+    ],
+    "max_asymmetry": 0.0
+  }
+]

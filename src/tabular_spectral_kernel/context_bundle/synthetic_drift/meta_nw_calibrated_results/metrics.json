@@ -1,0 +1,218 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "meta_nw",
+    "rmse": 0.466450691196353
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "meta_krr",
+    "rmse": 0.7665196331317439
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "uniform_nw",
+    "rmse": 0.5681938979173523
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "meta_nw",
+    "rmse": 0.2732978640863701
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "meta_krr",
+    "rmse": 0.7149402288188526
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "uniform_nw",
+    "rmse": 0.48070366726393887
+  },
+  {
+    "seed": 0,
+    "scenario": "stationary",
+    "method": "meta_nw",
+    "rmse": 0.1875282509412376
+  },
+  {
+    "seed": 0,
+    "scenario": "stationary",
+    "method": "meta_krr",
+    "rmse": 0.7416905521607658
+  },
+  {
+    "seed": 0,
+    "scenario": "stationary",
+    "method": "uniform_nw",
+    "rmse": 0.19982961912977185
+  },
+  {
+    "seed": 0,
+    "scenario": "mixed",
+    "method": "meta_nw",
+    "rmse": 0.36056229486461816
+  },
+  {
+    "seed": 0,
+    "scenario": "mixed",
+    "method": "meta_krr",
+    "rmse": 0.5649223548364448
+  },
+  {
+    "seed": 0,
+    "scenario": "mixed",
+    "method": "uniform_nw",
+    "rmse": 0.396078695873404
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "meta_nw",
+    "rmse": 0.4547612529065633
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "meta_krr",
+    "rmse": 0.7289036091306959
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "uniform_nw",
+    "rmse": 0.5540057559367749
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "meta_nw",
+    "rmse": 0.2710099311115427
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "meta_krr",
+    "rmse": 0.6681499147082867
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "uniform_nw",
+    "rmse": 0.4463793677201086
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "meta_nw",
+    "rmse": 0.18282589930627777
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "meta_krr",
+    "rmse": 0.6722490976873176
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "uniform_nw",
+    "rmse": 0.21369946123755765
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "meta_nw",
+    "rmse": 0.3312210393134644
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "meta_krr",
+    "rmse": 0.5456085636858087
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "uniform_nw",
+    "rmse": 0.36418148321190935
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "meta_nw",
+    "rmse": 0.4700277105362781
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "meta_krr",
+    "rmse": 0.7896486641342093
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "uniform_nw",
+    "rmse": 0.5680724834635846
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "meta_nw",
+    "rmse": 0.2763398696130184
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "meta_krr",
+    "rmse": 0.7352179692543989
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "uniform_nw",
+    "rmse": 0.4526498557624968
+  },
+  {
+    "seed": 2,
+    "scenario": "stationary",
+    "method": "meta_nw",
+    "rmse": 0.18437820940413674
+  },
+  {
+    "seed": 2,
+    "scenario": "stationary",
+    "method": "meta_krr",
+    "rmse": 0.7789303525167182
+  },
+  {
+    "seed": 2,
+    "scenario": "stationary",
+    "method": "uniform_nw",
+    "rmse": 0.21590596490823719
+  },
+  {
+    "seed": 2,
+    "scenario": "mixed",
+    "method": "meta_nw",
+    "rmse": 0.3314177516135166
+  },
+  {
+    "seed": 2,
+    "scenario": "mixed",
+    "method": "meta_krr",
+    "rmse": 0.5707380854590121
+  },
+  {
+    "seed": 2,
+    "scenario": "mixed",
+    "method": "uniform_nw",
+    "rmse": 0.3666000016564411
+  }
+]

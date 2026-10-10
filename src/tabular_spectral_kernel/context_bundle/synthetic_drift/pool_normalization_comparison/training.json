@@ -1,0 +1,86 @@
+[
+  {
+    "method": "Symmetric, p=1",
+    "seed": 0,
+    "parameters": 596,
+    "best_epoch": 30,
+    "epochs_run": 30
+  },
+  {
+    "method": "Symmetric, p=1",
+    "seed": 1,
+    "parameters": 596,
+    "best_epoch": 29,
+    "epochs_run": 30
+  },
+  {
+    "method": "Symmetric, p=1",
+    "seed": 2,
+    "parameters": 596,
+    "best_epoch": 10,
+    "epochs_run": 16
+  },
+  {
+    "method": "Row, p=1",
+    "seed": 0,
+    "parameters": 596,
+    "best_epoch": 30,
+    "epochs_run": 30
+  },
+  {
+    "method": "Row, p=1",
+    "seed": 1,
+    "parameters": 596,
+    "best_epoch": 29,
+    "epochs_run": 30
+  },
+  {
+    "method": "Row, p=1",
+    "seed": 2,
+    "parameters": 596,
+    "best_epoch": 10,
+    "epochs_run": 16
+  },
+  {
+    "method": "Symmetric, p=2",
+    "seed": 0,
+    "parameters": 596,
+    "best_epoch": 30,
+    "epochs_run": 30
+  },
+  {
+    "method": "Symmetric, p=2",
+    "seed": 1,
+    "parameters": 596,
+    "best_epoch": 29,
+    "epochs_run": 30
+  },
+  {
+    "method": "Symmetric, p=2",
+    "seed": 2,
+    "parameters": 596,
+    "best_epoch": 10,
+    "epochs_run": 16
+  },
+  {
+    "method": "Row, p=2",
+    "seed": 0,
+    "parameters": 596,
+    "best_epoch": 30,
+    "epochs_run": 30
+  },
+  {
+    "method": "Row, p=2",
+    "seed": 1,
+    "parameters": 596,
+    "best_epoch": 29,
+    "epochs_run": 30
+  },
+  {
+    "method": "Row, p=2",
+    "seed": 2,
+    "parameters": 596,
+    "best_epoch": 10,
+    "epochs_run": 16
+  }
+]

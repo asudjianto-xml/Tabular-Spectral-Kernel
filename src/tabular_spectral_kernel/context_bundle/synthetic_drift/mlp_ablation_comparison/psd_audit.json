@@ -1,0 +1,578 @@
+[
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.001767437476395672,
+    "query_weight_sd": 0.23405504670201252
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0025340390865569544,
+    "query_weight_sd": 0.11008599888013974
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002782082316156432,
+    "query_weight_sd": 0.22251932305999084
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0028552657807629877,
+    "query_weight_sd": 0.2614325558582034
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.003866531283287645,
+    "query_weight_sd": 0.11326858057003372
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.004140944718846936,
+    "query_weight_sd": 0.2783841784386705
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.001767437476395672,
+    "query_weight_sd": 0.23405504670201252
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0025340390865569544,
+    "query_weight_sd": 0.11008599888013974
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002782082316156432,
+    "query_weight_sd": 0.22251932305999084
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0024234796766378452,
+    "query_weight_sd": 0.2677177548726277
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.003457834965097464,
+    "query_weight_sd": 0.10464981959852883
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0037780160440460983,
+    "query_weight_sd": 0.2596007133131779
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.001767437476395672,
+    "query_weight_sd": 0.23405504670201252
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0025340390865569544,
+    "query_weight_sd": 0.11008599888013974
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.002782082316156432,
+    "query_weight_sd": 0.22251932305999084
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0020690955625426995,
+    "query_weight_sd": 0.2687206454450956
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.003001876415845553,
+    "query_weight_sd": 0.10019830216604533
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0032542937641717997,
+    "query_weight_sd": 0.24461731710020626
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0017673437741692769,
+    "query_weight_sd": 0.2340332785354737
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002534208537592354,
+    "query_weight_sd": 0.11005409623857643
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002782300511065723,
+    "query_weight_sd": 0.22243708877265275
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002421485332954076,
+    "query_weight_sd": 0.26733811022042236
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.003461226911764902,
+    "query_weight_sd": 0.10420479324125494
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0037818082356002396,
+    "query_weight_sd": 0.25778456160503155
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0019329505496107756,
+    "query_weight_sd": 0.08580506227720028
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002338963787914273,
+    "query_weight_sd": 0.01323732494471798
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023371038015445604,
+    "query_weight_sd": 0.027816422041263666
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0020779136506688784,
+    "query_weight_sd": 0.10258979147845958
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.00245011149334665,
+    "query_weight_sd": 0.023135937922348825
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0024326031923585915,
+    "query_weight_sd": 0.037198359274798955
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0019329505496107756,
+    "query_weight_sd": 0.08580506227720028
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002338963787914273,
+    "query_weight_sd": 0.01323732494471798
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023371038015445604,
+    "query_weight_sd": 0.027816422041263666
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.001976301487062063,
+    "query_weight_sd": 0.10205890646003894
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002393117827637707,
+    "query_weight_sd": 0.015116072643165071
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0023855420716746016,
+    "query_weight_sd": 0.027847989962850418
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0019329505496107756,
+    "query_weight_sd": 0.08580506227720028
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.002338963787914273,
+    "query_weight_sd": 0.01323732494471798
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0023371038015445604,
+    "query_weight_sd": 0.027816422041263666
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0015841706387035267,
+    "query_weight_sd": 0.10113850500588069
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0018125302469493537,
+    "query_weight_sd": 0.013635388191455535
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0018113024075522039,
+    "query_weight_sd": 0.025547324451209434
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0019326592961122645,
+    "query_weight_sd": 0.08579838130855236
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023388327534470056,
+    "query_weight_sd": 0.013233510450915554
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023369568129335424,
+    "query_weight_sd": 0.027811611528087646
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.001971926076747364,
+    "query_weight_sd": 0.1020672093243796
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0023908908288672137,
+    "query_weight_sd": 0.01487148355945464
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002383036353545804,
+    "query_weight_sd": 0.02759025952369311
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023570917798804054,
+    "query_weight_sd": 0.06713636316573865
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023846341698263614,
+    "query_weight_sd": 0.02656275747284233
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0025904607791878225,
+    "query_weight_sd": 0.18353568654925587
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002513957733033529,
+    "query_weight_sd": 0.061067407631097304
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002551403361975031,
+    "query_weight_sd": 0.0275951348799684
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002846692831767887,
+    "query_weight_sd": 0.16105712481043036
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023570917798804054,
+    "query_weight_sd": 0.06713636316573865
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023846341698263614,
+    "query_weight_sd": 0.02656275747284233
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0025904607791878225,
+    "query_weight_sd": 0.18353568654925587
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0024227266078317303,
+    "query_weight_sd": 0.060837676879326015
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0024660273312481712,
+    "query_weight_sd": 0.02600056334621152
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002805011081941086,
+    "query_weight_sd": 0.13784377588670932
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0023570917798804054,
+    "query_weight_sd": 0.06713636316573865
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0023846341698263614,
+    "query_weight_sd": 0.02656275747284233
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0025904607791878225,
+    "query_weight_sd": 0.18353568654925587
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0023052759460971102,
+    "query_weight_sd": 0.060275119893295294
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0023475701853489235,
+    "query_weight_sd": 0.02493770456905776
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.002671991809711107,
+    "query_weight_sd": 0.12736706179582352
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002356912888880499,
+    "query_weight_sd": 0.06713994587952656
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023844888335945317,
+    "query_weight_sd": 0.026547836061859908
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0025905578379384693,
+    "query_weight_sd": 0.18322932086106206
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0024217554917069692,
+    "query_weight_sd": 0.06084518081841858
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002465232320525766,
+    "query_weight_sd": 0.025938754377393267
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002805597020660244,
+    "query_weight_sd": 0.13586210572325674
+  }
+]

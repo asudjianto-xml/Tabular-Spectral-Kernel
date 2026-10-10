@@ -1,0 +1,37 @@
+{
+  "records": [
+    {
+      "config": {
+        "depth": 4,
+        "iterations": 200,
+        "learning_rate": 0.08,
+        "l2_leaf_reg": 3
+      },
+      "rmse": 53.2263655758584,
+      "mae": 36.85770225282429,
+      "r2": 0.8262482088654118
+    },
+    {
+      "config": {
+        "depth": 6,
+        "iterations": 200,
+        "learning_rate": 0.08,
+        "l2_leaf_reg": 3
+      },
+      "rmse": 47.17641899363217,
+      "mae": 32.451774543944424,
+      "r2": 0.863502213391479
+    }
+  ],
+  "chosen": {
+    "config": {
+      "depth": 6,
+      "iterations": 200,
+      "learning_rate": 0.08,
+      "l2_leaf_reg": 3
+    },
+    "rmse": 47.17641899363217,
+    "mae": 32.451774543944424,
+    "r2": 0.863502213391479
+  }
+}

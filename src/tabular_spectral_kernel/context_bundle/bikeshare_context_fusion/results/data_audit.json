@@ -1,0 +1,9 @@
+{
+  "rows": 17379,
+  "start": "2011-01-01T00:00:00.000000",
+  "end": "2012-12-31T23:00:00.000000",
+  "missing_clock_hours": 165,
+  "target_equals_components": true,
+  "test_rows": 8734,
+  "test_days": 366
+}

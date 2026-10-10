@@ -1,0 +1,6 @@
+{
+  "comparison": "Same fixed prediction stage; only context relevance scorer changes.",
+  "interpretation": "Pure scorer lies in a learned finite spectral RKHS. Hybrid uses the sum of a frozen linear function and spectral RKHS function. No MLP.",
+  "selection": "Sparse/all input sets and finite complexity/regularization candidates chosen by validation hard-selection MSE. Fresh tests generated after freezing.",
+  "limitation": "Not the same parameter count/optimizer as L1; finite spectral capacity and training budget. No universal comparison of linear and kernel methods."
+}

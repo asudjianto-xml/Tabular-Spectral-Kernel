@@ -1,0 +1,16 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "decoder": "KRR",
+  "profile": "original",
+  "context_rows": 128,
+  "ridge": "Fixed original historical shared ridge for every method; no joint ridge search",
+  "validation": "96 earlier context rows fit KRR; 32 newest labels select mixture; 101-point grid plus local bounded refinements",
+  "convex_mkl": "All128 labels minimize profiled regularized KRR loss lambda*(y-b)'(K+128*lambda*I)^-1*(y-b), b optimized analytically",
+  "final_readout": "Refit KRR on all128 labeled rows with selected mixture and unchanged ridge",
+  "information": "Only labels available before the origin enter selection; query responses only score saved predictions",
+  "qualification": "Optimized weights shared across each next-month cohort; Transformer weights query-conditioned; validation risk is not convex, profiled MKL objective is convex; timings exclude kernel construction"
+}

@@ -1,0 +1,39 @@
+{
+  "configs": [
+    {
+      "depth": 4,
+      "iterations": 200,
+      "learning_rate": 0.08,
+      "l2_leaf_reg": 3
+    },
+    {
+      "depth": 6,
+      "iterations": 200,
+      "learning_rate": 0.08,
+      "l2_leaf_reg": 3
+    }
+  ],
+  "seed": 0,
+  "validation": "Oct-Dec2011",
+  "test": "all2012",
+  "support": "all observed labels strictly before each daily origin",
+  "inputs": [
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "year_sin",
+    "year_cos",
+    "temp",
+    "hum",
+    "windspeed",
+    "workingday",
+    "holiday",
+    "weather1",
+    "weather2",
+    "weather3",
+    "weather4"
+  ],
+  "target": "raw cnt; clipped at0",
+  "note": "One deterministic optimization seed; review-stage validation-selected anchor; same observed-weather task."
+}

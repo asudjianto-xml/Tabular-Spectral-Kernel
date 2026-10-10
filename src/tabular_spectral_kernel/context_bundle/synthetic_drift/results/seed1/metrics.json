@@ -1,0 +1,296 @@
+[
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "kernel_fusion",
+    "n": 1792,
+    "rmse": 0.4120602205993127,
+    "mean_rmse": 0.3835263134278244,
+    "mae": 0.2543566251937886,
+    "after_boundary_rmse": 0.7217366566737279,
+    "outside_boundary_rmse": 0.17131711801763339
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "prediction_average",
+    "n": 1792,
+    "rmse": 0.41308398775355465,
+    "mean_rmse": 0.3841759405958188,
+    "mae": 0.2548035620307068,
+    "after_boundary_rmse": 0.7236698063565484,
+    "outside_boundary_rmse": 0.17150667001863446
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "best_single",
+    "n": 1792,
+    "rmse": 0.41498704037781065,
+    "mean_rmse": 0.3862778066802461,
+    "mae": 0.25532871809095375,
+    "after_boundary_rmse": 0.7276518358674405,
+    "outside_boundary_rmse": 0.17119890028164847
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "uniform_kernel",
+    "n": 1792,
+    "rmse": 0.4406750371156105,
+    "mean_rmse": 0.41446815295681183,
+    "mae": 0.27673438427713487,
+    "after_boundary_rmse": 0.7742018624972986,
+    "outside_boundary_rmse": 0.17921181354438703
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "pooled_kernel",
+    "n": 1792,
+    "rmse": 0.5727372671571582,
+    "mean_rmse": 0.5586647368824085,
+    "mae": 0.46107338861883623,
+    "after_boundary_rmse": 0.7625329253200337,
+    "outside_boundary_rmse": 0.47608463868104256
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "latest_kernel",
+    "n": 1792,
+    "rmse": 0.5530220429772028,
+    "mean_rmse": 0.535156031280848,
+    "mae": 0.4069607788072917,
+    "after_boundary_rmse": 0.7489574073153012,
+    "outside_boundary_rmse": 0.4514331100364345
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "stale_predictor",
+    "n": 1792,
+    "rmse": 0.8330381246520464,
+    "mean_rmse": 0.8249257486863834,
+    "mae": 0.5607665958964342,
+    "after_boundary_rmse": 0.7592627575731834,
+    "outside_boundary_rmse": 0.8607796175318418
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "kernel_fusion",
+    "n": 1792,
+    "rmse": 0.2189023459873692,
+    "mean_rmse": 0.16165957479782725,
+    "mae": 0.17202802747123475,
+    "after_boundary_rmse": 0.21887796909384036,
+    "outside_boundary_rmse": 0.21891209598472583
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "prediction_average",
+    "n": 1792,
+    "rmse": 0.23121474678905538,
+    "mean_rmse": 0.17777615764683902,
+    "mae": 0.18112004265731949,
+    "after_boundary_rmse": 0.21935465286787123,
+    "outside_boundary_rmse": 0.23579180921292425
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "best_single",
+    "n": 1792,
+    "rmse": 0.23770645111307862,
+    "mean_rmse": 0.1842825523393821,
+    "mae": 0.1842054962277912,
+    "after_boundary_rmse": 0.2197036656224058,
+    "outside_boundary_rmse": 0.24453674444940876
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "uniform_kernel",
+    "n": 1792,
+    "rmse": 0.2290649940046753,
+    "mean_rmse": 0.17459009922692498,
+    "mae": 0.1783908677578659,
+    "after_boundary_rmse": 0.22389137278504606,
+    "outside_boundary_rmse": 0.2311020150208079
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "pooled_kernel",
+    "n": 1792,
+    "rmse": 0.46205225143755374,
+    "mean_rmse": 0.44087515819111023,
+    "mae": 0.3749990411318533,
+    "after_boundary_rmse": 0.4548368786258415,
+    "outside_boundary_rmse": 0.4649070464282919
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "latest_kernel",
+    "n": 1792,
+    "rmse": 0.44028240197359914,
+    "mean_rmse": 0.4131469811477777,
+    "mae": 0.3276614670383719,
+    "after_boundary_rmse": 0.4008123280022152,
+    "outside_boundary_rmse": 0.45511297715103277
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "stale_predictor",
+    "n": 1792,
+    "rmse": 0.7658303945196602,
+    "mean_rmse": 0.7526975952936886,
+    "mae": 0.5318606646049273,
+    "after_boundary_rmse": 0.6959819436614637,
+    "outside_boundary_rmse": 0.7920469203759827
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "kernel_fusion",
+    "n": 1792,
+    "rmse": 0.17380640738980008,
+    "mean_rmse": 0.08508562326028514,
+    "mae": 0.13838244282628634,
+    "outside_boundary_rmse": 0.17380640738980008
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "prediction_average",
+    "n": 1792,
+    "rmse": 0.17342385367657512,
+    "mean_rmse": 0.08453402016233427,
+    "mae": 0.13817173914216946,
+    "outside_boundary_rmse": 0.17342385367657512
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "best_single",
+    "n": 1792,
+    "rmse": 0.1733728155959753,
+    "mean_rmse": 0.08442316342256896,
+    "mae": 0.1381117766136805,
+    "outside_boundary_rmse": 0.1733728155959753
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "uniform_kernel",
+    "n": 1792,
+    "rmse": 0.1816658356698726,
+    "mean_rmse": 0.09794371737058151,
+    "mae": 0.14432270040560655,
+    "outside_boundary_rmse": 0.1816658356698726
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "pooled_kernel",
+    "n": 1792,
+    "rmse": 0.5271439812483462,
+    "mean_rmse": 0.5085356808725736,
+    "mae": 0.4351731851247636,
+    "outside_boundary_rmse": 0.5271439812483462
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "latest_kernel",
+    "n": 1792,
+    "rmse": 0.5637507903795596,
+    "mean_rmse": 0.542137792855726,
+    "mae": 0.456550873904429,
+    "outside_boundary_rmse": 0.5637507903795596
+  },
+  {
+    "seed": 1,
+    "scenario": "stationary",
+    "method": "stale_predictor",
+    "n": 1792,
+    "rmse": 1.082740559577954,
+    "mean_rmse": 1.074073545206173,
+    "mae": 0.8761918384234797,
+    "outside_boundary_rmse": 1.082740559577954
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "kernel_fusion",
+    "n": 1792,
+    "rmse": 0.1763690563641244,
+    "mean_rmse": 0.09002878506904317,
+    "mae": 0.14062192978869964,
+    "outside_boundary_rmse": 0.1763690563641244
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "prediction_average",
+    "n": 1792,
+    "rmse": 0.2586169878918466,
+    "mean_rmse": 0.21214845201825144,
+    "mae": 0.20434382374442864,
+    "outside_boundary_rmse": 0.2586169878918466
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "best_single",
+    "n": 1792,
+    "rmse": 0.311424101471423,
+    "mean_rmse": 0.2759301850062444,
+    "mae": 0.25189808903818733,
+    "outside_boundary_rmse": 0.311424101471423
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "uniform_kernel",
+    "n": 1792,
+    "rmse": 0.1751168598560743,
+    "mean_rmse": 0.08795077204211219,
+    "mae": 0.13952583026748075,
+    "outside_boundary_rmse": 0.1751168598560743
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "pooled_kernel",
+    "n": 1792,
+    "rmse": 0.3515147648473086,
+    "mean_rmse": 0.32219195190217875,
+    "mae": 0.28286314727474215,
+    "outside_boundary_rmse": 0.3515147648473086
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "latest_kernel",
+    "n": 1792,
+    "rmse": 0.3190736400550747,
+    "mean_rmse": 0.2797859847075179,
+    "mae": 0.2544991582038144,
+    "outside_boundary_rmse": 0.3190736400550747
+  },
+  {
+    "seed": 1,
+    "scenario": "mixed",
+    "method": "stale_predictor",
+    "n": 1792,
+    "rmse": 0.5493970311945259,
+    "mean_rmse": 0.5304183056632058,
+    "mae": 0.4450336661044834,
+    "outside_boundary_rmse": 0.5493970311945259
+  }
+]

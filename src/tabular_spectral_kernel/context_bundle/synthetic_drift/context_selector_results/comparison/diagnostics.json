@@ -1,0 +1,74 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "mean_distinct_windows_per_query_cohort": 2.28125,
+    "multiwindow_cohort_fraction": 0.80859375
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "mean_distinct_windows_per_query_cohort": 1.53515625,
+    "multiwindow_cohort_fraction": 0.5
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "mean_distinct_windows_per_query_cohort": 4.87109375,
+    "multiwindow_cohort_fraction": 1.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "mean_distinct_windows_per_query_cohort": 2.46484375,
+    "multiwindow_cohort_fraction": 0.87109375
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "mean_distinct_windows_per_query_cohort": 2.2421875,
+    "multiwindow_cohort_fraction": 0.828125
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "mean_distinct_windows_per_query_cohort": 1.63671875,
+    "multiwindow_cohort_fraction": 0.59375
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "mean_distinct_windows_per_query_cohort": 4.3359375,
+    "multiwindow_cohort_fraction": 1.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "mean_distinct_windows_per_query_cohort": 2.30078125,
+    "multiwindow_cohort_fraction": 0.85546875
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "mean_distinct_windows_per_query_cohort": 2.3515625,
+    "multiwindow_cohort_fraction": 0.8515625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "mean_distinct_windows_per_query_cohort": 1.3515625,
+    "multiwindow_cohort_fraction": 0.34765625
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "mean_distinct_windows_per_query_cohort": 4.97265625,
+    "multiwindow_cohort_fraction": 1.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "mean_distinct_windows_per_query_cohort": 2.421875,
+    "multiwindow_cohort_fraction": 0.8984375
+  }
+]

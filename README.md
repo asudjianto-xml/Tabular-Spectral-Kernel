@@ -1,11 +1,20 @@
 # Tabular Spectral Kernel
 
-Code and recorded results for **Learning Spectral Geometry for Kernel Regression**,
-by **Agus Sudjianto and Aijun Zhang**. The model learns Fourier frequencies, a
-trace-normalized positive-definite metric and a Laplace bandwidth, then fits
-kernel ridge regression. The paper studies one spectral bank per model.
+Spectral kernel learning, context selection and in-context kernel fusion for
+tabular prediction, by **Agus Sudjianto and Aijun Zhang**.
 
-The paper is available on SSRN: [Learning Spectral Geometry for Kernel Regression](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819).
+The original implementation learns Fourier frequencies, a trace-normalized
+positive-definite metric and a Laplace bandwidth, then fits kernel ridge
+regression. The follow-up experiments combine historical kernels using
+query-conditioned convex weights and fit the readout to supplied context labels.
+They evaluate synthetic repayment drift and hourly Bike Sharing demand.
+
+This repository contains **code, documentation and recorded numerical results**.
+Manuscript PDFs and LaTeX sources are not hosted here. The preceding paper remains
+available on [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819).
+
+- [Context selection and kernel fusion: commands, protocols and source map](CONTEXT_EXPERIMENTS.md)
+- [Single-kernel reproduction details](REPRODUCIBILITY.md)
 
 ## Install
 
@@ -130,21 +139,37 @@ sufficient merely because it supports CUDA. CPU mode uses system RAM instead.
 The recorded experiments used an NVIDIA GB10 with a large unified-memory pool.
 There is no out-of-core or hundred-million-row training claim in this release.
 
-## Paper and recorded evidence
+## Context selection and in-context fusion
 
-- [Paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819)
-- [Paper PDF](paper/identifiable_spectral_regression.pdf)
-- [LaTeX source](paper/identifiable_spectral_regression.tex)
-- [Reproduction details and source map](REPRODUCIBILITY.md)
-- [Recorded results](src/tabular_spectral_kernel/recorded/)
-- [Release validation](validation.json)
+```bash
+tsk-context verify
+tsk-context export --output "runs/context workspace" --recorded
+tsk-context run --workspace "runs/context workspace" --device cpu \
+  bikeshare_context_fusion/smoke.py -- --output "smoke check"
+```
+
+The installed package includes all active synthetic, Bike Sharing and review-control
+scripts, plus their saved checkpoints and numerical results. Exporting creates a
+separate writable workspace. Data caches, device and review output paths are
+configurable; the code does not require the authors' directory layout.
+See [the experiment guide](CONTEXT_EXPERIMENTS.md) for data generation, training,
+comparison commands, result interpretation and CPU/GPU behavior.
+
+## Recorded evidence
+
+- [Original paper on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819)
+- [Single-kernel source map and reproduction details](REPRODUCIBILITY.md)
+- [Single-kernel recorded results](src/tabular_spectral_kernel/recorded/)
+- [Context experiment source and recorded results](src/tabular_spectral_kernel/context_bundle/)
+- [Original release validation](validation.json)
+- [Context-package validation](context_validation.json)
 
 The original single-model findings are dataset-dependent: the reported regression
 comparisons favor the spectral model, Taiwan has higher ranking AUC with similar
 probability quality, and Adult favors CatBoost. California holdouts were reused
-and tuning budgets differ between model families. Mixtures of experts,
-segmentation, replica fusion and later Adult frequency experiments are outside
-this paper release.
+and tuning budgets differ between model families. The follow-up context experiments
+are separate evaluations; their Bike Sharing chronology differs from the original
+single-model split.
 
 ## Citation
 
@@ -159,16 +184,4 @@ The paper is posted on SSRN as a preprint (abstract ID 7590819). See
   howpublished = {SSRN preprint, abstract ID 7590819},
   url    = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590819}
 }
-```
-
-## Build the manuscript
-
-With a LaTeX installation that provides `pdflatex` and `bibtex`:
-
-```bash
-cd paper
-pdflatex identifiable_spectral_regression.tex
-bibtex identifiable_spectral_regression
-pdflatex identifiable_spectral_regression.tex
-pdflatex identifiable_spectral_regression.tex
 ```

@@ -1,0 +1,1570 @@
+[
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 160,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 192,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 224,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 256,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 288,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 320,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.041874999999999996
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 352,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04562500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 384,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.051250000000000004
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 416,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.05875000000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 448,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06625000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 480,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07375
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 512,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08125
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 544,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08875000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 576,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09437500000000003
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 608,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09812500000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 640,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 672,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 704,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 736,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 768,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09850000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 800,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09550000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 832,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09100000000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 864,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.085
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 896,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07900000000000003
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 928,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07300000000000004
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 960,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06700000000000003
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 992,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.061000000000000026
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1024,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.05500000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1056,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.049000000000000016
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1088,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.044500000000000005
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1120,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.0415
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1152,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1184,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1216,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1248,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1280,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04171875
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1312,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.045156249999999995
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1344,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.05031250000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1376,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.05718750000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1408,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.0640625
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1440,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.0709375
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1472,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.0778125
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1504,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.0846875
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1536,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08984374999999999
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1568,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09328124999999998
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1600,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09499999999999999
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1632,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09499999999999999
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1664,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09347222222222219
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1696,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09041666666666667
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1728,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08583333333333334
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1760,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07972222222222221
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1792,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07361111111111113
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1824,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06749999999999999
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1856,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.061388888888888875
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.055277777777777766
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 160,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 192,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 224,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 256,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 288,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 320,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04093749999999999
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 352,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.0428125
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 384,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.045625000000000006
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 416,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.049375000000000016
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 448,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.053125000000000006
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 480,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.056874999999999995
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 512,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06062500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 544,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06437500000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 576,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06812500000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 608,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.071875
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 640,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07562500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 672,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07937500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 704,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.083125
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 736,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08687500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 768,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09062499999999998
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 800,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09437500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 832,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09718750000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 864,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09906250000000003
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 896,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 928,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 960,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 992,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1024,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1056,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1088,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09944444444444443
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1120,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09833333333333334
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1152,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09666666666666666
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1184,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09444444444444446
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1216,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.0922222222222222
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1248,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1280,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08777777777777776
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1312,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08555555555555555
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1344,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08333333333333334
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1376,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08111111111111108
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1408,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07888888888888888
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1440,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07666666666666666
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1472,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07444444444444445
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1504,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07222222222222224
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1536,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1568,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06777777777777778
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1600,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06555555555555553
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1632,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06333333333333332
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1664,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06111111111111114
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1696,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.05888888888888891
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1728,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.056666666666666685
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1760,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.054444444444444455
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1792,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.05222222222222222
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1824,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04999999999999999
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1856,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.047777777777777794
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04555555555555557
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 160,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 192,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 224,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 256,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 288,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 320,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 352,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 384,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 416,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 448,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 480,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 512,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 544,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 576,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 608,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 640,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 672,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 704,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 736,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 768,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 800,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 832,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 864,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 896,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 928,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 960,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 992,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1024,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1056,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1088,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1120,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1152,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1184,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1216,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1248,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1280,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1312,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1344,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1376,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1408,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1440,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1472,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1504,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1536,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1568,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1600,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1632,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1664,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1696,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1728,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1760,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1792,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1824,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1856,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 160,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 192,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 224,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 256,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 288,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 320,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04093749999999999
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 352,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.0428125
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 384,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.045625000000000006
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 416,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.049375000000000016
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 448,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.053125000000000006
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 480,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.056874999999999995
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 512,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06062500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 544,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06437500000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 576,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06812500000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 608,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.071875
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 640,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07562500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 672,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07937500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 704,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.083125
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 736,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08687500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 768,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09062499999999998
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 800,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09437500000000001
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 832,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09718750000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 864,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09906250000000003
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 896,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 928,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 960,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 992,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1024,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1056,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.10000000000000002
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1088,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09944444444444443
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1120,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09833333333333334
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1152,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09666666666666666
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1184,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09444444444444446
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1216,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.0922222222222222
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1248,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.09
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1280,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08777777777777776
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1312,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08555555555555555
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1344,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08333333333333334
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1376,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.08111111111111108
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1408,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07888888888888888
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1440,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07666666666666666
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1472,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07444444444444445
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1504,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07222222222222224
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1536,
+    "donor_rate": 0.04,
+    "actual_context_rate": 0.07
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1568,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06777777777777778
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1600,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06555555555555553
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1632,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06333333333333332
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1664,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.06111111111111114
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1696,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.05888888888888891
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1728,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.056666666666666685
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1760,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.054444444444444455
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1792,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.05222222222222222
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1824,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04999999999999999
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1856,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.047777777777777794
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "donor_rate": 0.1,
+    "actual_context_rate": 0.04555555555555557
+  }
+]

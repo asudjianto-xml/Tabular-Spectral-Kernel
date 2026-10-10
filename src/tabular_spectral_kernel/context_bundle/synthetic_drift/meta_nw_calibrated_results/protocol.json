@@ -1,0 +1,25 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "steps": 400,
+  "meta_context": 128,
+  "meta_query": 32,
+  "temperature_mode": "historical_nw",
+  "meta_seed_rule": "30000 + seed, independent of history and evaluation",
+  "task_prior": "stationary convex A/B response mixtures; 30% pure endpoint episodes",
+  "encoder": "3 invariant LOO error/variance descriptors -> 16 tanh -> 2 softmax",
+  "objective": "equal-weight NW and KRR query MSE; frozen spectral kernels",
+  "inference": "frozen encoder; no search; fixed historical ridge; identical kernels and alpha for both decoders",
+  "qualification": "Known two-mechanism task family; geometry was originally trained for KRR",
+  "historical_nw_scales": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0
+  ]
+}

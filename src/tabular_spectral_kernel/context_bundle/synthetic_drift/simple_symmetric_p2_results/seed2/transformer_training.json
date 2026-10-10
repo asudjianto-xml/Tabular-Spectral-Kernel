@@ -1,0 +1,88 @@
+{
+  "best_epoch": 9,
+  "best_validation_loss": 0.01176734766184279,
+  "trace": [
+    {
+      "epoch": 0,
+      "train_loss": 0.011221553800118774,
+      "validation_loss": 0.011815929433216483
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.011211945833589832,
+      "validation_loss": 0.011808272317081241
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.011204617983997425,
+      "validation_loss": 0.011799892018360323
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0111990660446894,
+      "validation_loss": 0.011790309611214501
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.01119145049719269,
+      "validation_loss": 0.011786841809887452
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.011185218896836595,
+      "validation_loss": 0.011778599126545853
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.011180711449298927,
+      "validation_loss": 0.011772083200030346
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.011175808369007108,
+      "validation_loss": 0.011771697956880692
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.011171631539912333,
+      "validation_loss": 0.011769164931995547
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.011167061290976336,
+      "validation_loss": 0.01176734766184279
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.011162752593518739,
+      "validation_loss": 0.011768436044038448
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.01116038991079711,
+      "validation_loss": 0.0117703386127023
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.01115714026735474,
+      "validation_loss": 0.011770431822255255
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.011154728574125963,
+      "validation_loss": 0.011770944271404207
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.011154654517156757,
+      "validation_loss": 0.01177123413356385
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.011152999042077975,
+      "validation_loss": 0.011774135757544846
+    }
+  ],
+  "parameters": 596,
+  "total_parameters": 596
+}

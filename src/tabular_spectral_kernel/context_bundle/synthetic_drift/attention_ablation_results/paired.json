@@ -1,0 +1,266 @@
+[
+  {
+    "candidate": "Transformer / KRR",
+    "reference": "Transformer / joint",
+    "scenario": "recurring_downturn",
+    "improvement_seed_pp": [
+      -0.053997592655920246,
+      -0.060895206358253795,
+      -0.10734289669631636
+    ],
+    "improvement_mean_pp": -0.07407856523683014
+  },
+  {
+    "candidate": "Transformer / KRR",
+    "reference": "Transformer / joint",
+    "scenario": "gradual_downturn",
+    "improvement_seed_pp": [
+      -0.021062337236074646,
+      -0.021700815545135088,
+      0.02719418299969717
+    ],
+    "improvement_mean_pp": -0.005189656593837522
+  },
+  {
+    "candidate": "Transformer / KRR",
+    "reference": "Transformer / joint",
+    "scenario": "stable_economy",
+    "improvement_seed_pp": [
+      0.005479621981584193,
+      -0.0043472403735242415,
+      0.035435970247286314
+    ],
+    "improvement_mean_pp": 0.012189450618448755
+  },
+  {
+    "candidate": "Transformer / KRR",
+    "reference": "Transformer / joint",
+    "scenario": "localized_downturn",
+    "improvement_seed_pp": [
+      0.0500702802228678,
+      0.01941213587582924,
+      0.028161231912911255
+    ],
+    "improvement_mean_pp": 0.0325478826705361
+  },
+  {
+    "candidate": "PSD rotation / KRR",
+    "reference": "PSD rotation / joint",
+    "scenario": "recurring_downturn",
+    "improvement_seed_pp": [
+      0.07655234952579776,
+      0.04611096515946128,
+      0.2299230123036955
+    ],
+    "improvement_mean_pp": 0.11752877566298485
+  },
+  {
+    "candidate": "PSD rotation / KRR",
+    "reference": "PSD rotation / joint",
+    "scenario": "gradual_downturn",
+    "improvement_seed_pp": [
+      -0.004633044963783806,
+      0.0032621360531059906,
+      0.052800311822692736
+    ],
+    "improvement_mean_pp": 0.017143134304004975
+  },
+  {
+    "candidate": "PSD rotation / KRR",
+    "reference": "PSD rotation / joint",
+    "scenario": "stable_economy",
+    "improvement_seed_pp": [
+      0.01746144187271606,
+      -0.011409983599362794,
+      0.02589936548880664
+    ],
+    "improvement_mean_pp": 0.010650274587386635
+  },
+  {
+    "candidate": "PSD rotation / KRR",
+    "reference": "PSD rotation / joint",
+    "scenario": "localized_downturn",
+    "improvement_seed_pp": [
+      0.0023975000947085157,
+      0.004622087470944336,
+      -0.042329031699692155
+    ],
+    "improvement_mean_pp": -0.011769814711346435
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "PSD month only / joint",
+    "scenario": "recurring_downturn",
+    "improvement_seed_pp": [
+      -0.06114262642551438,
+      -0.0991021915104709,
+      -0.1383897965181194
+    ],
+    "improvement_mean_pp": -0.09954487148470155
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "PSD month only / joint",
+    "scenario": "gradual_downturn",
+    "improvement_seed_pp": [
+      -0.027746536375831965,
+      -0.04024553529577424,
+      0.002843709047539722
+    ],
+    "improvement_mean_pp": -0.021716120874688827
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "PSD month only / joint",
+    "scenario": "stable_economy",
+    "improvement_seed_pp": [
+      0.01958291994952968,
+      -0.011726201075057396,
+      0.02913539860633224
+    ],
+    "improvement_mean_pp": 0.012330705826934843
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "PSD month only / joint",
+    "scenario": "localized_downturn",
+    "improvement_seed_pp": [
+      0.04948817130125821,
+      0.012265160151669896,
+      -0.01153771588211644
+    ],
+    "improvement_mean_pp": 0.01673853852360389
+  },
+  {
+    "candidate": "PSD month only / joint",
+    "reference": "PSD rotation / joint",
+    "scenario": "recurring_downturn",
+    "improvement_seed_pp": [
+      0.09455638750231199,
+      0.12988769163682495,
+      0.1080175576134601
+    ],
+    "improvement_mean_pp": 0.11082054558419902
+  },
+  {
+    "candidate": "PSD month only / joint",
+    "reference": "PSD rotation / joint",
+    "scenario": "gradual_downturn",
+    "improvement_seed_pp": [
+      0.0103890693385289,
+      0.039527429003191616,
+      0.023462575539476282
+    ],
+    "improvement_mean_pp": 0.024459691293732266
+  },
+  {
+    "candidate": "PSD month only / joint",
+    "reference": "PSD rotation / joint",
+    "scenario": "stable_economy",
+    "improvement_seed_pp": [
+      -0.002500976442770808,
+      0.0007725335760176699,
+      -0.002028635663264139
+    ],
+    "improvement_mean_pp": -0.001252359510005759
+  },
+  {
+    "candidate": "PSD month only / joint",
+    "reference": "PSD rotation / joint",
+    "scenario": "localized_downturn",
+    "improvement_seed_pp": [
+      -0.04352690899280115,
+      -0.009365657770805946,
+      -0.0034281788666351565
+    ],
+    "improvement_mean_pp": -0.01877358187674742
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "PSD rotation / KRR",
+    "scenario": "recurring_downturn",
+    "improvement_seed_pp": [
+      -0.04313858844900015,
+      -0.015325465033107222,
+      -0.2602952512083548
+    ],
+    "improvement_mean_pp": -0.10625310156348738
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "PSD rotation / KRR",
+    "scenario": "gradual_downturn",
+    "improvement_seed_pp": [
+      -0.01272442207351926,
+      -0.003980242345688612,
+      -0.02649402723567673
+    ],
+    "improvement_mean_pp": -0.014399563884961534
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "PSD rotation / KRR",
+    "scenario": "stable_economy",
+    "improvement_seed_pp": [
+      -0.0003794983659571871,
+      0.0004563161003230676,
+      0.0012073974542614607
+    ],
+    "improvement_mean_pp": 0.00042807172954244704
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "PSD rotation / KRR",
+    "scenario": "localized_downturn",
+    "improvement_seed_pp": [
+      0.0035637622137485447,
+      -0.0017225850900803863,
+      0.02736313695094056
+    ],
+    "improvement_mean_pp": 0.009734771358202906
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "Transformer / KRR",
+    "scenario": "recurring_downturn",
+    "improvement_seed_pp": [
+      -0.06924595786450133,
+      -0.012645915175478473,
+      -0.09927531861157746
+    ],
+    "improvement_mean_pp": -0.06038906388385242
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "Transformer / KRR",
+    "scenario": "gradual_downturn",
+    "improvement_seed_pp": [
+      -0.020963543165421206,
+      -0.009796746331999784,
+      -0.018068228470474734
+    ],
+    "improvement_mean_pp": -0.016276172655965242
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "Transformer / KRR",
+    "scenario": "stable_economy",
+    "improvement_seed_pp": [
+      0.006914457233079402,
+      -0.00553755863583541,
+      -0.004849193076320035
+    ],
+    "improvement_mean_pp": -0.0011574314930253478
+  },
+  {
+    "candidate": "PSD month only / KRR",
+    "reference": "Transformer / KRR",
+    "scenario": "localized_downturn",
+    "improvement_seed_pp": [
+      0.00045862476708569133,
+      -0.015956562048866085,
+      -0.004517349459152997
+    ],
+    "improvement_mean_pp": -0.006671762246977797
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "scope": "Feature/penalty comparison, no change to frozen banks, mixtures, ridge, six-window candidates or training action costs.",
+  "controls": "Original56-feature saved selector; augmented57-feature old-optimizer L2; matched57-feature proximal L2; all new penalties.",
+  "feature_selection": "Exact proximal zeros; candidate-invariant features removed from new proximal fits because they cancel from linear rankings.",
+  "qualification": "Penalty types have different inductive biases; same finite strength grid and validation data. Fresh test observations share simulator family. No retuning after test."
+}

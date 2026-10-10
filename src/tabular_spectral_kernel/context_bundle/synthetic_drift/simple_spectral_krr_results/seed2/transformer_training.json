@@ -1,0 +1,88 @@
+{
+  "best_epoch": 9,
+  "best_validation_loss": 0.004874119442044029,
+  "trace": [
+    {
+      "epoch": 0,
+      "train_loss": 0.00495183373801144,
+      "validation_loss": 0.005017148897741959
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.004918510288982813,
+      "validation_loss": 0.004980280060525384
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0048915779452216165,
+      "validation_loss": 0.0049429511625942
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.004872439597734244,
+      "validation_loss": 0.004910084105398037
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.004856313597969072,
+      "validation_loss": 0.00489905679027211
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.004848044528736589,
+      "validation_loss": 0.004885776798208789
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.004844914127550805,
+      "validation_loss": 0.004876760216136258
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.004842881488622527,
+      "validation_loss": 0.00487921978417945
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0048401095583306,
+      "validation_loss": 0.004876557350499551
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.004837018331558337,
+      "validation_loss": 0.004874119442044029
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.004834153168656516,
+      "validation_loss": 0.004874667773114356
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.004833386780673052,
+      "validation_loss": 0.004879467551081679
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.004829232377727853,
+      "validation_loss": 0.004876995151361633
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.004828413958626815,
+      "validation_loss": 0.004877891848110457
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.0048278303895048415,
+      "validation_loss": 0.004876478845485444
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.004824646186874961,
+      "validation_loss": 0.00487902188220933
+    }
+  ],
+  "parameters": 596,
+  "total_parameters": 596
+}

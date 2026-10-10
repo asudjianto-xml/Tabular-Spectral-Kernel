@@ -1,0 +1,26 @@
+[
+  {
+    "method": "frozen_base",
+    "all_rmse": 0.7208188518841318,
+    "stable_rmse": 0.16748477558084374,
+    "changed_after_drift_rmse": 1.0846348241867847,
+    "changed_after_context_refresh_rmse": 1.0818684951240636,
+    "max_stable_prediction_change": 0.0
+  },
+  {
+    "method": "global_fusion",
+    "all_rmse": 0.5292714135559868,
+    "stable_rmse": 0.5001398861364321,
+    "changed_after_drift_rmse": 0.5980146807524709,
+    "changed_after_context_refresh_rmse": 0.5642929320272633,
+    "max_stable_prediction_change": 1.7282331321920872
+  },
+  {
+    "method": "selective_residual",
+    "all_rmse": 0.26451151070818707,
+    "stable_rmse": 0.16748477558084374,
+    "changed_after_drift_rmse": 0.3544189764780316,
+    "changed_after_context_refresh_rmse": 0.25409562445128125,
+    "max_stable_prediction_change": 0.0
+  }
+]

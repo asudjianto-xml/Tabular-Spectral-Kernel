@@ -1,0 +1,146 @@
+[
+  {
+    "method": "Simple PSD",
+    "seed": 0,
+    "parameters": 596,
+    "best_epoch": 30,
+    "epochs_run": 30,
+    "validation_loss": 0.011493207339448924
+  },
+  {
+    "method": "Simple PSD",
+    "seed": 1,
+    "parameters": 596,
+    "best_epoch": 29,
+    "epochs_run": 30,
+    "validation_loss": 0.010788827827790635
+  },
+  {
+    "method": "Simple PSD",
+    "seed": 2,
+    "parameters": 596,
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "validation_loss": 0.011767844273408637
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 0,
+    "parameters": 20132,
+    "best_epoch": 30,
+    "epochs_run": 30,
+    "validation_loss": 0.011429355110528226
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 1,
+    "parameters": 20132,
+    "best_epoch": 7,
+    "epochs_run": 13,
+    "validation_loss": 0.010787194137365109
+  },
+  {
+    "method": "PSD + large head",
+    "seed": 2,
+    "parameters": 20132,
+    "best_epoch": 3,
+    "epochs_run": 9,
+    "validation_loss": 0.01177454306509132
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 0,
+    "parameters": 16468,
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "validation_loss": 0.011467463406706926
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 1,
+    "parameters": 16468,
+    "best_epoch": 5,
+    "epochs_run": 11,
+    "validation_loss": 0.010770299504716927
+  },
+  {
+    "method": "Stacked PSD + FF",
+    "seed": 2,
+    "parameters": 16468,
+    "best_epoch": 8,
+    "epochs_run": 14,
+    "validation_loss": 0.011727960501853237
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 0,
+    "parameters": 7956,
+    "best_epoch": 13,
+    "epochs_run": 19,
+    "validation_loss": 0.011413603954136275
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 1,
+    "parameters": 7956,
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "validation_loss": 0.010762364456861512
+  },
+  {
+    "method": "Stacked PSD, no FF",
+    "seed": 2,
+    "parameters": 7956,
+    "best_epoch": 30,
+    "epochs_run": 30,
+    "validation_loss": 0.011635035382256787
+  },
+  {
+    "method": "Transformer + FF",
+    "seed": 0,
+    "parameters": 22786,
+    "best_epoch": 13,
+    "epochs_run": 19,
+    "validation_loss": 0.01146393319749464
+  },
+  {
+    "method": "Transformer + FF",
+    "seed": 1,
+    "parameters": 22786,
+    "best_epoch": 9,
+    "epochs_run": 15,
+    "validation_loss": 0.010766916116848662
+  },
+  {
+    "method": "Transformer + FF",
+    "seed": 2,
+    "parameters": 22786,
+    "best_epoch": 3,
+    "epochs_run": 9,
+    "validation_loss": 0.011762349819904762
+  },
+  {
+    "method": "Transformer, no FF",
+    "seed": 0,
+    "parameters": 14274,
+    "best_epoch": 28,
+    "epochs_run": 30,
+    "validation_loss": 0.01139117969287548
+  },
+  {
+    "method": "Transformer, no FF",
+    "seed": 1,
+    "parameters": 14274,
+    "best_epoch": 20,
+    "epochs_run": 26,
+    "validation_loss": 0.010757633243762874
+  },
+  {
+    "method": "Transformer, no FF",
+    "seed": 2,
+    "parameters": 14274,
+    "best_epoch": 24,
+    "epochs_run": 30,
+    "validation_loss": 0.011660835328190304
+  }
+]

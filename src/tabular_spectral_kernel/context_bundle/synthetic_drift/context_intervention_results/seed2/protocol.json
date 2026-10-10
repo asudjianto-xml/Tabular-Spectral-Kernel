@@ -1,0 +1,28 @@
+{
+  "seed": 2,
+  "variants": [
+    "linear_simple",
+    "linear_stacked",
+    "linear_learned_psd",
+    "linear_transformer"
+  ],
+  "conditions": [
+    "correct",
+    "labels_masked_gate",
+    "wrong_regime_gate",
+    "query_only_gate",
+    "wrong_regime_all",
+    "historical_only",
+    "shuffle_gate_0",
+    "shuffle_gate_1",
+    "shuffle_gate_2",
+    "shuffle_all_0",
+    "shuffle_all_1",
+    "shuffle_all_2"
+  ],
+  "support": "128 prior labels; next32 query features fixed; no query labels passed to gate or intervention selection",
+  "wrong_regime": "Counterfactual synthetic donor: same borrower predictors, opposing constant unemployment .04/.10 chosen from context mean threshold .07; equilibrium exposure 0/1; independently sampled labels; actual localized/broad scenario law retained. This is an artificial intervention, not retrieved real history.",
+  "shuffle": "3 independent permutations per origin, shared by all encoders; report mean of replicate metrics, not an ensemble prediction",
+  "no_context": "query_only_gate bypasses all context branches but keeps real KRR support. historical_only uses the same query-only gate and last128 pre-evaluation historical rows for KRR. No empty-support KRR is claimed.",
+  "caveat": "Inference interventions may be out of meta-training distribution. No retraining; changes measure reliance/sensitivity, not causal identification or an optimal no-context baseline."
+}

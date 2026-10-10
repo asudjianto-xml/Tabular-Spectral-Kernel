@@ -1,0 +1,104 @@
+[
+  {
+    "bank": 0,
+    "start": "2011-01-01",
+    "end_exclusive": "2011-03-01",
+    "fit_rows": 1069,
+    "validation_rows": 268,
+    "selected_step": 250,
+    "trace": [
+      {
+        "step": 0,
+        "validation_mse_scaled": 0.18624348944379399
+      },
+      {
+        "step": 50,
+        "validation_mse_scaled": 0.11698598823114637
+      },
+      {
+        "step": 100,
+        "validation_mse_scaled": 0.09360799004808337
+      },
+      {
+        "step": 150,
+        "validation_mse_scaled": 0.09056439535817162
+      },
+      {
+        "step": 200,
+        "validation_mse_scaled": 0.0856821928937817
+      },
+      {
+        "step": 250,
+        "validation_mse_scaled": 0.07856166002467967
+      }
+    ]
+  },
+  {
+    "bank": 1,
+    "start": "2011-03-01",
+    "end_exclusive": "2011-05-01",
+    "fit_rows": 1159,
+    "validation_rows": 290,
+    "selected_step": 250,
+    "trace": [
+      {
+        "step": 0,
+        "validation_mse_scaled": 0.8147132859263473
+      },
+      {
+        "step": 50,
+        "validation_mse_scaled": 0.6229407838333942
+      },
+      {
+        "step": 100,
+        "validation_mse_scaled": 0.5079811934620115
+      },
+      {
+        "step": 150,
+        "validation_mse_scaled": 0.48865334340354705
+      },
+      {
+        "step": 200,
+        "validation_mse_scaled": 0.44481791804735726
+      },
+      {
+        "step": 250,
+        "validation_mse_scaled": 0.42472205583327555
+      }
+    ]
+  },
+  {
+    "bank": 2,
+    "start": "2011-05-01",
+    "end_exclusive": "2011-07-01",
+    "fit_rows": 1171,
+    "validation_rows": 293,
+    "selected_step": 250,
+    "trace": [
+      {
+        "step": 0,
+        "validation_mse_scaled": 0.6197304239653381
+      },
+      {
+        "step": 50,
+        "validation_mse_scaled": 0.2335774936769521
+      },
+      {
+        "step": 100,
+        "validation_mse_scaled": 0.16906719683683438
+      },
+      {
+        "step": 150,
+        "validation_mse_scaled": 0.14761635301708853
+      },
+      {
+        "step": 200,
+        "validation_mse_scaled": 0.13471159200626182
+      },
+      {
+        "step": 250,
+        "validation_mse_scaled": 0.12849045863818961
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "profile": "original",
+  "train_episodes": 512,
+  "validation_episodes": 128,
+  "queries_per_episode": 4,
+  "max_epochs": 30,
+  "batch": 16,
+  "patience": 6,
+  "architecture": "8 input channels -> width32, 2 context self-attention layers, 4 heads; query cross-attention; softmax2",
+  "methods": [
+    "transformer"
+  ],
+  "rotary": false,
+  "psd_spectral_attention": true,
+  "spectral_temporal_rotation": false,
+  "psd_details": "4 spectral kernels per layer, Gaussian on learned Fourier/time embeddings, trace-normalized PSD metric, convex head fusion, symmetric reference-context normalization",
+  "rotary_position": null,
+  "channels": "5 normalized features, observed response (query zero), response-available mask, relative month",
+  "objective": "KRR squared query error only, no direct weight supervision",
+  "controls": "same full128 contexts, training/validation episodes, frozen kernels, ridge, and mean query loss; independent training per seed",
+  "optimizer": "Adam; transformer/summary lr .001, constant lr .01; gradient norm clip1; no dropout",
+  "selection": "best independent validation KRR loss, patience stopping; evaluation streams excluded",
+  "inference": "query-dependent alpha, same alpha for local Gram and cross-vector; no inference optimization",
+  "limitations": [
+    "Synthetic task family shared between meta-training and evaluation",
+    "Only original bandwidth profile tested",
+    "No exact preservation constraint for stable borrowers",
+    "Each query defines a local PSD kernel, not one global Gram across differently gated queries"
+  ]
+}

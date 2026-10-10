@@ -1,0 +1,162 @@
+[
+  {
+    "scenario": "recurring",
+    "method": "latest",
+    "rmse_pp": 8.921900271706923,
+    "rmse_seed_sd_pp": 0.24491877460014916,
+    "clean_rmse_pp": 6.885901348917785,
+    "older_fraction": 0.0
+  },
+  {
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "rmse_pp": 7.2809778284697435,
+    "rmse_seed_sd_pp": 0.06371757131706467,
+    "clean_rmse_pp": 4.695730505803852,
+    "older_fraction": 0.9244791666666666
+  },
+  {
+    "scenario": "recurring",
+    "method": "learned",
+    "rmse_pp": 7.486695953967123,
+    "rmse_seed_sd_pp": 0.03489465900641724,
+    "clean_rmse_pp": 4.936606925195045,
+    "older_fraction": 0.6575520833333334
+  },
+  {
+    "scenario": "recurring",
+    "method": "oracle_labels",
+    "rmse_pp": 3.857230030523992,
+    "rmse_seed_sd_pp": 0.06750607808350678,
+    "clean_rmse_pp": 4.667776054022355,
+    "older_fraction": 0.8190511067708334
+  },
+  {
+    "scenario": "recurring",
+    "method": "oracle_mean",
+    "rmse_pp": 6.000752975797516,
+    "rmse_seed_sd_pp": 0.021565420849386747,
+    "clean_rmse_pp": 2.0781134275627355,
+    "older_fraction": 0.8304850260416666
+  },
+  {
+    "scenario": "gradual",
+    "method": "latest",
+    "rmse_pp": 6.638267047837341,
+    "rmse_seed_sd_pp": 0.13915541668662318,
+    "clean_rmse_pp": 3.8511153736467763,
+    "older_fraction": 0.0
+  },
+  {
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "rmse_pp": 6.638267047837341,
+    "rmse_seed_sd_pp": 0.13915541668662318,
+    "clean_rmse_pp": 3.8511153736467763,
+    "older_fraction": 0.0
+  },
+  {
+    "scenario": "gradual",
+    "method": "learned",
+    "rmse_pp": 6.760964759410576,
+    "rmse_seed_sd_pp": 0.17073965029827,
+    "clean_rmse_pp": 4.042448699146874,
+    "older_fraction": 0.0369873046875
+  },
+  {
+    "scenario": "gradual",
+    "method": "oracle_labels",
+    "rmse_pp": 5.453816419370307,
+    "rmse_seed_sd_pp": 0.19661583268769472,
+    "clean_rmse_pp": 4.941094504957518,
+    "older_fraction": 0.3415120442708333
+  },
+  {
+    "scenario": "gradual",
+    "method": "oracle_mean",
+    "rmse_pp": 6.3754945200708555,
+    "rmse_seed_sd_pp": 0.15629303692491084,
+    "clean_rmse_pp": 3.3864464325082952,
+    "older_fraction": 0.20613606770833334
+  },
+  {
+    "scenario": "stable",
+    "method": "latest",
+    "rmse_pp": 5.131231758674792,
+    "rmse_seed_sd_pp": 0.04289510196000532,
+    "clean_rmse_pp": 2.434772154804121,
+    "older_fraction": 0.0
+  },
+  {
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "rmse_pp": 5.12260714042725,
+    "rmse_seed_sd_pp": 0.028501802152303378,
+    "clean_rmse_pp": 2.4103916813797173,
+    "older_fraction": 0.8268229166666666
+  },
+  {
+    "scenario": "stable",
+    "method": "learned",
+    "rmse_pp": 5.101742633141533,
+    "rmse_seed_sd_pp": 0.057410929674907525,
+    "clean_rmse_pp": 2.3712902498197295,
+    "older_fraction": 0.4969482421875
+  },
+  {
+    "scenario": "stable",
+    "method": "oracle_labels",
+    "rmse_pp": 3.342036410595096,
+    "rmse_seed_sd_pp": 0.02338566864028733,
+    "clean_rmse_pp": 2.280351898097322,
+    "older_fraction": 0.8334554036458334
+  },
+  {
+    "scenario": "stable",
+    "method": "oracle_mean",
+    "rmse_pp": 4.611969973202814,
+    "rmse_seed_sd_pp": 0.023645666085754892,
+    "clean_rmse_pp": 0.9520271431893308,
+    "older_fraction": 0.830322265625
+  },
+  {
+    "scenario": "localized",
+    "method": "latest",
+    "rmse_pp": 7.625659980722081,
+    "rmse_seed_sd_pp": 0.1660164383248446,
+    "clean_rmse_pp": 5.859815015856912,
+    "older_fraction": 0.0
+  },
+  {
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "rmse_pp": 6.8839602736131,
+    "rmse_seed_sd_pp": 0.11493964785170976,
+    "clean_rmse_pp": 4.877378791319364,
+    "older_fraction": 0.9309895833333334
+  },
+  {
+    "scenario": "localized",
+    "method": "learned",
+    "rmse_pp": 6.854269143111546,
+    "rmse_seed_sd_pp": 0.18243784053982015,
+    "clean_rmse_pp": 4.8121056278504915,
+    "older_fraction": 0.6453043619791666
+  },
+  {
+    "scenario": "localized",
+    "method": "oracle_labels",
+    "rmse_pp": 4.63358655305805,
+    "rmse_seed_sd_pp": 0.19255485938687625,
+    "clean_rmse_pp": 4.138194173193461,
+    "older_fraction": 0.8275553385416666
+  },
+  {
+    "scenario": "localized",
+    "method": "oracle_mean",
+    "rmse_pp": 5.744285997816399,
+    "rmse_seed_sd_pp": 0.15446613145805277,
+    "clean_rmse_pp": 3.0334749538179553,
+    "older_fraction": 0.8225911458333334
+  }
+]

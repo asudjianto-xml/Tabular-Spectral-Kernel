@@ -1,0 +1,282 @@
+[
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "latest",
+    "rmse": 0.0885384013262153,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "rmse": 0.07349156585369022,
+    "older_fraction": 0.890625
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l1",
+    "rmse": 0.07463980373363431,
+    "older_fraction": 0.89990234375
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "rmse": 0.06931476968608308,
+    "older_fraction": 0.8748779296875
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "rmse": 0.06750896386669569,
+    "older_fraction": 0.88427734375
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral",
+    "rmse": 0.06750896386669569,
+    "older_fraction": 0.88427734375
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "rmse": 0.07105900421140633,
+    "older_fraction": 0.895263671875
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "rmse": 0.06990630778343651,
+    "older_fraction": 0.920166015625
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid",
+    "rmse": 0.07105900421140633,
+    "older_fraction": 0.895263671875
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "rmse": 0.06750896386669569,
+    "older_fraction": 0.88427734375
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "latest",
+    "rmse": 0.06613696287613975,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "rmse": 0.06613696287613975,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l1",
+    "rmse": 0.06623055778410689,
+    "older_fraction": 0.0084228515625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "rmse": 0.06620433361172569,
+    "older_fraction": 0.006103515625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "rmse": 0.06613746028349753,
+    "older_fraction": 0.00244140625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral",
+    "rmse": 0.06613746028349753,
+    "older_fraction": 0.00244140625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "rmse": 0.0661290378822457,
+    "older_fraction": 0.00439453125
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "rmse": 0.0661320902617297,
+    "older_fraction": 0.0057373046875
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid",
+    "rmse": 0.0661290378822457,
+    "older_fraction": 0.00439453125
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "rmse": 0.06613746028349753,
+    "older_fraction": 0.00244140625
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "latest",
+    "rmse": 0.05127271535409041,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "rmse": 0.051484824018692574,
+    "older_fraction": 0.83203125
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l1",
+    "rmse": 0.05137258948821702,
+    "older_fraction": 0.8343505859375
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "rmse": 0.05117556122286997,
+    "older_fraction": 0.8372802734375
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "rmse": 0.051283932526657285,
+    "older_fraction": 0.76513671875
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral",
+    "rmse": 0.051283932526657285,
+    "older_fraction": 0.76513671875
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "rmse": 0.051367861001437976,
+    "older_fraction": 0.83740234375
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "rmse": 0.05127493328759974,
+    "older_fraction": 0.9398193359375
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid",
+    "rmse": 0.051367861001437976,
+    "older_fraction": 0.83740234375
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "rmse": 0.051283932526657285,
+    "older_fraction": 0.76513671875
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "latest",
+    "rmse": 0.07519476790241182,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "rmse": 0.06850503426183639,
+    "older_fraction": 0.9140625
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l1",
+    "rmse": 0.06714050267943279,
+    "older_fraction": 0.8994140625
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "rmse": 0.06685944310513649,
+    "older_fraction": 0.8883056640625
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "rmse": 0.06648148172804938,
+    "older_fraction": 0.8963623046875
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral",
+    "rmse": 0.06648148172804938,
+    "older_fraction": 0.8963623046875
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "rmse": 0.06711111503539711,
+    "older_fraction": 0.9005126953125
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "rmse": 0.06690737472354201,
+    "older_fraction": 0.9281005859375
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid",
+    "rmse": 0.06711111503539711,
+    "older_fraction": 0.9005126953125
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "rmse": 0.06648148172804938,
+    "older_fraction": 0.8963623046875
+  }
+]

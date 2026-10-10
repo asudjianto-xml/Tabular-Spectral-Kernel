@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying manuscript when using this research code."
+message: "Please cite the preceding SSRN paper when using the spectral kernel implementation."
 title: "Learning Spectral Geometry for Kernel Regression"
 type: software
-version: 0.1.0
+version: 0.2.0
 authors:
   - family-names: Sudjianto
     given-names: Agus
@@ -14,6 +14,9 @@ keywords:
   - spectral representation learning
   - metric learning
   - tabular learning
+  - in-context learning
+  - kernel fusion
+  - context selection
 preferred-citation:
   type: article
   title: "Learning Spectral Geometry for Kernel Regression"

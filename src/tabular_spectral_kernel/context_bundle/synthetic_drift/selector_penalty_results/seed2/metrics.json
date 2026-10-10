@@ -1,0 +1,254 @@
+[
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "latest",
+    "rmse": 0.08804396130476641,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "rmse": 0.07150525395808005,
+    "older_fraction": 0.921875
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "original",
+    "rmse": 0.07300053131885426,
+    "older_fraction": 0.6341552734375
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "rmse": 0.07211293418148484,
+    "older_fraction": 0.747802734375
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l2",
+    "rmse": 0.0710554853820738,
+    "older_fraction": 0.8946533203125
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l1",
+    "rmse": 0.07078130702177073,
+    "older_fraction": 0.90380859375
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "elastic",
+    "rmse": 0.07113017279275828,
+    "older_fraction": 0.875244140625
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "group",
+    "rmse": 0.0710835432643897,
+    "older_fraction": 0.8865966796875
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "rmse": 0.07078130702177073,
+    "older_fraction": 0.90380859375
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "latest",
+    "rmse": 0.06594193545963672,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "rmse": 0.06594193545963672,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "original",
+    "rmse": 0.06622838256599636,
+    "older_fraction": 0.0220947265625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "rmse": 0.0660615381768546,
+    "older_fraction": 0.0093994140625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l2",
+    "rmse": 0.06618085397276635,
+    "older_fraction": 0.0162353515625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l1",
+    "rmse": 0.06597137346797705,
+    "older_fraction": 0.0057373046875
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "elastic",
+    "rmse": 0.06606028634440839,
+    "older_fraction": 0.008544921875
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "group",
+    "rmse": 0.0661417207009799,
+    "older_fraction": 0.0133056640625
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "rmse": 0.06597137346797705,
+    "older_fraction": 0.0057373046875
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "latest",
+    "rmse": 0.05049398420738599,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "rmse": 0.050356951638360826,
+    "older_fraction": 0.77734375
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "original",
+    "rmse": 0.05041506755379372,
+    "older_fraction": 0.531005859375
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "rmse": 0.05053987275995178,
+    "older_fraction": 0.591552734375
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l2",
+    "rmse": 0.050294885729306606,
+    "older_fraction": 0.857666015625
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l1",
+    "rmse": 0.05005874374287317,
+    "older_fraction": 0.830078125
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "elastic",
+    "rmse": 0.05021734808063622,
+    "older_fraction": 0.7950439453125
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "group",
+    "rmse": 0.050232458499875884,
+    "older_fraction": 0.8316650390625
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "rmse": 0.05005874374287317,
+    "older_fraction": 0.830078125
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "latest",
+    "rmse": 0.07239131276861507,
+    "older_fraction": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "rmse": 0.06709404748741028,
+    "older_fraction": 0.90625
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "original",
+    "rmse": 0.06560158592514687,
+    "older_fraction": 0.6988525390625
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "rmse": 0.0653755587598229,
+    "older_fraction": 0.793212890625
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l2",
+    "rmse": 0.06507619345951156,
+    "older_fraction": 0.9002685546875
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l1",
+    "rmse": 0.0650200477730438,
+    "older_fraction": 0.9129638671875
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "elastic",
+    "rmse": 0.06512350484153727,
+    "older_fraction": 0.8890380859375
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "group",
+    "rmse": 0.06512956944620776,
+    "older_fraction": 0.8935546875
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "rmse": 0.0650200477730438,
+    "older_fraction": 0.9129638671875
+  }
+]

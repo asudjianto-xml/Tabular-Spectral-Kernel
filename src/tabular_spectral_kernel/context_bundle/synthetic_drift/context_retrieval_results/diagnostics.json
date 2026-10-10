@@ -1,0 +1,410 @@
+[
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8573259626116071,
+    "initial_bank0_quantiles": [
+      0.018191425002345742,
+      0.021560714311128222,
+      0.02363598251930876
+    ],
+    "refined_bank0_quantiles": [
+      0.017317802693537,
+      0.019728037599050494,
+      0.02255518489260529
+    ]
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8655918666294643,
+    "initial_bank0_quantiles": [
+      0.01826713270200936,
+      0.021335768520347576,
+      0.023598402674546118
+    ],
+    "refined_bank0_quantiles": [
+      0.017339542349817588,
+      0.019689657342880827,
+      0.021878385296028303
+    ]
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8734305245535714,
+    "initial_bank0_quantiles": [
+      0.017913948019028667,
+      0.018239140797053223,
+      0.018633004708744315
+    ],
+    "refined_bank0_quantiles": [
+      0.017222157760950645,
+      0.01781579833674938,
+      0.019075559925577117
+    ]
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8654436383928571,
+    "initial_bank0_quantiles": [
+      0.018183980720241254,
+      0.020299754845714682,
+      0.024182210790352942
+    ],
+    "refined_bank0_quantiles": [
+      0.017324118366600975,
+      0.01905960885013661,
+      0.025455934146477045
+    ]
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.7340000697544643,
+    "initial_bank0_quantiles": [
+      2.8232963508891964e-06,
+      4.55639862342235e-06,
+      7.4252406443618585e-06
+    ],
+    "refined_bank0_quantiles": [
+      2.5196669937352274e-06,
+      3.199969178348727e-06,
+      4.334415217481787e-06
+    ]
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.7489536830357143,
+    "initial_bank0_quantiles": [
+      2.8352504666789696e-06,
+      4.2883798619922855e-06,
+      7.975510446427569e-06
+    ],
+    "refined_bank0_quantiles": [
+      2.521576770399298e-06,
+      3.196321888789716e-06,
+      4.439736060553294e-06
+    ]
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.7622593470982143,
+    "initial_bank0_quantiles": [
+      2.7173230955732467e-06,
+      2.850231130919806e-06,
+      3.025647995814758e-06
+    ],
+    "refined_bank0_quantiles": [
+      2.4963554233405785e-06,
+      2.668938106891015e-06,
+      3.0229680119506067e-06
+    ]
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.74884033203125,
+    "initial_bank0_quantiles": [
+      2.8056175602873153e-06,
+      3.465073030413402e-06,
+      5.46710662789242e-06
+    ],
+    "refined_bank0_quantiles": [
+      2.515985504876364e-06,
+      3.000942042488687e-06,
+      5.3698905900964025e-06
+    ]
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8713640485491071,
+    "initial_bank0_quantiles": [
+      0.13008035965865578,
+      0.14461908757065944,
+      0.15274388746638312
+    ],
+    "refined_bank0_quantiles": [
+      0.11935664969988628,
+      0.1328578938584819,
+      0.14497128418153368
+    ]
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8807373046875,
+    "initial_bank0_quantiles": [
+      0.1300903064695711,
+      0.1436662936002986,
+      0.15272238400752394
+    ],
+    "refined_bank0_quantiles": [
+      0.11935664969988628,
+      0.13275384858660533,
+      0.14424246797060714
+    ]
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8828473772321429,
+    "initial_bank0_quantiles": [
+      0.12814632747671442,
+      0.13075750659420163,
+      0.13420892929730543
+    ],
+    "refined_bank0_quantiles": [
+      0.11863282544766555,
+      0.12392708186564555,
+      0.13359166516508025
+    ]
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8795514787946429,
+    "initial_bank0_quantiles": [
+      0.1300502092937688,
+      0.1382419052004727,
+      0.15150557227204015
+    ],
+    "refined_bank0_quantiles": [
+      0.11933895353449685,
+      0.13123483427884253,
+      0.15356868241263255
+    ]
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9916033063616071,
+    "initial_bank0_quantiles": [
+      0.12455214460568584,
+      0.15326639560480915,
+      0.18489682846289654
+    ],
+    "refined_bank0_quantiles": [
+      0.111005876606839,
+      0.12563039695701333,
+      0.14837148629857985
+    ]
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9913591657366071,
+    "initial_bank0_quantiles": [
+      0.12455214460568584,
+      0.15525723334382424,
+      0.18520422859106248
+    ],
+    "refined_bank0_quantiles": [
+      0.111005876606839,
+      0.1254822571495042,
+      0.15700525423781778
+    ]
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9905918666294643,
+    "initial_bank0_quantiles": [
+      0.12151694521861857,
+      0.12780988184571965,
+      0.13705768470287208
+    ],
+    "refined_bank0_quantiles": [
+      0.111005876606839,
+      0.1157693620139126,
+      0.1314705035849667
+    ]
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9910016741071429,
+    "initial_bank0_quantiles": [
+      0.12451539215381607,
+      0.1376064637043782,
+      0.1629332281683936
+    ],
+    "refined_bank0_quantiles": [
+      0.11100921182677141,
+      0.12217974505528997,
+      0.16784133996157444
+    ]
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.8934151785714286,
+    "initial_bank0_quantiles": [
+      0.11267743711990619,
+      0.11970252287352087,
+      0.12368248578798356
+    ],
+    "refined_bank0_quantiles": [
+      0.10906660570349754,
+      0.11792436906973235,
+      0.12346110388723422
+    ]
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9031720842633929,
+    "initial_bank0_quantiles": [
+      0.11267743711990619,
+      0.11968688721637588,
+      0.12347936312717459
+    ],
+    "refined_bank0_quantiles": [
+      0.10906660570349754,
+      0.11753021117490844,
+      0.1226310389807378
+    ]
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9141148158482143,
+    "initial_bank0_quantiles": [
+      0.11266375674777807,
+      0.11373205707642328,
+      0.11459760189206497
+    ],
+    "refined_bank0_quantiles": [
+      0.10906660570349754,
+      0.11252444061962463,
+      0.11650019146928967
+    ]
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9031197684151786,
+    "initial_bank0_quantiles": [
+      0.11252197511182788,
+      0.11861906080476595,
+      0.12618267059668994
+    ],
+    "refined_bank0_quantiles": [
+      0.10915293038140439,
+      0.11714068881774028,
+      0.129803726222668
+    ]
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9432896205357143,
+    "initial_bank0_quantiles": [
+      0.8040159380792523,
+      0.8345292676074156,
+      0.8703436067598339
+    ],
+    "refined_bank0_quantiles": [
+      0.8335438376511909,
+      0.8797699613048939,
+      0.907743517842867
+    ]
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9444318498883929,
+    "initial_bank0_quantiles": [
+      0.8039838038688082,
+      0.8405212654415402,
+      0.876351767042514
+    ],
+    "refined_bank0_quantiles": [
+      0.8421419682680807,
+      0.8815286166320753,
+      0.9063533592787664
+    ]
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9391653878348214,
+    "initial_bank0_quantiles": [
+      0.8461330946027134,
+      0.8643533637025673,
+      0.8811514736735337
+    ],
+    "refined_bank0_quantiles": [
+      0.8493349569540628,
+      0.8966562185925071,
+      0.9090533406242044
+    ]
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "equal_weight_control_max_error": 0.0,
+    "neighbor_overlap": 0.9394444056919643,
+    "initial_bank0_quantiles": [
+      0.8220131632636145,
+      0.8594452108061509,
+      0.8738799507182993
+    ],
+    "refined_bank0_quantiles": [
+      0.8378521751106742,
+      0.8868644820446258,
+      0.9070269006843712
+    ]
+  }
+]

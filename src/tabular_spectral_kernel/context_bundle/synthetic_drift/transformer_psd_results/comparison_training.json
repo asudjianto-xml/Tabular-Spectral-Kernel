@@ -1,0 +1,74 @@
+[
+  {
+    "method": "Transformer",
+    "seed": 0,
+    "parameters": 22786,
+    "best_epoch": 13,
+    "epochs_run": 19,
+    "best_validation_loss": 0.01146393319749464
+  },
+  {
+    "method": "Transformer",
+    "seed": 1,
+    "parameters": 22786,
+    "best_epoch": 9,
+    "epochs_run": 15,
+    "best_validation_loss": 0.010766916116848662
+  },
+  {
+    "method": "Transformer",
+    "seed": 2,
+    "parameters": 22786,
+    "best_epoch": 3,
+    "epochs_run": 9,
+    "best_validation_loss": 0.011762349819904762
+  },
+  {
+    "method": "RoPE",
+    "seed": 0,
+    "parameters": 22786,
+    "best_epoch": 13,
+    "epochs_run": 19,
+    "best_validation_loss": 0.011482412337575559
+  },
+  {
+    "method": "RoPE",
+    "seed": 1,
+    "parameters": 22786,
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "best_validation_loss": 0.010762157145935113
+  },
+  {
+    "method": "RoPE",
+    "seed": 2,
+    "parameters": 22786,
+    "best_epoch": 22,
+    "epochs_run": 28,
+    "best_validation_loss": 0.011681811566099154
+  },
+  {
+    "method": "PSD spectral",
+    "seed": 0,
+    "parameters": 32314,
+    "best_epoch": 11,
+    "epochs_run": 17,
+    "best_validation_loss": 0.011458823215262738
+  },
+  {
+    "method": "PSD spectral",
+    "seed": 1,
+    "parameters": 32314,
+    "best_epoch": 8,
+    "epochs_run": 14,
+    "best_validation_loss": 0.010778432298386143
+  },
+  {
+    "method": "PSD spectral",
+    "seed": 2,
+    "parameters": 32314,
+    "best_epoch": 5,
+    "epochs_run": 11,
+    "best_validation_loss": 0.0117345861040478
+  }
+]

@@ -1,0 +1,2270 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 1.5047156603607696
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 1.3573621359475638
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 1.4147259548075843
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.14735352441320598
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.08998970555318536
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.14735352441320598
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.05736381886002062
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.14181321338196246
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.005540311031243528
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.05182350782877709
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.08998970555318536
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.05736381886002062
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.07592389170683056
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.22327741612003654
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.16591359726001592
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0812827740254568
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.06607075038774918
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.008706931527728556
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.03400738452706831
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.1813609089402743
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.12399709008025367
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.03400738452706831
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.1813609089402743
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.12399709008025367
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.17433626750356646
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.062025859951160556
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.17433626750356646
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.062025859951160556
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.17433626750356646
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.1123104075524059
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.08420448385821344
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.09013178364535301
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.022178623907052886
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.062025859951160556
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.1123104075524059
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.0031752824624725617
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.17751154996603902
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.06520114241363312
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.04555454344390697
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.12878172405965949
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.016471316507253586
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.03621824883232594
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.13811801867124052
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.025807611118834617
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.03621824883232594
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.13811801867124052
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.025807611118834617
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.02991271725659994
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.019112740664607025
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.02485445683877638
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.049025457921206966
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.05476717409537632
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.049025457921206966
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.005741716174169353
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.04418423261333404
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": 0.004841225307872926
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.01058294148204228
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.05476717409537632
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.005741716174169353
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.04849388123370421
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": 0.000531576687502755
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.006273292861672108
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.05874651268287165
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.009721054761664683
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.003979338587495329
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.0740176335831802
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.02499217566197323
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.019250459487803878
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.0740176335831802
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.02499217566197323
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.019250459487803878
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.7170864658897214
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.78930923374559
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.8351122078681383
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.07222276785586873
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.11802574197841698
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.07222276785586873
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.045802974122548246
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.08957179764522705
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.017349029789358317
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.02845394433318993
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.11802574197841698
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.045802974122548246
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.10112452897409613
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.028901761118227398
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.016901213004320847
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.10435830283797715
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.032135534982108416
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.01366743914043983
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.19363004272401618
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.12140727486814745
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.0756043007455992
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.19363004272401618
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.12140727486814745
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.0756043007455992
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 1.5689790196934617
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 1.2368994810599123
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 1.5990045338390004
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.3320795386335493
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.030025514145538834
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.3320795386335493
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.3621050527790881
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.03396731858223562
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.29811222005131366
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.06399283272777445
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.030025514145538834
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.3621050527790881
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.04202135627068282
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.3741008949042321
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.011995842125143985
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.030967394912638502
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.3630469335461878
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.0009418807670996676
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.02243778965410892
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.3545173282876582
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.007587724491429915
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.030967394912638502
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.3630469335461878
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.0009418807670996676
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.16777281607693734
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.039745563911067205
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.16777281607693734
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.039745563911067205
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.16777281607693734
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.12802725216587013
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.06125477682965147
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.10651803924728587
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.021509212918584264
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.039745563911067205
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.12802725216587013
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.02863141884925091
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.13914139722768643
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.011114145061816294
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.03216323985903574
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.1356095762179016
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.007582324052031464
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.04371531269454637
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.12405750338239097
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.003969748783479166
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.03216323985903574
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.1356095762179016
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.007582324052031464
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.06277112661554132
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.06076498055764337
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.06342755781474918
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.1235361071731847
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.1261986844302905
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.1235361071731847
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.002662577257105808
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.10095455416402471
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": 0.022581553009159983
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.02524413026626579
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.1261986844302905
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.002662577257105808
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.12846532546367043
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.004929218290485732
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.0022666410333799236
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.12168167750237283
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": 0.001854429670811869
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.004517006927917677
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.11779874513162952
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": 0.005737362041555172
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.00839993929866098
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.12168167750237283
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": 0.001854429670811869
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.004517006927917677
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.8102990620296056
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.7746003600518941
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.9029120300539317
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.035698701977711356
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.09261296802432623
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.035698701977711356
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.12831167000203758
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.07389268562683071
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.10959138760454207
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.018720282397495513
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.09261296802432623
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.12831167000203758
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.10504279674060507
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.14074149871831643
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.012429828716278846
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.09746980154750201
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.13316850352521337
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.004856833523175785
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.09253053147337403
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.1282292334510854
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": 8.243655095219182e-05
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.09746980154750201
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.13316850352521337
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.004856833523175785
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 1.653870734668636
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 1.5043429985912153
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 1.6988475922692605
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.14952773607742054
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.04497685760062459
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.14952773607742054
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.19450459367804512
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0607680223404794
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.08875971373694114
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.10574487994110399
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.04497685760062459
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.19450459367804512
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.07239469363093248
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.22192242970835302
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.027417836030307896
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.03750811653217695
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.18703585260959749
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.007468741068447637
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.0421710693690347
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.19169880544645523
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0028057882315898897
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.07239469363093248
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.22192242970835302
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.027417836030307896
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.028644710635963855
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.023891851312962675
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.028644710635963855
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.023891851312962675
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.028644710635963855
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0047528593230011795
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.011960271721787874
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.01668443891417598
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.011931579591174801
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.023891851312962675
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.0047528593230011795
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0029438008340321176
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.025700909801931737
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.020948050478930558
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.011835088477166189
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.016809622158797666
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.012056762835796486
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.019978524134317555
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.0086661865016463
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.003913327178645121
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0029438008340321176
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.025700909801931737
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.020948050478930558
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.013703256902516253
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.00789166535922689
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.019909847807938336
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": -0.005811591543289363
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0062065909054220825
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.005811591543289363
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.012018182448711445
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.018292112159095514
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": 0.012480520615806151
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.024498703064517596
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.0062065909054220825
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.012018182448711445
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.029820789548765797
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.03563238109205516
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.023614198643343715
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.013960355772460464
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.019771947315749827
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.007753764867038382
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.012449313848494209
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.018260905391783572
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.0062427229430721265
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.029820789548765797
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.03563238109205516
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.023614198643343715
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.529726528120479
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.6789726843468208
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "latest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.7315119309103515
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "original",
+    "delta_rmse_pp": 0.1492461562263417
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.20178540278987245
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.1492461562263417
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "original",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "original",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.05253924656353076
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.17184887275873834
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.02260271653239665
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "augmented_adam_l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.029936530031134112
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.20178540278987245
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "original",
+    "delta_rmse_pp": -0.05253924656353076
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l2",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.20739997143664896
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "original",
+    "delta_rmse_pp": -0.05815381521030727
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "l1",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.005614568646776508
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.19705426458730135
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "original",
+    "delta_rmse_pp": -0.04780810836095967
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "elastic",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.004731138202571095
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.19644780412025192
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "original",
+    "delta_rmse_pp": -0.04720164789391024
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "group",
+    "baseline": "l2",
+    "delta_rmse_pp": 0.005337598669620525
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "macro_nearest",
+    "delta_rmse_pp": -0.20739997143664896
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "original",
+    "delta_rmse_pp": -0.05815381521030727
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "validation_selected",
+    "baseline": "l2",
+    "delta_rmse_pp": -0.005614568646776508
+  }
+]

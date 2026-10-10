@@ -1,0 +1,128 @@
+[
+  {
+    "method": "Transformer / joint",
+    "origin": 128,
+    "encoder_ms": 1.8810744804795831,
+    "encoder_and_both_readouts_ms": 4.599221982061863,
+    "queries": 32
+  },
+  {
+    "method": "PSD month / joint",
+    "origin": 128,
+    "encoder_ms": 2.86351700196974,
+    "encoder_and_both_readouts_ms": 5.577416013693437,
+    "queries": 32
+  },
+  {
+    "method": "Simple / joint",
+    "origin": 128,
+    "encoder_ms": 1.125186972785741,
+    "encoder_and_both_readouts_ms": 3.7898134905844927,
+    "queries": 32
+  },
+  {
+    "method": "Transformer / KRR",
+    "origin": 128,
+    "encoder_ms": 1.6851045074872673,
+    "encoder_and_both_readouts_ms": 4.371867515146732,
+    "queries": 32
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "origin": 128,
+    "encoder_ms": 3.2630565110594034,
+    "encoder_and_both_readouts_ms": 5.952515493845567,
+    "queries": 32
+  },
+  {
+    "method": "Simple / KRR",
+    "origin": 128,
+    "encoder_ms": 1.4348464901559055,
+    "encoder_and_both_readouts_ms": 4.098872974282131,
+    "queries": 32
+  },
+  {
+    "method": "Transformer / joint",
+    "origin": 896,
+    "encoder_ms": 1.9006515212822706,
+    "encoder_and_both_readouts_ms": 4.581365530611947,
+    "queries": 32
+  },
+  {
+    "method": "PSD month / joint",
+    "origin": 896,
+    "encoder_ms": 2.9334769933484495,
+    "encoder_and_both_readouts_ms": 5.6558805226814,
+    "queries": 32
+  },
+  {
+    "method": "Simple / joint",
+    "origin": 896,
+    "encoder_ms": 1.0321144945919514,
+    "encoder_and_both_readouts_ms": 3.696981002576649,
+    "queries": 32
+  },
+  {
+    "method": "Transformer / KRR",
+    "origin": 896,
+    "encoder_ms": 1.8556509749032557,
+    "encoder_and_both_readouts_ms": 4.545468982541934,
+    "queries": 32
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "origin": 896,
+    "encoder_ms": 3.1585114484187216,
+    "encoder_and_both_readouts_ms": 5.8663384697865695,
+    "queries": 32
+  },
+  {
+    "method": "Simple / KRR",
+    "origin": 896,
+    "encoder_ms": 1.1573795054573566,
+    "encoder_and_both_readouts_ms": 3.8183500000741333,
+    "queries": 32
+  },
+  {
+    "method": "Transformer / joint",
+    "origin": 1888,
+    "encoder_ms": 1.9675959774758667,
+    "encoder_and_both_readouts_ms": 4.6826309990137815,
+    "queries": 32
+  },
+  {
+    "method": "PSD month / joint",
+    "origin": 1888,
+    "encoder_ms": 3.1616800115443766,
+    "encoder_and_both_readouts_ms": 5.84069051546976,
+    "queries": 32
+  },
+  {
+    "method": "Simple / joint",
+    "origin": 1888,
+    "encoder_ms": 1.2418279948178679,
+    "encoder_and_both_readouts_ms": 3.8957669748924673,
+    "queries": 32
+  },
+  {
+    "method": "Transformer / KRR",
+    "origin": 1888,
+    "encoder_ms": 1.98643549811095,
+    "encoder_and_both_readouts_ms": 4.668294510338455,
+    "queries": 32
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "origin": 1888,
+    "encoder_ms": 3.1880879832897335,
+    "encoder_and_both_readouts_ms": 5.919426999753341,
+    "queries": 32
+  },
+  {
+    "method": "Simple / KRR",
+    "origin": 1888,
+    "encoder_ms": 1.1035870120394975,
+    "encoder_and_both_readouts_ms": 3.7854775437153876,
+    "queries": 32
+  }
+]

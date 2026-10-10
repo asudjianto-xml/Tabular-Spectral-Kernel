@@ -1,0 +1,26 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "episodes": "same512training,128validation and256test per scenario/seed as final spectral-selector study",
+  "ewma": "exact causal h from all observed macro history including eight burn-in months, known simulator initial h=0; no future unemployment or response labels",
+  "baseline": "matched Gaussian KRR on latest128, five snapshot predictors vs six including scaled h; bandwidth/ridge tuned independently on same mixed validation episodes",
+  "widths": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "ridges": [
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "mlp": "one ReLU hidden layer32 or64, matching spectral parameter counts to within1; same57descriptors, costs, epochs, patience, and three configurations",
+  "review_stage": true,
+  "test_previously_inspected": true
+}

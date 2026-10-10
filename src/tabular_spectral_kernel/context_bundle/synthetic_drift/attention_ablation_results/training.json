@@ -1,0 +1,146 @@
+[
+  {
+    "method": "Transformer / joint",
+    "seed": 0,
+    "parameters": 22786,
+    "best_epoch": 13,
+    "epochs_run": 19,
+    "validation_loss": 0.01146393319749464
+  },
+  {
+    "method": "Transformer / joint",
+    "seed": 1,
+    "parameters": 22786,
+    "best_epoch": 9,
+    "epochs_run": 15,
+    "validation_loss": 0.010766916116848662
+  },
+  {
+    "method": "Transformer / joint",
+    "seed": 2,
+    "parameters": 22786,
+    "best_epoch": 3,
+    "epochs_run": 9,
+    "validation_loss": 0.011762349819904762
+  },
+  {
+    "method": "Transformer / KRR",
+    "seed": 0,
+    "parameters": 22786,
+    "best_epoch": 19,
+    "epochs_run": 25,
+    "validation_loss": 0.005493256786162362
+  },
+  {
+    "method": "Transformer / KRR",
+    "seed": 1,
+    "parameters": 22786,
+    "best_epoch": 4,
+    "epochs_run": 10,
+    "validation_loss": 0.004447901183553715
+  },
+  {
+    "method": "Transformer / KRR",
+    "seed": 2,
+    "parameters": 22786,
+    "best_epoch": 15,
+    "epochs_run": 21,
+    "validation_loss": 0.004844098943844191
+  },
+  {
+    "method": "PSD rotation / joint",
+    "seed": 0,
+    "parameters": 32314,
+    "best_epoch": 11,
+    "epochs_run": 17,
+    "validation_loss": 0.011458823215262738
+  },
+  {
+    "method": "PSD rotation / joint",
+    "seed": 1,
+    "parameters": 32314,
+    "best_epoch": 8,
+    "epochs_run": 14,
+    "validation_loss": 0.010778432298386143
+  },
+  {
+    "method": "PSD rotation / joint",
+    "seed": 2,
+    "parameters": 32314,
+    "best_epoch": 5,
+    "epochs_run": 11,
+    "validation_loss": 0.0117345861040478
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "seed": 0,
+    "parameters": 32314,
+    "best_epoch": 9,
+    "epochs_run": 15,
+    "validation_loss": 0.005555771313610211
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "seed": 1,
+    "parameters": 32314,
+    "best_epoch": 4,
+    "epochs_run": 10,
+    "validation_loss": 0.004444786024138962
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "seed": 2,
+    "parameters": 32314,
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "validation_loss": 0.004849560465316841
+  },
+  {
+    "method": "PSD month only / joint",
+    "seed": 0,
+    "parameters": 32122,
+    "best_epoch": 7,
+    "epochs_run": 13,
+    "validation_loss": 0.011488538553738535
+  },
+  {
+    "method": "PSD month only / joint",
+    "seed": 1,
+    "parameters": 32122,
+    "best_epoch": 20,
+    "epochs_run": 26,
+    "validation_loss": 0.010770417667491261
+  },
+  {
+    "method": "PSD month only / joint",
+    "seed": 2,
+    "parameters": 32122,
+    "best_epoch": 24,
+    "epochs_run": 30,
+    "validation_loss": 0.011682513719431832
+  },
+  {
+    "method": "PSD month only / KRR",
+    "seed": 0,
+    "parameters": 32122,
+    "best_epoch": 9,
+    "epochs_run": 15,
+    "validation_loss": 0.005580885904763622
+  },
+  {
+    "method": "PSD month only / KRR",
+    "seed": 1,
+    "parameters": 32122,
+    "best_epoch": 4,
+    "epochs_run": 10,
+    "validation_loss": 0.004446367826196558
+  },
+  {
+    "method": "PSD month only / KRR",
+    "seed": 2,
+    "parameters": 32122,
+    "best_epoch": 9,
+    "epochs_run": 15,
+    "validation_loss": 0.004850564218412727
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "synthetic_drift/run_spectral_selector.py": "7ddc6c71edf4f1df06c927cae538b1617df8de5172ff2b98e626e30a95751d79",
+  "synthetic_drift/run_context_selector.py": "bd8fd50041f1896a39a45041ae32b28ae1374dcde127088d449d840ed901bd81",
+  "synthetic_drift/run_selector_penalties.py": "9fe3d1cbffc32b6e91b13235044d6ba56a86ecf7447377b3ded07c31ff81f857",
+  "synthetic_drift/run.py": "924b570eb60cd8b41d9af15072ac4bdef0615a45c9ee049338807b6826cb03ca",
+  "synthetic_drift/unemployment_data.py": "c10c1b22ca0b9c49b965975d7e356853ac72c6885e86b4cfa8be33be3550b8f4",
+  "synthetic_drift/run_credit_card.py": "ef5ffa0636854b21bc95017c326a821197287436d8aa94044404c01619f0a8a2",
+  "@canonical_model": "fc7e6a3d3c29feb692be4c6b04e4952769956ad3751675d09b7a50005246b203",
+  "synthetic_drift/unemployment_results/seed1/original_training.json": "536f4ce4144cc15ec0569a1d9664e22550f6131e2ee113da9803d8980fc31155",
+  "synthetic_drift/unemployment_results/seed1/normal.pt": "29bdc5edfa446de699da84de39f33c328cf347a8db8ecb9346946efaec955f37",
+  "synthetic_drift/unemployment_results/seed1/downturn.pt": "52da1a9cd33c0db1e140f5e3113a94fca8154e86b2104528b97510254d75d1ec",
+  "synthetic_drift/context_selector_results/seed1/protocol.json": "8af03e57e1c64699cc2f81326c4d677ae69b84669a02581f790df4d8294c1207",
+  "synthetic_drift/selector_penalty_results/seed1/l1.pt": "9ca2ef733a3c629fdd0e678008daa619f6cae3d93bd8b1b49d8429053203b523"
+}

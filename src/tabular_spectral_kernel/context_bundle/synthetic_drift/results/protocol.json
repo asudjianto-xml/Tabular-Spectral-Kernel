@@ -1,0 +1,60 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "steps": 400,
+  "context": 128,
+  "support": 80,
+  "horizon": 32,
+  "output": "synthetic_drift/results",
+  "scenarios": [
+    "recurring",
+    "gradual",
+    "stationary",
+    "mixed"
+  ],
+  "methods": [
+    "kernel_fusion",
+    "prediction_average",
+    "best_single",
+    "uniform_kernel",
+    "pooled_kernel",
+    "latest_kernel",
+    "stale_predictor"
+  ],
+  "ridges": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "fusion_weights": [
+    0.0,
+    0.1,
+    0.2,
+    0.30000000000000004,
+    0.4,
+    0.5,
+    0.6000000000000001,
+    0.7000000000000001,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "input_distribution": "IID Uniform([-1,1]^3), identical across time and scenarios",
+  "response_a": "sin(2*pi*x0)+0.4*cos(4*pi*x0)",
+  "response_b": "sin(6*pi*x1)+0.4*cos(2*pi*x1)",
+  "noise_sd": 0.15,
+  "historical_window_size": 600,
+  "segment_size": 384,
+  "selection": "chronological support/validation; refit full context; no query labels",
+  "source_sha256": "84b424978148fed8cb33fb7401e8f0fddb37cd26a88091b97934c369d15e2416",
+  "canonical_model_sha256": "fc7e6a3d3c29feb692be4c6b04e4952769956ad3751675d09b7a50005246b203",
+  "versions": {
+    "python": "3.12.3 (main, Jan 22 2026, 20:57:42) [GCC 13.3.0]",
+    "numpy": "2.4.6",
+    "torch": "2.12.0+cu130"
+  }
+}

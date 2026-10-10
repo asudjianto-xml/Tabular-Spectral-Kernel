@@ -1,0 +1,4 @@
+{
+  "seconds": 20.15024391299812,
+  "timing_note": "Joint NW/KRR inference timings exclude kernel-block construction; query-local methods repeat gate/solve per query, full/recent controls reuse across a block."
+}

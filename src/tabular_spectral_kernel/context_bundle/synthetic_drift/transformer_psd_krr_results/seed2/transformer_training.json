@@ -1,0 +1,88 @@
+{
+  "best_epoch": 9,
+  "best_validation_loss": 0.004849560465316841,
+  "trace": [
+    {
+      "epoch": 0,
+      "train_loss": 0.004888720771994031,
+      "validation_loss": 0.004877470784776428
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.004841239129242202,
+      "validation_loss": 0.004905705975163432
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.004846412074850529,
+      "validation_loss": 0.00489676182682177
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.004833634563323529,
+      "validation_loss": 0.004867383368723069
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.004823168599806251,
+      "validation_loss": 0.004865390288487901
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.004812606905752625,
+      "validation_loss": 0.004872476398751547
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.004819291055069558,
+      "validation_loss": 0.00485047410357897
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0048226423918293045,
+      "validation_loss": 0.004863497194828139
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.004827432570998928,
+      "validation_loss": 0.004872271600273707
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.0048079808986774,
+      "validation_loss": 0.004849560465316841
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.00479863206190179,
+      "validation_loss": 0.004861760530532973
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.00488382935804063,
+      "validation_loss": 0.004888093437845493
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.004831505812892378,
+      "validation_loss": 0.00488832423328943
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.0048263528431560345,
+      "validation_loss": 0.00488845317192152
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.004840632789713516,
+      "validation_loss": 0.004904713703039551
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.004821020567833817,
+      "validation_loss": 0.004891928215983722
+    }
+  ],
+  "parameters": 32314,
+  "total_parameters": 32314
+}

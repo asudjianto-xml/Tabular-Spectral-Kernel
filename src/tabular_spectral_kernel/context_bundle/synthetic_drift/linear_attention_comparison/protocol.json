@@ -1,0 +1,43 @@
+{
+  "configs": [
+    [
+      "Single PSD, linear",
+      "mlp_linear_simple_results"
+    ],
+    [
+      "Stacked PSD, linear",
+      "mlp_linear_stacked_results"
+    ],
+    [
+      "Learned PSD, linear",
+      "mlp_linear_learned_psd_results"
+    ],
+    [
+      "Transformer, linear",
+      "mlp_linear_transformer_results"
+    ],
+    [
+      "Simple PSD + MLP",
+      "simple_spectral_joint_results"
+    ],
+    [
+      "Stacked PSD, final MLP",
+      "mlp_stacked_psd_no_ff_results"
+    ],
+    [
+      "Learned PSD + MLPs",
+      "transformer_psd_norot_joint_results"
+    ],
+    [
+      "Transformer, final MLP",
+      "mlp_transformer_no_ff_results"
+    ],
+    [
+      "Transformer + all MLPs",
+      "transformer_results"
+    ]
+  ],
+  "head": "Single affine map to 2 logits, then simplex softmax; no feed-forward MLPs or GELU on executed paths",
+  "remaining_nonlinearity": "Attention/kernel computation, context mixture softmax, layer normalization where present, final softmax and KRR solve",
+  "qualification": "Not fully linear models; architecture, kernel learning and parameter counts differ. Learned PSD removes both intermediate and final MLPs versus old reference; simple also removes value GELU. Three-seed exploratory matched-budget evaluation."
+}

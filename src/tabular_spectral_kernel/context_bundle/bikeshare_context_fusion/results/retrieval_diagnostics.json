@@ -1,0 +1,119 @@
+[
+  {
+    "seed": 0,
+    "method": "selected_fixed_fusion",
+    "older_fraction": 0.0,
+    "lag_fractions": {
+      "0": 1.0,
+      "7": 0.0,
+      "28": 0.0,
+      "56": 0.0,
+      "91": 0.0,
+      "182": 0.0
+    }
+  },
+  {
+    "seed": 0,
+    "method": "selected_adaptive_fusion",
+    "older_fraction": 0.0,
+    "lag_fractions": {
+      "0": 1.0,
+      "7": 0.0,
+      "28": 0.0,
+      "56": 0.0,
+      "91": 0.0,
+      "182": 0.0
+    }
+  },
+  {
+    "seed": 0,
+    "method": "weather_selected_fixed_fusion",
+    "older_fraction": 0.653766888023815,
+    "lag_fractions": {
+      "0": 0.346233111976185,
+      "7": 0.2386077398671857,
+      "28": 0.1722005953743989,
+      "56": 0.11266315548431417,
+      "91": 0.07178841309823678,
+      "182": 0.05850698419967942
+    }
+  },
+  {
+    "seed": 1,
+    "method": "selected_fixed_fusion",
+    "older_fraction": 0.0,
+    "lag_fractions": {
+      "0": 1.0,
+      "7": 0.0,
+      "28": 0.0,
+      "56": 0.0,
+      "91": 0.0,
+      "182": 0.0
+    }
+  },
+  {
+    "seed": 1,
+    "method": "selected_adaptive_fusion",
+    "older_fraction": 0.0,
+    "lag_fractions": {
+      "0": 1.0,
+      "7": 0.0,
+      "28": 0.0,
+      "56": 0.0,
+      "91": 0.0,
+      "182": 0.0
+    }
+  },
+  {
+    "seed": 1,
+    "method": "weather_selected_fixed_fusion",
+    "older_fraction": 0.653766888023815,
+    "lag_fractions": {
+      "0": 0.346233111976185,
+      "7": 0.2386077398671857,
+      "28": 0.1722005953743989,
+      "56": 0.11266315548431417,
+      "91": 0.07178841309823678,
+      "182": 0.05850698419967942
+    }
+  },
+  {
+    "seed": 2,
+    "method": "selected_fixed_fusion",
+    "older_fraction": 0.0,
+    "lag_fractions": {
+      "0": 1.0,
+      "7": 0.0,
+      "28": 0.0,
+      "56": 0.0,
+      "91": 0.0,
+      "182": 0.0
+    }
+  },
+  {
+    "seed": 2,
+    "method": "selected_adaptive_fusion",
+    "older_fraction": 0.0,
+    "lag_fractions": {
+      "0": 1.0,
+      "7": 0.0,
+      "28": 0.0,
+      "56": 0.0,
+      "91": 0.0,
+      "182": 0.0
+    }
+  },
+  {
+    "seed": 2,
+    "method": "weather_selected_fixed_fusion",
+    "older_fraction": 0.653766888023815,
+    "lag_fractions": {
+      "0": 0.346233111976185,
+      "7": 0.2386077398671857,
+      "28": 0.1722005953743989,
+      "56": 0.11266315548431417,
+      "91": 0.07178841309823678,
+      "182": 0.05850698419967942
+    }
+  }
+]

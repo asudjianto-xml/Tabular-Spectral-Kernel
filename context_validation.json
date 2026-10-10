@@ -1,0 +1,34 @@
+{
+  "version": "0.2.0",
+  "python": "3.12.3",
+  "torch": "2.10.0+cu130",
+  "numpy": "2.2.6",
+  "scipy": "1.13.1",
+  "validation_device": "cpu",
+  "installed_wheel_outside_checkout": true,
+  "workspace_with_spaces": true,
+  "tests": {
+    "package": 16,
+    "synthetic": 69,
+    "bike_chronology": 5,
+    "review_controls": 5
+  },
+  "recorded_files_verified": 1353,
+  "bike_metric_rows_recomputed": 30,
+  "csv_metric_tolerance": {
+    "rtol": 1e-08,
+    "atol": 1e-06
+  },
+  "comparison_replays": [
+    "spectral_selector",
+    "linear_attention",
+    "review_summaries_and_paired_bootstrap"
+  ],
+  "manuscripts_in_wheel": false,
+  "original_checkpoint_and_prediction_bytes_preserved": true,
+  "limitations": [
+    "No full retraining of the multi-seed experiments during packaging.",
+    "One pre-existing PyTorch tensor-to-scalar warning in the single-bank training test.",
+    "CUDA execution not validated in this packaging pass."
+  ]
+}

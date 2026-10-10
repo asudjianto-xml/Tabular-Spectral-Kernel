@@ -1,0 +1,392 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "method": "validation",
+    "rmse": 0.07734839492537265
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.0760431326802639
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "method": "latest",
+    "rmse": 0.07829644251877554
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "method": "transformer",
+    "rmse": 0.07599915202162398
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "method": "rope",
+    "rmse": 0.07845540798048009
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "method": "validation",
+    "rmse": 0.07067516654406487
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.06982070945602815
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "method": "latest",
+    "rmse": 0.07003684957314593
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "method": "transformer",
+    "rmse": 0.0694854749125324
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "method": "rope",
+    "rmse": 0.06993351088362358
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "method": "validation",
+    "rmse": 0.0493180741677743
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "method": "convex_mkl",
+    "rmse": 0.04938086287808475
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "method": "latest",
+    "rmse": 0.049560547924462996
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "method": "transformer",
+    "rmse": 0.04899406784125909
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "method": "rope",
+    "rmse": 0.04922151682484501
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "method": "validation",
+    "rmse": 0.07170919787899964,
+    "stable_rmse": 0.06005208023451194,
+    "changed_rmse": 0.08219269014704772
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07144509084754998,
+    "stable_rmse": 0.06015492828314022,
+    "changed_rmse": 0.08161237384237797
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "method": "latest",
+    "rmse": 0.07156269843964252,
+    "stable_rmse": 0.06049270794630726,
+    "changed_rmse": 0.08161332916323753
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "method": "transformer",
+    "rmse": 0.07116845535024385,
+    "stable_rmse": 0.05972024771248589,
+    "changed_rmse": 0.08145447905509393
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "method": "rope",
+    "rmse": 0.07066658566340653,
+    "stable_rmse": 0.058104668762776236,
+    "changed_rmse": 0.08138905629806675
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "method": "validation",
+    "rmse": 0.07490343382082035
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07852253022907352
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "method": "latest",
+    "rmse": 0.08088343656022767
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "method": "transformer",
+    "rmse": 0.07466556608760083
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "method": "rope",
+    "rmse": 0.07557160968876289
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "method": "validation",
+    "rmse": 0.06906384653680836
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.06967338077366605
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "method": "latest",
+    "rmse": 0.07017332686541149
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "method": "transformer",
+    "rmse": 0.0677045020924303
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "method": "rope",
+    "rmse": 0.06801492152636351
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "method": "validation",
+    "rmse": 0.051315375462356934
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "method": "convex_mkl",
+    "rmse": 0.051368795174183204
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "method": "latest",
+    "rmse": 0.05137465989856589
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "method": "transformer",
+    "rmse": 0.05074940911500136
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "method": "rope",
+    "rmse": 0.05073087854039719
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "method": "validation",
+    "rmse": 0.07453600478453132,
+    "stable_rmse": 0.06422122649995976,
+    "changed_rmse": 0.08405688234675081
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07466116906050542,
+    "stable_rmse": 0.06452748965823375,
+    "changed_rmse": 0.08405247735404857
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "method": "latest",
+    "rmse": 0.07524503833537166,
+    "stable_rmse": 0.06475383990145751,
+    "changed_rmse": 0.08490953237781268
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "method": "transformer",
+    "rmse": 0.07396355725120153,
+    "stable_rmse": 0.06436417699661871,
+    "changed_rmse": 0.08319884956234389
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "method": "rope",
+    "rmse": 0.07406369637597716,
+    "stable_rmse": 0.06452544280920741,
+    "changed_rmse": 0.08327958598437474
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "validation",
+    "rmse": 0.07441671866902268
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07794096959114734
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "latest",
+    "rmse": 0.07435929544302933
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "transformer",
+    "rmse": 0.07384299690685686
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "rope",
+    "rmse": 0.07414433578515317
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "validation",
+    "rmse": 0.0697032781639725
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07049788700120081
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "latest",
+    "rmse": 0.06901479805973232
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "transformer",
+    "rmse": 0.06938229036630328
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "rope",
+    "rmse": 0.0692656110470512
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "validation",
+    "rmse": 0.048666550966045635
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "convex_mkl",
+    "rmse": 0.04887087234737898
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "latest",
+    "rmse": 0.04834483345930961
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "transformer",
+    "rmse": 0.04855502790655894
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "rope",
+    "rmse": 0.04841339594474522
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "validation",
+    "rmse": 0.07124259529769028,
+    "stable_rmse": 0.06073578248945228,
+    "changed_rmse": 0.08025968539749276
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07214342238425371,
+    "stable_rmse": 0.06136627738204969,
+    "changed_rmse": 0.0812196417522497
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "latest",
+    "rmse": 0.07093639503812399,
+    "stable_rmse": 0.06138001401512346,
+    "changed_rmse": 0.07947610746637254
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "transformer",
+    "rmse": 0.07018474349045968,
+    "stable_rmse": 0.05956167611871428,
+    "changed_rmse": 0.0789785595733376
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "rope",
+    "rmse": 0.06980813214220408,
+    "stable_rmse": 0.05926160442906447,
+    "changed_rmse": 0.07851220656277318
+  }
+]

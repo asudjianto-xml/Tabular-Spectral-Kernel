@@ -1,0 +1,398 @@
+[
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "linear_simple",
+    "rmse": 0.07474060478711354,
+    "clean_rmse": 0.05224198382446122,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.07572922146278468
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "linear_stacked",
+    "rmse": 0.07424648311391152,
+    "clean_rmse": 0.051338961209878575,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.07510911427752053
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "linear_learned_psd",
+    "rmse": 0.07413200791058269,
+    "clean_rmse": 0.05113527084666621,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.07497003424039589
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "linear_transformer",
+    "rmse": 0.07403091497433396,
+    "clean_rmse": 0.05103778358152767,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.0749035744297899
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "transformer_full",
+    "rmse": 0.07384299690685686,
+    "clean_rmse": 0.05075049903096581,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.07470812045110144
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "validation",
+    "rmse": 0.07441671866902268,
+    "clean_rmse": 0.05205771970163386,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.07560222410735082
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07794096959114734,
+    "clean_rmse": 0.0567629590534766,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.0789159276062246
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "oracle_cohort_labels",
+    "rmse": 0.0706491984237363,
+    "clean_rmse": 0.04641266281659307,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.07183192451251032
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "oracle_query_labels",
+    "rmse": 0.06390842923744931,
+    "clean_rmse": 0.04794692473302204,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.07283266918628138
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "oracle_query_mean",
+    "rmse": 0.06862605632842624,
+    "clean_rmse": 0.04240473592546014,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.06930982425567266
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "method": "true_conditional_mean",
+    "rmse": 0.05290849699964439,
+    "clean_rmse": 0.0,
+    "full_state_noise_rmse": 0.05482417449852045,
+    "expected_fresh_noise_rmse": 0.05482417449852045
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "linear_simple",
+    "rmse": 0.06944273604890663,
+    "clean_rmse": 0.04225019504052456,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.06989259008667838
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "linear_stacked",
+    "rmse": 0.06907299386637025,
+    "clean_rmse": 0.04157670596031485,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.06948753590805021
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "linear_learned_psd",
+    "rmse": 0.06912856611036133,
+    "clean_rmse": 0.04160964406765387,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.06950724888455109
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "linear_transformer",
+    "rmse": 0.06902801796993954,
+    "clean_rmse": 0.04147954399069137,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.06942944431390609
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "transformer_full",
+    "rmse": 0.06938229036630328,
+    "clean_rmse": 0.04213618513910231,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.06982372996438097
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "validation",
+    "rmse": 0.0697032781639725,
+    "clean_rmse": 0.042249387463528666,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.06989210190790844
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07049788700120081,
+    "clean_rmse": 0.044347056839458235,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.07117974865356175
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "oracle_cohort_labels",
+    "rmse": 0.06754968538097506,
+    "clean_rmse": 0.04003926118638224,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.06857869643273648
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "oracle_query_labels",
+    "rmse": 0.060549820931453106,
+    "clean_rmse": 0.04088136766791718,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.06907373879023425
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "oracle_query_mean",
+    "rmse": 0.06535514458817944,
+    "clean_rmse": 0.03543684885201497,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.0659974652893779
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "method": "true_conditional_mean",
+    "rmse": 0.055086152729457494,
+    "clean_rmse": 0.0,
+    "full_state_noise_rmse": 0.055676702201747606,
+    "expected_fresh_noise_rmse": 0.055676702201747606
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "linear_simple",
+    "rmse": 0.04834386240231477,
+    "clean_rmse": 0.021630845761036507,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04957849441715278
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "linear_stacked",
+    "rmse": 0.04844713363671169,
+    "clean_rmse": 0.021771594776148814,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04964006405546561
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "linear_learned_psd",
+    "rmse": 0.048405301010010095,
+    "clean_rmse": 0.021771733986585516,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04964012511181394
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "linear_transformer",
+    "rmse": 0.048432970893701494,
+    "clean_rmse": 0.021780443317414876,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.049643945566776024
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "transformer_full",
+    "rmse": 0.04855502790655894,
+    "clean_rmse": 0.021985475666535532,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04973424132946761
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "validation",
+    "rmse": 0.048666550966045635,
+    "clean_rmse": 0.02235179300470245,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04989725714765255
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "convex_mkl",
+    "rmse": 0.04887087234737898,
+    "clean_rmse": 0.02253617726822051,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04998012511187379
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "oracle_cohort_labels",
+    "rmse": 0.04723735191629782,
+    "clean_rmse": 0.021508472109003505,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04952522582278328
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "oracle_query_labels",
+    "rmse": 0.04289107859483881,
+    "clean_rmse": 0.020224743790256527,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04898136259553646
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "oracle_query_mean",
+    "rmse": 0.04636867914578707,
+    "clean_rmse": 0.01684780819567548,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.047686290077255625
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "method": "true_conditional_mean",
+    "rmse": 0.04331555638153504,
+    "clean_rmse": 0.0,
+    "full_state_noise_rmse": 0.04461091369086603,
+    "expected_fresh_noise_rmse": 0.04461091369086603
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "linear_simple",
+    "rmse": 0.06990376073735988,
+    "clean_rmse": 0.05192969700257275,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.0710733531280981
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "linear_stacked",
+    "rmse": 0.0696473322727123,
+    "clean_rmse": 0.0516763802986145,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.07088847843521083
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "linear_learned_psd",
+    "rmse": 0.06992630445005933,
+    "clean_rmse": 0.0520106342312733,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.0711325113238076
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "linear_transformer",
+    "rmse": 0.06983594029715272,
+    "clean_rmse": 0.051862790192495026,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.07102448240320429
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "transformer_full",
+    "rmse": 0.07018474349045968,
+    "clean_rmse": 0.052360419226517636,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.071388665736719
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "validation",
+    "rmse": 0.07124259529769028,
+    "clean_rmse": 0.0533218658964565,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.0720968062869085
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "convex_mkl",
+    "rmse": 0.07214342238425371,
+    "clean_rmse": 0.054417722422676736,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.07291101842495284
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "oracle_cohort_labels",
+    "rmse": 0.0677003489749022,
+    "clean_rmse": 0.049801694674424406,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.06953371043268805
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "oracle_query_labels",
+    "rmse": 0.05923095458388693,
+    "clean_rmse": 0.045329846570207034,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.0664042399562771
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "oracle_query_mean",
+    "rmse": 0.06297082670739437,
+    "clean_rmse": 0.04190035475342633,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.06411215035042339
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "method": "true_conditional_mean",
+    "rmse": 0.04742990459989364,
+    "clean_rmse": 0.0,
+    "full_state_noise_rmse": 0.04852554063678548,
+    "expected_fresh_noise_rmse": 0.04852554063678548
+  }
+]

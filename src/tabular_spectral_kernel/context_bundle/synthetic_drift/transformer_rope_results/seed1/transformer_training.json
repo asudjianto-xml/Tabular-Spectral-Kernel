@@ -1,0 +1,87 @@
+{
+  "best_epoch": 9,
+  "best_validation_loss": 0.010762157145935113,
+  "trace": [
+    {
+      "epoch": 0,
+      "train_loss": 0.01153566457023843,
+      "validation_loss": 0.010852670006858762
+    },
+    {
+      "epoch": 1,
+      "train_loss": 0.011505778914275528,
+      "validation_loss": 0.010831816014530404
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.011505621025381088,
+      "validation_loss": 0.01082139472934
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.01147699976715531,
+      "validation_loss": 0.010776047195353796
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.011475801838327504,
+      "validation_loss": 0.010808467012655176
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.01152574507621483,
+      "validation_loss": 0.01082682430178306
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0114994623164099,
+      "validation_loss": 0.010825572705009045
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.011477207995681119,
+      "validation_loss": 0.010793375232134896
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.011460592317236376,
+      "validation_loss": 0.010776461694734982
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.01147241456512038,
+      "validation_loss": 0.010762157145935113
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.01146764646683885,
+      "validation_loss": 0.010802481047863867
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.011471176121260302,
+      "validation_loss": 0.010796620934388832
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.01146245813564824,
+      "validation_loss": 0.010803760682711525
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.011457235964077292,
+      "validation_loss": 0.01081580560748172
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.01145282363520747,
+      "validation_loss": 0.01078709754971861
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.01144879501347049,
+      "validation_loss": 0.010777527995526077
+    }
+  ],
+  "parameters": 22786
+}

@@ -1,0 +1,49 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "geometry_steps": 400,
+  "meta_steps": 600,
+  "features": [
+    "utilization",
+    "credit_score",
+    "cash_buffer_months",
+    "prior_payment_ratio"
+  ],
+  "response": "fraction of statement balance paid by due date, capped at 1",
+  "observation": "buffer assumes deposit/linked-account access; score is not measured debt burden",
+  "cohort_size": 32,
+  "context_months": 4,
+  "context_rows": 128,
+  "retrieval_rows": 64,
+  "noise": "Beta with concentration 60",
+  "historical_windows": "600 normal + 600 broad-downturn observations; all before evaluation",
+  "meta_tasks": "independent global and buffer-localized severity tasks; query-based retrieval during pretraining",
+  "methods": [
+    "full128",
+    "recent64",
+    "raw_nearest64",
+    "spectral_nearest64",
+    "population64"
+  ],
+  "scenarios": [
+    "recurring_downturn",
+    "gradual_downturn",
+    "stable_economy",
+    "localized_downturn"
+  ],
+  "profiles": [
+    "original",
+    "nw_calibrated"
+  ],
+  "information": "Only four pre-outcome covariates and past observed ratios enter inference",
+  "limitations": [
+    "Illustrative response laws, not estimated from lending data",
+    "Independent account-months, no longitudinal customer dependence",
+    "All outcomes observed with one-cohort availability; no approval selection/censoring",
+    "Population reference is supplied the cash-buffer partition",
+    "No exact inactive-population preservation is imposed"
+  ]
+}

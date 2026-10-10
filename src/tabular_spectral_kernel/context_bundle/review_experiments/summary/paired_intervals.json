@@ -1,0 +1,50 @@
+[
+  {
+    "version": "revised",
+    "method": "recent_adaptive_fusion",
+    "reference": "recent_latest_kernel",
+    "delta": -5.647453240496475,
+    "low": -7.386311250336269,
+    "high": -4.187280137959775
+  },
+  {
+    "version": "revised",
+    "method": "recent_adaptive_fusion",
+    "reference": "recent_fixed_fusion",
+    "delta": -1.3893131321994758,
+    "low": -2.4734606319294237,
+    "high": -0.1998127145657957
+  },
+  {
+    "version": "revised",
+    "method": "recent_adaptive_fusion",
+    "reference": "recent_prediction_average",
+    "delta": -0.3710779177383614,
+    "low": -0.8176824147095847,
+    "high": 0.04180948641644717
+  },
+  {
+    "version": "original",
+    "method": "recent_adaptive_fusion",
+    "reference": "recent_latest_kernel",
+    "delta": -5.638156936129775,
+    "low": -7.3855851385086435,
+    "high": -4.159475523998852
+  },
+  {
+    "version": "original",
+    "method": "recent_adaptive_fusion",
+    "reference": "recent_fixed_fusion",
+    "delta": -1.3769420589079289,
+    "low": -2.4680782510569146,
+    "high": -0.19232835066494247
+  },
+  {
+    "version": "original",
+    "method": "recent_adaptive_fusion",
+    "reference": "recent_prediction_average",
+    "delta": -0.3788655455269634,
+    "low": -0.8249241248524928,
+    "high": 0.03312501958104469
+  }
+]

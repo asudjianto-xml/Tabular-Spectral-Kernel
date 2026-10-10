@@ -22,3 +22,19 @@ jobs:
       - name: Download and verify public datasets
         if: matrix.python == '3.12'
         run: tsk download --dataset all --data-dir "$RUNNER_TEMP/public-data"
+      - name: Verify and export installed context experiments
+        run: |
+          tsk-context verify
+          tsk-context export --output "$RUNNER_TEMP/context workspace" --recorded
+        working-directory: ${{ runner.temp }}
+      - name: Test synthetic and review experiments on CPU
+        env:
+          TSK_DEVICE: cpu
+        run: |
+          python -m pytest -q "$RUNNER_TEMP/context workspace/synthetic_drift"
+          python -m pytest -q "$RUNNER_TEMP/context workspace/review_experiments"
+      - name: Test Bike Sharing chronology on CPU
+        if: matrix.python == '3.12'
+        env:
+          TSK_DEVICE: cpu
+        run: TSK_DATA_DIR="$RUNNER_TEMP/public-data" python -m pytest -q "$RUNNER_TEMP/context workspace/bikeshare_context_fusion"

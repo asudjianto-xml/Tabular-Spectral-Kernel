@@ -1,0 +1,2298 @@
+[
+  {
+    "origin": 128,
+    "context_start": 0,
+    "context_end": 127,
+    "query_end": 159,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.028890714371813203
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03746961668341377
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.028890714371813203
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.1877720497937795
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.5842737598131044
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.028890714371813203
+      }
+    }
+  },
+  {
+    "origin": 160,
+    "context_start": 32,
+    "context_end": 159,
+    "query_end": 191,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.036713417252656415
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.038922462131271235
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.036713417252656415
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.14605245383096482
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.48163551411216465
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.036713417252656415
+      }
+    }
+  },
+  {
+    "origin": 192,
+    "context_start": 64,
+    "context_end": 191,
+    "query_end": 223,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.04016603685429942
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.04270989259803492
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.04016603685429942
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.09709513957623295
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.2935603377362513
+      },
+      "prediction_average": {
+        "weight": 0.9598824729209591,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.039722644399895944
+      }
+    }
+  },
+  {
+    "origin": 224,
+    "context_start": 96,
+    "context_end": 223,
+    "query_end": 255,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.03696328274147161
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.04160814469275213
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.03696328274147161
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.0958804771033749
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.3137274083132553
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.03696328274147161
+      }
+    }
+  },
+  {
+    "origin": 256,
+    "context_start": 128,
+    "context_end": 255,
+    "query_end": 287,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.03894982432255809
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.0491608558734706
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.03894982432255809
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.1490203026129517
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.48406437217650894
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.03894982432255809
+      }
+    }
+  },
+  {
+    "origin": 288,
+    "context_start": 160,
+    "context_end": 287,
+    "query_end": 319,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.029245245573815793
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.036104871655829825
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.029245245573815793
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.17382849389932684
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.5297542127873073
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.029245245573815793
+      }
+    }
+  },
+  {
+    "origin": 320,
+    "context_start": 192,
+    "context_end": 319,
+    "query_end": 351,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.028693733277659256
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.034175968357703417
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.028693733277659256
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.12765157581738187
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.43774946413326643
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.028693733277659256
+      }
+    }
+  },
+  {
+    "origin": 352,
+    "context_start": 224,
+    "context_end": 351,
+    "query_end": 383,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.8,
+        "ridge": 0.0001,
+        "val_mse": 0.031088162219430834
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03200759439144076
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.031405370323670766
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.09795126575654634
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.28733242119658375
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.031405370323670766
+      }
+    }
+  },
+  {
+    "origin": 384,
+    "context_start": 256,
+    "context_end": 383,
+    "query_end": 415,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.7000000000000001,
+        "ridge": 0.0001,
+        "val_mse": 0.034200380659655284
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03484516602173416
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.0360203938208166
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.11069126094903281
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.3449029161403961
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.0360203938208166
+      }
+    }
+  },
+  {
+    "origin": 416,
+    "context_start": 288,
+    "context_end": 415,
+    "query_end": 447,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.5,
+        "ridge": 0.1,
+        "val_mse": 0.5170112394406513
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.1,
+        "val_mse": 0.5170112394406513
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.1,
+        "val_mse": 0.5350295068244035
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.01,
+        "val_mse": 0.44638405471402437
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.01,
+        "val_mse": 0.5397593428988056
+      },
+      "prediction_average": {
+        "weight": 0.5255422178197671,
+        "ridges": [
+          0.1,
+          0.01
+        ],
+        "val_mse": 0.5141868710940485
+      }
+    }
+  },
+  {
+    "origin": 448,
+    "context_start": 320,
+    "context_end": 447,
+    "query_end": 479,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.01,
+        "val_mse": 0.4472216880271844
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.1,
+        "val_mse": 0.4928209778190055
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.01,
+        "val_mse": 0.4472216880271844
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.1,
+        "val_mse": 0.43945103998610585
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.01,
+        "val_mse": 0.4472216880271844
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.1,
+          0.01
+        ],
+        "val_mse": 0.4472216880271844
+      }
+    }
+  },
+  {
+    "origin": 480,
+    "context_start": 352,
+    "context_end": 479,
+    "query_end": 511,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.01,
+        "val_mse": 0.3272145607786521
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.01,
+        "val_mse": 0.5069937058532322
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.01,
+        "val_mse": 0.3272145607786521
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.01,
+        "val_mse": 0.5252889833708513
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.01,
+        "val_mse": 0.3272145607786521
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.1,
+          0.01
+        ],
+        "val_mse": 0.3272145607786521
+      }
+    }
+  },
+  {
+    "origin": 512,
+    "context_start": 384,
+    "context_end": 511,
+    "query_end": 543,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.03823157950101551
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.056071735603932506
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.03823157950101551
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.18637530580605924
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.03823157950101551
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.03823157950101551
+      }
+    }
+  },
+  {
+    "origin": 544,
+    "context_start": 416,
+    "context_end": 543,
+    "query_end": 575,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.05451622147039817
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.061470133373959575
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.05451622147039817
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.1407891010987143
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.05451622147039817
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.05451622147039817
+      }
+    }
+  },
+  {
+    "origin": 576,
+    "context_start": 448,
+    "context_end": 575,
+    "query_end": 607,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.032898296398018785
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.04507686144627538
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.032898296398018785
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.09780566683070564
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.032898296398018785
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.032898296398018785
+      }
+    }
+  },
+  {
+    "origin": 608,
+    "context_start": 480,
+    "context_end": 607,
+    "query_end": 639,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.001,
+        "val_mse": 0.030111568608175238
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03843038309525631
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.030111568608175238
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.09022677665792418
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.030111568608175238
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.001
+        ],
+        "val_mse": 0.030111568608175238
+      }
+    }
+  },
+  {
+    "origin": 640,
+    "context_start": 512,
+    "context_end": 639,
+    "query_end": 671,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.1,
+        "ridge": 0.001,
+        "val_mse": 0.023283434110851764
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.02578820266927596
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.023335724718478168
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.07583909963770558
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.023335724718478168
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.001
+        ],
+        "val_mse": 0.023335724718478168
+      }
+    }
+  },
+  {
+    "origin": 672,
+    "context_start": 544,
+    "context_end": 671,
+    "query_end": 703,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.1,
+        "ridge": 0.0001,
+        "val_mse": 0.02753213694224352
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03009320732124557
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.027875661911143605
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.0874650018884911
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.027875661911143605
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.027875661911143605
+      }
+    }
+  },
+  {
+    "origin": 704,
+    "context_start": 576,
+    "context_end": 703,
+    "query_end": 735,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.046158449022191704
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.05487941015362291
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.046158449022191704
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.12871832298258415
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.046158449022191704
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.046158449022191704
+      }
+    }
+  },
+  {
+    "origin": 736,
+    "context_start": 608,
+    "context_end": 735,
+    "query_end": 767,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.030036955007231747
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.037249727749415894
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.030036955007231747
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.11460294585471602
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.030036955007231747
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.030036955007231747
+      }
+    }
+  },
+  {
+    "origin": 768,
+    "context_start": 640,
+    "context_end": 767,
+    "query_end": 799,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.03550378987829621
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.04154301338961851
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.03550378987829621
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.15535604325903593
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.03550378987829621
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.03550378987829621
+      }
+    }
+  },
+  {
+    "origin": 800,
+    "context_start": 672,
+    "context_end": 799,
+    "query_end": 831,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.7000000000000001,
+        "ridge": 0.01,
+        "val_mse": 0.6136558979203222
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.01,
+        "val_mse": 0.63546236145076
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.1,
+        "val_mse": 0.6338848126605411
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.01,
+        "val_mse": 0.576239479373064
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.1,
+        "val_mse": 0.6338848126605411
+      },
+      "prediction_average": {
+        "weight": 0.12997040146706382,
+        "ridges": [
+          0.0001,
+          0.1
+        ],
+        "val_mse": 0.6306978354590953
+      }
+    }
+  },
+  {
+    "origin": 832,
+    "context_start": 704,
+    "context_end": 831,
+    "query_end": 863,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.7000000000000001,
+        "ridge": 0.1,
+        "val_mse": 0.5681886136171138
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.1,
+        "val_mse": 0.5715037639716524
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.1,
+        "val_mse": 0.5800319228354454
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.1,
+        "val_mse": 0.5124381505898955
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.1,
+        "val_mse": 0.6013131926069518
+      },
+      "prediction_average": {
+        "weight": 0.6902637159726348,
+        "ridges": [
+          0.1,
+          0.1
+        ],
+        "val_mse": 0.5746666015392506
+      }
+    }
+  },
+  {
+    "origin": 864,
+    "context_start": 736,
+    "context_end": 863,
+    "query_end": 895,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.01,
+        "val_mse": 0.2598716430328898
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.01,
+        "val_mse": 0.3441791083194363
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.01,
+        "val_mse": 0.2598716430328898
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.01,
+        "val_mse": 0.3485266977502208
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.1,
+        "val_mse": 0.5089270034014143
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.01,
+          0.1
+        ],
+        "val_mse": 0.2598716430328898
+      }
+    }
+  },
+  {
+    "origin": 896,
+    "context_start": 768,
+    "context_end": 895,
+    "query_end": 927,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.023494574540116775
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03394336960095754
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.023494574540116775
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.13294543625805444
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.4584921990009792
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.023494574540116775
+      }
+    }
+  },
+  {
+    "origin": 928,
+    "context_start": 800,
+    "context_end": 927,
+    "query_end": 959,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.033305713609436786
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.043324506304265265
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.033305713609436786
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.1635916737109219
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.5573746347028371
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.033305713609436786
+      }
+    }
+  },
+  {
+    "origin": 960,
+    "context_start": 832,
+    "context_end": 959,
+    "query_end": 991,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.021479437686758283
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.027725674855011585
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.021479437686758283
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.12743113112733642
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.4537700440490293
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.021479437686758283
+      }
+    }
+  },
+  {
+    "origin": 992,
+    "context_start": 864,
+    "context_end": 991,
+    "query_end": 1023,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.02438960912511448
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.026216098137942123
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.02438960912511448
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.07289055210509122
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.35639827647002537
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.02438960912511448
+      }
+    }
+  },
+  {
+    "origin": 1024,
+    "context_start": 896,
+    "context_end": 1023,
+    "query_end": 1055,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.9,
+        "ridge": 0.0001,
+        "val_mse": 0.02676135369881066
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03229974469308472
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.02677191568142612
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.159437509757872
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.5589561223222609
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.02677191568142612
+      }
+    }
+  },
+  {
+    "origin": 1056,
+    "context_start": 928,
+    "context_end": 1055,
+    "query_end": 1087,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.035692615868058476
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.0404843587127102
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.035692615868058476
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.14316207432254371
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.39220440107914517
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.035692615868058476
+      }
+    }
+  },
+  {
+    "origin": 1088,
+    "context_start": 960,
+    "context_end": 1087,
+    "query_end": 1119,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.01885073345811916
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.025614704914808134
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.01885073345811916
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.13278938049883324
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.5212772666670871
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.01885073345811916
+      }
+    }
+  },
+  {
+    "origin": 1120,
+    "context_start": 992,
+    "context_end": 1119,
+    "query_end": 1151,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.024073705769108545
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.02780934616195883
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.024073705769108545
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.08565678114270625
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.3068265618781352
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.024073705769108545
+      }
+    }
+  },
+  {
+    "origin": 1152,
+    "context_start": 1024,
+    "context_end": 1151,
+    "query_end": 1183,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.8,
+        "ridge": 0.001,
+        "val_mse": 0.029583058870771325
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.030101023084875386
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.029873505606959293
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.09881438521494572
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.34025895134678885
+      },
+      "prediction_average": {
+        "weight": 0.9726800423738656,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.02962845028992543
+      }
+    }
+  },
+  {
+    "origin": 1184,
+    "context_start": 1056,
+    "context_end": 1183,
+    "query_end": 1215,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.8,
+        "ridge": 0.1,
+        "val_mse": 0.47778103379463016
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.1,
+        "val_mse": 0.48762491646573664
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.1,
+        "val_mse": 0.4797214840690236
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.01,
+        "val_mse": 0.43928968938812796
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.01,
+        "val_mse": 0.5785978341241208
+      },
+      "prediction_average": {
+        "weight": 0.9001424851061878,
+        "ridges": [
+          0.1,
+          0.01
+        ],
+        "val_mse": 0.4784894881385863
+      }
+    }
+  },
+  {
+    "origin": 1216,
+    "context_start": 1088,
+    "context_end": 1215,
+    "query_end": 1247,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.01,
+        "val_mse": 0.42733085621969885
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.1,
+        "val_mse": 0.6345064300242552
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.01,
+        "val_mse": 0.42733085621969885
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.1,
+        "val_mse": 0.5668079524173605
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.01,
+        "val_mse": 0.42733085621969885
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.1,
+          0.01
+        ],
+        "val_mse": 0.42733085621969885
+      }
+    }
+  },
+  {
+    "origin": 1248,
+    "context_start": 1120,
+    "context_end": 1247,
+    "query_end": 1279,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.001,
+        "val_mse": 0.2147759984409757
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.001,
+        "val_mse": 0.25279314267157765
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.2147759984409757
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.2739639266084327
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.2147759984409757
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.001
+        ],
+        "val_mse": 0.2147759984409757
+      }
+    }
+  },
+  {
+    "origin": 1280,
+    "context_start": 1152,
+    "context_end": 1279,
+    "query_end": 1311,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.1,
+        "ridge": 0.0001,
+        "val_mse": 0.031140151233323195
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03892006695706585
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.03132353932436882
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.12780221617959794
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.03132353932436882
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.03132353932436882
+      }
+    }
+  },
+  {
+    "origin": 1312,
+    "context_start": 1184,
+    "context_end": 1311,
+    "query_end": 1343,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.2,
+        "ridge": 0.0001,
+        "val_mse": 0.034573475469357885
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.03748378225657172
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.03563803514566238
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.1550979435581659
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.03563803514566238
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.03563803514566238
+      }
+    }
+  },
+  {
+    "origin": 1344,
+    "context_start": 1216,
+    "context_end": 1343,
+    "query_end": 1375,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.033300626298956436
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.043898330082328296
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.033300626298956436
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.16418324565218273
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.033300626298956436
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.033300626298956436
+      }
+    }
+  },
+  {
+    "origin": 1376,
+    "context_start": 1248,
+    "context_end": 1375,
+    "query_end": 1407,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.027676881353022504
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.05029211514967769
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.027676881353022504
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.13108323398833135
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.027676881353022504
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.027676881353022504
+      }
+    }
+  },
+  {
+    "origin": 1408,
+    "context_start": 1280,
+    "context_end": 1407,
+    "query_end": 1439,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.001,
+        "val_mse": 0.03600131133074101
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.001,
+        "val_mse": 0.043413236425480915
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.03600131133074101
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.0853014007327565
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.03600131133074101
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.001
+        ],
+        "val_mse": 0.03600131133074101
+      }
+    }
+  },
+  {
+    "origin": 1440,
+    "context_start": 1312,
+    "context_end": 1439,
+    "query_end": 1471,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.001,
+        "val_mse": 0.03937616355364043
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.04794373251664475
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.03937616355364043
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.12641581579055025
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.03937616355364043
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.001
+        ],
+        "val_mse": 0.03937616355364043
+      }
+    }
+  },
+  {
+    "origin": 1472,
+    "context_start": 1344,
+    "context_end": 1471,
+    "query_end": 1503,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.0001,
+        "val_mse": 0.0375083341358799
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.046609461254957275
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.0375083341358799
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.11553457336986193
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.0375083341358799
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.0375083341358799
+      }
+    }
+  },
+  {
+    "origin": 1504,
+    "context_start": 1376,
+    "context_end": 1503,
+    "query_end": 1535,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.001,
+        "val_mse": 0.05215714039125158
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.05987334230866472
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.05215714039125158
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.11628288819313064
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.001,
+        "val_mse": 0.05215714039125158
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.001
+        ],
+        "val_mse": 0.05215714039125158
+      }
+    }
+  },
+  {
+    "origin": 1536,
+    "context_start": 1408,
+    "context_end": 1535,
+    "query_end": 1567,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.1,
+        "ridge": 0.0001,
+        "val_mse": 0.04388408757657869
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.049751917057989016
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.0439238428589079
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.11187297688547886
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.0439238428589079
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.0439238428589079
+      }
+    }
+  },
+  {
+    "origin": 1568,
+    "context_start": 1440,
+    "context_end": 1567,
+    "query_end": 1599,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.0,
+        "ridge": 0.1,
+        "val_mse": 0.5009620209248121
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.1,
+        "val_mse": 0.5232472160845527
+      },
+      "best_single": {
+        "kernel": 1,
+        "ridge": 0.1,
+        "val_mse": 0.5009620209248121
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.01,
+        "val_mse": 0.443912612403492
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.1,
+        "val_mse": 0.5009620209248121
+      },
+      "prediction_average": {
+        "weight": 0.0,
+        "ridges": [
+          0.1,
+          0.1
+        ],
+        "val_mse": 0.5009620209248121
+      }
+    }
+  },
+  {
+    "origin": 1600,
+    "context_start": 1472,
+    "context_end": 1599,
+    "query_end": 1631,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.01,
+        "val_mse": 0.3957995243145753
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.1,
+        "val_mse": 0.5047056103855637
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.01,
+        "val_mse": 0.3957995243145753
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.01,
+        "val_mse": 0.4821738186873888
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.1,
+        "val_mse": 0.5911939947860274
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.01,
+          0.1
+        ],
+        "val_mse": 0.3957995243145753
+      }
+    }
+  },
+  {
+    "origin": 1632,
+    "context_start": 1504,
+    "context_end": 1631,
+    "query_end": 1663,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.11077776820863472
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.22470016885222788
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.11077776820863472
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.3642378558385982
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.1,
+        "val_mse": 0.589828510278423
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.1
+        ],
+        "val_mse": 0.11077776820863472
+      }
+    }
+  },
+  {
+    "origin": 1664,
+    "context_start": 1536,
+    "context_end": 1663,
+    "query_end": 1695,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.0344715648159855
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.039090618789132746
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.0344715648159855
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.10262107473566494
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.29911485147523836
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.0344715648159855
+      }
+    }
+  },
+  {
+    "origin": 1696,
+    "context_start": 1568,
+    "context_end": 1695,
+    "query_end": 1727,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.04376312404053826
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.04537873376331663
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.04376312404053826
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.12419845976205979
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.37110137752022343
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.04376312404053826
+      }
+    }
+  },
+  {
+    "origin": 1728,
+    "context_start": 1600,
+    "context_end": 1727,
+    "query_end": 1759,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.018224006970641783
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.024216667211024157
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.018224006970641783
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.12663754784178136
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.41936023054205834
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.018224006970641783
+      }
+    }
+  },
+  {
+    "origin": 1760,
+    "context_start": 1632,
+    "context_end": 1759,
+    "query_end": 1791,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.02733747322709663
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.033461623540427844
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.02733747322709663
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.11990589212747295
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.36623177699430826
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.02733747322709663
+      }
+    }
+  },
+  {
+    "origin": 1792,
+    "context_start": 1664,
+    "context_end": 1791,
+    "query_end": 1823,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.001,
+        "val_mse": 0.02803295844211194
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.034497165704735135
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.02803295844211194
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.09949161283180219
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.4406090063480696
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.02803295844211194
+      }
+    }
+  },
+  {
+    "origin": 1824,
+    "context_start": 1696,
+    "context_end": 1823,
+    "query_end": 1855,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.0001,
+        "val_mse": 0.02706398820207899
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.028633394477909847
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.0001,
+        "val_mse": 0.02706398820207899
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.09017557302563188
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.2680446913771894
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.0001,
+          0.0001
+        ],
+        "val_mse": 0.02706398820207899
+      }
+    }
+  },
+  {
+    "origin": 1856,
+    "context_start": 1728,
+    "context_end": 1855,
+    "query_end": 1887,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 0.7000000000000001,
+        "ridge": 0.001,
+        "val_mse": 0.024725012087953746
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.0001,
+        "val_mse": 0.025006345721683938
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.001,
+        "val_mse": 0.02546311374730345
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.08246413154992642
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.30975152710304643
+      },
+      "prediction_average": {
+        "weight": 0.9744855603492197,
+        "ridges": [
+          0.001,
+          0.0001
+        ],
+        "val_mse": 0.02526809415996407
+      }
+    }
+  },
+  {
+    "origin": 1888,
+    "context_start": 1760,
+    "context_end": 1887,
+    "query_end": 1919,
+    "selection": {
+      "kernel_fusion": {
+        "weight": 1.0,
+        "ridge": 0.01,
+        "val_mse": 0.027112857725722153
+      },
+      "uniform_kernel": {
+        "weight": 0.5,
+        "ridge": 0.001,
+        "val_mse": 0.02925269990706773
+      },
+      "best_single": {
+        "kernel": 0,
+        "ridge": 0.01,
+        "val_mse": 0.027112857725722153
+      },
+      "pooled_kernel": {
+        "kernel": 2,
+        "ridge": 0.0001,
+        "val_mse": 0.06785592230117939
+      },
+      "latest_kernel": {
+        "kernel": 1,
+        "ridge": 0.0001,
+        "val_mse": 0.2328763200318771
+      },
+      "prediction_average": {
+        "weight": 1.0,
+        "ridges": [
+          0.01,
+          0.0001
+        ],
+        "val_mse": 0.027112857725722153
+      }
+    }
+  }
+]

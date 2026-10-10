@@ -1,0 +1,178 @@
+[
+  {
+    "left": "PSD + large head",
+    "right": "Simple PSD",
+    "scenario": "recurring_downturn",
+    "rmse_difference_pp_by_seed": [
+      -0.010610502765252827,
+      0.011673691464934854,
+      -0.027174481242435433
+    ],
+    "mean_difference_pp": -0.008703764180917803
+  },
+  {
+    "left": "PSD + large head",
+    "right": "Simple PSD",
+    "scenario": "gradual_downturn",
+    "rmse_difference_pp_by_seed": [
+      0.008240653933425102,
+      0.007955474593487888,
+      0.0004051289829762328
+    ],
+    "mean_difference_pp": 0.0055337525032964074
+  },
+  {
+    "left": "PSD + large head",
+    "right": "Simple PSD",
+    "scenario": "stable_economy",
+    "rmse_difference_pp_by_seed": [
+      0.0074656650806616265,
+      -0.002622899350562119,
+      0.003749998187229514
+    ],
+    "mean_difference_pp": 0.0028642546391096737
+  },
+  {
+    "left": "PSD + large head",
+    "right": "Simple PSD",
+    "scenario": "localized_downturn",
+    "rmse_difference_pp_by_seed": [
+      -0.02610712352423966,
+      0.007846477550381425,
+      -0.0019430386296578894
+    ],
+    "mean_difference_pp": -0.006734561534505375
+  },
+  {
+    "left": "Stacked PSD + FF",
+    "right": "Simple PSD",
+    "scenario": "recurring_downturn",
+    "rmse_difference_pp_by_seed": [
+      -0.029657656120002374,
+      -0.016203023123022298,
+      0.022070572600052518
+    ],
+    "mean_difference_pp": -0.007930035547657385
+  },
+  {
+    "left": "Stacked PSD + FF",
+    "right": "Simple PSD",
+    "scenario": "gradual_downturn",
+    "rmse_difference_pp_by_seed": [
+      -0.009299154356136319,
+      0.0007080665310119083,
+      -0.010135348350182039
+    ],
+    "mean_difference_pp": -0.006242145391768816
+  },
+  {
+    "left": "Stacked PSD + FF",
+    "right": "Simple PSD",
+    "scenario": "stable_economy",
+    "rmse_difference_pp_by_seed": [
+      0.0018218086850957382,
+      0.0016231823412739266,
+      0.01814333302160645
+    ],
+    "mean_difference_pp": 0.007196108015992038
+  },
+  {
+    "left": "Stacked PSD + FF",
+    "right": "Simple PSD",
+    "scenario": "localized_downturn",
+    "rmse_difference_pp_by_seed": [
+      -0.03758340940912541,
+      0.01669297350650606,
+      -0.008853901074809545
+    ],
+    "mean_difference_pp": -0.0099147789924763
+  },
+  {
+    "left": "Stacked PSD + FF",
+    "right": "Stacked PSD, no FF",
+    "scenario": "recurring_downturn",
+    "rmse_difference_pp_by_seed": [
+      0.026302332250610627,
+      0.04145380055229353,
+      0.032643410896773806
+    ],
+    "mean_difference_pp": 0.03346651456655932
+  },
+  {
+    "left": "Stacked PSD + FF",
+    "right": "Stacked PSD, no FF",
+    "scenario": "gradual_downturn",
+    "rmse_difference_pp_by_seed": [
+      -0.0038687486052513265,
+      0.015356198435803603,
+      0.00010037589471961761
+    ],
+    "mean_difference_pp": 0.0038626085750906314
+  },
+  {
+    "left": "Stacked PSD + FF",
+    "right": "Stacked PSD, no FF",
+    "scenario": "stable_economy",
+    "rmse_difference_pp_by_seed": [
+      0.006900012826508567,
+      -0.0013699846424700124,
+      -0.004947873508835687
+    ],
+    "mean_difference_pp": 0.00019405155840095575
+  },
+  {
+    "left": "Stacked PSD + FF",
+    "right": "Stacked PSD, no FF",
+    "scenario": "localized_downturn",
+    "rmse_difference_pp_by_seed": [
+      -3.25705321491121e-05,
+      -0.008216638187406866,
+      0.05849476728198716
+    ],
+    "mean_difference_pp": 0.016748519520810395
+  },
+  {
+    "left": "Transformer + FF",
+    "right": "Transformer, no FF",
+    "scenario": "recurring_downturn",
+    "rmse_difference_pp_by_seed": [
+      -0.18954299218644777,
+      0.018931756097387287,
+      0.02218679179259997
+    ],
+    "mean_difference_pp": -0.04947481476548684
+  },
+  {
+    "left": "Transformer + FF",
+    "right": "Transformer, no FF",
+    "scenario": "gradual_downturn",
+    "rmse_difference_pp_by_seed": [
+      -0.032550273411116604,
+      -0.01136820574750147,
+      0.04181360222813152
+    ],
+    "mean_difference_pp": -0.0007016256434955181
+  },
+  {
+    "left": "Transformer + FF",
+    "right": "Transformer, no FF",
+    "scenario": "stable_economy",
+    "rmse_difference_pp_by_seed": [
+      -0.010186478490448875,
+      9.026490784408425e-05,
+      0.002827978243999385
+    ],
+    "mean_difference_pp": -0.0024227451128684685
+  },
+  {
+    "left": "Transformer + FF",
+    "right": "Transformer, no FF",
+    "scenario": "localized_downturn",
+    "rmse_difference_pp_by_seed": [
+      0.06713112599711912,
+      -0.004332919776413313,
+      0.0669433164819877
+    ],
+    "mean_difference_pp": 0.04324717423423117
+  }
+]

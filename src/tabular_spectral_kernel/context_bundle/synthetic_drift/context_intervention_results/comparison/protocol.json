@@ -1,0 +1,10 @@
+{
+  "aggregation": "Average each shuffle replicate metric within seed, then mean across seeds; never average shuffled predictions into an ensemble.",
+  "gate_only": "Alter encoder context; retain original recent128 KRR Gram/cross/labels.",
+  "joint": "Alter both encoder and KRR context. Historical-only uses query-only gate and fixed pre-evaluation support.",
+  "caveats": [
+    "Wrong-regime and missing-context interventions are synthetic/out of distribution.",
+    "Sensitivity does not establish useful labeled-context adaptation; evaluate error direction.",
+    "No retraining, no optimal no-context baseline, no statistical significance claims."
+  ]
+}

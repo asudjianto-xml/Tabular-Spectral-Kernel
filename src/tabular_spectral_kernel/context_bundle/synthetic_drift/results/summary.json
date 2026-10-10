@@ -1,0 +1,170 @@
+[
+  {
+    "scenario": "recurring",
+    "method": "kernel_fusion",
+    "rmse_mean": 0.41202931807676274,
+    "rmse_seed_sd": 5.49421108293012e-05
+  },
+  {
+    "scenario": "recurring",
+    "method": "prediction_average",
+    "rmse_mean": 0.4137277651062428,
+    "rmse_seed_sd": 0.0012216359835800022
+  },
+  {
+    "scenario": "recurring",
+    "method": "best_single",
+    "rmse_mean": 0.4154781981517766,
+    "rmse_seed_sd": 0.0007308494425792432
+  },
+  {
+    "scenario": "recurring",
+    "method": "uniform_kernel",
+    "rmse_mean": 0.4361756164093101,
+    "rmse_seed_sd": 0.005147716708450911
+  },
+  {
+    "scenario": "recurring",
+    "method": "pooled_kernel",
+    "rmse_mean": 0.5322989822280721,
+    "rmse_seed_sd": 0.06852140056475745
+  },
+  {
+    "scenario": "recurring",
+    "method": "latest_kernel",
+    "rmse_mean": 0.562437180552544,
+    "rmse_seed_sd": 0.017224037011556552
+  },
+  {
+    "scenario": "recurring",
+    "method": "stale_predictor",
+    "rmse_mean": 0.8334625540604653,
+    "rmse_seed_sd": 0.0014880727827405965
+  },
+  {
+    "scenario": "gradual",
+    "method": "kernel_fusion",
+    "rmse_mean": 0.2187147811763087,
+    "rmse_seed_sd": 0.0004412956135050845
+  },
+  {
+    "scenario": "gradual",
+    "method": "prediction_average",
+    "rmse_mean": 0.2306829626697745,
+    "rmse_seed_sd": 0.0007825127285720619
+  },
+  {
+    "scenario": "gradual",
+    "method": "best_single",
+    "rmse_mean": 0.23745578930577818,
+    "rmse_seed_sd": 0.0005871030639108615
+  },
+  {
+    "scenario": "gradual",
+    "method": "uniform_kernel",
+    "rmse_mean": 0.2281556304709863,
+    "rmse_seed_sd": 0.001368953142336756
+  },
+  {
+    "scenario": "gradual",
+    "method": "pooled_kernel",
+    "rmse_mean": 0.4070374233882823,
+    "rmse_seed_sd": 0.09870248372643378
+  },
+  {
+    "scenario": "gradual",
+    "method": "latest_kernel",
+    "rmse_mean": 0.4467601689310785,
+    "rmse_seed_sd": 0.023607538733317737
+  },
+  {
+    "scenario": "gradual",
+    "method": "stale_predictor",
+    "rmse_mean": 0.7679287302783284,
+    "rmse_seed_sd": 0.0029324920657258775
+  },
+  {
+    "scenario": "stationary",
+    "method": "kernel_fusion",
+    "rmse_mean": 0.17444024358300092,
+    "rmse_seed_sd": 0.0020265426967986584
+  },
+  {
+    "scenario": "stationary",
+    "method": "prediction_average",
+    "rmse_mean": 0.17434237189690985,
+    "rmse_seed_sd": 0.0016918593530818567
+  },
+  {
+    "scenario": "stationary",
+    "method": "best_single",
+    "rmse_mean": 0.17414831878391776,
+    "rmse_seed_sd": 0.0017794995539791017
+  },
+  {
+    "scenario": "stationary",
+    "method": "uniform_kernel",
+    "rmse_mean": 0.18132176576426004,
+    "rmse_seed_sd": 0.0047400501068024575
+  },
+  {
+    "scenario": "stationary",
+    "method": "pooled_kernel",
+    "rmse_mean": 0.44683912477598664,
+    "rmse_seed_sd": 0.14106659068574706
+  },
+  {
+    "scenario": "stationary",
+    "method": "latest_kernel",
+    "rmse_mean": 0.5773131825553152,
+    "rmse_seed_sd": 0.027518424759984353
+  },
+  {
+    "scenario": "stationary",
+    "method": "stale_predictor",
+    "rmse_mean": 1.0823190459647025,
+    "rmse_seed_sd": 0.005789209032168237
+  },
+  {
+    "scenario": "mixed",
+    "method": "kernel_fusion",
+    "rmse_mean": 0.17574535519987977,
+    "rmse_seed_sd": 0.0024453892881578718
+  },
+  {
+    "scenario": "mixed",
+    "method": "prediction_average",
+    "rmse_mean": 0.26090183003006145,
+    "rmse_seed_sd": 0.009558163655633023
+  },
+  {
+    "scenario": "mixed",
+    "method": "best_single",
+    "rmse_mean": 0.3149723035376441,
+    "rmse_seed_sd": 0.008664710684412562
+  },
+  {
+    "scenario": "mixed",
+    "method": "uniform_kernel",
+    "rmse_mean": 0.1748265112761153,
+    "rmse_seed_sd": 0.0023849343376898167
+  },
+  {
+    "scenario": "mixed",
+    "method": "pooled_kernel",
+    "rmse_mean": 0.3071592202164726,
+    "rmse_seed_sd": 0.08220812686475651
+  },
+  {
+    "scenario": "mixed",
+    "method": "latest_kernel",
+    "rmse_mean": 0.3229885376924904,
+    "rmse_seed_sd": 0.008044052058361558
+  },
+  {
+    "scenario": "mixed",
+    "method": "stale_predictor",
+    "rmse_mean": 0.5501038733997339,
+    "rmse_seed_sd": 0.009304673484203036
+  }
+]

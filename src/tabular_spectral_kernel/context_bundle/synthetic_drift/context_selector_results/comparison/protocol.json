@@ -1,0 +1,7 @@
+{
+  "evaluation": "256 fresh independent episodes per scenario per seed; three frozen bank/selector seeds. Test constructed after checkpoint frozen; no retuning.",
+  "comparability": "Different fresh randomized episode protocol from earlier 60-month streams; do not compare absolute RMSE across protocols.",
+  "oracle": "Exhaustive finite six-window oracle, conditional on fixed bank mixture and ridge; query labels/latent means are privileged diagnostics.",
+  "inference": "Hard query-specific context selection; one principal-submatrix KRR per selected window/query. No global PSD claim across different selected supports.",
+  "limitations": "Same synthetic structural law and path families as meta-training, not an unseen task family. Fixed historical mixture may select a simplex endpoint. No latency benchmark."
+}

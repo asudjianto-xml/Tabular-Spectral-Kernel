@@ -1,0 +1,302 @@
+[
+  {
+    "scenario": "recurring_downturn",
+    "method": "Symmetric, p=1",
+    "decoder": "nw",
+    "rmse_mean": 0.15086157161484456,
+    "rmse_seed_sd": 0.0040668347623109
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Symmetric, p=1",
+    "decoder": "krr",
+    "rmse_mean": 0.07583889652022037,
+    "rmse_seed_sd": 0.0010294751537007775
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Symmetric, p=1",
+    "decoder": "nw",
+    "rmse_mean": 0.14237665244392333,
+    "rmse_seed_sd": 0.003790891313711892
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Symmetric, p=1",
+    "decoder": "krr",
+    "rmse_mean": 0.06902932164260885,
+    "rmse_seed_sd": 0.0009567965613065581
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Symmetric, p=1",
+    "decoder": "nw",
+    "rmse_mean": 0.08055770781319993,
+    "rmse_seed_sd": 0.002574632171682186
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Symmetric, p=1",
+    "decoder": "krr",
+    "rmse_mean": 0.049365796283649344,
+    "rmse_seed_sd": 0.0012363347437840961
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Symmetric, p=1",
+    "decoder": "nw",
+    "rmse_mean": 0.13210654849952522,
+    "rmse_seed_sd": 0.006384726419501201,
+    "stable_rmse": 0.10545365442416092,
+    "changed_rmse": 0.15410926675528513
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Symmetric, p=1",
+    "decoder": "krr",
+    "rmse_mean": 0.07171130350268974,
+    "rmse_seed_sd": 0.001991056024005312,
+    "stable_rmse": 0.06146931627127153,
+    "changed_rmse": 0.08099797584380679
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Row, p=1",
+    "decoder": "nw",
+    "rmse_mean": 0.15087146197302467,
+    "rmse_seed_sd": 0.004062646025167579
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Row, p=1",
+    "decoder": "krr",
+    "rmse_mean": 0.07579638742364153,
+    "rmse_seed_sd": 0.001015384409637577
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Row, p=1",
+    "decoder": "nw",
+    "rmse_mean": 0.1423893680783904,
+    "rmse_seed_sd": 0.0037855862522895877
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Row, p=1",
+    "decoder": "krr",
+    "rmse_mean": 0.06901708256047408,
+    "rmse_seed_sd": 0.0009877479657587954
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Row, p=1",
+    "decoder": "nw",
+    "rmse_mean": 0.08056609008363542,
+    "rmse_seed_sd": 0.002586083230478909
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Row, p=1",
+    "decoder": "krr",
+    "rmse_mean": 0.04937242170812937,
+    "rmse_seed_sd": 0.0012388516801119097
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Row, p=1",
+    "decoder": "nw",
+    "rmse_mean": 0.13211525816057335,
+    "rmse_seed_sd": 0.006383581516462583,
+    "stable_rmse": 0.1054590329657744,
+    "changed_rmse": 0.15412029574787486
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Row, p=1",
+    "decoder": "krr",
+    "rmse_mean": 0.07170291582371058,
+    "rmse_seed_sd": 0.001983228319483161,
+    "stable_rmse": 0.0614252839555345,
+    "changed_rmse": 0.08100484540416783
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Symmetric, p=2",
+    "decoder": "nw",
+    "rmse_mean": 0.15085187778749984,
+    "rmse_seed_sd": 0.004069871710334254
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Symmetric, p=2",
+    "decoder": "krr",
+    "rmse_mean": 0.07587865740688361,
+    "rmse_seed_sd": 0.0010549184023871628
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Symmetric, p=2",
+    "decoder": "nw",
+    "rmse_mean": 0.14236568503108152,
+    "rmse_seed_sd": 0.0037974920887985475
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Symmetric, p=2",
+    "decoder": "krr",
+    "rmse_mean": 0.06904199025466529,
+    "rmse_seed_sd": 0.000929598533258071
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Symmetric, p=2",
+    "decoder": "nw",
+    "rmse_mean": 0.08054678427477825,
+    "rmse_seed_sd": 0.0025704093809297652
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Symmetric, p=2",
+    "decoder": "krr",
+    "rmse_mean": 0.049367958721958406,
+    "rmse_seed_sd": 0.0012322783548530717
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Symmetric, p=2",
+    "decoder": "nw",
+    "rmse_mean": 0.13209908801518658,
+    "rmse_seed_sd": 0.006386917790424119,
+    "stable_rmse": 0.1054525433472742,
+    "changed_rmse": 0.15409888877971376
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Symmetric, p=2",
+    "decoder": "krr",
+    "rmse_mean": 0.07171877721466578,
+    "rmse_seed_sd": 0.0020022227624299856,
+    "stable_rmse": 0.061497515674550085,
+    "changed_rmse": 0.08099534893693426
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Row, p=2",
+    "decoder": "nw",
+    "rmse_mean": 0.1508669087690866,
+    "rmse_seed_sd": 0.004062171215030273
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Row, p=2",
+    "decoder": "krr",
+    "rmse_mean": 0.07579203530520162,
+    "rmse_seed_sd": 0.0010189449137062853
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Row, p=2",
+    "decoder": "nw",
+    "rmse_mean": 0.1423867017674411,
+    "rmse_seed_sd": 0.0037864820546931514
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Row, p=2",
+    "decoder": "krr",
+    "rmse_mean": 0.06901570256921054,
+    "rmse_seed_sd": 0.0009850881121829577
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Row, p=2",
+    "decoder": "nw",
+    "rmse_mean": 0.0805635303890893,
+    "rmse_seed_sd": 0.002588871750413346
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Row, p=2",
+    "decoder": "krr",
+    "rmse_mean": 0.04937666593465457,
+    "rmse_seed_sd": 0.0012352459409003557
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Row, p=2",
+    "decoder": "nw",
+    "rmse_mean": 0.13211377193245596,
+    "rmse_seed_sd": 0.006383758826524207,
+    "stable_rmse": 0.1054622481082208,
+    "changed_rmse": 0.1541168867668928
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Row, p=2",
+    "decoder": "krr",
+    "rmse_mean": 0.07170194179415297,
+    "rmse_seed_sd": 0.0019846954326496733,
+    "stable_rmse": 0.06142417832786479,
+    "changed_rmse": 0.08100332088670041
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Plain Transformer",
+    "decoder": "nw",
+    "rmse_mean": 0.15057254232989542,
+    "rmse_seed_sd": 0.0038694912702407444
+  },
+  {
+    "scenario": "recurring_downturn",
+    "method": "Plain Transformer",
+    "decoder": "krr",
+    "rmse_mean": 0.07483590500536057,
+    "rmse_seed_sd": 0.0010881234901939064
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Plain Transformer",
+    "decoder": "nw",
+    "rmse_mean": 0.14229804986865238,
+    "rmse_seed_sd": 0.003627726276391707
+  },
+  {
+    "scenario": "gradual_downturn",
+    "method": "Plain Transformer",
+    "decoder": "krr",
+    "rmse_mean": 0.06885742245708866,
+    "rmse_seed_sd": 0.0009997903720671164
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Plain Transformer",
+    "decoder": "nw",
+    "rmse_mean": 0.08054405274275221,
+    "rmse_seed_sd": 0.0025368879998312146
+  },
+  {
+    "scenario": "stable_economy",
+    "method": "Plain Transformer",
+    "decoder": "krr",
+    "rmse_mean": 0.049432834954273135,
+    "rmse_seed_sd": 0.001161126460205049
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Plain Transformer",
+    "decoder": "nw",
+    "rmse_mean": 0.13214664805521473,
+    "rmse_seed_sd": 0.006310313503548184,
+    "stable_rmse": 0.10554102583592447,
+    "changed_rmse": 0.1541347868246811
+  },
+  {
+    "scenario": "localized_downturn",
+    "method": "Plain Transformer",
+    "decoder": "krr",
+    "rmse_mean": 0.07177225203063502,
+    "rmse_seed_sd": 0.001960430101541888,
+    "stable_rmse": 0.0612153669426063,
+    "changed_rmse": 0.08121062939692514
+  }
+]

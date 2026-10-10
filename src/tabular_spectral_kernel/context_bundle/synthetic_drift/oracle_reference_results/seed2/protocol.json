@@ -1,0 +1,14 @@
+{
+  "seed": 2,
+  "context": 128,
+  "queries": 32,
+  "banks": 2,
+  "ridge": "same fixed historical ridge",
+  "validation": "Reuse verified past-only 96/32 context validation weights; refit on128",
+  "convex_mkl": "Reuse verified past-only profiled regularized KRR weights; refit on128",
+  "label_oracles": "Same support and KRR; query labels select shared cohort or per-query weights. Diagnostic only, not deployable.",
+  "mean_oracle": "Per-query weights use latent-state true conditional means, not realized query labels; information-advantaged approximation reference.",
+  "search": "501-point grid, all strict bracketed extrema/minima refined, boundaries and all reported gate/optimized weights included; numerical search, no global optimality certificate",
+  "bayes": "True conditional mean uses latent state. Expected full-state noise MSE mean(mu*(1-mu)/61). Realized RMSE is sample dependent.",
+  "fresh_noise": "sqrt(mean((prediction-mu)^2)+mean(mu*(1-mu)/61)); for label oracle this evaluates fixed hindsight predictions against independent new noise, not a deployable risk estimate"
+}

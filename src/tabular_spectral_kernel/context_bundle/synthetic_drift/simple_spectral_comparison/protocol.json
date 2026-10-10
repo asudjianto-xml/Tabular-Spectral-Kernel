@@ -1,0 +1,43 @@
+{
+  "configs": [
+    [
+      "Transformer / joint",
+      "transformer_results",
+      "transformer",
+      "joint"
+    ],
+    [
+      "PSD month / joint",
+      "transformer_psd_norot_joint_results",
+      "psd_month",
+      "joint"
+    ],
+    [
+      "Simple / joint",
+      "simple_spectral_joint_results",
+      "simple",
+      "joint"
+    ],
+    [
+      "Transformer / KRR",
+      "transformer_krr_results",
+      "transformer",
+      "krr"
+    ],
+    [
+      "PSD rotation / KRR",
+      "transformer_psd_krr_results",
+      "psd",
+      "krr"
+    ],
+    [
+      "Simple / KRR",
+      "simple_spectral_krr_results",
+      "simple",
+      "krr"
+    ]
+  ],
+  "comparison": "same seeds, episodes, optimizer and validation protocol within each loss; selected prior larger-PSD references use month-only for joint and rotations for KRR",
+  "timing": "one CPU thread; seed0 localized scenario, three origins, 5 warmups and20 timed repetitions each; median per origin; kernel construction and data loading excluded; 32 queries; both readouts share alpha",
+  "qualification": "Exploratory three-seed comparison on previously inspected scenarios; encoder counts exclude shared frozen spectral banks; parameter reduction does not remove KRR linear solves"
+}

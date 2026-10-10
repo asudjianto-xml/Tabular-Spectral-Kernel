@@ -1,0 +1,45 @@
+{
+  "calibration": {
+    "fixed": {
+      "alpha": [
+        0.25,
+        0.5,
+        0.25
+      ],
+      "ridge": 1e-07,
+      "mse": 0.1872474528879563
+    },
+    "latest": {
+      "alpha": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ridge": 1e-07,
+      "mse": 0.2200266577360904
+    },
+    "single": {
+      "alpha": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "ridge": 1e-07,
+      "mse": 0.20878340845696775
+    },
+    "uniform": {
+      "alpha": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "ridge": 1e-07,
+      "mse": 0.18983583569634896
+    }
+  },
+  "hashes": {
+    "selector_adaptive.pt": "f0c136e83a3e32802eebb3d14c6e0b21c0648790cc44b44d5f59d0d96e36656f",
+    "selector_fixed.pt": "d572437caf93c458fd339e008ffa305f8ead56f47006e855dcd8ae3197bde828",
+    "gate.pt": "d49543711a3c98861f2cbcaa322b708254c71d40eea113363eb51341b2ca4c01"
+  }
+}

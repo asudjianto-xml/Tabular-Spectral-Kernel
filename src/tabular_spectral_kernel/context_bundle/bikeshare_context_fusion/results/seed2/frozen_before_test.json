@@ -1,0 +1,48 @@
+{
+  "checkpoints": {
+    "selector_adaptive.pt": "16f938c419a20243c817d747f1fe249b9ad287c9117466e3d66be3c7b778532c",
+    "selector_fixed.pt": "2124dabd5ba549645c76b9f91a06c464d49d649993bac1e9b3c3dcfc99bc1f5c",
+    "gate.pt": "c44c54f7cefcbd10c7034034ede54e10b21757c3deceab610be21850e140ea0c",
+    "bank2.pt": "6969fe04bec7f026bb9d041b581b874eea0e8a2e8ce8fb7839a8e80692fe6deb",
+    "bank0.pt": "53520c506093245036e486b455d6a5ec1c17e1fba058b5d64e5eb9c49e3cbe4c",
+    "bank1.pt": "6a37b3b3bc2e820f0ba0bf2962b6fea218ef6fcac22c818afc40bb9a49ea541f"
+  },
+  "calibration": {
+    "fixed": {
+      "alpha": [
+        0.0,
+        0.75,
+        0.25
+      ],
+      "ridge": 1e-05,
+      "mse": 0.1842224746063196
+    },
+    "latest": {
+      "alpha": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ridge": 1e-05,
+      "mse": 0.22271708572554794
+    },
+    "single": {
+      "alpha": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "ridge": 1e-05,
+      "mse": 0.19828703137781747
+    },
+    "uniform": {
+      "alpha": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "ridge": 1e-05,
+      "mse": 0.19021322192303766
+    }
+  }
+}

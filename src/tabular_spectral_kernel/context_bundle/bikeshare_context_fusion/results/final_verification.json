@@ -1,0 +1,40 @@
+{
+  "protocol_tests_passed": 5,
+  "executed_source_matches": true,
+  "original_papers_unchanged": true,
+  "checks": [
+    {
+      "seed": "seed0",
+      "gate_epoch": 25,
+      "mean_within_day_weight_sd": [
+        0.25323985108529246,
+        0.20627673028318794,
+        0.2586090763257214
+      ],
+      "min_gram_eigenvalue": 0.07075690683661819,
+      "max_double_precision_difference_counts": 0.0003369214574794936
+    },
+    {
+      "seed": "seed1",
+      "gate_epoch": 10,
+      "mean_within_day_weight_sd": [
+        0.1932181680566006,
+        0.10883936895194156,
+        0.1939672097612414
+      ],
+      "min_gram_eigenvalue": 0.06884279182377899,
+      "max_double_precision_difference_counts": 0.00018576674964153117
+    },
+    {
+      "seed": "seed2",
+      "gate_epoch": 10,
+      "mean_within_day_weight_sd": [
+        0.2074554741995743,
+        0.17600105175476963,
+        0.21118181751371087
+      ],
+      "min_gram_eigenvalue": 0.0713926805461141,
+      "max_double_precision_difference_counts": 0.00020903880310928536
+    }
+  ]
+}

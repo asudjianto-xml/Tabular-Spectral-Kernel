@@ -1,0 +1,49 @@
+{
+  "seed": 2,
+  "configs": [
+    {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 0.0001
+    },
+    {
+      "subset": "sparse",
+      "atoms": 64,
+      "penalty": 0.0001
+    },
+    {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 0.0001
+    },
+    {
+      "subset": "all",
+      "atoms": 64,
+      "penalty": 0.0001
+    }
+  ],
+  "train_seed": 910002,
+  "validation_seed": 920002,
+  "test_seed_base": 1232000,
+  "train_episodes": 512,
+  "validation_episodes": 128,
+  "test_episodes_per_scenario": 256,
+  "fixed_mixture": 0.5129771955534516,
+  "fixed_ridge": 0.00031622776601683794,
+  "kernel": "phi(z)=[cos(Omega*z),sin(Omega*z)]/sqrt(M), k=phi(z)^T phi(zprime); frequencies learned globally; no MLP",
+  "scorer": "Pure: beta^T phi. Hybrid: frozen L1 linear score plus beta^T phi, representable in sum of linear and spectral RKHSs.",
+  "features": "57 standardized descriptors; sparse subset from earlier validation-selected L1, or all57 (including query-invariant features, which can enter nonlinear interactions)",
+  "training": "Same expected action error; Adam head .02/frequencies .002, coefficient L2 lambda/2, frequency mean-square penalty1e-6; max50 epochs patience8; epoch0 eligible",
+  "selection": "Within each subset choose atoms/penalty/checkpoint by validation hard-selection error; choose subset separately for pure and hybrid; freeze before fresh test generation",
+  "caveat": "Finite-dimensional spectral approximation, different capacity and optimization from linear baseline. Descriptor selection/validation reused; new test episodes share simulator law. No test retuning or inference latency claim."
+}

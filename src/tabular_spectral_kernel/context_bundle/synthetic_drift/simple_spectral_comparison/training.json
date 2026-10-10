@@ -1,0 +1,146 @@
+[
+  {
+    "method": "Transformer / joint",
+    "seed": 0,
+    "parameters": 22786,
+    "best_epoch": 13,
+    "epochs_run": 19,
+    "best_validation_loss": 0.01146393319749464
+  },
+  {
+    "method": "Transformer / joint",
+    "seed": 1,
+    "parameters": 22786,
+    "best_epoch": 9,
+    "epochs_run": 15,
+    "best_validation_loss": 0.010766916116848662
+  },
+  {
+    "method": "Transformer / joint",
+    "seed": 2,
+    "parameters": 22786,
+    "best_epoch": 3,
+    "epochs_run": 9,
+    "best_validation_loss": 0.011762349819904762
+  },
+  {
+    "method": "PSD month / joint",
+    "seed": 0,
+    "parameters": 32122,
+    "best_epoch": 7,
+    "epochs_run": 13,
+    "best_validation_loss": 0.011488538553738535
+  },
+  {
+    "method": "PSD month / joint",
+    "seed": 1,
+    "parameters": 32122,
+    "best_epoch": 20,
+    "epochs_run": 26,
+    "best_validation_loss": 0.010770417667491261
+  },
+  {
+    "method": "PSD month / joint",
+    "seed": 2,
+    "parameters": 32122,
+    "best_epoch": 24,
+    "epochs_run": 30,
+    "best_validation_loss": 0.011682513719431832
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "parameters": 596,
+    "best_epoch": 30,
+    "epochs_run": 30,
+    "best_validation_loss": 0.011493207339448924
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "parameters": 596,
+    "best_epoch": 29,
+    "epochs_run": 30,
+    "best_validation_loss": 0.010788827827790635
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "parameters": 596,
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "best_validation_loss": 0.011767844273408637
+  },
+  {
+    "method": "Transformer / KRR",
+    "seed": 0,
+    "parameters": 22786,
+    "best_epoch": 19,
+    "epochs_run": 25,
+    "best_validation_loss": 0.005493256786162362
+  },
+  {
+    "method": "Transformer / KRR",
+    "seed": 1,
+    "parameters": 22786,
+    "best_epoch": 4,
+    "epochs_run": 10,
+    "best_validation_loss": 0.004447901183553715
+  },
+  {
+    "method": "Transformer / KRR",
+    "seed": 2,
+    "parameters": 22786,
+    "best_epoch": 15,
+    "epochs_run": 21,
+    "best_validation_loss": 0.004844098943844191
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "seed": 0,
+    "parameters": 32314,
+    "best_epoch": 9,
+    "epochs_run": 15,
+    "best_validation_loss": 0.005555771313610211
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "seed": 1,
+    "parameters": 32314,
+    "best_epoch": 4,
+    "epochs_run": 10,
+    "best_validation_loss": 0.004444786024138962
+  },
+  {
+    "method": "PSD rotation / KRR",
+    "seed": 2,
+    "parameters": 32314,
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "best_validation_loss": 0.004849560465316841
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "parameters": 596,
+    "best_epoch": 22,
+    "epochs_run": 28,
+    "best_validation_loss": 0.005742402820178612
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "parameters": 596,
+    "best_epoch": 17,
+    "epochs_run": 23,
+    "best_validation_loss": 0.004471678121011647
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "parameters": 596,
+    "best_epoch": 10,
+    "epochs_run": 16,
+    "best_validation_loss": 0.004874119442044029
+  }
+]

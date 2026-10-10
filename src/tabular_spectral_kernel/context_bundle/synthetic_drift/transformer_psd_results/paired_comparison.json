@@ -1,0 +1,434 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.07756572513759617,
+    "other_rmse": 0.07599915202162398,
+    "psd_improvement_pp": -0.15665731159721918
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.14824098061491678,
+    "other_rmse": 0.14777721275955902,
+    "psd_improvement_pp": -0.046376785535776066
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.07756572513759617,
+    "other_rmse": 0.07845540798048009,
+    "psd_improvement_pp": 0.08896828428839182
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.14824098061491678,
+    "other_rmse": 0.14821067226513926,
+    "psd_improvement_pp": -0.0030308349777519172
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.06973215904617433,
+    "other_rmse": 0.0694854749125324,
+    "psd_improvement_pp": -0.024668413364192787
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.14021904421967724,
+    "other_rmse": 0.13998850713261876,
+    "psd_improvement_pp": -0.023053708705847442
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.06973215904617433,
+    "other_rmse": 0.06993351088362358,
+    "psd_improvement_pp": 0.020135183744925123
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.14021904421967724,
+    "other_rmse": 0.14001431766635028,
+    "psd_improvement_pp": -0.0204726553326956
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.049040946484180045,
+    "other_rmse": 0.04899406784125909,
+    "psd_improvement_pp": -0.0046878642920952784
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.07840287187517113,
+    "other_rmse": 0.0785180012165979,
+    "psd_improvement_pp": 0.011512934142676734
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.049040946484180045,
+    "other_rmse": 0.04922151682484501,
+    "psd_improvement_pp": 0.01805703406649664
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.07840287187517113,
+    "other_rmse": 0.07817598229181627,
+    "psd_improvement_pp": -0.022688958335485843
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.07072277892342889,
+    "other_rmse": 0.07116845535024385,
+    "psd_improvement_pp": 0.04456764268149643
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.12563157652501536,
+    "other_rmse": 0.12558227379163509,
+    "psd_improvement_pp": -0.004930273338027424
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.07072277892342889,
+    "other_rmse": 0.07066658566340653,
+    "psd_improvement_pp": -0.00561932600223608
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.12563157652501536,
+    "other_rmse": 0.125482674542651,
+    "psd_improvement_pp": -0.014890198236436336
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.0757088323042017,
+    "other_rmse": 0.07466556608760083,
+    "psd_improvement_pp": -0.10432662166008633
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.1552173929976686,
+    "other_rmse": 0.15498890917644223,
+    "psd_improvement_pp": -0.022848382122636623
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.0757088323042017,
+    "other_rmse": 0.07557160968876289,
+    "psd_improvement_pp": -0.013722261543880343
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.1552173929976686,
+    "other_rmse": 0.15503367090854625,
+    "psd_improvement_pp": -0.018372208912234567
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.06801229664827582,
+    "other_rmse": 0.0677045020924303,
+    "psd_improvement_pp": -0.03077945558455225
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.1466233163267994,
+    "other_rmse": 0.146479355095599,
+    "psd_improvement_pp": -0.014396123120039017
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.06801229664827582,
+    "other_rmse": 0.06801492152636351,
+    "psd_improvement_pp": 0.0002624878087692517
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.1466233163267994,
+    "other_rmse": 0.14647637675637137,
+    "psd_improvement_pp": -0.014693957042802297
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.05073872043010456,
+    "other_rmse": 0.05074940911500136,
+    "psd_improvement_pp": 0.0010688684896800749
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.08330271019500937,
+    "other_rmse": 0.08338932770659695,
+    "psd_improvement_pp": 0.008661751158757502
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.05073872043010456,
+    "other_rmse": 0.05073087854039719,
+    "psd_improvement_pp": -0.0007841889707364824
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.08330271019500937,
+    "other_rmse": 0.083317657672991,
+    "psd_improvement_pp": 0.0014947477981627766
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.07395799653674054,
+    "other_rmse": 0.07396355725120153,
+    "psd_improvement_pp": 0.0005560714460992044
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.13814365495899494,
+    "other_rmse": 0.13816777648042478,
+    "psd_improvement_pp": 0.0024121521429831816
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.07395799653674054,
+    "other_rmse": 0.07406369637597716,
+    "psd_improvement_pp": 0.01056998392366254
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.13814365495899494,
+    "other_rmse": 0.13813526480493762,
+    "psd_improvement_pp": -0.0008390154057319466
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.0756054566708892,
+    "other_rmse": 0.07384299690685686,
+    "psd_improvement_pp": -0.17624597640323453
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.14920031569032488,
+    "other_rmse": 0.14895150505368498,
+    "psd_improvement_pp": -0.024881063663989567
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.0756054566708892,
+    "other_rmse": 0.07414433578515317,
+    "psd_improvement_pp": -0.14611208857360364
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.14920031569032488,
+    "other_rmse": 0.1488787661875993,
+    "psd_improvement_pp": -0.03215495027255877
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.06955409366688121,
+    "other_rmse": 0.06938229036630328,
+    "psd_improvement_pp": -0.01718033005779357
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.1404247634490621,
+    "other_rmse": 0.14042628737773938,
+    "psd_improvement_pp": 0.0001523928677277242
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.06955409366688121,
+    "other_rmse": 0.0692656110470512,
+    "psd_improvement_pp": -0.028848261983001333
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.1404247634490621,
+    "other_rmse": 0.14031447934385505,
+    "psd_improvement_pp": -0.011028410520705356
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.04852022776427996,
+    "other_rmse": 0.04855502790655894,
+    "psd_improvement_pp": 0.003480014227898176
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.07974330648563278,
+    "other_rmse": 0.07972482930506176,
+    "psd_improvement_pp": -0.0018477180571019325
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.04852022776427996,
+    "other_rmse": 0.04841339594474522,
+    "psd_improvement_pp": -0.010683181953474036
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.07974330648563278,
+    "other_rmse": 0.07968138048957552,
+    "psd_improvement_pp": -0.006192599605726878
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "decoder": "krr",
+    "comparison": "Transformer",
+    "psd_rmse": 0.06979864571843458,
+    "other_rmse": 0.07018474349045968,
+    "psd_improvement_pp": 0.038609777202509854
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "decoder": "nw",
+    "comparison": "Transformer",
+    "psd_rmse": 0.1325920282946776,
+    "other_rmse": 0.13268989389358435,
+    "psd_improvement_pp": 0.009786559890676005
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "decoder": "krr",
+    "comparison": "RoPE",
+    "psd_rmse": 0.06979864571843458,
+    "other_rmse": 0.06980813214220408,
+    "psd_improvement_pp": 0.0009486423769494712
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "decoder": "nw",
+    "comparison": "RoPE",
+    "psd_rmse": 0.1325920282946776,
+    "other_rmse": 0.1325709908536935,
+    "psd_improvement_pp": -0.002103744098408411
+  }
+]

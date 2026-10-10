@@ -1,0 +1,69 @@
+{
+  "data": "@bike_data",
+  "data_sha256": "e03de4ee4ef4dc376ac6e04bf829673c6269e8eba5c60fa121640fa2f829504f",
+  "features": [
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "year_sin",
+    "year_cos",
+    "temp",
+    "hum",
+    "windspeed",
+    "workingday",
+    "holiday",
+    "weather1",
+    "weather2",
+    "weather3",
+    "weather4"
+  ],
+  "target": "cnt (raw counts scaled by pre-July2011 standard deviation); no casual/registered inputs",
+  "bank_windows": [
+    "Jan-Feb2011",
+    "Mar-Apr2011",
+    "May-Jun2011"
+  ],
+  "bank_internal_split": "first80% fit; last20% checkpoint validation",
+  "scaling": "shared input center/scale and response scale fitted Jan-Jun2011 only",
+  "meta_train": "2011-07-01 through 2011-09-30",
+  "validation": "2011-10-01 through 2011-12-31",
+  "test": "all observed hours in 2012",
+  "context_size": 128,
+  "context_lags_days": [
+    0,
+    7,
+    28,
+    56,
+    91,
+    182
+  ],
+  "context": "last128 observed rows strictly before daily origin minus lag; unavailable windows masked",
+  "horizon": "all observed hours of each day; no same-day labels; previous test-day outcomes become available at next origin",
+  "weather": "observed target-hour weather: conditional prediction, not an ex-ante weather forecast",
+  "geometry": "three frozen canonical learned spectral Laplace kernels, four frequencies per covariate, full trace-one SPD metric",
+  "selection": "spectral scorer on query/context descriptors; expected candidate error training, hard argmax deployment",
+  "fusion": "spectral feature encoder with affine three-logit head and softmax; one weight per query/context used consistently in full local Gram",
+  "training": "two-stage: gate trained over all eligible context types, then separate selectors learn fixed-fusion or gated-fusion costs; no joint end-to-end retraining",
+  "gate_epochs": 25,
+  "geometry_steps": 250,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "ridge_grid": [
+    1e-05,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "fixed_calibration": "validation grid: three-kernel simplex quarters plus uniform; latest/best single/uniform have separately validation-selected ridge",
+  "gate_checkpoint": "validation recent-context count MSE, every5epochs and initialization; selector checkpoint hard-selection validation MSE",
+  "evaluation": "No 2012 labels used to tune persistent parameters, hyperparameters, or checkpoints; prior observed test labels allowed only in rolling contexts",
+  "caveats": [
+    "One observed series; seeds measure optimization variability, not independent datasets",
+    "Small 2011 meta-training period and restricted historical bank",
+    "Real-data temporal shift is not proof of isolated conditional concept drift"
+  ]
+}

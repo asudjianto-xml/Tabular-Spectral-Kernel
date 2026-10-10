@@ -1,0 +1,1082 @@
+[
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0017197938736742426,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0026096625231855977,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 3.428044698970923e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 9.045770611149545e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 1.6576283548819175e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.002738969885162531,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.003931597852185066,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 9.026716200812791e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 2.4700895062148848e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 1.6995358103702971e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0017197938736742426,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0026096625231855977,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 3.428044698970923e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 9.045770611149545e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 1.6576283548819175e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.002352614499808809,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0035498041003925855,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 2.763095054518263e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 3.657207853718564e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 9.091881474909123e-13,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0017197938736742426,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0026096625231855977,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 3.428044698970923e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 9.045770611149545e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 1.6576283548819175e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0020013836823071984,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.003079151358546435,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 3.341376992152138e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 5.334974982075432e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 1.8581529042271362e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0017197090545615832,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0026098647384072537,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 3.4156697275292766e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 9.044341171713054e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 1.6505815931008084e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.00235080317817241,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0035538689732233096,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 4.846072117166499e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 9.899160258634658e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 1.860813444857645e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0015800116870218852,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.001960992433140033,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 1.3313716884320957e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 2.135567658391245e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 3.066530064379732e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0017766012928594243,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0020800910592790223,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 2.6032964963540563e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 1.579640643245152e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 1.74626864307281e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0015800116870218852,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.001960992433140033,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 1.3313716884320957e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 2.135567658391245e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 3.066530064379732e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0016270933479688788,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.001994817395883535,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 1.6604567371703687e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 1.0798172390348147e-11,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 9.660625636908765e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0015800116870218852,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.001960992433140033,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 1.3313716884320957e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 2.135567658391245e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 3.066530064379732e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.001373181375408097,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0015996318227521598,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 1.2712797618573105e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 2.7802674778907337e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 9.931158435491187e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.001579793691761412,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0019606708236257985,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 1.3296161558819385e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 2.116288081879236e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 3.0573469341800883e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.001623939483479689,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0019900383595325417,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 2.353469383027936e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 6.5488631002826686e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 8.561866006717589e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0026163301855800652,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0023785202797730167,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 4.652467181351693e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 8.491431376900749e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 2.919558687650991e-13,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0029518322210563604,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0025563212764388708,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 1.279063784170481e-09,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 1.0336751638653738e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 5.671360408554711e-13,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0026163301855800652,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0023785202797730167,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 4.652467181351693e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 8.491431376900749e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 2.919558687650991e-13,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.002877508851888538,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0024619753600913664,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 4.5642555345636217e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 9.611424620571734e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 2.4194298880165486e-13,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0026163301855800652,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0023785202797730167,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 4.652467181351693e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 8.491431376900749e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 2.919558687650991e-13,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0027180552849456357,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0023390941462871928,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 3.3529797428988963e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 5.445415404712398e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 2.578082113370558e-13,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0026165750591186266,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 0.0023783734701727823,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 0,
+    "min_eigenvalue": 2.4029376142002225e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 1,
+    "min_eigenvalue": 3.918249326127967e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "layer": 2,
+    "min_eigenvalue": 1.8119060546261342e-13,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.0028789017734571075,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 0.002461170429033093,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 0,
+    "min_eigenvalue": 5.138500284244456e-10,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 1,
+    "min_eigenvalue": 7.605190564675059e-12,
+    "symmetry_error": 0.0
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "layer": 2,
+    "min_eigenvalue": 1.9946337991307648e-13,
+    "symmetry_error": 0.0
+  }
+]

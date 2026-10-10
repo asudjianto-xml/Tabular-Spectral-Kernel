@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "ridge_grid": [
+    1e-07,
+    1e-06,
+    1e-05,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "review_stage": true,
+  "test_previously_inspected": true,
+  "selection": "2011 validation only; bank checkpoints unchanged; gates and selectors retrained with chosen ridge before replaying 2012",
+  "oracle": "query-label and whole-day-label best of six candidates; retrospective optimistic diagnostics, not deployable",
+  "large_context": "256/512 support; weights from calibrated128; ridge selected separately on validation"
+}

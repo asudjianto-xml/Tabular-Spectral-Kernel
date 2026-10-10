@@ -1,0 +1,55 @@
+{
+  "configs": [
+    [
+      "Simple PSD",
+      "simple_spectral_joint_results",
+      null
+    ],
+    [
+      "PSD + large head",
+      "mlp_large_head_results",
+      "large_head"
+    ],
+    [
+      "Stacked PSD + FF",
+      "mlp_stacked_psd_results",
+      "stacked_psd"
+    ],
+    [
+      "Stacked PSD, no FF",
+      "mlp_stacked_psd_no_ff_results",
+      "stacked_psd_no_ff"
+    ],
+    [
+      "Transformer + FF",
+      "transformer_results",
+      null
+    ],
+    [
+      "Transformer, no FF",
+      "mlp_transformer_no_ff_results",
+      "transformer_no_ff"
+    ]
+  ],
+  "pairs": [
+    [
+      "PSD + large head",
+      "Simple PSD"
+    ],
+    [
+      "Stacked PSD + FF",
+      "Simple PSD"
+    ],
+    [
+      "Stacked PSD + FF",
+      "Stacked PSD, no FF"
+    ],
+    [
+      "Transformer + FF",
+      "Transformer, no FF"
+    ]
+  ],
+  "comparison": "Identical episodes, three seeds, joint objective, optimizer and validation stopping. Frozen spectral banks and regression readouts unchanged.",
+  "architecture": "Large head changes 24->16->2 to 24->128->128->2. Stacked PSD uses two width32 residual pooling/FF64 blocks and query cross-pooling, with fixed conditional PSD attention throughout. No-FF variants bypass intermediate FF and norm2, keeping shared initial weights and final nonlinear head.",
+  "qualification": "Removal also reduces trainable capacity. Stacked-vs-simple changes depth, width, residuals and norms. Fixed-geometry stacked PSD does not reproduce learned Transformer Q/K maps. Previously inspected scenarios; exploratory and not a statistical significance claim."
+}

@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "profiles": [
+    "meta_results",
+    "meta_nw_calibrated_results"
+  ],
+  "methods": [
+    "full128",
+    "recent64",
+    "raw_nearest64",
+    "spectral_nearest64",
+    "population64"
+  ],
+  "scenarios": [
+    "recurring",
+    "gradual",
+    "stationary",
+    "mixed",
+    "localized"
+  ],
+  "eligible_context": 128,
+  "retrieval_k": 64,
+  "horizon": 32,
+  "inference": "frozen saved gate and banks; no optimization; same local weights for NW/KRR",
+  "limitations": [
+    "Gate trained on 128-row stationary tasks, evaluated also on retrieved subsets",
+    "Population reference knows the candidate x2 sign partition",
+    "NW-calibrated profile retains historical original-bandwidth KRR ridge",
+    "No exact stable-prediction preservation is imposed"
+  ],
+  "source": "synthetic_drift"
+}

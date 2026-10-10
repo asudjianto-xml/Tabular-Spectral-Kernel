@@ -1,0 +1,27 @@
+[
+  {
+    "day": "2012-01-01",
+    "min_eigenvalue": 0.0753602047002585,
+    "float32_vs_float64_count_difference": 0.00016724855593871596
+  },
+  {
+    "day": "2012-03-31",
+    "min_eigenvalue": 0.0817143705870088,
+    "float32_vs_float64_count_difference": 0.00015424928683886477
+  },
+  {
+    "day": "2012-06-29",
+    "min_eigenvalue": 0.08012645156487752,
+    "float32_vs_float64_count_difference": 4.938882736910968e-05
+  },
+  {
+    "day": "2012-09-27",
+    "min_eigenvalue": 0.07137269333886365,
+    "float32_vs_float64_count_difference": 0.0002220675419648532
+  },
+  {
+    "day": "2012-12-31",
+    "min_eigenvalue": 0.08217473035954422,
+    "float32_vs_float64_count_difference": 0.000251396668215528
+  }
+]

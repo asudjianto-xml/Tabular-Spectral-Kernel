@@ -1,0 +1,191 @@
+[
+  {
+    "method": "Single PSD, linear",
+    "seed": 0,
+    "parameters": 212,
+    "best_epoch": 30,
+    "epochs_run": 30
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 1,
+    "parameters": 212,
+    "best_epoch": 30,
+    "epochs_run": 30
+  },
+  {
+    "method": "Single PSD, linear",
+    "seed": 2,
+    "parameters": 212,
+    "best_epoch": 15,
+    "epochs_run": 21
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 0,
+    "parameters": 6900,
+    "best_epoch": 13,
+    "epochs_run": 19
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 1,
+    "parameters": 6900,
+    "best_epoch": 16,
+    "epochs_run": 22
+  },
+  {
+    "method": "Stacked PSD, linear",
+    "seed": 2,
+    "parameters": 6900,
+    "best_epoch": 17,
+    "epochs_run": 23
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 0,
+    "parameters": 22554,
+    "best_epoch": 13,
+    "epochs_run": 19
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 1,
+    "parameters": 22554,
+    "best_epoch": 18,
+    "epochs_run": 24
+  },
+  {
+    "method": "Learned PSD, linear",
+    "seed": 2,
+    "parameters": 22554,
+    "best_epoch": 9,
+    "epochs_run": 15
+  },
+  {
+    "method": "Transformer, linear",
+    "seed": 0,
+    "parameters": 13218,
+    "best_epoch": 12,
+    "epochs_run": 18
+  },
+  {
+    "method": "Transformer, linear",
+    "seed": 1,
+    "parameters": 13218,
+    "best_epoch": 2,
+    "epochs_run": 8
+  },
+  {
+    "method": "Transformer, linear",
+    "seed": 2,
+    "parameters": 13218,
+    "best_epoch": 9,
+    "epochs_run": 15
+  },
+  {
+    "method": "Simple PSD + MLP",
+    "seed": 0,
+    "parameters": 596,
+    "best_epoch": 30,
+    "epochs_run": 30
+  },
+  {
+    "method": "Simple PSD + MLP",
+    "seed": 1,
+    "parameters": 596,
+    "best_epoch": 29,
+    "epochs_run": 30
+  },
+  {
+    "method": "Simple PSD + MLP",
+    "seed": 2,
+    "parameters": 596,
+    "best_epoch": 10,
+    "epochs_run": 16
+  },
+  {
+    "method": "Stacked PSD, final MLP",
+    "seed": 0,
+    "parameters": 7956,
+    "best_epoch": 13,
+    "epochs_run": 19
+  },
+  {
+    "method": "Stacked PSD, final MLP",
+    "seed": 1,
+    "parameters": 7956,
+    "best_epoch": 10,
+    "epochs_run": 16
+  },
+  {
+    "method": "Stacked PSD, final MLP",
+    "seed": 2,
+    "parameters": 7956,
+    "best_epoch": 30,
+    "epochs_run": 30
+  },
+  {
+    "method": "Learned PSD + MLPs",
+    "seed": 0,
+    "parameters": 32122,
+    "best_epoch": 7,
+    "epochs_run": 13
+  },
+  {
+    "method": "Learned PSD + MLPs",
+    "seed": 1,
+    "parameters": 32122,
+    "best_epoch": 20,
+    "epochs_run": 26
+  },
+  {
+    "method": "Learned PSD + MLPs",
+    "seed": 2,
+    "parameters": 32122,
+    "best_epoch": 24,
+    "epochs_run": 30
+  },
+  {
+    "method": "Transformer, final MLP",
+    "seed": 0,
+    "parameters": 14274,
+    "best_epoch": 28,
+    "epochs_run": 30
+  },
+  {
+    "method": "Transformer, final MLP",
+    "seed": 1,
+    "parameters": 14274,
+    "best_epoch": 20,
+    "epochs_run": 26
+  },
+  {
+    "method": "Transformer, final MLP",
+    "seed": 2,
+    "parameters": 14274,
+    "best_epoch": 24,
+    "epochs_run": 30
+  },
+  {
+    "method": "Transformer + all MLPs",
+    "seed": 0,
+    "parameters": 22786,
+    "best_epoch": 13,
+    "epochs_run": 19
+  },
+  {
+    "method": "Transformer + all MLPs",
+    "seed": 1,
+    "parameters": 22786,
+    "best_epoch": 9,
+    "epochs_run": 15
+  },
+  {
+    "method": "Transformer + all MLPs",
+    "seed": 2,
+    "parameters": 22786,
+    "best_epoch": 3,
+    "epochs_run": 9
+  }
+]

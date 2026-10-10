@@ -1,0 +1,17 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "source": "synthetic_drift/results",
+  "context": 128,
+  "support": 80,
+  "horizon": 32,
+  "population": "x2 > 0 vs x2 <= 0; fixed before labels",
+  "monitor": "group recent frozen-predictor MSE > 4 * held-out historical group MSE; min 32 rows",
+  "response": "A everywhere before 384; B on x2>0 after 384; A on x2<=0 throughout",
+  "source_model_protocol": "84b424978148fed8cb33fb7401e8f0fddb37cd26a88091b97934c369d15e2416",
+  "geometry_updates": 0,
+  "limitations": "Known candidate partition; heuristic alarm; fully observed labels; no credit-policy simulation"
+}

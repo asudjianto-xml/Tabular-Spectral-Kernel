@@ -1,0 +1,386 @@
+[
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.3901207332051606e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -3.258815329378369e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.227528926180492e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -1.1539078748116062e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -1.5468722995843623e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -2.6170262498359318e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -9.362736247455072e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.7008381011982226e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.014622034881819e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.1971041027924504e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.9018257659241613e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.0868184585765684e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.1645257836737028e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.948870338527272e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.5563590269319236e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -1.586784976887802e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -2.1220029874041062e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -1.1771895539308511e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.1849221376520405e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.0142851450796594e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.5481999498883308e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.0081370805009644e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.92370347860465e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.335902002061381e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -3.3961786667185934e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.9636011295312368e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -4.602649221823945e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -3.353962081137165e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -2.7938713154004364e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -2.9552952134852026e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.8279467561880438e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.848085364735939e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.9758879419836926e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.6109114833568753e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -3.066240426071319e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -2.9783860178843375e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.8788645040624054e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.911352494490933e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -3.3717571842121647e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -1.4375981110933396e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -1.2500531682164937e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -2.1033532262747033e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.7976426747985668e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.0299144876662372e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.294795145259271e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -9.28748730897661e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -9.062291045105311e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -8.185875895662499e-15,
+    "symmetry_error": 0.0
+  }
+]

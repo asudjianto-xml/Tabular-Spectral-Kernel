@@ -1,0 +1,2450 @@
+[
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.14774051225072848
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.07809249550620488
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.13797070404964626
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.07733781608231749
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.12042651430409866
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07864532393655249
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.1090310979443119
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07875281340695267
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.14494284722902503
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.08490801404613535
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.1076400771481795
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.07892768384225403
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.13975944075164776
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.07001605488916526
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.13689453687429298
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.07220211727903572
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.11048902276124324
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07064906486029722
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.09879161343730497
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07086678487523045
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.138883536851355
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.07566163495659799
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.09730881399529583
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.07141093928528167
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.0779792772964114
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.049486419302146104
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.07860376200724913
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.05215511691789415
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.06396479177932661
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.049325556793690516
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.059632313458734654
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.04979827273376046
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.07765459819325293
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.052621921668292465
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.06115026163781774
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.05001225733240467
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.12539684612291732,
+    "stable_rmse": 0.10086977509954707,
+    "changed_rmse": 0.1465897032565843
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.07147578344153278,
+    "stable_rmse": 0.06037485236392606,
+    "changed_rmse": 0.08154425577450741
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.12568974033598215,
+    "stable_rmse": 0.10189506478880128,
+    "changed_rmse": 0.14634690781172152
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.0789527109951446,
+    "stable_rmse": 0.06720587485195777,
+    "changed_rmse": 0.08968835758466508
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.09871285391700098,
+    "stable_rmse": 0.0682229999647458,
+    "changed_rmse": 0.12028016321061222
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.06912939427358834,
+    "stable_rmse": 0.056160637379920914,
+    "changed_rmse": 0.0798640938631104
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.10157079683216155,
+    "stable_rmse": 0.07754485578915148,
+    "changed_rmse": 0.12112163202240928
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07443286108316326,
+    "stable_rmse": 0.063772125820329,
+    "changed_rmse": 0.08463828204636072
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.11149810721887872,
+    "stable_rmse": 0.07378205899308252,
+    "changed_rmse": 0.13618814929574583
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.06886976395569337,
+    "stable_rmse": 0.05121997476722038,
+    "changed_rmse": 0.08130761867780942
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.10175511918809217,
+    "stable_rmse": 0.07710255822691826,
+    "changed_rmse": 0.12142993876535638
+  },
+  {
+    "seed": 0,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.07469045315444106,
+    "stable_rmse": 0.06446407432044982,
+    "changed_rmse": 0.08469229974549045
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.08503520570775083
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.16457587273538613
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.08066195986781634
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.1542964365992217
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08476634626336149
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.12860675014011272
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.0849906299570411
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.12295868820575148
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.08767049335165464
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.16101091188760328
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.08497918397904387
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.1104691205837841
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.07821567939052734
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.15695884581755085
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.07761080832601
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.15423215983967462
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.07849962051704383
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.11854255447263502
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.07861063359292643
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.1109826114144598
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.0810383274837537
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.1555576606630874
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.07817768669746715
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.10000325232161435
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.05430487075555748
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.08568920664343066
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.05560840459655663
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.08619348018935014
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.054169023011572136
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.06714983034884245
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.05434538814569496
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.06171905744892163
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.05683905847960474
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.08498169779134739
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.0543179541398043
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.06248984933509558
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.08928913912088098,
+    "stable_rmse": 0.0724389126863004,
+    "changed_rmse": 0.1041870840430237
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.13587577127544578,
+    "stable_rmse": 0.11210355792292565,
+    "changed_rmse": 0.15720650219830506
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.09131957186461935,
+    "stable_rmse": 0.07699980724188706,
+    "changed_rmse": 0.10451761437167627
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.13625933854497685,
+    "stable_rmse": 0.11322214059803243,
+    "changed_rmse": 0.1571354610662942
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08386336639918586,
+    "stable_rmse": 0.06514045131505537,
+    "changed_rmse": 0.0989660271288383
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.10324779132400462,
+    "stable_rmse": 0.07164308541256226,
+    "changed_rmse": 0.12566703154880737
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08945964899503414,
+    "stable_rmse": 0.07257498230477348,
+    "changed_rmse": 0.10437208412892528
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.10737113911620806,
+    "stable_rmse": 0.08208312268347026,
+    "changed_rmse": 0.1280752525217999
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.07985059081888733,
+    "stable_rmse": 0.05480562533706389,
+    "changed_rmse": 0.0967756613142367
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.1216083891780988,
+    "stable_rmse": 0.08098634419491521,
+    "changed_rmse": 0.14824273200936608
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.08926444543550707,
+    "stable_rmse": 0.07241462558112687,
+    "changed_rmse": 0.10415793464446026
+  },
+  {
+    "seed": 0,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.10353665012149758,
+    "stable_rmse": 0.07802912153324355,
+    "changed_rmse": 0.12369688064193979
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.15562098561717275
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.07882786899823158
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.14585529891386215
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.07918622864086972
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.12685039035704254
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.0801544481389093
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.11257537901133846
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.08023582000889755
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.15102817515474443
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.08459942588547943
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.1107032853026513
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.08026809404154236
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.14674764139552846
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.06928464523546819
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.14378770878467395
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.07177746153461627
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.11426045169294481
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.0698621540515144
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.10005813491675533
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07015624429589903
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.14426068175363047
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.07480364942843211
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.09809983884878369
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.07045412889217172
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.0826486760868844
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.05101401646677889
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.0828043140153842
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.05344833831679343
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.06650718669416862
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.05108994365969796
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.06295219416131233
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.051313434479202995
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.08159663888022507
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.0536715594684889
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.0626783028229634
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.0512041284154622
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.13804222499431962,
+    "stable_rmse": 0.11023085392332432,
+    "changed_rmse": 0.1603436249915687
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.07427451404478558,
+    "stable_rmse": 0.0642866669828505,
+    "changed_rmse": 0.08362619810573822
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.1380491140472415,
+    "stable_rmse": 0.11163613904416841,
+    "changed_rmse": 0.15974654918203324
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.08278333828538971,
+    "stable_rmse": 0.07240064019619587,
+    "changed_rmse": 0.09308879407029173
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.10595842440785472,
+    "stable_rmse": 0.07135405041511249,
+    "changed_rmse": 0.12799885156115323
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07306727376313327,
+    "stable_rmse": 0.060684759103904154,
+    "changed_rmse": 0.08346543989270687
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.10877876067793231,
+    "stable_rmse": 0.08291833084583901,
+    "changed_rmse": 0.12829258506657476
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07779684058827556,
+    "stable_rmse": 0.0670339297844636,
+    "changed_rmse": 0.0881300237446945
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.12127319361685814,
+    "stable_rmse": 0.07052815450647519,
+    "changed_rmse": 0.1496171038140185
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.07119556741109163,
+    "stable_rmse": 0.049278821871165175,
+    "changed_rmse": 0.08483859203661098
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.10989350504088138,
+    "stable_rmse": 0.08488776763907373,
+    "changed_rmse": 0.12923353286681818
+  },
+  {
+    "seed": 1,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.0780731358893045,
+    "stable_rmse": 0.06757905873830843,
+    "changed_rmse": 0.08830858632133706
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.08829836675495753
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.17013332234989045
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.0840053091691314
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.16004728773912014
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08906133270658431
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.13402789509798568
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08823240561357402
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.11427354377085638
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.09024747168436398
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.16471414715817256
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.08824094645969496
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.11444569900066578
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.07652688247375086
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.16190693703028183
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.07778372900378136
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.15904270071202983
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.07697814864024496
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.12126911256433653
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.0764453878556108
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.10100001814674144
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.08043935382341673
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.1587072863694808
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.07644920274959476
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.1011145398220985
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.054556938555112906
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.08972400810465195
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.057395500424274194
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.08990556862860483
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.05460023737259544
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.06932306350725258
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.05456821501378876
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.0640267304887989
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.057518095476173384
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.08832481635115019
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.05456978351914025
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.06409677219795241
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.09577450320783847,
+    "stable_rmse": 0.08073453822080816,
+    "changed_rmse": 0.11007614361967476
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.14769057165075586,
+    "stable_rmse": 0.12010513130328933,
+    "changed_rmse": 0.17047193132546704
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.0996649008039746,
+    "stable_rmse": 0.08647435125072865,
+    "changed_rmse": 0.11326679205234182
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.14791886071547505,
+    "stable_rmse": 0.12178226674236949,
+    "changed_rmse": 0.1700669014854188
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08951867467901539,
+    "stable_rmse": 0.07034432613945116,
+    "changed_rmse": 0.10481381468010503
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.10994794921861399,
+    "stable_rmse": 0.07370186396141395,
+    "changed_rmse": 0.1329072908319549
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.0957200179772739,
+    "stable_rmse": 0.08071789844836608,
+    "changed_rmse": 0.10999196935749235
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.11286266354381279,
+    "stable_rmse": 0.08705998623404021,
+    "changed_rmse": 0.13278770889434022
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.08430259498331194,
+    "stable_rmse": 0.052241420066685994,
+    "changed_rmse": 0.10341197675837477
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.1305039670530074,
+    "stable_rmse": 0.07608416270118533,
+    "changed_rmse": 0.1609319800811126
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.09572582319449072,
+    "stable_rmse": 0.08072889173491525,
+    "changed_rmse": 0.10999511073269044
+  },
+  {
+    "seed": 1,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.11305180683228683,
+    "stable_rmse": 0.08738326747661453,
+    "changed_rmse": 0.13292258370521517
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.1496181809599631
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.07459761290095147
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.13888354749906073
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.07365066325048203
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.12318257510006882
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07551586586728638
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.11033816066834767
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07515447664612022
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.1452355116987666
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.07819122976983048
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.10702337095185471
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.07482279458656557
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.14081065719562919
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.0691991057028565
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.1378279047242894
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.07002120373266577
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.11143824331675696
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.06999762575651951
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.09905980250013366
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.0695577479587574
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.13868542061673433
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.07301625370214401
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.09699374101245155
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.06974109190682394
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.08042584132011897
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.048180464138871476
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.08058140943778497
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.049658439916143396
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.06541931358512536
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.04795098289272959
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.061054742558938564
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.04842799000234565
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.07939513161655218
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.04970810290758736
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.061876086396507775
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.04856481333877029
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.13300089127045875,
+    "stable_rmse": 0.10527765172848633,
+    "changed_rmse": 0.15561258958008442
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.07016709212668558,
+    "stable_rmse": 0.06038761978005202,
+    "changed_rmse": 0.07870641569441178
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.1331508879513965,
+    "stable_rmse": 0.10649559026300837,
+    "changed_rmse": 0.15519959176713305
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.07796085068490043,
+    "stable_rmse": 0.06796301018179707,
+    "changed_rmse": 0.08752613624112955
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.10214346577159286,
+    "stable_rmse": 0.06747397021157876,
+    "changed_rmse": 0.12471144278721343
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.0686423831175422,
+    "stable_rmse": 0.05709700317202421,
+    "changed_rmse": 0.07790076166450273
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.10405769771434484,
+    "stable_rmse": 0.07654633553945787,
+    "changed_rmse": 0.1244705518641529
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.07341677679693553,
+    "stable_rmse": 0.06365646344135349,
+    "changed_rmse": 0.08243215636250661
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.11643674717880183,
+    "stable_rmse": 0.0701783316758912,
+    "changed_rmse": 0.14398943679390466
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.06751554561953005,
+    "stable_rmse": 0.04876575225657721,
+    "changed_rmse": 0.07985119360427383
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.1054341637201553,
+    "stable_rmse": 0.07744602831876331,
+    "changed_rmse": 0.12620589465969034
+  },
+  {
+    "seed": 2,
+    "profile": "original",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.07305719796565847,
+    "stable_rmse": 0.06361924578292896,
+    "changed_rmse": 0.08185359567152838
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.0823881714212177
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.16585431139690235
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.078901676898522
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.15473507842010586
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08276015700068617
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.13164490540370458
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08271693439558063
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.11063920967327706
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.08452428262508371
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.16052667727700456
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.08296411388220205
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "recurring_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.11222741098869482
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.07775539644283926
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.15700028263183582
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.07767287426077593
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.15424291490252656
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.07820692557299755
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.11910416587941194
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.07844898596440895
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.09998157499274057
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.08150230010074405
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.1541124160620972
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.07867311438448937
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "gradual_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.1011934812492675
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.05043984125271596
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.08818467514384332
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.0528798438234197
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.08835326266109729
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.05082367869244639
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.06885536348685783
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.05057747431981479
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.06326842824173813
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.05284632136351293
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.08676677655242214
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.05055886888798611
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "stable_economy",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.06283220067491653
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "nw",
+    "rmse": 0.08275162727575482,
+    "stable_rmse": 0.07092847844190531,
+    "changed_rmse": 0.09395696101173302
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "full128",
+    "decoder": "krr",
+    "rmse": 0.14410951821559304,
+    "stable_rmse": 0.11719806601230723,
+    "changed_rmse": 0.16701732702050398
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "nw",
+    "rmse": 0.08677038569854308,
+    "stable_rmse": 0.07580634807820702,
+    "changed_rmse": 0.09761571233190898
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "recent64",
+    "decoder": "krr",
+    "rmse": 0.1444030214559428,
+    "stable_rmse": 0.11863458835818272,
+    "changed_rmse": 0.16670514554767257
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "nw",
+    "rmse": 0.07668248354950637,
+    "stable_rmse": 0.06201807067878002,
+    "changed_rmse": 0.08849325240294066
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "raw_nearest64",
+    "decoder": "krr",
+    "rmse": 0.10724773324283014,
+    "stable_rmse": 0.07094864957810162,
+    "changed_rmse": 0.13088455146216466
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "nw",
+    "rmse": 0.08238202906368271,
+    "stable_rmse": 0.07055024356007962,
+    "changed_rmse": 0.0935176655379557
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "spectral_nearest64",
+    "decoder": "krr",
+    "rmse": 0.10720127020193333,
+    "stable_rmse": 0.07840369564940913,
+    "changed_rmse": 0.1284115124281449
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "nw",
+    "rmse": 0.07387018236154912,
+    "stable_rmse": 0.05099893784705031,
+    "changed_rmse": 0.08857345942750751
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "population64",
+    "decoder": "krr",
+    "rmse": 0.12678260239194758,
+    "stable_rmse": 0.0759666493563415,
+    "changed_rmse": 0.1568604120787286
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "nw",
+    "rmse": 0.08236777630972589,
+    "stable_rmse": 0.07061121171863888,
+    "changed_rmse": 0.09345221333078488
+  },
+  {
+    "seed": 2,
+    "profile": "nw_calibrated",
+    "scenario": "localized_downturn",
+    "method": "context_spectral64",
+    "decoder": "krr",
+    "rmse": 0.1064552082067428,
+    "stable_rmse": 0.07830164238929144,
+    "changed_rmse": 0.1272958595666024
+  }
+]

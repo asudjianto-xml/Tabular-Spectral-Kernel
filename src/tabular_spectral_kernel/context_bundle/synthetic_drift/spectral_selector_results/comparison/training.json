@@ -1,0 +1,290 @@
+[
+  {
+    "seed": 0,
+    "method": "spectral_sparse",
+    "config": {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 192,
+    "descriptors": 4,
+    "selected_epoch": 39,
+    "epochs_run": 47,
+    "validation_mse": 0.004476742473674628,
+    "initial_validation_mse": 0.01739619436764229,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 0,
+    "method": "spectral_all",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 27,
+    "epochs_run": 35,
+    "validation_mse": 0.004352334288277314,
+    "initial_validation_mse": 0.01739619436764229,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 0,
+    "method": "spectral",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 27,
+    "epochs_run": 35,
+    "validation_mse": 0.004352334288277314,
+    "initial_validation_mse": 0.01739619436764229,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 0,
+    "method": "hybrid_sparse",
+    "config": {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 192,
+    "descriptors": 4,
+    "selected_epoch": 0,
+    "epochs_run": 8,
+    "validation_mse": 0.004449705156450377,
+    "initial_validation_mse": 0.004449705156450377,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 0,
+    "method": "hybrid_all",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 12,
+    "epochs_run": 20,
+    "validation_mse": 0.004342523287119652,
+    "initial_validation_mse": 0.004449705156450377,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 0,
+    "method": "hybrid",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 12,
+    "epochs_run": 20,
+    "validation_mse": 0.004342523287119652,
+    "initial_validation_mse": 0.004449705156450377,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 1,
+    "method": "spectral_sparse",
+    "config": {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 704,
+    "descriptors": 20,
+    "selected_epoch": 32,
+    "epochs_run": 40,
+    "validation_mse": 0.004347334745069261,
+    "initial_validation_mse": 0.0178255638804962,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 1,
+    "method": "spectral_all",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 28,
+    "epochs_run": 36,
+    "validation_mse": 0.004164130384325299,
+    "initial_validation_mse": 0.0178255638804962,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 1,
+    "method": "spectral",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 28,
+    "epochs_run": 36,
+    "validation_mse": 0.004164130384325299,
+    "initial_validation_mse": 0.0178255638804962,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 1,
+    "method": "hybrid_sparse",
+    "config": {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 704,
+    "descriptors": 20,
+    "selected_epoch": 0,
+    "epochs_run": 8,
+    "validation_mse": 0.004252100497942806,
+    "initial_validation_mse": 0.004252100497942806,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 1,
+    "method": "hybrid_all",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 34,
+    "epochs_run": 42,
+    "validation_mse": 0.004164090384538761,
+    "initial_validation_mse": 0.004252100497942806,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 1,
+    "method": "hybrid",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 34,
+    "epochs_run": 42,
+    "validation_mse": 0.004164090384538761,
+    "initial_validation_mse": 0.004252100497942806,
+    "overall": "hybrid"
+  },
+  {
+    "seed": 2,
+    "method": "spectral_sparse",
+    "config": {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 640,
+    "descriptors": 18,
+    "selected_epoch": 50,
+    "epochs_run": 50,
+    "validation_mse": 0.004088708471326146,
+    "initial_validation_mse": 0.017031265581416773,
+    "overall": "spectral"
+  },
+  {
+    "seed": 2,
+    "method": "spectral_all",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 48,
+    "epochs_run": 50,
+    "validation_mse": 0.004012384124941726,
+    "initial_validation_mse": 0.017031265581416773,
+    "overall": "spectral"
+  },
+  {
+    "seed": 2,
+    "method": "spectral",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 48,
+    "epochs_run": 50,
+    "validation_mse": 0.004012384124941726,
+    "initial_validation_mse": 0.017031265581416773,
+    "overall": "spectral"
+  },
+  {
+    "seed": 2,
+    "method": "hybrid_sparse",
+    "config": {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 640,
+    "descriptors": 18,
+    "selected_epoch": 49,
+    "epochs_run": 50,
+    "validation_mse": 0.004028863919784972,
+    "initial_validation_mse": 0.00416164096949903,
+    "overall": "spectral"
+  },
+  {
+    "seed": 2,
+    "method": "hybrid_all",
+    "config": {
+      "subset": "all",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 1888,
+    "descriptors": 57,
+    "selected_epoch": 22,
+    "epochs_run": 30,
+    "validation_mse": 0.0040425567923161885,
+    "initial_validation_mse": 0.00416164096949903,
+    "overall": "spectral"
+  },
+  {
+    "seed": 2,
+    "method": "hybrid",
+    "config": {
+      "subset": "sparse",
+      "atoms": 32,
+      "penalty": 1e-05
+    },
+    "parameters": 640,
+    "descriptors": 18,
+    "selected_epoch": 49,
+    "epochs_run": 50,
+    "validation_mse": 0.004028863919784972,
+    "initial_validation_mse": 0.00416164096949903,
+    "overall": "spectral"
+  }
+]

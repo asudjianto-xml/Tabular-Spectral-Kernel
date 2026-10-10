@@ -1,0 +1,41 @@
+{
+  "trace": [
+    {
+      "step": 0,
+      "training_query_mse": 0.3379606974438663
+    },
+    {
+      "step": 50,
+      "training_query_mse": 0.25914709274341113
+    },
+    {
+      "step": 100,
+      "training_query_mse": 0.12723792441909754
+    },
+    {
+      "step": 150,
+      "training_query_mse": 0.17251674542837753
+    },
+    {
+      "step": 200,
+      "training_query_mse": 0.16396049293812387
+    },
+    {
+      "step": 250,
+      "training_query_mse": 0.24629907570669732
+    },
+    {
+      "step": 300,
+      "training_query_mse": 0.1314485863404466
+    },
+    {
+      "step": 350,
+      "training_query_mse": 0.14827064476302407
+    },
+    {
+      "step": 399,
+      "training_query_mse": 0.13233996772356543
+    }
+  ],
+  "ridge": 0.001
+}

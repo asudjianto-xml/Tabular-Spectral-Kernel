@@ -1,0 +1,25 @@
+{
+  "seed": 2,
+  "episode_seeds": {
+    "train": 910002,
+    "validation": 920002,
+    "recurring": 932000,
+    "gradual": 932100,
+    "stable": 932200,
+    "localized": 932300
+  },
+  "train_episodes": 512,
+  "validation_episodes": 128,
+  "test_episodes_per_scenario": 256,
+  "history": "24 observed months x32 borrowers; six nonoverlapping four-month windows of128; predict next32; eight macro burn-in months",
+  "mixture_weight": 0.5129771955534516,
+  "mixture_calibration": "Once per bank seed: convex MKL on final128 pre-evaluation historical rows; frozen for every window/query/episode",
+  "ridge": 0.00031622776601683794,
+  "selector": "Shared linear scorer on standardized query/window descriptors, no MLP. Softmax expected action squared error during training; hard argmax window at inference.",
+  "supervision": "Exhaustively evaluate all6 candidate KRR windows on each training query label. Train cost-sensitive selector; no oracle labels used at inference. Features exclude query targets and latent state.",
+  "selection": "Best hard-selection MSE on independent128 validation episodes; Adam lr.01 weight_decay1e-4, max100 epochs patience15; no test tuning",
+  "features": "Observable query and window means/std, four monthly macro/label means, latest-window summaries, relative age, query-window differences/squares, kernel affinities, label-mean/query interactions; no candidate prediction as feature",
+  "inference": "Descriptor computation uses candidate features/labels/kernel affinities; one selected KRR support per query; benchmark computes all candidates for scoring/oracles, no latency claim",
+  "novelty": "Fresh independent evaluation episodes and new randomized paths; simulator response law shared with training, not an unseen task family",
+  "caveat": "Label oracle fits evaluation noise; mean oracle has privileged latent information. Window subsets preserve local PSD; query-specific choices do not define one global Gram."
+}

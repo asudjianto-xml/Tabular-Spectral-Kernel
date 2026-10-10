@@ -1,0 +1,6 @@
+{
+  "comparison": "Same evaluation rows, banks, context128, fixed historical ridge; past-only optimization reused after provenance and first-origin reselection checks.",
+  "oracles": "Numerical hindsight references, not certified global extrema or deployable predictors.",
+  "bayes": "True conditional mean sees latent macro state; analytic noise floor is expected risk under full-state information, not an empirical lower bound.",
+  "table": "Mean per-seed RMSE; final row is analytic noise expectation converted to RMSE per seed then averaged."
+}

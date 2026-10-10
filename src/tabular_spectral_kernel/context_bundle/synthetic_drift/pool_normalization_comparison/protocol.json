@@ -1,0 +1,32 @@
+{
+  "configs": [
+    [
+      "Symmetric, p=1",
+      "simple_spectral_joint_results",
+      "symmetric",
+      1
+    ],
+    [
+      "Row, p=1",
+      "simple_row_p1_results",
+      "row",
+      1
+    ],
+    [
+      "Symmetric, p=2",
+      "simple_symmetric_p2_results",
+      "symmetric",
+      2
+    ],
+    [
+      "Row, p=2",
+      "simple_row_p2_results",
+      "row",
+      2
+    ]
+  ],
+  "loss": "joint",
+  "sharpening": "Schur square of fused pooling kernel; KRR/NW readout banks unchanged",
+  "interpretation": "Row attention is generally nonsymmetric; underlying conditional kernel remains PSD. This does not isolate learned Q/K asymmetry or capacity in the larger Transformer.",
+  "qualification": "Exploratory three-seed comparison; existing symmetric p=1 baseline reused; no evaluation-based temperature search."
+}

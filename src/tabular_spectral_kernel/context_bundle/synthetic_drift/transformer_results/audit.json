@@ -1,0 +1,12 @@
+{
+  "transformer_results": {
+    "scenario_files": 12,
+    "source_hashes_unchanged": true,
+    "finite_predictions": true
+  },
+  "transformer_rope_results": {
+    "scenario_files": 12,
+    "source_hashes_unchanged": true,
+    "finite_predictions": true
+  }
+}

@@ -1,0 +1,1346 @@
+[
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 160,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 192,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 224,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 256,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 288,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 320,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 352,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 384,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 416,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 448,
+    "direct_solve_max_error": 1.1657341758564144e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 480,
+    "direct_solve_max_error": 8.326672684688674e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 512,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 544,
+    "direct_solve_max_error": 1.3877787807814457e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 576,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 608,
+    "direct_solve_max_error": 1.0547118733938987e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 640,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 672,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 704,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 736,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 768,
+    "direct_solve_max_error": 8.326672684688674e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 800,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 832,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 864,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 896,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 928,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 960,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 992,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1024,
+    "direct_solve_max_error": 1.3322676295501878e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1056,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1088,
+    "direct_solve_max_error": 1.6653345369377348e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1120,
+    "direct_solve_max_error": 1.3322676295501878e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1152,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1184,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1216,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1248,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1280,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1312,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1344,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1376,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1408,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1440,
+    "direct_solve_max_error": 1.3322676295501878e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1472,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1504,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1536,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1568,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1600,
+    "direct_solve_max_error": 1.3322676295501878e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1632,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1664,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1696,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1728,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1760,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1792,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1824,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1856,
+    "direct_solve_max_error": 1.1657341758564144e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 160,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 192,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 224,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 256,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 288,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 320,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 352,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 384,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 416,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 448,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 480,
+    "direct_solve_max_error": 1.4432899320127035e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 512,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 544,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 576,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 608,
+    "direct_solve_max_error": 9.43689570931383e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 640,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 672,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 704,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 736,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 768,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 800,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 832,
+    "direct_solve_max_error": 8.326672684688674e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 864,
+    "direct_solve_max_error": 1.27675647831893e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 896,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 928,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 960,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 992,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1024,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1056,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1088,
+    "direct_solve_max_error": 1.8318679906315083e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1120,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1152,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1184,
+    "direct_solve_max_error": 7.216449660063518e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1216,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1248,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1280,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1312,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1344,
+    "direct_solve_max_error": 8.326672684688674e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1376,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1408,
+    "direct_solve_max_error": 8.326672684688674e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1440,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1472,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1504,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1536,
+    "direct_solve_max_error": 7.216449660063518e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1568,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1600,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1632,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1664,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1696,
+    "direct_solve_max_error": 1.7763568394002505e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1728,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1760,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1792,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1824,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1856,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 160,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 192,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 224,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 256,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 288,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 320,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 352,
+    "direct_solve_max_error": 1.5543122344752192e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 384,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 416,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 448,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 480,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 512,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 544,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 576,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 608,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 640,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 672,
+    "direct_solve_max_error": 1.6653345369377348e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 704,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 736,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 768,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 800,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 832,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 864,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 896,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 928,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 960,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 992,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1024,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1056,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1088,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1120,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1152,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1184,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1216,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1248,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1280,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1312,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1344,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1376,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1408,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1440,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1472,
+    "direct_solve_max_error": 1.6653345369377348e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1504,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1536,
+    "direct_solve_max_error": 1.4432899320127035e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1568,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1600,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1632,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1664,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1696,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1728,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1760,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1792,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1824,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1856,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 160,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 192,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 224,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 256,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 288,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 320,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 352,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 384,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 416,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 448,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 480,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 512,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 544,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 576,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 608,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 640,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 672,
+    "direct_solve_max_error": 9.43689570931383e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 704,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 736,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 768,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 800,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 832,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 864,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 896,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 928,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 960,
+    "direct_solve_max_error": 1.609823385706477e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 992,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1024,
+    "direct_solve_max_error": 1.6653345369377348e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1056,
+    "direct_solve_max_error": 1.3322676295501878e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1088,
+    "direct_solve_max_error": 1.7763568394002505e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1120,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1152,
+    "direct_solve_max_error": 1.5543122344752192e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1184,
+    "direct_solve_max_error": 1.3322676295501878e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1216,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1248,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1280,
+    "direct_solve_max_error": 9.992007221626409e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1312,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1344,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1376,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1408,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1440,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1472,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1504,
+    "direct_solve_max_error": 1.3322676295501878e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1536,
+    "direct_solve_max_error": 1.2212453270876722e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1568,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1600,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1632,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1664,
+    "direct_solve_max_error": 6.661338147750939e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1696,
+    "direct_solve_max_error": 5.551115123125783e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1728,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1760,
+    "direct_solve_max_error": 1.1102230246251565e-15
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1792,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1824,
+    "direct_solve_max_error": 7.771561172376096e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1856,
+    "direct_solve_max_error": 8.881784197001252e-16
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "direct_solve_max_error": 7.771561172376096e-16
+  }
+]

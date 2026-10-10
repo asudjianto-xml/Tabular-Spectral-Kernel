@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tabular-spectral-kernel"
-version = "0.1.0"
-description = "Reproducible single-bank spectral metric and Laplace kernel experiments for tabular prediction"
+version = "0.2.0"
+description = "Spectral kernels, context selection and in-context kernel fusion for tabular prediction"
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{name = "Agus Sudjianto"}, {name = "Aijun Zhang"}]
@@ -20,6 +20,7 @@ dev = ["pytest>=8,<10", "build>=1"]
 
 [project.scripts]
 tsk = "tabular_spectral_kernel.cli:main"
+tsk-context = "tabular_spectral_kernel.context_cli:main"
 
 [project.urls]
 Repository = "https://github.com/asudjianto-xml/Tabular-Spectral-Kernel"
@@ -28,7 +29,7 @@ Repository = "https://github.com/asudjianto-xml/Tabular-Spectral-Kernel"
 where = ["src"]
 
 [tool.setuptools.package-data]
-tabular_spectral_kernel = ["taiwan_signature.json", "recorded/**/*"]
+tabular_spectral_kernel = ["taiwan_signature.json", "recorded/**/*", "context_bundle/**/*", "context_bundle/*.py", "context_bundle/*.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

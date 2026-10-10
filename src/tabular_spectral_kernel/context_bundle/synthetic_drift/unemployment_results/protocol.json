@@ -1,0 +1,54 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "geometry_steps": 400,
+  "meta_steps": 600,
+  "features": [
+    "utilization",
+    "credit_score",
+    "cash_buffer_months",
+    "prior_payment_ratio",
+    "available_unemployment_rate"
+  ],
+  "response": "fraction of statement balance paid by due date, capped at 1",
+  "observation": "buffer assumes deposit/linked-account access; score is not measured debt burden",
+  "cohort_size": 32,
+  "context_months": 4,
+  "context_rows": 128,
+  "retrieval_rows": 64,
+  "noise": "Beta with concentration 60",
+  "historical_windows": "40 monthly cohorts of 30 observations; low then high unemployment; 8 normal macro-only gap months before evaluation",
+  "meta_tasks": "independent unemployment histories, broad/local susceptibility and all retrieval rules",
+  "methods": [
+    "full128",
+    "recent64",
+    "raw_nearest64",
+    "spectral_nearest64",
+    "population64"
+  ],
+  "scenarios": [
+    "recurring_downturn",
+    "gradual_downturn",
+    "stable_economy",
+    "localized_downturn"
+  ],
+  "profiles": [
+    "original",
+    "nw_calibrated"
+  ],
+  "information": "Five pre-outcome inputs; macro exposure and stress memory are audit-only latent fields",
+  "limitations": [
+    "Illustrative response laws, not estimated from lending data",
+    "Independent account-months, no longitudinal customer dependence",
+    "All outcomes observed with one-cohort availability; no approval selection/censoring",
+    "Population reference is supplied the cash-buffer partition",
+    "No exact inactive-population preservation is imposed"
+  ],
+  "driver": "shock=clip((U-.04)/.06,0,1); memory=.75*previous+.25*shock; exposure=.6*shock+.4*memory",
+  "localized_susceptibility": "clip(1 - cash_buffer_months/2, 0, 1)",
+  "publication_timing": "U is defined as already available at prediction; no future release or future payment labels are used",
+  "qualification": "Synthetic rates and sensitivities; conditional drift relative to current features arises from omitted unemployment-history state"
+}

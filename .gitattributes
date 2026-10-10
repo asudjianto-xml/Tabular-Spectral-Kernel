@@ -1,0 +1,5 @@
+# Preserve recorded artifact bytes across platforms.
+*.csv -text whitespace=cr-at-eol
+*.npz -text
+*.pt -text
+*.cbm -text

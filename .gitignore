@@ -12,3 +12,10 @@ paper/*.aux
 paper/*.log
 paper/*.out
 paper/*.blg
+
+# Manuscripts are distributed separately.
+paper/
+*.tex
+*.bib
+*.bbl
+*.pdf

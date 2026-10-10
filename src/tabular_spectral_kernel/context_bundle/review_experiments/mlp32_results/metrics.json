@@ -1,0 +1,86 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.609330825126013
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.574776429796561
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 5.115553212959773
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.6649749019576685
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.479769685445288
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.412075995972313
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 5.130763530601938
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.846668375538702
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.68679268665535
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.601406156990418
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 5.080696693931665
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "mlp32",
+    "parameters": 1889,
+    "rmse_pp": 6.581983861542322
+  }
+]

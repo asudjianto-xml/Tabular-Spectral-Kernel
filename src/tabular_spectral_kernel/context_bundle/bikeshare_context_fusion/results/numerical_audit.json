@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 0,
+    "day": "2012-01-01",
+    "min_eigenvalue": 0.07218301486338001,
+    "float32_vs_float64_count_difference": 8.569317391769659e-05
+  },
+  {
+    "seed": 0,
+    "day": "2012-03-31",
+    "min_eigenvalue": 0.08193188609927304,
+    "float32_vs_float64_count_difference": 8.20534125473761e-05
+  },
+  {
+    "seed": 0,
+    "day": "2012-06-29",
+    "min_eigenvalue": 0.07270408808700066,
+    "float32_vs_float64_count_difference": 8.779740449178199e-05
+  },
+  {
+    "seed": 0,
+    "day": "2012-09-27",
+    "min_eigenvalue": 0.07075690683661819,
+    "float32_vs_float64_count_difference": 0.0003369214574794936
+  },
+  {
+    "seed": 0,
+    "day": "2012-12-31",
+    "min_eigenvalue": 0.07822518922225587,
+    "float32_vs_float64_count_difference": 0.0001787456377096474
+  },
+  {
+    "seed": 1,
+    "day": "2012-01-01",
+    "min_eigenvalue": 0.07162579757874908,
+    "float32_vs_float64_count_difference": 0.0001307564241183178
+  },
+  {
+    "seed": 1,
+    "day": "2012-03-31",
+    "min_eigenvalue": 0.07971155533331659,
+    "float32_vs_float64_count_difference": 7.212539265342207e-05
+  },
+  {
+    "seed": 1,
+    "day": "2012-06-29",
+    "min_eigenvalue": 0.06884279182377899,
+    "float32_vs_float64_count_difference": 6.621322408809794e-05
+  },
+  {
+    "seed": 1,
+    "day": "2012-09-27",
+    "min_eigenvalue": 0.06973494411060349,
+    "float32_vs_float64_count_difference": 0.00018576674964153117
+  },
+  {
+    "seed": 1,
+    "day": "2012-12-31",
+    "min_eigenvalue": 0.08396012792625447,
+    "float32_vs_float64_count_difference": 2.5166485144788132e-05
+  },
+  {
+    "seed": 2,
+    "day": "2012-01-01",
+    "min_eigenvalue": 0.07537793256200465,
+    "float32_vs_float64_count_difference": 5.492627831296007e-05
+  },
+  {
+    "seed": 2,
+    "day": "2012-03-31",
+    "min_eigenvalue": 0.08172904909236264,
+    "float32_vs_float64_count_difference": 2.7993998874710858e-05
+  },
+  {
+    "seed": 2,
+    "day": "2012-06-29",
+    "min_eigenvalue": 0.08012492312342365,
+    "float32_vs_float64_count_difference": 0.00020903880310928536
+  },
+  {
+    "seed": 2,
+    "day": "2012-09-27",
+    "min_eigenvalue": 0.0713926805461141,
+    "float32_vs_float64_count_difference": 0.00017341156153693758
+  },
+  {
+    "seed": 2,
+    "day": "2012-12-31",
+    "min_eigenvalue": 0.08213804388085703,
+    "float32_vs_float64_count_difference": 6.57239118689436e-05
+  }
+]

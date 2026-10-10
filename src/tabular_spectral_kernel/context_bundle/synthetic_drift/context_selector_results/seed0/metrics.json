@@ -1,0 +1,342 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "latest",
+    "rmse": 0.09198225853821612,
+    "clean_rmse": 0.07196024001014786,
+    "older_fraction": 0.0,
+    "mean_window_age_months": 0.0,
+    "selection_frequency": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8192
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "learned",
+    "rmse": 0.07448678238409912,
+    "clean_rmse": 0.049066339441046034,
+    "older_fraction": 0.7188720703125,
+    "mean_window_age_months": 7.70263671875,
+    "selection_frequency": [
+      179,
+      929,
+      2154,
+      2075,
+      552,
+      2303
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "macro_nearest",
+    "rmse": 0.07252687726822231,
+    "clean_rmse": 0.0466624973749497,
+    "older_fraction": 0.9296875,
+    "mean_window_age_months": 11.8125,
+    "selection_frequency": [
+      928,
+      2048,
+      2496,
+      1728,
+      416,
+      576
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "oracle_labels",
+    "rmse": 0.038013417936242945,
+    "clean_rmse": 0.047732889481466784,
+    "older_fraction": 0.822265625,
+    "mean_window_age_months": 10.2607421875,
+    "selection_frequency": [
+      1032,
+      1563,
+      2051,
+      1359,
+      731,
+      1456
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "oracle_mean",
+    "rmse": 0.060236108558695434,
+    "clean_rmse": 0.0211964310632494,
+    "older_fraction": 0.837158203125,
+    "mean_window_age_months": 10.79248046875,
+    "selection_frequency": [
+      979,
+      1867,
+      2244,
+      1240,
+      528,
+      1334
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "latest",
+    "rmse": 0.06777580908802361,
+    "clean_rmse": 0.04022278475869981,
+    "older_fraction": 0.0,
+    "mean_window_age_months": 0.0,
+    "selection_frequency": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8192
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "learned",
+    "rmse": 0.06957757055939935,
+    "clean_rmse": 0.043066903091145255,
+    "older_fraction": 0.048095703125,
+    "mean_window_age_months": 0.20068359375,
+    "selection_frequency": [
+      0,
+      0,
+      1,
+      15,
+      378,
+      7798
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "macro_nearest",
+    "rmse": 0.06777580908802361,
+    "clean_rmse": 0.04022278475869981,
+    "older_fraction": 0.0,
+    "mean_window_age_months": 0.0,
+    "selection_frequency": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8192
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "oracle_labels",
+    "rmse": 0.05629278467834752,
+    "clean_rmse": 0.05063325435439024,
+    "older_fraction": 0.33740234375,
+    "mean_window_age_months": 2.89892578125,
+    "selection_frequency": [
+      236,
+      266,
+      399,
+      633,
+      1230,
+      5428
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "oracle_mean",
+    "rmse": 0.06520922797895212,
+    "clean_rmse": 0.03580116942115694,
+    "older_fraction": 0.1988525390625,
+    "mean_window_age_months": 1.5185546875,
+    "selection_frequency": [
+      40,
+      120,
+      307,
+      347,
+      815,
+      6563
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "latest",
+    "rmse": 0.051672838671149655,
+    "clean_rmse": 0.02500882784777579,
+    "older_fraction": 0.0,
+    "mean_window_age_months": 0.0,
+    "selection_frequency": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8192
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "learned",
+    "rmse": 0.05125949393478916,
+    "clean_rmse": 0.024515455318409256,
+    "older_fraction": 0.53564453125,
+    "mean_window_age_months": 4.2197265625,
+    "selection_frequency": [
+      182,
+      339,
+      657,
+      1195,
+      2015,
+      3804
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "macro_nearest",
+    "rmse": 0.05145377178619306,
+    "clean_rmse": 0.024755254819513746,
+    "older_fraction": 0.81640625,
+    "mean_window_age_months": 9.265625,
+    "selection_frequency": [
+      1280,
+      1248,
+      800,
+      1824,
+      1536,
+      1504
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "oracle_labels",
+    "rmse": 0.033678373001291846,
+    "clean_rmse": 0.023104428845148756,
+    "older_fraction": 0.834716796875,
+    "mean_window_age_months": 9.890625,
+    "selection_frequency": [
+      1255,
+      1391,
+      1425,
+      1375,
+      1392,
+      1354
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "oracle_mean",
+    "rmse": 0.04633779117642359,
+    "clean_rmse": 0.010464272488441567,
+    "older_fraction": 0.834228515625,
+    "mean_window_age_months": 9.9345703125,
+    "selection_frequency": [
+      1329,
+      1404,
+      1349,
+      1286,
+      1466,
+      1358
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "latest",
+    "rmse": 0.07793836370170258,
+    "clean_rmse": 0.059870060677480026,
+    "older_fraction": 0.0,
+    "mean_window_age_months": 0.0,
+    "selection_frequency": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      8192
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "learned",
+    "rmse": 0.07056522956583162,
+    "clean_rmse": 0.049435548531406276,
+    "older_fraction": 0.6644287109375,
+    "mean_window_age_months": 7.1064453125,
+    "selection_frequency": [
+      237,
+      933,
+      1720,
+      1924,
+      629,
+      2749
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "macro_nearest",
+    "rmse": 0.06995707828722539,
+    "clean_rmse": 0.04887976894179747,
+    "older_fraction": 0.94140625,
+    "mean_window_age_months": 12.375,
+    "selection_frequency": [
+      1152,
+      2144,
+      2560,
+      1472,
+      384,
+      480
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "oracle_labels",
+    "rmse": 0.048383953251405466,
+    "clean_rmse": 0.04233851630770374,
+    "older_fraction": 0.822021484375,
+    "mean_window_age_months": 10.146484375,
+    "selection_frequency": [
+      1300,
+      1435,
+      1559,
+      1423,
+      1017,
+      1458
+    ]
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "oracle_mean",
+    "rmse": 0.05919931207183918,
+    "clean_rmse": 0.03158010239093969,
+    "older_fraction": 0.822265625,
+    "mean_window_age_months": 10.337890625,
+    "selection_frequency": [
+      1330,
+      1488,
+      1611,
+      1430,
+      877,
+      1456
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "profile": "original",
+  "context": 128,
+  "horizon": 32,
+  "latest_kernel": "second/later historical window: downturn.pt; alpha=(0,1), geometry frozen",
+  "comparison": "all methods refit readout using identical 128 past labels; same historical bandwidths and common ridge",
+  "sensitivity": "latest_own_ridge uses its independently historical-validation-selected ridge",
+  "qualification": "latest kernel also learns its readout from context; difference is geometry adaptation, not access to labels; no retraining of encoders; original NW bandwidth only"
+}

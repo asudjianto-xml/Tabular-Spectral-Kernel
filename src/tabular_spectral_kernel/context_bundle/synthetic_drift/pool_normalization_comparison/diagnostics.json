@@ -1,0 +1,914 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0007470740238204598,
+          0.007378312875516713,
+          0.032879117876291275,
+          0.11558330990374088,
+          0.3836292624473572
+        ],
+        "sd": 0.08385916560853247
+      }
+    },
+    "mean_within_cohort_query_sd": 0.0321981342172616,
+    "encoder_label_shuffle_mean_weight_change": 0.0003402674775705756,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.000896650948561728,
+          0.006595225189812481,
+          0.022785178385674953,
+          0.08826587349176407,
+          0.38228321075439453
+        ],
+        "sd": 0.07090318841594452
+      }
+    },
+    "mean_within_cohort_query_sd": 0.025923509369022213,
+    "encoder_label_shuffle_mean_weight_change": 0.0002835663757910619,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.06081497296690941,
+          0.13497979938983917,
+          0.18611255288124084,
+          0.24679288640618324,
+          0.46743297576904297
+        ],
+        "sd": 0.07586914032960085
+      }
+    },
+    "mean_within_cohort_query_sd": 0.07339885544830135,
+    "encoder_label_shuffle_mean_weight_change": 0.00044873394446247924,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0006742287077941,
+          0.005239518592134118,
+          0.0203155018389225,
+          0.0861513577401638,
+          0.3821943402290344
+        ],
+        "sd": 0.07096411721927313
+      }
+    },
+    "mean_within_cohort_query_sd": 0.02508489074326852,
+    "encoder_label_shuffle_mean_weight_change": 0.00021786083792514028,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0357779860496521,
+          0.11383367702364922,
+          0.30512773990631104,
+          0.5647406578063965,
+          0.7588345408439636
+        ],
+        "sd": 0.2254148042093506
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04306715500674078,
+    "encoder_label_shuffle_mean_weight_change": 0.0015240156156193865,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.03339391201734543,
+          0.09903963096439838,
+          0.2521153539419174,
+          0.5033535063266754,
+          0.7503567934036255
+        ],
+        "sd": 0.2132600965456224
+      }
+    },
+    "mean_within_cohort_query_sd": 0.041675366078769524,
+    "encoder_label_shuffle_mean_weight_change": 0.0012656809787066387,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.4776131212711334,
+          0.6083950847387314,
+          0.6469593644142151,
+          0.6865016222000122,
+          0.7833184599876404
+        ],
+        "sd": 0.05396948428252979
+      }
+    },
+    "mean_within_cohort_query_sd": 0.05285163642838597,
+    "encoder_label_shuffle_mean_weight_change": 0.0009011086700151541,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.03895029053092003,
+          0.11421987041831017,
+          0.2735462188720703,
+          0.5135853141546249,
+          0.7504596710205078
+        ],
+        "sd": 0.20905212762243447
+      }
+    },
+    "mean_within_cohort_query_sd": 0.043237350980884263,
+    "encoder_label_shuffle_mean_weight_change": 0.0011641249584499747,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.13290007412433624,
+          0.21569425612688065,
+          0.30285538733005524,
+          0.4149283915758133,
+          0.5545394420623779
+        ],
+        "sd": 0.10824833622313378
+      }
+    },
+    "mean_within_cohort_query_sd": 0.029393612906070694,
+    "encoder_label_shuffle_mean_weight_change": 0.0005036228228293892,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.12767845392227173,
+          0.20810842514038086,
+          0.28310878574848175,
+          0.3857983723282814,
+          0.5545394420623779
+        ],
+        "sd": 0.10330430306496907
+      }
+    },
+    "mean_within_cohort_query_sd": 0.028722163688923632,
+    "encoder_label_shuffle_mean_weight_change": 0.00041728276326986294,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.35022762417793274,
+          0.43859003484249115,
+          0.4637760519981384,
+          0.4880663976073265,
+          0.567203938961029
+        ],
+        "sd": 0.03659199367010552
+      }
+    },
+    "mean_within_cohort_query_sd": 0.03573984672714557,
+    "encoder_label_shuffle_mean_weight_change": 0.0004660999152942428,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.12961886823177338,
+          0.21102412417531013,
+          0.286442831158638,
+          0.3878524750471115,
+          0.5546245574951172
+        ],
+        "sd": 0.10248919713471998
+      }
+    },
+    "mean_within_cohort_query_sd": 0.028841840203053186,
+    "encoder_label_shuffle_mean_weight_change": 0.0003908176399168691,
+    "method": "Symmetric, p=1"
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0009342030389234424,
+          0.009455501800402999,
+          0.038651756942272186,
+          0.12209301069378853,
+          0.4252467453479767
+        ],
+        "sd": 0.08955901968116188
+      }
+    },
+    "mean_within_cohort_query_sd": 0.0367959138904033,
+    "encoder_label_shuffle_mean_weight_change": 0.0004257133292152763,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0011168905766680837,
+          0.008189399493858218,
+          0.02847172226756811,
+          0.09649326279759407,
+          0.4148826599121094
+        ],
+        "sd": 0.0765733237382695
+      }
+    },
+    "mean_within_cohort_query_sd": 0.030452776084920124,
+    "encoder_label_shuffle_mean_weight_change": 0.0003889405093754509,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.060675352811813354,
+          0.1402779556810856,
+          0.1947960928082466,
+          0.2637966275215149,
+          0.466522753238678
+        ],
+        "sd": 0.08375008346225214
+      }
+    },
+    "mean_within_cohort_query_sd": 0.08130392106249928,
+    "encoder_label_shuffle_mean_weight_change": 0.0006022143840839687,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.000860833446495235,
+          0.006722683901898563,
+          0.02547786943614483,
+          0.0946607906371355,
+          0.4148120582103729
+        ],
+        "sd": 0.07669353736495801
+      }
+    },
+    "mean_within_cohort_query_sd": 0.029500934247542836,
+    "encoder_label_shuffle_mean_weight_change": 0.00029265176609832063,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.034778282046318054,
+          0.11412673816084862,
+          0.32519035041332245,
+          0.5881842076778412,
+          0.7675674557685852
+        ],
+        "sd": 0.23394998990028598
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04125201901687043,
+    "encoder_label_shuffle_mean_weight_change": 0.0016088148040580563,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.03354671970009804,
+          0.09705719165503979,
+          0.26408551633358,
+          0.5269869416952133,
+          0.7550851702690125
+        ],
+        "sd": 0.2222241978645942
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04010938655119389,
+    "encoder_label_shuffle_mean_weight_change": 0.0013815031104188944,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.511807918548584,
+          0.6318129450082779,
+          0.6664903461933136,
+          0.702868789434433,
+          0.7900810837745667
+        ],
+        "sd": 0.049316992345458756
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04829427573297705,
+    "encoder_label_shuffle_mean_weight_change": 0.0009134887326841376,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.039860814809799194,
+          0.11588815040886402,
+          0.2894061803817749,
+          0.5381770133972168,
+          0.7551842927932739
+        ],
+        "sd": 0.2173586648927416
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04180034918577543,
+    "encoder_label_shuffle_mean_weight_change": 0.0012412582769424521,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.14017559587955475,
+          0.21718339249491692,
+          0.30512169003486633,
+          0.4219187721610069,
+          0.5628163814544678
+        ],
+        "sd": 0.11072460195079785
+      }
+    },
+    "mean_within_cohort_query_sd": 0.029176937948380197,
+    "encoder_label_shuffle_mean_weight_change": 0.0005353483928567064,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.12938843667507172,
+          0.20938565209507942,
+          0.28444521129131317,
+          0.3914417177438736,
+          0.5628163814544678
+        ],
+        "sd": 0.1051491721637819
+      }
+    },
+    "mean_within_cohort_query_sd": 0.028386924814965044,
+    "encoder_label_shuffle_mean_weight_change": 0.0004419267934281379,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.35691413283348083,
+          0.44665970653295517,
+          0.4720425605773926,
+          0.4964340254664421,
+          0.5743590593338013
+        ],
+        "sd": 0.03668496764410136
+      }
+    },
+    "mean_within_cohort_query_sd": 0.03584847303240427,
+    "encoder_label_shuffle_mean_weight_change": 0.0004833894781768322,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.1316758245229721,
+          0.21284610033035278,
+          0.2885715365409851,
+          0.39388900250196457,
+          0.5629062652587891
+        ],
+        "sd": 0.10415703103472826
+      }
+    },
+    "mean_within_cohort_query_sd": 0.028545417423759187,
+    "encoder_label_shuffle_mean_weight_change": 0.00039584066585770676,
+    "method": "Row, p=1"
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0004682718135882169,
+          0.005830365116707981,
+          0.028717069886624813,
+          0.105975192040205,
+          0.3650502562522888
+        ],
+        "sd": 0.07914410867063672
+      }
+    },
+    "mean_within_cohort_query_sd": 0.030388127395001772,
+    "encoder_label_shuffle_mean_weight_change": 0.000692800525290035,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0006652867887169123,
+          0.005131151876412332,
+          0.019573669880628586,
+          0.07934571988880634,
+          0.3650502562522888
+        ],
+        "sd": 0.06609353725568258
+      }
+    },
+    "mean_within_cohort_query_sd": 0.02402366052306856,
+    "encoder_label_shuffle_mean_weight_change": 0.0005499884118762566,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.05260683596134186,
+          0.12278161756694317,
+          0.1714402660727501,
+          0.2311054691672325,
+          0.47828441858291626
+        ],
+        "sd": 0.07241894907889199
+      }
+    },
+    "mean_within_cohort_query_sd": 0.06985380181244441,
+    "encoder_label_shuffle_mean_weight_change": 0.0009384947469308307,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0004882390785496682,
+          0.004006534349173307,
+          0.017085286788642406,
+          0.07707059942185879,
+          0.3649517595767975
+        ],
+        "sd": 0.06607231887449201
+      }
+    },
+    "mean_within_cohort_query_sd": 0.02328258414594789,
+    "encoder_label_shuffle_mean_weight_change": 0.0004250375621787888,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.03526487201452255,
+          0.1134442500770092,
+          0.3003758490085602,
+          0.5504509210586548,
+          0.7509055137634277
+        ],
+        "sd": 0.22048965293957543
+      }
+    },
+    "mean_within_cohort_query_sd": 0.046546607078718286,
+    "encoder_label_shuffle_mean_weight_change": 0.002738905858547826,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.03194050118327141,
+          0.0990476943552494,
+          0.24247630685567856,
+          0.4869968891143799,
+          0.7468166351318359
+        ],
+        "sd": 0.20735773109698669
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04518235654437116,
+    "encoder_label_shuffle_mean_weight_change": 0.0023468693658027667,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.4460585117340088,
+          0.5897112935781479,
+          0.6321409642696381,
+          0.6737981289625168,
+          0.7776332497596741
+        ],
+        "sd": 0.05838891451133227
+      }
+    },
+    "mean_within_cohort_query_sd": 0.057146051565983465,
+    "encoder_label_shuffle_mean_weight_change": 0.0017698429749413794,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.037074021995067596,
+          0.1143666710704565,
+          0.26224397122859955,
+          0.4957849085330963,
+          0.7469235062599182
+        ],
+        "sd": 0.20338451959324755
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04656427603081933,
+    "encoder_label_shuffle_mean_weight_change": 0.002144830912584439,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.124131940305233,
+          0.21410318836569786,
+          0.3000713884830475,
+          0.41132205724716187,
+          0.550987958908081
+        ],
+        "sd": 0.10770223452139023
+      }
+    },
+    "mean_within_cohort_query_sd": 0.03161364205048552,
+    "encoder_label_shuffle_mean_weight_change": 0.0008197889172671628,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.11909940093755722,
+          0.2061345987021923,
+          0.28153952956199646,
+          0.38330304622650146,
+          0.550987958908081
+        ],
+        "sd": 0.10348259596228049
+      }
+    },
+    "mean_within_cohort_query_sd": 0.03116859957974936,
+    "encoder_label_shuffle_mean_weight_change": 0.0007016507879598066,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.3390941321849823,
+          0.4323562905192375,
+          0.45808549225330353,
+          0.48436392843723297,
+          0.5665217638015747
+        ],
+        "sd": 0.03851364246951065
+      }
+    },
+    "mean_within_cohort_query_sd": 0.037628271783302934,
+    "encoder_label_shuffle_mean_weight_change": 0.0008016818319447339,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.12092966586351395,
+          0.2091258056461811,
+          0.28484711050987244,
+          0.385192446410656,
+          0.5511612892150879
+        ],
+        "sd": 0.10276304982105065
+      }
+    },
+    "mean_within_cohort_query_sd": 0.031249421149758354,
+    "encoder_label_shuffle_mean_weight_change": 0.0006144615721755794,
+    "method": "Symmetric, p=2"
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0008646123460493982,
+          0.009526625042781234,
+          0.038816001266241074,
+          0.11923189833760262,
+          0.4279775619506836
+        ],
+        "sd": 0.08846347690501516
+      }
+    },
+    "mean_within_cohort_query_sd": 0.03683150584194144,
+    "encoder_label_shuffle_mean_weight_change": 0.0007282020809985365,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0010838338639587164,
+          0.008328377502039075,
+          0.028684242628514767,
+          0.09455292485654354,
+          0.40793898701667786
+        ],
+        "sd": 0.0756159933928145
+      }
+    },
+    "mean_within_cohort_query_sd": 0.030497507570544258,
+    "encoder_label_shuffle_mean_weight_change": 0.0006435379326441242,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 0,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.057099275290966034,
+          0.13666341826319695,
+          0.1905684471130371,
+          0.25969816744327545,
+          0.46310892701148987
+        ],
+        "sd": 0.08372569313067399
+      }
+    },
+    "mean_within_cohort_query_sd": 0.081244323070028,
+    "encoder_label_shuffle_mean_weight_change": 0.0009313984306312964,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.0008318083127960563,
+          0.006799122667871416,
+          0.02550340909510851,
+          0.09287303499877453,
+          0.4078672230243683
+        ],
+        "sd": 0.07573343236845068
+      }
+    },
+    "mean_within_cohort_query_sd": 0.029525685030551228,
+    "encoder_label_shuffle_mean_weight_change": 0.0004837301013529733,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.03388450667262077,
+          0.11366703361272812,
+          0.3275413066148758,
+          0.5912154912948608,
+          0.7679904699325562
+        ],
+        "sd": 0.23490473932654238
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04168827785179019,
+    "encoder_label_shuffle_mean_weight_change": 0.003031350220096231,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.03232474997639656,
+          0.09713367559015751,
+          0.26703396439552307,
+          0.5295817852020264,
+          0.7557896375656128
+        ],
+        "sd": 0.22253231232894727
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04066777146155281,
+    "encoder_label_shuffle_mean_weight_change": 0.0026347024249844253,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 1,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.50789874792099,
+          0.6321706473827362,
+          0.667027086019516,
+          0.7038755267858505,
+          0.7918850183486938
+        ],
+        "sd": 0.04968318340839442
+      }
+    },
+    "mean_within_cohort_query_sd": 0.048645945864596536,
+    "encoder_label_shuffle_mean_weight_change": 0.001740732862214957,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.03871351107954979,
+          0.1164238341152668,
+          0.2921614646911621,
+          0.5378550440073013,
+          0.7558897137641907
+        ],
+        "sd": 0.21740960916318147
+      }
+    },
+    "mean_within_cohort_query_sd": 0.04235130811243185,
+    "encoder_label_shuffle_mean_weight_change": 0.002379495556981835,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.13887420296669006,
+          0.21637244522571564,
+          0.3050328642129898,
+          0.4218478351831436,
+          0.5617831349372864
+        ],
+        "sd": 0.1110718148265747
+      }
+    },
+    "mean_within_cohort_query_sd": 0.02920359722338617,
+    "encoder_label_shuffle_mean_weight_change": 0.0008819527283776551,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.12889567017555237,
+          0.20753944292664528,
+          0.28597530722618103,
+          0.39144085347652435,
+          0.5617831349372864
+        ],
+        "sd": 0.10554339282052588
+      }
+    },
+    "mean_within_cohort_query_sd": 0.02844327172663595,
+    "encoder_label_shuffle_mean_weight_change": 0.0007451259464557682,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 2,
+    "scenario": "stable_economy",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.35725098848342896,
+          0.44632072001695633,
+          0.47122423350811005,
+          0.4958336651325226,
+          0.5752407908439636
+        ],
+        "sd": 0.03694005001923283
+      }
+    },
+    "mean_within_cohort_query_sd": 0.03611244617163071,
+    "encoder_label_shuffle_mean_weight_change": 0.0008432208560407162,
+    "method": "Row, p=2"
+  },
+  {
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "weights": {
+      "transformer": {
+        "normal_bank_quantiles": [
+          0.13081584870815277,
+          0.21067896857857704,
+          0.2889755517244339,
+          0.39323167502880096,
+          0.5618322491645813
+        ],
+        "sd": 0.10472152666483085
+      }
+    },
+    "mean_within_cohort_query_sd": 0.028585091632391726,
+    "encoder_label_shuffle_mean_weight_change": 0.0006485853601978826,
+    "method": "Row, p=2"
+  }
+]

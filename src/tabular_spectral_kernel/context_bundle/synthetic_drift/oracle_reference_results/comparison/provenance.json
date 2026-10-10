@@ -1,0 +1,14 @@
+{
+  "synthetic_drift/oracle_reference_results/seed0/metrics.json": "eb79dcdf4bb148719321ca48a1325b32b8a8d2872a775aecdf9d4fcfbf275a4a",
+  "synthetic_drift/oracle_reference_results/seed0/checks.json": "a35a0d8759a5fd2cf414eb63fab0bd089d51f5de23da73fe4f08400dc497e474",
+  "synthetic_drift/oracle_reference_results/seed0/protocol.json": "4acf4e05e2ce26cbdabd3c92293e5e00559341921118db82ef2b1be89e07f2d4",
+  "synthetic_drift/oracle_reference_results/seed0/provenance.json": "e94a451370e81d2bb5a795f113165eab29700b4f9c1665aba3caf53fe06b629c",
+  "synthetic_drift/oracle_reference_results/seed1/metrics.json": "f59490aa95191d61838604f7e61f17613b162ee9f2dcbbd0719b80453c4ba43b",
+  "synthetic_drift/oracle_reference_results/seed1/checks.json": "05f772ec4174b488ba4cccba003334464f06944fdeec5e6edf2531b54ff2ac08",
+  "synthetic_drift/oracle_reference_results/seed1/protocol.json": "d5aa240cd639c4a55ce3fd49d6cbe9a35c85f4b35e823337f4290eeb4080f348",
+  "synthetic_drift/oracle_reference_results/seed1/provenance.json": "4621e4ada7f923819dbefc9c2d063409f54bed29a0a3c5bc02e254e766fc06cb",
+  "synthetic_drift/oracle_reference_results/seed2/metrics.json": "ffa086fc377eb90ebc952e14ec47eda7097ec14b7a11604a47a5f1dd94d9992f",
+  "synthetic_drift/oracle_reference_results/seed2/checks.json": "060e08dddcb20da5eb0528a2fef2726c4da71bdeb16384f28766a37f8cd5f90e",
+  "synthetic_drift/oracle_reference_results/seed2/protocol.json": "97955c11d4ebd4b0d19afd19242e027c3a2c37fe0ec5746bc001da6c951b38e0",
+  "synthetic_drift/oracle_reference_results/seed2/provenance.json": "37db52c3c863c1a41c8dbc52c5924f463fff4b5e57dc7ec6dde50fd59dea2923"
+}

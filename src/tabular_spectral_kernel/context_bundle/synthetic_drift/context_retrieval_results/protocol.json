@@ -1,0 +1,12 @@
+{
+  "source": "synthetic_drift/unemployment_results",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "algorithm": "128 past labels -> frozen gate -> fused RKHS nearest 64 -> same gate on retrieved labels -> NW and KRR",
+  "controls": "Saved predictions, equal-weight spectral retrieval independently reproduced to 1e-10",
+  "limitation": "Gate previously trained on full/recent/raw/equal-weight spectral/population contexts, not this two-stage adaptive selection; no retraining in this controlled ablation",
+  "inference": "No gradients, weight search, future labels, or true macro state; KRR uses a linear solve"
+}

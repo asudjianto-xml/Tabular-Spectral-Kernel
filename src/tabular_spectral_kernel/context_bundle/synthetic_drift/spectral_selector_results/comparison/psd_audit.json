@@ -1,0 +1,1154 @@
+[
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.2897404486932865e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.5096907076213387e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.510644041241953e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -2.3818118566136976e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -1.0559729025482625e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -1.6955059566112527e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.0901541988953055e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.723504893103276e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.6957656598357797e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.247269532965438e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.3559180358154246e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.3837725721346633e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.7444462978022902e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.172857642673717e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.7559160505129686e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -2.0479381682212303e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -1.588503501241304e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -2.1113966069506746e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.1195462524019477e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -3.111546856721668e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -5.081089991750975e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -2.263491404617627e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.8309092535448874e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.742729593217995e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -4.410916416578456e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.9452329451498562e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.547425674495779e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -3.6935666681511277e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -5.4558109961979337e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -4.202228959240535e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.780353527580575e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.8386255015674245e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.459785241174274e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -3.447591189294755e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.878860846508494e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -3.2574482532083476e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.2003794298348144e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.571704535678963e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.2817408997272703e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -2.348991353870904e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -2.6859717289498976e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -1.1710024842804495e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.44095642532299e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -3.021988317210471e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.3190806550388243e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.617734360699496e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.1889431404228348e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 0,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.0496599499305666e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.3901207332051606e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -3.258815329378369e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.227528926180492e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -1.1539078748116062e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -1.5468722995843623e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -2.6170262498359318e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -9.362736247455072e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.7008381011982226e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.014622034881819e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.1971041027924504e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.9018257659241613e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.0868184585765684e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.1645257836737028e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.948870338527272e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.5563590269319236e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -1.586784976887802e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -2.1220029874041062e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -1.1771895539308511e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.1849221376520405e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.0142851450796594e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.5481999498883308e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.0081370805009644e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.92370347860465e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.335902002061381e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -3.3961786667185934e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.9636011295312368e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -4.602649221823945e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -3.353962081137165e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -2.7938713154004364e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -2.9552952134852026e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.8279467561880438e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.848085364735939e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.9758879419836926e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.6109114833568753e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -3.066240426071319e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -2.9783860178843375e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.8788645040624054e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.911352494490933e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -3.3717571842121647e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -1.4375981110933396e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -1.2500531682164937e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -2.1033532262747033e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.7976426747985668e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.0299144876662372e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.294795145259271e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -9.28748730897661e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -9.062291045105311e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 1,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -8.185875895662499e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.4340624539603392e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.4203264802112156e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.4590354602060483e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -2.688944348949209e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -1.2625049226230201e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -1.5797510101958896e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.3476353567265559e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.0792683947413775e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.213044952801906e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -1.1481658889455438e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -9.613800957939588e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "recurring",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.6540349709594525e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.7566672297907164e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.2945620982251727e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.9153126904273704e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -1.0687532714507896e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -1.8438858523099092e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -2.936835591483565e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.8453727625594318e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.476080782081631e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.7636599932853653e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -2.1575366915493335e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -1.7024001636361958e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "gradual",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -2.5503521450410435e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -2.3510367008788222e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.8216172529635827e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -3.179669152400074e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -2.8623759113484375e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -2.2844803295237234e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -4.687626967431784e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -6.27972074174432e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -2.0439791266212793e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.7632903703624402e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -2.4264152661556513e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -2.0745034674718448e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "stable",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -2.1602056751182425e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.5616755142109276e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.9064723202174664e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral_sparse",
+    "episode": 255,
+    "min_eigenvalue": -2.3836386811171062e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 0,
+    "min_eigenvalue": -1.0455708947060933e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 127,
+    "min_eigenvalue": -2.0487895260676855e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "spectral_all",
+    "episode": 255,
+    "min_eigenvalue": -1.592236761643949e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 0,
+    "min_eigenvalue": -1.036699064337989e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 127,
+    "min_eigenvalue": -1.432966011697912e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid_sparse",
+    "episode": 255,
+    "min_eigenvalue": -1.726914729772933e-14,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 0,
+    "min_eigenvalue": -8.79449649792461e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 127,
+    "min_eigenvalue": -9.917110096398596e-15,
+    "symmetry_error": 0.0
+  },
+  {
+    "seed": 2,
+    "scenario": "localized",
+    "method": "hybrid_all",
+    "episode": 255,
+    "min_eigenvalue": -1.8605096854074517e-14,
+    "symmetry_error": 0.0
+  }
+]

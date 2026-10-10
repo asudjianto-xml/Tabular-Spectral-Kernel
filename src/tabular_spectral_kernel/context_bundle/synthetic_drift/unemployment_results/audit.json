@@ -1,0 +1,7 @@
+{
+  "prediction_artifacts_checked": 24,
+  "accounting": "passed",
+  "macro_observability": "passed",
+  "past_only_retrieval": "passed",
+  "simplex_weights": "passed"
+}

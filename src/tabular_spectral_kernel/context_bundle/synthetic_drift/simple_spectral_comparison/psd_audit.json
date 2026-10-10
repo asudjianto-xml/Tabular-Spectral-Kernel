@@ -1,0 +1,386 @@
+[
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0016975734284902034,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002396814029978023,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0026876340546241034,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0037837281989611714,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0016975734284902034,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002396814029978023,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0023208966847704264,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0033000013981822635,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0016975734284902034,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.002396814029978023,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.001970004922915122,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0028523808561499286,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0016975019474106824,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002396963606382356,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.00231934425683509,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 0,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0033029878223449125,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.00150755854017539,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0026107342931905864,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0017254321001736609,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002808008989519519,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.00150755854017539,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0026107342931905864,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0015601105906702462,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0026917020693784286,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.00150755854017539,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0026107342931905864,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0013239824180552794,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.001990048740234118,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0015074130192455554,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002610745313728626,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0015579520959400498,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 1,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002691889092743778,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002584535203495907,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023407854431918545,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002901606509711897,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "scenario": "recurring_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0025067059052217124,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002584535203495907,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.0023407854431918545,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002821521480731797,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "scenario": "gradual_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002403243986364788,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.002584535203495907,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 128,
+    "min_eigenvalue": 0.0023407854431918545,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.002665861534316823,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "scenario": "stable_economy",
+    "origin": 1888,
+    "min_eigenvalue": 0.0022811190177513484,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002584763810290007,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 128,
+    "min_eigenvalue": 0.002340607043013851,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / joint",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.002822820757242614,
+    "max_asymmetry": 0.0
+  },
+  {
+    "method": "Simple / KRR",
+    "seed": 2,
+    "scenario": "localized_downturn",
+    "origin": 1888,
+    "min_eigenvalue": 0.0024022723456931443,
+    "max_asymmetry": 0.0
+  }
+]
